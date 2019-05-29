@@ -4,12 +4,13 @@ module.exports = {
   mode: 'development',
 
   // Path to the entry file, change it according to the path you have
-  entry: path.join(__dirname, '/src/index.js'),
+  entry: path.join(__dirname, './index.js'),
 
   // Path for the output files
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'public'),
     filename: 'app.bundle.js',
+    publicPath: '/'
   },
 
   // Enable source map support

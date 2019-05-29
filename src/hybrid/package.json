@@ -5,8 +5,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "eject": "expo eject",
-    "start-web": "react-app-rewired start",
-    "build-web": "react-app-rewired build",
+    "start-server": "nodemon ./server.js",
+    "watch": "./node_modules/.bin/webpack -w",
     "web": "webpack-dev-server --open --display-error-details"
   },
   "dependencies": {
@@ -17,6 +17,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "expo": "^32.0.6",
+    "express": "^4.17.1",
     "file-loader": "^3.0.1",
     "react": "16.5.0",
     "react-app-rewired": "^2.1.3",

@@ -45,6 +45,11 @@ module.exports = {
           {
             test: /\.(jpg|png|woff|woff2|eot|ttf|svg)$/,
             loader: 'file-loader',
+          }, 
+          {
+            test: /\.(jpg|png|woff|woff2|eot|ttf|svg)$/,
+            loader: 'url-loader',
+            include: path.resolve(__dirname, "node_modules/react-native-vector-icons"),
           }
     ],
   },

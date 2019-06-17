@@ -8,6 +8,8 @@ import {
 import { Button } from 'react-native-paper';
 import pokemon from './pokemonStore';
 
+import Icon from 'react-native-vector-icons/MaterialIcons';
+const myIcon = <Icon name="add_a_photo" size={30} color="#900" />;
 
 const Home = props => {
   const handlePress = pokemon => {

@@ -1,16 +1,41 @@
 import React, { Component } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-import Selector from './src/Selector';
+
+import { Router, Route, Link } from "./src/routing/routing";
+
+const Home = () => <Text style={styles.header}>Home</Text>;
+
+const About = () => <Text style={styles.header}>About</Text>;
+
+const Stuff = () => <Text style={styles.header}>Stuff</Text>
+
+const Me = () => <Text style={styles.header}>Me</Text>
+
 class App extends Component {
   render() {
     return (
       <View style={styles.Container}>
-        <View style={styles.Header}>
-          <Text style={styles.body1White}>tarnau.net</Text>
-        </View>
-        <Text style={[styles.title]}>Rate and enjoy!</Text>
-        <Selector />
-      </View>
+        <Router>
+          <View>
+            <Link to="/" >
+                <Text>Home</Text>
+              </Link>
+            <Link to="/about">
+              <Text>About</Text>
+            </Link>
+            <Link to="/stuff">
+              <Text>stuff</Text>
+            </Link>
+            <Link to="/me">
+              <Text>me</Text>
+            </Link>
+          </View>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/stuff" component={Stuff} />
+          <Route path="/me" component={Me} />
+        </Router>
+    </View>
     );
   }
 }
@@ -24,14 +49,21 @@ const styles = StyleSheet.create({
   Container: {
     flex: 1,
   },
-  Header: {
-    paddingVertical: 20,
-    paddingHorizontal: 12,
-    backgroundColor: '#263238',
+  header: {
+    fontSize: 20
   },
   title: {
     paddingHorizontal: 12,
     paddingVertical: 9,
     backgroundColor: '#B0BEC5',
+  },
+  nav: {
+    flexDirection: "row",
+    justifyContent: "space-around"
+  },
+  navItem: {
+    flex: 1,
+    alignItems: "center",
+    padding: 10
   },
 });

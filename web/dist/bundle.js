@@ -100,984 +100,100 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-native-web/dist/exports/Text */ "./node_modules/react-native-web/dist/exports/Text/index.js");
 /* harmony import */ var react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-native-web/dist/exports/View */ "./node_modules/react-native-web/dist/exports/View/index.js");
 /* harmony import */ var react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-native-web/dist/exports/StyleSheet */ "./node_modules/react-native-web/dist/exports/StyleSheet/index.js");
-/* harmony import */ var _src_Selector__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./src/Selector */ "./src/Selector.js");
-var _jsxFileName="/home/simeon/TempWorkpace/js-fmi/stay-tuna/App.js";function _typeof(obj){if(typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};}return _typeof(obj);}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)==="object"||typeof call==="function")){return call;}return _assertThisInitialized(self);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return self;}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}var App=function(_Component){_inherits(App,_Component);function App(){_classCallCheck(this,App);return _possibleConstructorReturn(this,_getPrototypeOf(App).apply(this,arguments));}_createClass(App,[{key:"render",value:function render(){return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_2__["default"],{style:styles.Container,__source:{fileName:_jsxFileName,lineNumber:7}},react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_2__["default"],{style:styles.Header,__source:{fileName:_jsxFileName,lineNumber:8}},react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_1__["default"],{style:styles.body1White,__source:{fileName:_jsxFileName,lineNumber:9}},"tarnau.net")),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_1__["default"],{style:[styles.title],__source:{fileName:_jsxFileName,lineNumber:11}},"Rate and enjoy!"),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_Selector__WEBPACK_IMPORTED_MODULE_4__["default"],{__source:{fileName:_jsxFileName,lineNumber:12}}));}}]);return App;}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);/* harmony default export */ __webpack_exports__["default"] = (App);var styles=react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_3__["default"].create({body1White:{color:'white'},Container:{flex:1},Header:{paddingVertical:20,paddingHorizontal:12,backgroundColor:'#263238'},title:{paddingHorizontal:12,paddingVertical:9,backgroundColor:'#B0BEC5'}});
+/* harmony import */ var _src_routing_routing__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./src/routing/routing */ "./src/routing/routing.web.js");
+var _jsxFileName="/home/simeon/TempWorkpace/js-fmi/stay-tuna/App.js";function _typeof(obj){if(typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};}return _typeof(obj);}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)==="object"||typeof call==="function")){return call;}return _assertThisInitialized(self);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return self;}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}var Home=function Home(){return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_1__["default"],{style:styles.header,__source:{fileName:_jsxFileName,lineNumber:6}},"Home");};var About=function About(){return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_1__["default"],{style:styles.header,__source:{fileName:_jsxFileName,lineNumber:8}},"About");};var Stuff=function Stuff(){return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_1__["default"],{style:styles.header,__source:{fileName:_jsxFileName,lineNumber:10}},"Stuff");};var Me=function Me(){return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_1__["default"],{style:styles.header,__source:{fileName:_jsxFileName,lineNumber:12}},"Me");};var App=function(_Component){_inherits(App,_Component);function App(){_classCallCheck(this,App);return _possibleConstructorReturn(this,_getPrototypeOf(App).apply(this,arguments));}_createClass(App,[{key:"render",value:function render(){return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_2__["default"],{style:styles.Container,__source:{fileName:_jsxFileName,lineNumber:17}},react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_routing_routing__WEBPACK_IMPORTED_MODULE_4__["Router"],{__source:{fileName:_jsxFileName,lineNumber:18}},react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_2__["default"],{__source:{fileName:_jsxFileName,lineNumber:19}},react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_routing_routing__WEBPACK_IMPORTED_MODULE_4__["Link"],{to:"/",__source:{fileName:_jsxFileName,lineNumber:20}},react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_1__["default"],{__source:{fileName:_jsxFileName,lineNumber:21}},"Home")),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_routing_routing__WEBPACK_IMPORTED_MODULE_4__["Link"],{to:"/about",__source:{fileName:_jsxFileName,lineNumber:23}},react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_1__["default"],{__source:{fileName:_jsxFileName,lineNumber:24}},"About")),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_routing_routing__WEBPACK_IMPORTED_MODULE_4__["Link"],{to:"/stuff",__source:{fileName:_jsxFileName,lineNumber:26}},react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_1__["default"],{__source:{fileName:_jsxFileName,lineNumber:27}},"stuff")),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_routing_routing__WEBPACK_IMPORTED_MODULE_4__["Link"],{to:"/me",__source:{fileName:_jsxFileName,lineNumber:29}},react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_1__["default"],{__source:{fileName:_jsxFileName,lineNumber:30}},"me"))),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_routing_routing__WEBPACK_IMPORTED_MODULE_4__["Route"],{exact:true,path:"/",component:Home,__source:{fileName:_jsxFileName,lineNumber:33}}),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_routing_routing__WEBPACK_IMPORTED_MODULE_4__["Route"],{path:"/about",component:About,__source:{fileName:_jsxFileName,lineNumber:34}}),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_routing_routing__WEBPACK_IMPORTED_MODULE_4__["Route"],{path:"/stuff",component:Stuff,__source:{fileName:_jsxFileName,lineNumber:35}}),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_routing_routing__WEBPACK_IMPORTED_MODULE_4__["Route"],{path:"/me",component:Me,__source:{fileName:_jsxFileName,lineNumber:36}})));}}]);return App;}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);/* harmony default export */ __webpack_exports__["default"] = (App);var styles=react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_3__["default"].create({body1White:{color:'white'},Container:{flex:1},header:{fontSize:20},title:{paddingHorizontal:12,paddingVertical:9,backgroundColor:'#B0BEC5'},nav:{flexDirection:"row",justifyContent:"space-around"},navItem:{flex:1,alignItems:"center",padding:10}});
 
 /***/ }),
 
-/***/ "./node_modules/create-react-class/factory.js":
-/*!****************************************************!*\
-  !*** ./node_modules/create-react-class/factory.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/@babel/runtime/helpers/esm/extends.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- */
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
 
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
 
+    return target;
+  };
 
-var _assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
-
-var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ "./node_modules/fbjs/lib/emptyObject.js");
-var _invariant = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/fbjs/lib/invariant.js");
-
-if (true) {
-  var warning = __webpack_require__(/*! fbjs/lib/warning */ "./node_modules/fbjs/lib/warning.js");
+  return _extends.apply(this, arguments);
 }
-
-var MIXINS_KEY = 'mixins';
-
-// Helper function to allow the creation of anonymous functions which do not
-// have .name set to the name of the variable being assigned to.
-function identity(fn) {
-  return fn;
-}
-
-var ReactPropTypeLocationNames;
-if (true) {
-  ReactPropTypeLocationNames = {
-    prop: 'prop',
-    context: 'context',
-    childContext: 'child context'
-  };
-} else {}
-
-function factory(ReactComponent, isValidElement, ReactNoopUpdateQueue) {
-  /**
-   * Policies that describe methods in `ReactClassInterface`.
-   */
-
-  var injectedMixins = [];
-
-  /**
-   * Composite components are higher-level components that compose other composite
-   * or host components.
-   *
-   * To create a new type of `ReactClass`, pass a specification of
-   * your new class to `React.createClass`. The only requirement of your class
-   * specification is that you implement a `render` method.
-   *
-   *   var MyComponent = React.createClass({
-   *     render: function() {
-   *       return <div>Hello World</div>;
-   *     }
-   *   });
-   *
-   * The class specification supports a specific protocol of methods that have
-   * special meaning (e.g. `render`). See `ReactClassInterface` for
-   * more the comprehensive protocol. Any other properties and methods in the
-   * class specification will be available on the prototype.
-   *
-   * @interface ReactClassInterface
-   * @internal
-   */
-  var ReactClassInterface = {
-    /**
-     * An array of Mixin objects to include when defining your component.
-     *
-     * @type {array}
-     * @optional
-     */
-    mixins: 'DEFINE_MANY',
-
-    /**
-     * An object containing properties and methods that should be defined on
-     * the component's constructor instead of its prototype (static methods).
-     *
-     * @type {object}
-     * @optional
-     */
-    statics: 'DEFINE_MANY',
-
-    /**
-     * Definition of prop types for this component.
-     *
-     * @type {object}
-     * @optional
-     */
-    propTypes: 'DEFINE_MANY',
-
-    /**
-     * Definition of context types for this component.
-     *
-     * @type {object}
-     * @optional
-     */
-    contextTypes: 'DEFINE_MANY',
-
-    /**
-     * Definition of context types this component sets for its children.
-     *
-     * @type {object}
-     * @optional
-     */
-    childContextTypes: 'DEFINE_MANY',
-
-    // ==== Definition methods ====
-
-    /**
-     * Invoked when the component is mounted. Values in the mapping will be set on
-     * `this.props` if that prop is not specified (i.e. using an `in` check).
-     *
-     * This method is invoked before `getInitialState` and therefore cannot rely
-     * on `this.state` or use `this.setState`.
-     *
-     * @return {object}
-     * @optional
-     */
-    getDefaultProps: 'DEFINE_MANY_MERGED',
-
-    /**
-     * Invoked once before the component is mounted. The return value will be used
-     * as the initial value of `this.state`.
-     *
-     *   getInitialState: function() {
-     *     return {
-     *       isOn: false,
-     *       fooBaz: new BazFoo()
-     *     }
-     *   }
-     *
-     * @return {object}
-     * @optional
-     */
-    getInitialState: 'DEFINE_MANY_MERGED',
-
-    /**
-     * @return {object}
-     * @optional
-     */
-    getChildContext: 'DEFINE_MANY_MERGED',
-
-    /**
-     * Uses props from `this.props` and state from `this.state` to render the
-     * structure of the component.
-     *
-     * No guarantees are made about when or how often this method is invoked, so
-     * it must not have side effects.
-     *
-     *   render: function() {
-     *     var name = this.props.name;
-     *     return <div>Hello, {name}!</div>;
-     *   }
-     *
-     * @return {ReactComponent}
-     * @required
-     */
-    render: 'DEFINE_ONCE',
-
-    // ==== Delegate methods ====
-
-    /**
-     * Invoked when the component is initially created and about to be mounted.
-     * This may have side effects, but any external subscriptions or data created
-     * by this method must be cleaned up in `componentWillUnmount`.
-     *
-     * @optional
-     */
-    componentWillMount: 'DEFINE_MANY',
-
-    /**
-     * Invoked when the component has been mounted and has a DOM representation.
-     * However, there is no guarantee that the DOM node is in the document.
-     *
-     * Use this as an opportunity to operate on the DOM when the component has
-     * been mounted (initialized and rendered) for the first time.
-     *
-     * @param {DOMElement} rootNode DOM element representing the component.
-     * @optional
-     */
-    componentDidMount: 'DEFINE_MANY',
-
-    /**
-     * Invoked before the component receives new props.
-     *
-     * Use this as an opportunity to react to a prop transition by updating the
-     * state using `this.setState`. Current props are accessed via `this.props`.
-     *
-     *   componentWillReceiveProps: function(nextProps, nextContext) {
-     *     this.setState({
-     *       likesIncreasing: nextProps.likeCount > this.props.likeCount
-     *     });
-     *   }
-     *
-     * NOTE: There is no equivalent `componentWillReceiveState`. An incoming prop
-     * transition may cause a state change, but the opposite is not true. If you
-     * need it, you are probably looking for `componentWillUpdate`.
-     *
-     * @param {object} nextProps
-     * @optional
-     */
-    componentWillReceiveProps: 'DEFINE_MANY',
-
-    /**
-     * Invoked while deciding if the component should be updated as a result of
-     * receiving new props, state and/or context.
-     *
-     * Use this as an opportunity to `return false` when you're certain that the
-     * transition to the new props/state/context will not require a component
-     * update.
-     *
-     *   shouldComponentUpdate: function(nextProps, nextState, nextContext) {
-     *     return !equal(nextProps, this.props) ||
-     *       !equal(nextState, this.state) ||
-     *       !equal(nextContext, this.context);
-     *   }
-     *
-     * @param {object} nextProps
-     * @param {?object} nextState
-     * @param {?object} nextContext
-     * @return {boolean} True if the component should update.
-     * @optional
-     */
-    shouldComponentUpdate: 'DEFINE_ONCE',
-
-    /**
-     * Invoked when the component is about to update due to a transition from
-     * `this.props`, `this.state` and `this.context` to `nextProps`, `nextState`
-     * and `nextContext`.
-     *
-     * Use this as an opportunity to perform preparation before an update occurs.
-     *
-     * NOTE: You **cannot** use `this.setState()` in this method.
-     *
-     * @param {object} nextProps
-     * @param {?object} nextState
-     * @param {?object} nextContext
-     * @param {ReactReconcileTransaction} transaction
-     * @optional
-     */
-    componentWillUpdate: 'DEFINE_MANY',
-
-    /**
-     * Invoked when the component's DOM representation has been updated.
-     *
-     * Use this as an opportunity to operate on the DOM when the component has
-     * been updated.
-     *
-     * @param {object} prevProps
-     * @param {?object} prevState
-     * @param {?object} prevContext
-     * @param {DOMElement} rootNode DOM element representing the component.
-     * @optional
-     */
-    componentDidUpdate: 'DEFINE_MANY',
-
-    /**
-     * Invoked when the component is about to be removed from its parent and have
-     * its DOM representation destroyed.
-     *
-     * Use this as an opportunity to deallocate any external resources.
-     *
-     * NOTE: There is no `componentDidUnmount` since your component will have been
-     * destroyed by that point.
-     *
-     * @optional
-     */
-    componentWillUnmount: 'DEFINE_MANY',
-
-    /**
-     * Replacement for (deprecated) `componentWillMount`.
-     *
-     * @optional
-     */
-    UNSAFE_componentWillMount: 'DEFINE_MANY',
-
-    /**
-     * Replacement for (deprecated) `componentWillReceiveProps`.
-     *
-     * @optional
-     */
-    UNSAFE_componentWillReceiveProps: 'DEFINE_MANY',
-
-    /**
-     * Replacement for (deprecated) `componentWillUpdate`.
-     *
-     * @optional
-     */
-    UNSAFE_componentWillUpdate: 'DEFINE_MANY',
-
-    // ==== Advanced methods ====
-
-    /**
-     * Updates the component's currently mounted DOM representation.
-     *
-     * By default, this implements React's rendering and reconciliation algorithm.
-     * Sophisticated clients may wish to override this.
-     *
-     * @param {ReactReconcileTransaction} transaction
-     * @internal
-     * @overridable
-     */
-    updateComponent: 'OVERRIDE_BASE'
-  };
-
-  /**
-   * Similar to ReactClassInterface but for static methods.
-   */
-  var ReactClassStaticInterface = {
-    /**
-     * This method is invoked after a component is instantiated and when it
-     * receives new props. Return an object to update state in response to
-     * prop changes. Return null to indicate no change to state.
-     *
-     * If an object is returned, its keys will be merged into the existing state.
-     *
-     * @return {object || null}
-     * @optional
-     */
-    getDerivedStateFromProps: 'DEFINE_MANY_MERGED'
-  };
-
-  /**
-   * Mapping from class specification keys to special processing functions.
-   *
-   * Although these are declared like instance properties in the specification
-   * when defining classes using `React.createClass`, they are actually static
-   * and are accessible on the constructor instead of the prototype. Despite
-   * being static, they must be defined outside of the "statics" key under
-   * which all other static methods are defined.
-   */
-  var RESERVED_SPEC_KEYS = {
-    displayName: function(Constructor, displayName) {
-      Constructor.displayName = displayName;
-    },
-    mixins: function(Constructor, mixins) {
-      if (mixins) {
-        for (var i = 0; i < mixins.length; i++) {
-          mixSpecIntoComponent(Constructor, mixins[i]);
-        }
-      }
-    },
-    childContextTypes: function(Constructor, childContextTypes) {
-      if (true) {
-        validateTypeDef(Constructor, childContextTypes, 'childContext');
-      }
-      Constructor.childContextTypes = _assign(
-        {},
-        Constructor.childContextTypes,
-        childContextTypes
-      );
-    },
-    contextTypes: function(Constructor, contextTypes) {
-      if (true) {
-        validateTypeDef(Constructor, contextTypes, 'context');
-      }
-      Constructor.contextTypes = _assign(
-        {},
-        Constructor.contextTypes,
-        contextTypes
-      );
-    },
-    /**
-     * Special case getDefaultProps which should move into statics but requires
-     * automatic merging.
-     */
-    getDefaultProps: function(Constructor, getDefaultProps) {
-      if (Constructor.getDefaultProps) {
-        Constructor.getDefaultProps = createMergedResultFunction(
-          Constructor.getDefaultProps,
-          getDefaultProps
-        );
-      } else {
-        Constructor.getDefaultProps = getDefaultProps;
-      }
-    },
-    propTypes: function(Constructor, propTypes) {
-      if (true) {
-        validateTypeDef(Constructor, propTypes, 'prop');
-      }
-      Constructor.propTypes = _assign({}, Constructor.propTypes, propTypes);
-    },
-    statics: function(Constructor, statics) {
-      mixStaticSpecIntoComponent(Constructor, statics);
-    },
-    autobind: function() {}
-  };
-
-  function validateTypeDef(Constructor, typeDef, location) {
-    for (var propName in typeDef) {
-      if (typeDef.hasOwnProperty(propName)) {
-        // use a warning instead of an _invariant so components
-        // don't show up in prod but only in __DEV__
-        if (true) {
-          warning(
-            typeof typeDef[propName] === 'function',
-            '%s: %s type `%s` is invalid; it must be a function, usually from ' +
-              'React.PropTypes.',
-            Constructor.displayName || 'ReactClass',
-            ReactPropTypeLocationNames[location],
-            propName
-          );
-        }
-      }
-    }
-  }
-
-  function validateMethodOverride(isAlreadyDefined, name) {
-    var specPolicy = ReactClassInterface.hasOwnProperty(name)
-      ? ReactClassInterface[name]
-      : null;
-
-    // Disallow overriding of base class methods unless explicitly allowed.
-    if (ReactClassMixin.hasOwnProperty(name)) {
-      _invariant(
-        specPolicy === 'OVERRIDE_BASE',
-        'ReactClassInterface: You are attempting to override ' +
-          '`%s` from your class specification. Ensure that your method names ' +
-          'do not overlap with React methods.',
-        name
-      );
-    }
-
-    // Disallow defining methods more than once unless explicitly allowed.
-    if (isAlreadyDefined) {
-      _invariant(
-        specPolicy === 'DEFINE_MANY' || specPolicy === 'DEFINE_MANY_MERGED',
-        'ReactClassInterface: You are attempting to define ' +
-          '`%s` on your component more than once. This conflict may be due ' +
-          'to a mixin.',
-        name
-      );
-    }
-  }
-
-  /**
-   * Mixin helper which handles policy validation and reserved
-   * specification keys when building React classes.
-   */
-  function mixSpecIntoComponent(Constructor, spec) {
-    if (!spec) {
-      if (true) {
-        var typeofSpec = typeof spec;
-        var isMixinValid = typeofSpec === 'object' && spec !== null;
-
-        if (true) {
-          warning(
-            isMixinValid,
-            "%s: You're attempting to include a mixin that is either null " +
-              'or not an object. Check the mixins included by the component, ' +
-              'as well as any mixins they include themselves. ' +
-              'Expected object but got %s.',
-            Constructor.displayName || 'ReactClass',
-            spec === null ? null : typeofSpec
-          );
-        }
-      }
-
-      return;
-    }
-
-    _invariant(
-      typeof spec !== 'function',
-      "ReactClass: You're attempting to " +
-        'use a component class or function as a mixin. Instead, just use a ' +
-        'regular object.'
-    );
-    _invariant(
-      !isValidElement(spec),
-      "ReactClass: You're attempting to " +
-        'use a component as a mixin. Instead, just use a regular object.'
-    );
-
-    var proto = Constructor.prototype;
-    var autoBindPairs = proto.__reactAutoBindPairs;
-
-    // By handling mixins before any other properties, we ensure the same
-    // chaining order is applied to methods with DEFINE_MANY policy, whether
-    // mixins are listed before or after these methods in the spec.
-    if (spec.hasOwnProperty(MIXINS_KEY)) {
-      RESERVED_SPEC_KEYS.mixins(Constructor, spec.mixins);
-    }
-
-    for (var name in spec) {
-      if (!spec.hasOwnProperty(name)) {
-        continue;
-      }
-
-      if (name === MIXINS_KEY) {
-        // We have already handled mixins in a special case above.
-        continue;
-      }
-
-      var property = spec[name];
-      var isAlreadyDefined = proto.hasOwnProperty(name);
-      validateMethodOverride(isAlreadyDefined, name);
-
-      if (RESERVED_SPEC_KEYS.hasOwnProperty(name)) {
-        RESERVED_SPEC_KEYS[name](Constructor, property);
-      } else {
-        // Setup methods on prototype:
-        // The following member methods should not be automatically bound:
-        // 1. Expected ReactClass methods (in the "interface").
-        // 2. Overridden methods (that were mixed in).
-        var isReactClassMethod = ReactClassInterface.hasOwnProperty(name);
-        var isFunction = typeof property === 'function';
-        var shouldAutoBind =
-          isFunction &&
-          !isReactClassMethod &&
-          !isAlreadyDefined &&
-          spec.autobind !== false;
-
-        if (shouldAutoBind) {
-          autoBindPairs.push(name, property);
-          proto[name] = property;
-        } else {
-          if (isAlreadyDefined) {
-            var specPolicy = ReactClassInterface[name];
-
-            // These cases should already be caught by validateMethodOverride.
-            _invariant(
-              isReactClassMethod &&
-                (specPolicy === 'DEFINE_MANY_MERGED' ||
-                  specPolicy === 'DEFINE_MANY'),
-              'ReactClass: Unexpected spec policy %s for key %s ' +
-                'when mixing in component specs.',
-              specPolicy,
-              name
-            );
-
-            // For methods which are defined more than once, call the existing
-            // methods before calling the new property, merging if appropriate.
-            if (specPolicy === 'DEFINE_MANY_MERGED') {
-              proto[name] = createMergedResultFunction(proto[name], property);
-            } else if (specPolicy === 'DEFINE_MANY') {
-              proto[name] = createChainedFunction(proto[name], property);
-            }
-          } else {
-            proto[name] = property;
-            if (true) {
-              // Add verbose displayName to the function, which helps when looking
-              // at profiling tools.
-              if (typeof property === 'function' && spec.displayName) {
-                proto[name].displayName = spec.displayName + '_' + name;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-
-  function mixStaticSpecIntoComponent(Constructor, statics) {
-    if (!statics) {
-      return;
-    }
-
-    for (var name in statics) {
-      var property = statics[name];
-      if (!statics.hasOwnProperty(name)) {
-        continue;
-      }
-
-      var isReserved = name in RESERVED_SPEC_KEYS;
-      _invariant(
-        !isReserved,
-        'ReactClass: You are attempting to define a reserved ' +
-          'property, `%s`, that shouldn\'t be on the "statics" key. Define it ' +
-          'as an instance property instead; it will still be accessible on the ' +
-          'constructor.',
-        name
-      );
-
-      var isAlreadyDefined = name in Constructor;
-      if (isAlreadyDefined) {
-        var specPolicy = ReactClassStaticInterface.hasOwnProperty(name)
-          ? ReactClassStaticInterface[name]
-          : null;
-
-        _invariant(
-          specPolicy === 'DEFINE_MANY_MERGED',
-          'ReactClass: You are attempting to define ' +
-            '`%s` on your component more than once. This conflict may be ' +
-            'due to a mixin.',
-          name
-        );
-
-        Constructor[name] = createMergedResultFunction(Constructor[name], property);
-
-        return;
-      }
-
-      Constructor[name] = property;
-    }
-  }
-
-  /**
-   * Merge two objects, but throw if both contain the same key.
-   *
-   * @param {object} one The first object, which is mutated.
-   * @param {object} two The second object
-   * @return {object} one after it has been mutated to contain everything in two.
-   */
-  function mergeIntoWithNoDuplicateKeys(one, two) {
-    _invariant(
-      one && two && typeof one === 'object' && typeof two === 'object',
-      'mergeIntoWithNoDuplicateKeys(): Cannot merge non-objects.'
-    );
-
-    for (var key in two) {
-      if (two.hasOwnProperty(key)) {
-        _invariant(
-          one[key] === undefined,
-          'mergeIntoWithNoDuplicateKeys(): ' +
-            'Tried to merge two objects with the same key: `%s`. This conflict ' +
-            'may be due to a mixin; in particular, this may be caused by two ' +
-            'getInitialState() or getDefaultProps() methods returning objects ' +
-            'with clashing keys.',
-          key
-        );
-        one[key] = two[key];
-      }
-    }
-    return one;
-  }
-
-  /**
-   * Creates a function that invokes two functions and merges their return values.
-   *
-   * @param {function} one Function to invoke first.
-   * @param {function} two Function to invoke second.
-   * @return {function} Function that invokes the two argument functions.
-   * @private
-   */
-  function createMergedResultFunction(one, two) {
-    return function mergedResult() {
-      var a = one.apply(this, arguments);
-      var b = two.apply(this, arguments);
-      if (a == null) {
-        return b;
-      } else if (b == null) {
-        return a;
-      }
-      var c = {};
-      mergeIntoWithNoDuplicateKeys(c, a);
-      mergeIntoWithNoDuplicateKeys(c, b);
-      return c;
-    };
-  }
-
-  /**
-   * Creates a function that invokes two functions and ignores their return vales.
-   *
-   * @param {function} one Function to invoke first.
-   * @param {function} two Function to invoke second.
-   * @return {function} Function that invokes the two argument functions.
-   * @private
-   */
-  function createChainedFunction(one, two) {
-    return function chainedFunction() {
-      one.apply(this, arguments);
-      two.apply(this, arguments);
-    };
-  }
-
-  /**
-   * Binds a method to the component.
-   *
-   * @param {object} component Component whose method is going to be bound.
-   * @param {function} method Method to be bound.
-   * @return {function} The bound method.
-   */
-  function bindAutoBindMethod(component, method) {
-    var boundMethod = method.bind(component);
-    if (true) {
-      boundMethod.__reactBoundContext = component;
-      boundMethod.__reactBoundMethod = method;
-      boundMethod.__reactBoundArguments = null;
-      var componentName = component.constructor.displayName;
-      var _bind = boundMethod.bind;
-      boundMethod.bind = function(newThis) {
-        for (
-          var _len = arguments.length,
-            args = Array(_len > 1 ? _len - 1 : 0),
-            _key = 1;
-          _key < _len;
-          _key++
-        ) {
-          args[_key - 1] = arguments[_key];
-        }
-
-        // User is trying to bind() an autobound method; we effectively will
-        // ignore the value of "this" that the user is trying to use, so
-        // let's warn.
-        if (newThis !== component && newThis !== null) {
-          if (true) {
-            warning(
-              false,
-              'bind(): React component methods may only be bound to the ' +
-                'component instance. See %s',
-              componentName
-            );
-          }
-        } else if (!args.length) {
-          if (true) {
-            warning(
-              false,
-              'bind(): You are binding a component method to the component. ' +
-                'React does this for you automatically in a high-performance ' +
-                'way, so you can safely remove this call. See %s',
-              componentName
-            );
-          }
-          return boundMethod;
-        }
-        var reboundMethod = _bind.apply(boundMethod, arguments);
-        reboundMethod.__reactBoundContext = component;
-        reboundMethod.__reactBoundMethod = method;
-        reboundMethod.__reactBoundArguments = args;
-        return reboundMethod;
-      };
-    }
-    return boundMethod;
-  }
-
-  /**
-   * Binds all auto-bound methods in a component.
-   *
-   * @param {object} component Component whose method is going to be bound.
-   */
-  function bindAutoBindMethods(component) {
-    var pairs = component.__reactAutoBindPairs;
-    for (var i = 0; i < pairs.length; i += 2) {
-      var autoBindKey = pairs[i];
-      var method = pairs[i + 1];
-      component[autoBindKey] = bindAutoBindMethod(component, method);
-    }
-  }
-
-  var IsMountedPreMixin = {
-    componentDidMount: function() {
-      this.__isMounted = true;
-    }
-  };
-
-  var IsMountedPostMixin = {
-    componentWillUnmount: function() {
-      this.__isMounted = false;
-    }
-  };
-
-  /**
-   * Add more to the ReactClass base class. These are all legacy features and
-   * therefore not already part of the modern ReactComponent.
-   */
-  var ReactClassMixin = {
-    /**
-     * TODO: This will be deprecated because state should always keep a consistent
-     * type signature and the only use case for this, is to avoid that.
-     */
-    replaceState: function(newState, callback) {
-      this.updater.enqueueReplaceState(this, newState, callback);
-    },
-
-    /**
-     * Checks whether or not this composite component is mounted.
-     * @return {boolean} True if mounted, false otherwise.
-     * @protected
-     * @final
-     */
-    isMounted: function() {
-      if (true) {
-        warning(
-          this.__didWarnIsMounted,
-          '%s: isMounted is deprecated. Instead, make sure to clean up ' +
-            'subscriptions and pending requests in componentWillUnmount to ' +
-            'prevent memory leaks.',
-          (this.constructor && this.constructor.displayName) ||
-            this.name ||
-            'Component'
-        );
-        this.__didWarnIsMounted = true;
-      }
-      return !!this.__isMounted;
-    }
-  };
-
-  var ReactClassComponent = function() {};
-  _assign(
-    ReactClassComponent.prototype,
-    ReactComponent.prototype,
-    ReactClassMixin
-  );
-
-  /**
-   * Creates a composite component class given a class specification.
-   * See https://facebook.github.io/react/docs/top-level-api.html#react.createclass
-   *
-   * @param {object} spec Class specification (which must define `render`).
-   * @return {function} Component constructor function.
-   * @public
-   */
-  function createClass(spec) {
-    // To keep our warnings more understandable, we'll use a little hack here to
-    // ensure that Constructor.name !== 'Constructor'. This makes sure we don't
-    // unnecessarily identify a class without displayName as 'Constructor'.
-    var Constructor = identity(function(props, context, updater) {
-      // This constructor gets overridden by mocks. The argument is used
-      // by mocks to assert on what gets mounted.
-
-      if (true) {
-        warning(
-          this instanceof Constructor,
-          'Something is calling a React component directly. Use a factory or ' +
-            'JSX instead. See: https://fb.me/react-legacyfactory'
-        );
-      }
-
-      // Wire up auto-binding
-      if (this.__reactAutoBindPairs.length) {
-        bindAutoBindMethods(this);
-      }
-
-      this.props = props;
-      this.context = context;
-      this.refs = emptyObject;
-      this.updater = updater || ReactNoopUpdateQueue;
-
-      this.state = null;
-
-      // ReactClasses doesn't have constructors. Instead, they use the
-      // getInitialState and componentWillMount methods for initialization.
-
-      var initialState = this.getInitialState ? this.getInitialState() : null;
-      if (true) {
-        // We allow auto-mocks to proceed as if they're returning null.
-        if (
-          initialState === undefined &&
-          this.getInitialState._isMockFunction
-        ) {
-          // This is probably bad practice. Consider warning here and
-          // deprecating this convenience.
-          initialState = null;
-        }
-      }
-      _invariant(
-        typeof initialState === 'object' && !Array.isArray(initialState),
-        '%s.getInitialState(): must return an object or null',
-        Constructor.displayName || 'ReactCompositeComponent'
-      );
-
-      this.state = initialState;
-    });
-    Constructor.prototype = new ReactClassComponent();
-    Constructor.prototype.constructor = Constructor;
-    Constructor.prototype.__reactAutoBindPairs = [];
-
-    injectedMixins.forEach(mixSpecIntoComponent.bind(null, Constructor));
-
-    mixSpecIntoComponent(Constructor, IsMountedPreMixin);
-    mixSpecIntoComponent(Constructor, spec);
-    mixSpecIntoComponent(Constructor, IsMountedPostMixin);
-
-    // Initialize the defaultProps property after all mixins have been merged.
-    if (Constructor.getDefaultProps) {
-      Constructor.defaultProps = Constructor.getDefaultProps();
-    }
-
-    if (true) {
-      // This is a tag to indicate that the use of these method names is ok,
-      // since it's used with createClass. If it's not, then it's likely a
-      // mistake so we'll warn you to use the static property, property
-      // initializer or constructor respectively.
-      if (Constructor.getDefaultProps) {
-        Constructor.getDefaultProps.isReactClassApproved = {};
-      }
-      if (Constructor.prototype.getInitialState) {
-        Constructor.prototype.getInitialState.isReactClassApproved = {};
-      }
-    }
-
-    _invariant(
-      Constructor.prototype.render,
-      'createClass(...): Class specification must implement a `render` method.'
-    );
-
-    if (true) {
-      warning(
-        !Constructor.prototype.componentShouldUpdate,
-        '%s has a method called ' +
-          'componentShouldUpdate(). Did you mean shouldComponentUpdate()? ' +
-          'The name is phrased as a question because the function is ' +
-          'expected to return a value.',
-        spec.displayName || 'A component'
-      );
-      warning(
-        !Constructor.prototype.componentWillRecieveProps,
-        '%s has a method called ' +
-          'componentWillRecieveProps(). Did you mean componentWillReceiveProps()?',
-        spec.displayName || 'A component'
-      );
-      warning(
-        !Constructor.prototype.UNSAFE_componentWillRecieveProps,
-        '%s has a method called UNSAFE_componentWillRecieveProps(). ' +
-          'Did you mean UNSAFE_componentWillReceiveProps()?',
-        spec.displayName || 'A component'
-      );
-    }
-
-    // Reduce time spent doing lookups by setting these on the prototype.
-    for (var methodName in ReactClassInterface) {
-      if (!Constructor.prototype[methodName]) {
-        Constructor.prototype[methodName] = null;
-      }
-    }
-
-    return Constructor;
-  }
-
-  return createClass;
-}
-
-module.exports = factory;
-
 
 /***/ }),
 
-/***/ "./node_modules/create-react-class/index.js":
-/*!**************************************************!*\
-  !*** ./node_modules/create-react-class/index.js ***!
-  \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- */
-
-
-
-var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var factory = __webpack_require__(/*! ./factory */ "./node_modules/create-react-class/factory.js");
-
-if (typeof React === 'undefined') {
-  throw Error(
-    'create-react-class could not find the React object. If you are using script tags, ' +
-      'make sure that React is being loaded before create-react-class.'
-  );
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _inheritsLoose; });
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  subClass.__proto__ = superClass;
 }
 
-// Hack to grab NoopUpdateQueue from isomorphic React
-var ReactNoopUpdateQueue = new React.Component().updater;
+/***/ }),
 
-module.exports = factory(
-  React.Component,
-  React.isValidElement,
-  ReactNoopUpdateQueue
-);
+/***/ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectWithoutPropertiesLoose; });
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/inheritsLoose.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/inheritsLoose.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  subClass.__proto__ = superClass;
+}
+
+module.exports = _inheritsLoose;
 
 /***/ }),
 
@@ -1213,215 +329,953 @@ module.exports = debounce;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/emptyFunction.js":
-/*!************************************************!*\
-  !*** ./node_modules/fbjs/lib/emptyFunction.js ***!
-  \************************************************/
+/***/ "./node_modules/gud/index.js":
+/*!***********************************!*\
+  !*** ./node_modules/gud/index.js ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/* WEBPACK VAR INJECTION */(function(global) {// @flow
 
 
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
+var key = '__global_unique_id__';
 
-function makeEmptyFunction(arg) {
-  return function () {
-    return arg;
-  };
-}
-
-/**
- * This function accepts and discards inputs; it has no side effects. This is
- * primarily useful idiomatically for overridable function endpoints which
- * always need to be callable, since JS lacks a null-call idiom ala Cocoa.
- */
-var emptyFunction = function emptyFunction() {};
-
-emptyFunction.thatReturns = makeEmptyFunction;
-emptyFunction.thatReturnsFalse = makeEmptyFunction(false);
-emptyFunction.thatReturnsTrue = makeEmptyFunction(true);
-emptyFunction.thatReturnsNull = makeEmptyFunction(null);
-emptyFunction.thatReturnsThis = function () {
-  return this;
-};
-emptyFunction.thatReturnsArgument = function (arg) {
-  return arg;
+module.exports = function() {
+  return global[key] = (global[key] || 0) + 1;
 };
 
-module.exports = emptyFunction;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/emptyObject.js":
-/*!**********************************************!*\
-  !*** ./node_modules/fbjs/lib/emptyObject.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/history/esm/history.js":
+/*!*********************************************!*\
+  !*** ./node_modules/history/esm/history.js ***!
+  \*********************************************/
+/*! exports provided: createBrowserHistory, createHashHistory, createMemoryHistory, createLocation, locationsAreEqual, parsePath, createPath */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- */
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createBrowserHistory", function() { return createBrowserHistory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createHashHistory", function() { return createHashHistory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createMemoryHistory", function() { return createMemoryHistory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createLocation", function() { return createLocation; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "locationsAreEqual", function() { return locationsAreEqual; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parsePath", function() { return parsePath; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createPath", function() { return createPath; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var resolve_pathname__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! resolve-pathname */ "./node_modules/resolve-pathname/index.js");
+/* harmony import */ var value_equal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! value-equal */ "./node_modules/value-equal/index.js");
+/* harmony import */ var tiny_warning__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tiny-warning */ "./node_modules/tiny-warning/dist/tiny-warning.esm.js");
+/* harmony import */ var tiny_invariant__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tiny-invariant */ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js");
 
 
 
-var emptyObject = {};
 
-if (true) {
-  Object.freeze(emptyObject);
+
+
+function addLeadingSlash(path) {
+  return path.charAt(0) === '/' ? path : '/' + path;
 }
+function stripLeadingSlash(path) {
+  return path.charAt(0) === '/' ? path.substr(1) : path;
+}
+function hasBasename(path, prefix) {
+  return new RegExp('^' + prefix + '(\\/|\\?|#|$)', 'i').test(path);
+}
+function stripBasename(path, prefix) {
+  return hasBasename(path, prefix) ? path.substr(prefix.length) : path;
+}
+function stripTrailingSlash(path) {
+  return path.charAt(path.length - 1) === '/' ? path.slice(0, -1) : path;
+}
+function parsePath(path) {
+  var pathname = path || '/';
+  var search = '';
+  var hash = '';
+  var hashIndex = pathname.indexOf('#');
 
-module.exports = emptyObject;
+  if (hashIndex !== -1) {
+    hash = pathname.substr(hashIndex);
+    pathname = pathname.substr(0, hashIndex);
+  }
 
-/***/ }),
+  var searchIndex = pathname.indexOf('?');
 
-/***/ "./node_modules/fbjs/lib/invariant.js":
-/*!********************************************!*\
-  !*** ./node_modules/fbjs/lib/invariant.js ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+  if (searchIndex !== -1) {
+    search = pathname.substr(searchIndex);
+    pathname = pathname.substr(0, searchIndex);
+  }
 
-"use strict";
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- */
-
-
-
-/**
- * Use invariant() to assert state which your program assumes to be true.
- *
- * Provide sprintf-style format (only %s is supported) and arguments
- * to provide information about what broke and what you were
- * expecting.
- *
- * The invariant message will be stripped in production, but the invariant
- * will remain to ensure logic does not differ in production.
- */
-
-var validateFormat = function validateFormat(format) {};
-
-if (true) {
-  validateFormat = function validateFormat(format) {
-    if (format === undefined) {
-      throw new Error('invariant requires an error message argument');
-    }
+  return {
+    pathname: pathname,
+    search: search === '?' ? '' : search,
+    hash: hash === '#' ? '' : hash
   };
 }
+function createPath(location) {
+  var pathname = location.pathname,
+      search = location.search,
+      hash = location.hash;
+  var path = pathname || '/';
+  if (search && search !== '?') path += search.charAt(0) === '?' ? search : "?" + search;
+  if (hash && hash !== '#') path += hash.charAt(0) === '#' ? hash : "#" + hash;
+  return path;
+}
 
-function invariant(condition, format, a, b, c, d, e, f) {
-  validateFormat(format);
+function createLocation(path, state, key, currentLocation) {
+  var location;
 
-  if (!condition) {
-    var error;
-    if (format === undefined) {
-      error = new Error('Minified exception occurred; use the non-minified dev environment ' + 'for the full error message and additional helpful warnings.');
+  if (typeof path === 'string') {
+    // Two-arg form: push(path, state)
+    location = parsePath(path);
+    location.state = state;
+  } else {
+    // One-arg form: push(location)
+    location = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, path);
+    if (location.pathname === undefined) location.pathname = '';
+
+    if (location.search) {
+      if (location.search.charAt(0) !== '?') location.search = '?' + location.search;
     } else {
-      var args = [a, b, c, d, e, f];
-      var argIndex = 0;
-      error = new Error(format.replace(/%s/g, function () {
-        return args[argIndex++];
-      }));
-      error.name = 'Invariant Violation';
+      location.search = '';
     }
 
-    error.framesToPop = 1; // we don't care about invariant's own frame
-    throw error;
+    if (location.hash) {
+      if (location.hash.charAt(0) !== '#') location.hash = '#' + location.hash;
+    } else {
+      location.hash = '';
+    }
+
+    if (state !== undefined && location.state === undefined) location.state = state;
+  }
+
+  try {
+    location.pathname = decodeURI(location.pathname);
+  } catch (e) {
+    if (e instanceof URIError) {
+      throw new URIError('Pathname "' + location.pathname + '" could not be decoded. ' + 'This is likely caused by an invalid percent-encoding.');
+    } else {
+      throw e;
+    }
+  }
+
+  if (key) location.key = key;
+
+  if (currentLocation) {
+    // Resolve incomplete/relative pathname relative to current location.
+    if (!location.pathname) {
+      location.pathname = currentLocation.pathname;
+    } else if (location.pathname.charAt(0) !== '/') {
+      location.pathname = Object(resolve_pathname__WEBPACK_IMPORTED_MODULE_1__["default"])(location.pathname, currentLocation.pathname);
+    }
+  } else {
+    // When there is no prior location and pathname is empty, set it to /
+    if (!location.pathname) {
+      location.pathname = '/';
+    }
+  }
+
+  return location;
+}
+function locationsAreEqual(a, b) {
+  return a.pathname === b.pathname && a.search === b.search && a.hash === b.hash && a.key === b.key && Object(value_equal__WEBPACK_IMPORTED_MODULE_2__["default"])(a.state, b.state);
+}
+
+function createTransitionManager() {
+  var prompt = null;
+
+  function setPrompt(nextPrompt) {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(prompt == null, 'A history supports only one prompt at a time') : undefined;
+    prompt = nextPrompt;
+    return function () {
+      if (prompt === nextPrompt) prompt = null;
+    };
+  }
+
+  function confirmTransitionTo(location, action, getUserConfirmation, callback) {
+    // TODO: If another transition starts while we're still confirming
+    // the previous one, we may end up in a weird state. Figure out the
+    // best way to handle this.
+    if (prompt != null) {
+      var result = typeof prompt === 'function' ? prompt(location, action) : prompt;
+
+      if (typeof result === 'string') {
+        if (typeof getUserConfirmation === 'function') {
+          getUserConfirmation(result, callback);
+        } else {
+           true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(false, 'A history needs a getUserConfirmation function in order to use a prompt message') : undefined;
+          callback(true);
+        }
+      } else {
+        // Return false from a transition hook to cancel the transition.
+        callback(result !== false);
+      }
+    } else {
+      callback(true);
+    }
+  }
+
+  var listeners = [];
+
+  function appendListener(fn) {
+    var isActive = true;
+
+    function listener() {
+      if (isActive) fn.apply(void 0, arguments);
+    }
+
+    listeners.push(listener);
+    return function () {
+      isActive = false;
+      listeners = listeners.filter(function (item) {
+        return item !== listener;
+      });
+    };
+  }
+
+  function notifyListeners() {
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    listeners.forEach(function (listener) {
+      return listener.apply(void 0, args);
+    });
+  }
+
+  return {
+    setPrompt: setPrompt,
+    confirmTransitionTo: confirmTransitionTo,
+    appendListener: appendListener,
+    notifyListeners: notifyListeners
+  };
+}
+
+var canUseDOM = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
+function getConfirmation(message, callback) {
+  callback(window.confirm(message)); // eslint-disable-line no-alert
+}
+/**
+ * Returns true if the HTML5 history API is supported. Taken from Modernizr.
+ *
+ * https://github.com/Modernizr/Modernizr/blob/master/LICENSE
+ * https://github.com/Modernizr/Modernizr/blob/master/feature-detects/history.js
+ * changed to avoid false negatives for Windows Phones: https://github.com/reactjs/react-router/issues/586
+ */
+
+function supportsHistory() {
+  var ua = window.navigator.userAgent;
+  if ((ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) && ua.indexOf('Mobile Safari') !== -1 && ua.indexOf('Chrome') === -1 && ua.indexOf('Windows Phone') === -1) return false;
+  return window.history && 'pushState' in window.history;
+}
+/**
+ * Returns true if browser fires popstate on hash change.
+ * IE10 and IE11 do not.
+ */
+
+function supportsPopStateOnHashChange() {
+  return window.navigator.userAgent.indexOf('Trident') === -1;
+}
+/**
+ * Returns false if using go(n) with hash history causes a full page reload.
+ */
+
+function supportsGoWithoutReloadUsingHash() {
+  return window.navigator.userAgent.indexOf('Firefox') === -1;
+}
+/**
+ * Returns true if a given popstate event is an extraneous WebKit event.
+ * Accounts for the fact that Chrome on iOS fires real popstate events
+ * containing undefined state when pressing the back button.
+ */
+
+function isExtraneousPopstateEvent(event) {
+  event.state === undefined && navigator.userAgent.indexOf('CriOS') === -1;
+}
+
+var PopStateEvent = 'popstate';
+var HashChangeEvent = 'hashchange';
+
+function getHistoryState() {
+  try {
+    return window.history.state || {};
+  } catch (e) {
+    // IE 11 sometimes throws when accessing window.history.state
+    // See https://github.com/ReactTraining/history/pull/289
+    return {};
   }
 }
-
-module.exports = invariant;
-
-/***/ }),
-
-/***/ "./node_modules/fbjs/lib/warning.js":
-/*!******************************************!*\
-  !*** ./node_modules/fbjs/lib/warning.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
 /**
- * Copyright (c) 2014-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
+ * Creates a history object that uses the HTML5 history API including
+ * pushState, replaceState, and the popstate event.
  */
 
 
+function createBrowserHistory(props) {
+  if (props === void 0) {
+    props = {};
+  }
 
-var emptyFunction = __webpack_require__(/*! ./emptyFunction */ "./node_modules/fbjs/lib/emptyFunction.js");
+  !canUseDOM ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_4__["default"])(false, 'Browser history needs a DOM') : undefined : void 0;
+  var globalHistory = window.history;
+  var canUseHistory = supportsHistory();
+  var needsHashChangeListener = !supportsPopStateOnHashChange();
+  var _props = props,
+      _props$forceRefresh = _props.forceRefresh,
+      forceRefresh = _props$forceRefresh === void 0 ? false : _props$forceRefresh,
+      _props$getUserConfirm = _props.getUserConfirmation,
+      getUserConfirmation = _props$getUserConfirm === void 0 ? getConfirmation : _props$getUserConfirm,
+      _props$keyLength = _props.keyLength,
+      keyLength = _props$keyLength === void 0 ? 6 : _props$keyLength;
+  var basename = props.basename ? stripTrailingSlash(addLeadingSlash(props.basename)) : '';
 
-/**
- * Similar to invariant but only logs a warning if the condition is not met.
- * This can be used to log issues in development environments in critical
- * paths. Removing the logging code for production environments will keep the
- * same logic and follow the same code paths.
- */
+  function getDOMLocation(historyState) {
+    var _ref = historyState || {},
+        key = _ref.key,
+        state = _ref.state;
 
-var warning = emptyFunction;
+    var _window$location = window.location,
+        pathname = _window$location.pathname,
+        search = _window$location.search,
+        hash = _window$location.hash;
+    var path = pathname + search + hash;
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".') : undefined;
+    if (basename) path = stripBasename(path, basename);
+    return createLocation(path, state, key);
+  }
 
-if (true) {
-  var printWarning = function printWarning(format) {
-    for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-      args[_key - 1] = arguments[_key];
+  function createKey() {
+    return Math.random().toString(36).substr(2, keyLength);
+  }
+
+  var transitionManager = createTransitionManager();
+
+  function setState(nextState) {
+    Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])(history, nextState);
+
+    history.length = globalHistory.length;
+    transitionManager.notifyListeners(history.location, history.action);
+  }
+
+  function handlePopState(event) {
+    // Ignore extraneous popstate events in WebKit.
+    if (isExtraneousPopstateEvent(event)) return;
+    handlePop(getDOMLocation(event.state));
+  }
+
+  function handleHashChange() {
+    handlePop(getDOMLocation(getHistoryState()));
+  }
+
+  var forceNextPop = false;
+
+  function handlePop(location) {
+    if (forceNextPop) {
+      forceNextPop = false;
+      setState();
+    } else {
+      var action = 'POP';
+      transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
+        if (ok) {
+          setState({
+            action: action,
+            location: location
+          });
+        } else {
+          revertPop(location);
+        }
+      });
     }
+  }
 
-    var argIndex = 0;
-    var message = 'Warning: ' + format.replace(/%s/g, function () {
-      return args[argIndex++];
+  function revertPop(fromLocation) {
+    var toLocation = history.location; // TODO: We could probably make this more reliable by
+    // keeping a list of keys we've seen in sessionStorage.
+    // Instead, we just default to 0 for keys we don't know.
+
+    var toIndex = allKeys.indexOf(toLocation.key);
+    if (toIndex === -1) toIndex = 0;
+    var fromIndex = allKeys.indexOf(fromLocation.key);
+    if (fromIndex === -1) fromIndex = 0;
+    var delta = toIndex - fromIndex;
+
+    if (delta) {
+      forceNextPop = true;
+      go(delta);
+    }
+  }
+
+  var initialLocation = getDOMLocation(getHistoryState());
+  var allKeys = [initialLocation.key]; // Public interface
+
+  function createHref(location) {
+    return basename + createPath(location);
+  }
+
+  function push(path, state) {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : undefined;
+    var action = 'PUSH';
+    var location = createLocation(path, state, createKey(), history.location);
+    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
+      if (!ok) return;
+      var href = createHref(location);
+      var key = location.key,
+          state = location.state;
+
+      if (canUseHistory) {
+        globalHistory.pushState({
+          key: key,
+          state: state
+        }, null, href);
+
+        if (forceRefresh) {
+          window.location.href = href;
+        } else {
+          var prevIndex = allKeys.indexOf(history.location.key);
+          var nextKeys = allKeys.slice(0, prevIndex === -1 ? 0 : prevIndex + 1);
+          nextKeys.push(location.key);
+          allKeys = nextKeys;
+          setState({
+            action: action,
+            location: location
+          });
+        }
+      } else {
+         true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Browser history cannot push state in browsers that do not support HTML5 history') : undefined;
+        window.location.href = href;
+      }
     });
-    if (typeof console !== 'undefined') {
-      console.error(message);
-    }
-    try {
-      // --- Welcome to debugging React ---
-      // This error was thrown as a convenience so that you can use this stack
-      // to find the callsite that caused this warning to fire.
-      throw new Error(message);
-    } catch (x) {}
-  };
+  }
 
-  warning = function warning(condition, format) {
-    if (format === undefined) {
-      throw new Error('`warning(condition, format, ...args)` requires a warning ' + 'message argument');
+  function replace(path, state) {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : undefined;
+    var action = 'REPLACE';
+    var location = createLocation(path, state, createKey(), history.location);
+    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
+      if (!ok) return;
+      var href = createHref(location);
+      var key = location.key,
+          state = location.state;
+
+      if (canUseHistory) {
+        globalHistory.replaceState({
+          key: key,
+          state: state
+        }, null, href);
+
+        if (forceRefresh) {
+          window.location.replace(href);
+        } else {
+          var prevIndex = allKeys.indexOf(history.location.key);
+          if (prevIndex !== -1) allKeys[prevIndex] = location.key;
+          setState({
+            action: action,
+            location: location
+          });
+        }
+      } else {
+         true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Browser history cannot replace state in browsers that do not support HTML5 history') : undefined;
+        window.location.replace(href);
+      }
+    });
+  }
+
+  function go(n) {
+    globalHistory.go(n);
+  }
+
+  function goBack() {
+    go(-1);
+  }
+
+  function goForward() {
+    go(1);
+  }
+
+  var listenerCount = 0;
+
+  function checkDOMListeners(delta) {
+    listenerCount += delta;
+
+    if (listenerCount === 1 && delta === 1) {
+      window.addEventListener(PopStateEvent, handlePopState);
+      if (needsHashChangeListener) window.addEventListener(HashChangeEvent, handleHashChange);
+    } else if (listenerCount === 0) {
+      window.removeEventListener(PopStateEvent, handlePopState);
+      if (needsHashChangeListener) window.removeEventListener(HashChangeEvent, handleHashChange);
+    }
+  }
+
+  var isBlocked = false;
+
+  function block(prompt) {
+    if (prompt === void 0) {
+      prompt = false;
     }
 
-    if (format.indexOf('Failed Composite propType: ') === 0) {
-      return; // Ignore CompositeComponent proptype check.
+    var unblock = transitionManager.setPrompt(prompt);
+
+    if (!isBlocked) {
+      checkDOMListeners(1);
+      isBlocked = true;
     }
 
-    if (!condition) {
-      for (var _len2 = arguments.length, args = Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
-        args[_key2 - 2] = arguments[_key2];
+    return function () {
+      if (isBlocked) {
+        isBlocked = false;
+        checkDOMListeners(-1);
       }
 
-      printWarning.apply(undefined, [format].concat(args));
-    }
+      return unblock();
+    };
+  }
+
+  function listen(listener) {
+    var unlisten = transitionManager.appendListener(listener);
+    checkDOMListeners(1);
+    return function () {
+      checkDOMListeners(-1);
+      unlisten();
+    };
+  }
+
+  var history = {
+    length: globalHistory.length,
+    action: 'POP',
+    location: initialLocation,
+    createHref: createHref,
+    push: push,
+    replace: replace,
+    go: go,
+    goBack: goBack,
+    goForward: goForward,
+    block: block,
+    listen: listen
   };
+  return history;
 }
 
-module.exports = warning;
+var HashChangeEvent$1 = 'hashchange';
+var HashPathCoders = {
+  hashbang: {
+    encodePath: function encodePath(path) {
+      return path.charAt(0) === '!' ? path : '!/' + stripLeadingSlash(path);
+    },
+    decodePath: function decodePath(path) {
+      return path.charAt(0) === '!' ? path.substr(1) : path;
+    }
+  },
+  noslash: {
+    encodePath: stripLeadingSlash,
+    decodePath: addLeadingSlash
+  },
+  slash: {
+    encodePath: addLeadingSlash,
+    decodePath: addLeadingSlash
+  }
+};
+
+function getHashPath() {
+  // We can't use window.location.hash here because it's not
+  // consistent across browsers - Firefox will pre-decode it!
+  var href = window.location.href;
+  var hashIndex = href.indexOf('#');
+  return hashIndex === -1 ? '' : href.substring(hashIndex + 1);
+}
+
+function pushHashPath(path) {
+  window.location.hash = path;
+}
+
+function replaceHashPath(path) {
+  var hashIndex = window.location.href.indexOf('#');
+  window.location.replace(window.location.href.slice(0, hashIndex >= 0 ? hashIndex : 0) + '#' + path);
+}
+
+function createHashHistory(props) {
+  if (props === void 0) {
+    props = {};
+  }
+
+  !canUseDOM ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_4__["default"])(false, 'Hash history needs a DOM') : undefined : void 0;
+  var globalHistory = window.history;
+  var canGoWithoutReload = supportsGoWithoutReloadUsingHash();
+  var _props = props,
+      _props$getUserConfirm = _props.getUserConfirmation,
+      getUserConfirmation = _props$getUserConfirm === void 0 ? getConfirmation : _props$getUserConfirm,
+      _props$hashType = _props.hashType,
+      hashType = _props$hashType === void 0 ? 'slash' : _props$hashType;
+  var basename = props.basename ? stripTrailingSlash(addLeadingSlash(props.basename)) : '';
+  var _HashPathCoders$hashT = HashPathCoders[hashType],
+      encodePath = _HashPathCoders$hashT.encodePath,
+      decodePath = _HashPathCoders$hashT.decodePath;
+
+  function getDOMLocation() {
+    var path = decodePath(getHashPath());
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".') : undefined;
+    if (basename) path = stripBasename(path, basename);
+    return createLocation(path);
+  }
+
+  var transitionManager = createTransitionManager();
+
+  function setState(nextState) {
+    Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])(history, nextState);
+
+    history.length = globalHistory.length;
+    transitionManager.notifyListeners(history.location, history.action);
+  }
+
+  var forceNextPop = false;
+  var ignorePath = null;
+
+  function handleHashChange() {
+    var path = getHashPath();
+    var encodedPath = encodePath(path);
+
+    if (path !== encodedPath) {
+      // Ensure we always have a properly-encoded hash.
+      replaceHashPath(encodedPath);
+    } else {
+      var location = getDOMLocation();
+      var prevLocation = history.location;
+      if (!forceNextPop && locationsAreEqual(prevLocation, location)) return; // A hashchange doesn't always == location change.
+
+      if (ignorePath === createPath(location)) return; // Ignore this change; we already setState in push/replace.
+
+      ignorePath = null;
+      handlePop(location);
+    }
+  }
+
+  function handlePop(location) {
+    if (forceNextPop) {
+      forceNextPop = false;
+      setState();
+    } else {
+      var action = 'POP';
+      transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
+        if (ok) {
+          setState({
+            action: action,
+            location: location
+          });
+        } else {
+          revertPop(location);
+        }
+      });
+    }
+  }
+
+  function revertPop(fromLocation) {
+    var toLocation = history.location; // TODO: We could probably make this more reliable by
+    // keeping a list of paths we've seen in sessionStorage.
+    // Instead, we just default to 0 for paths we don't know.
+
+    var toIndex = allPaths.lastIndexOf(createPath(toLocation));
+    if (toIndex === -1) toIndex = 0;
+    var fromIndex = allPaths.lastIndexOf(createPath(fromLocation));
+    if (fromIndex === -1) fromIndex = 0;
+    var delta = toIndex - fromIndex;
+
+    if (delta) {
+      forceNextPop = true;
+      go(delta);
+    }
+  } // Ensure the hash is encoded properly before doing anything else.
+
+
+  var path = getHashPath();
+  var encodedPath = encodePath(path);
+  if (path !== encodedPath) replaceHashPath(encodedPath);
+  var initialLocation = getDOMLocation();
+  var allPaths = [createPath(initialLocation)]; // Public interface
+
+  function createHref(location) {
+    return '#' + encodePath(basename + createPath(location));
+  }
+
+  function push(path, state) {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Hash history cannot push state; it is ignored') : undefined;
+    var action = 'PUSH';
+    var location = createLocation(path, undefined, undefined, history.location);
+    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
+      if (!ok) return;
+      var path = createPath(location);
+      var encodedPath = encodePath(basename + path);
+      var hashChanged = getHashPath() !== encodedPath;
+
+      if (hashChanged) {
+        // We cannot tell if a hashchange was caused by a PUSH, so we'd
+        // rather setState here and ignore the hashchange. The caveat here
+        // is that other hash histories in the page will consider it a POP.
+        ignorePath = path;
+        pushHashPath(encodedPath);
+        var prevIndex = allPaths.lastIndexOf(createPath(history.location));
+        var nextPaths = allPaths.slice(0, prevIndex === -1 ? 0 : prevIndex + 1);
+        nextPaths.push(path);
+        allPaths = nextPaths;
+        setState({
+          action: action,
+          location: location
+        });
+      } else {
+         true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(false, 'Hash history cannot PUSH the same path; a new entry will not be added to the history stack') : undefined;
+        setState();
+      }
+    });
+  }
+
+  function replace(path, state) {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Hash history cannot replace state; it is ignored') : undefined;
+    var action = 'REPLACE';
+    var location = createLocation(path, undefined, undefined, history.location);
+    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
+      if (!ok) return;
+      var path = createPath(location);
+      var encodedPath = encodePath(basename + path);
+      var hashChanged = getHashPath() !== encodedPath;
+
+      if (hashChanged) {
+        // We cannot tell if a hashchange was caused by a REPLACE, so we'd
+        // rather setState here and ignore the hashchange. The caveat here
+        // is that other hash histories in the page will consider it a POP.
+        ignorePath = path;
+        replaceHashPath(encodedPath);
+      }
+
+      var prevIndex = allPaths.indexOf(createPath(history.location));
+      if (prevIndex !== -1) allPaths[prevIndex] = path;
+      setState({
+        action: action,
+        location: location
+      });
+    });
+  }
+
+  function go(n) {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(canGoWithoutReload, 'Hash history go(n) causes a full page reload in this browser') : undefined;
+    globalHistory.go(n);
+  }
+
+  function goBack() {
+    go(-1);
+  }
+
+  function goForward() {
+    go(1);
+  }
+
+  var listenerCount = 0;
+
+  function checkDOMListeners(delta) {
+    listenerCount += delta;
+
+    if (listenerCount === 1 && delta === 1) {
+      window.addEventListener(HashChangeEvent$1, handleHashChange);
+    } else if (listenerCount === 0) {
+      window.removeEventListener(HashChangeEvent$1, handleHashChange);
+    }
+  }
+
+  var isBlocked = false;
+
+  function block(prompt) {
+    if (prompt === void 0) {
+      prompt = false;
+    }
+
+    var unblock = transitionManager.setPrompt(prompt);
+
+    if (!isBlocked) {
+      checkDOMListeners(1);
+      isBlocked = true;
+    }
+
+    return function () {
+      if (isBlocked) {
+        isBlocked = false;
+        checkDOMListeners(-1);
+      }
+
+      return unblock();
+    };
+  }
+
+  function listen(listener) {
+    var unlisten = transitionManager.appendListener(listener);
+    checkDOMListeners(1);
+    return function () {
+      checkDOMListeners(-1);
+      unlisten();
+    };
+  }
+
+  var history = {
+    length: globalHistory.length,
+    action: 'POP',
+    location: initialLocation,
+    createHref: createHref,
+    push: push,
+    replace: replace,
+    go: go,
+    goBack: goBack,
+    goForward: goForward,
+    block: block,
+    listen: listen
+  };
+  return history;
+}
+
+function clamp(n, lowerBound, upperBound) {
+  return Math.min(Math.max(n, lowerBound), upperBound);
+}
+/**
+ * Creates a history object that stores locations in memory.
+ */
+
+
+function createMemoryHistory(props) {
+  if (props === void 0) {
+    props = {};
+  }
+
+  var _props = props,
+      getUserConfirmation = _props.getUserConfirmation,
+      _props$initialEntries = _props.initialEntries,
+      initialEntries = _props$initialEntries === void 0 ? ['/'] : _props$initialEntries,
+      _props$initialIndex = _props.initialIndex,
+      initialIndex = _props$initialIndex === void 0 ? 0 : _props$initialIndex,
+      _props$keyLength = _props.keyLength,
+      keyLength = _props$keyLength === void 0 ? 6 : _props$keyLength;
+  var transitionManager = createTransitionManager();
+
+  function setState(nextState) {
+    Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])(history, nextState);
+
+    history.length = history.entries.length;
+    transitionManager.notifyListeners(history.location, history.action);
+  }
+
+  function createKey() {
+    return Math.random().toString(36).substr(2, keyLength);
+  }
+
+  var index = clamp(initialIndex, 0, initialEntries.length - 1);
+  var entries = initialEntries.map(function (entry) {
+    return typeof entry === 'string' ? createLocation(entry, undefined, createKey()) : createLocation(entry, undefined, entry.key || createKey());
+  }); // Public interface
+
+  var createHref = createPath;
+
+  function push(path, state) {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : undefined;
+    var action = 'PUSH';
+    var location = createLocation(path, state, createKey(), history.location);
+    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
+      if (!ok) return;
+      var prevIndex = history.index;
+      var nextIndex = prevIndex + 1;
+      var nextEntries = history.entries.slice(0);
+
+      if (nextEntries.length > nextIndex) {
+        nextEntries.splice(nextIndex, nextEntries.length - nextIndex, location);
+      } else {
+        nextEntries.push(location);
+      }
+
+      setState({
+        action: action,
+        location: location,
+        index: nextIndex,
+        entries: nextEntries
+      });
+    });
+  }
+
+  function replace(path, state) {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : undefined;
+    var action = 'REPLACE';
+    var location = createLocation(path, state, createKey(), history.location);
+    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
+      if (!ok) return;
+      history.entries[history.index] = location;
+      setState({
+        action: action,
+        location: location
+      });
+    });
+  }
+
+  function go(n) {
+    var nextIndex = clamp(history.index + n, 0, history.entries.length - 1);
+    var action = 'POP';
+    var location = history.entries[nextIndex];
+    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
+      if (ok) {
+        setState({
+          action: action,
+          location: location,
+          index: nextIndex
+        });
+      } else {
+        // Mimic the behavior of DOM histories by
+        // causing a render after a cancelled POP.
+        setState();
+      }
+    });
+  }
+
+  function goBack() {
+    go(-1);
+  }
+
+  function goForward() {
+    go(1);
+  }
+
+  function canGo(n) {
+    var nextIndex = history.index + n;
+    return nextIndex >= 0 && nextIndex < history.entries.length;
+  }
+
+  function block(prompt) {
+    if (prompt === void 0) {
+      prompt = false;
+    }
+
+    return transitionManager.setPrompt(prompt);
+  }
+
+  function listen(listener) {
+    return transitionManager.appendListener(listener);
+  }
+
+  var history = {
+    length: entries.length,
+    action: 'POP',
+    location: entries[index],
+    index: index,
+    entries: entries,
+    createHref: createHref,
+    push: push,
+    replace: replace,
+    go: go,
+    goBack: goBack,
+    goForward: goForward,
+    canGo: canGo,
+    block: block,
+    listen: listen
+  };
+  return history;
+}
+
+
+
 
 /***/ }),
 
@@ -2196,6 +2050,203 @@ function prefixValue(plugins, property, value, style, metaData) {
     }
   }
 }
+
+/***/ }),
+
+/***/ "./node_modules/mini-create-react-context/dist/esm/index.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/mini-create-react-context/dist/esm/index.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var gud__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gud */ "./node_modules/gud/index.js");
+/* harmony import */ var gud__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(gud__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var tiny_warning__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tiny-warning */ "./node_modules/tiny-warning/dist/tiny-warning.esm.js");
+
+
+
+
+
+
+var MAX_SIGNED_31_BIT_INT = 1073741823;
+
+function objectIs(x, y) {
+  if (x === y) {
+    return x !== 0 || 1 / x === 1 / y;
+  } else {
+    return x !== x && y !== y;
+  }
+}
+
+function createEventEmitter(value) {
+  var handlers = [];
+  return {
+    on: function on(handler) {
+      handlers.push(handler);
+    },
+    off: function off(handler) {
+      handlers = handlers.filter(function (h) {
+        return h !== handler;
+      });
+    },
+    get: function get() {
+      return value;
+    },
+    set: function set(newValue, changedBits) {
+      value = newValue;
+      handlers.forEach(function (handler) {
+        return handler(value, changedBits);
+      });
+    }
+  };
+}
+
+function onlyChild(children) {
+  return Array.isArray(children) ? children[0] : children;
+}
+
+function createReactContext(defaultValue, calculateChangedBits) {
+  var _Provider$childContex, _Consumer$contextType;
+
+  var contextProp = '__create-react-context-' + gud__WEBPACK_IMPORTED_MODULE_3___default()() + '__';
+
+  var Provider =
+  /*#__PURE__*/
+  function (_Component) {
+    _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default()(Provider, _Component);
+
+    function Provider() {
+      var _this;
+
+      _this = _Component.apply(this, arguments) || this;
+      _this.emitter = createEventEmitter(_this.props.value);
+      return _this;
+    }
+
+    var _proto = Provider.prototype;
+
+    _proto.getChildContext = function getChildContext() {
+      var _ref;
+
+      return _ref = {}, _ref[contextProp] = this.emitter, _ref;
+    };
+
+    _proto.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+      if (this.props.value !== nextProps.value) {
+        var oldValue = this.props.value;
+        var newValue = nextProps.value;
+        var changedBits;
+
+        if (objectIs(oldValue, newValue)) {
+          changedBits = 0;
+        } else {
+          changedBits = typeof calculateChangedBits === 'function' ? calculateChangedBits(oldValue, newValue) : MAX_SIGNED_31_BIT_INT;
+
+          if (true) {
+            Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])((changedBits & MAX_SIGNED_31_BIT_INT) === changedBits, 'calculateChangedBits: Expected the return value to be a ' + '31-bit integer. Instead received: ' + changedBits);
+          }
+
+          changedBits |= 0;
+
+          if (changedBits !== 0) {
+            this.emitter.set(nextProps.value, changedBits);
+          }
+        }
+      }
+    };
+
+    _proto.render = function render() {
+      return this.props.children;
+    };
+
+    return Provider;
+  }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+  Provider.childContextTypes = (_Provider$childContex = {}, _Provider$childContex[contextProp] = prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object.isRequired, _Provider$childContex);
+
+  var Consumer =
+  /*#__PURE__*/
+  function (_Component2) {
+    _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default()(Consumer, _Component2);
+
+    function Consumer() {
+      var _this2;
+
+      _this2 = _Component2.apply(this, arguments) || this;
+      _this2.state = {
+        value: _this2.getValue()
+      };
+
+      _this2.onUpdate = function (newValue, changedBits) {
+        var observedBits = _this2.observedBits | 0;
+
+        if ((observedBits & changedBits) !== 0) {
+          _this2.setState({
+            value: _this2.getValue()
+          });
+        }
+      };
+
+      return _this2;
+    }
+
+    var _proto2 = Consumer.prototype;
+
+    _proto2.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+      var observedBits = nextProps.observedBits;
+      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT : observedBits;
+    };
+
+    _proto2.componentDidMount = function componentDidMount() {
+      if (this.context[contextProp]) {
+        this.context[contextProp].on(this.onUpdate);
+      }
+
+      var observedBits = this.props.observedBits;
+      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT : observedBits;
+    };
+
+    _proto2.componentWillUnmount = function componentWillUnmount() {
+      if (this.context[contextProp]) {
+        this.context[contextProp].off(this.onUpdate);
+      }
+    };
+
+    _proto2.getValue = function getValue() {
+      if (this.context[contextProp]) {
+        return this.context[contextProp].get();
+      } else {
+        return defaultValue;
+      }
+    };
+
+    _proto2.render = function render() {
+      return onlyChild(this.props.children)(this.state.value);
+    };
+
+    return Consumer;
+  }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+  Consumer.contextTypes = (_Consumer$contextType = {}, _Consumer$contextType[contextProp] = prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object, _Consumer$contextType);
+  return {
+    Provider: Provider,
+    Consumer: Consumer
+  };
+}
+
+var index = react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext || createReactContext;
+
+/* harmony default export */ __webpack_exports__["default"] = (index);
+
 
 /***/ }),
 
@@ -26738,49 +26789,6 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./node_modules/react-native-web/dist/exports/Animated/index.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/exports/Animated/index.js ***!
-  \**********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vendor_react_native_Animated_AnimatedImplementation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../vendor/react-native/Animated/AnimatedImplementation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/AnimatedImplementation.js");
-/* harmony import */ var _Image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Image */ "./node_modules/react-native-web/dist/exports/Image/index.js");
-/* harmony import */ var _ScrollView__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../ScrollView */ "./node_modules/react-native-web/dist/exports/ScrollView/index.js");
-/* harmony import */ var _Text__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Text */ "./node_modules/react-native-web/dist/exports/Text/index.js");
-/* harmony import */ var _View__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../View */ "./node_modules/react-native-web/dist/exports/View/index.js");
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-/**
- * Copyright (c) Nicolas Gallagher.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-
-
-
-
-
-var Animated = _objectSpread({}, _vendor_react_native_Animated_AnimatedImplementation__WEBPACK_IMPORTED_MODULE_0__["default"], {
-  Image: _vendor_react_native_Animated_AnimatedImplementation__WEBPACK_IMPORTED_MODULE_0__["default"].createAnimatedComponent(_Image__WEBPACK_IMPORTED_MODULE_1__["default"]),
-  ScrollView: _vendor_react_native_Animated_AnimatedImplementation__WEBPACK_IMPORTED_MODULE_0__["default"].createAnimatedComponent(_ScrollView__WEBPACK_IMPORTED_MODULE_2__["default"]),
-  View: _vendor_react_native_Animated_AnimatedImplementation__WEBPACK_IMPORTED_MODULE_0__["default"].createAnimatedComponent(_View__WEBPACK_IMPORTED_MODULE_4__["default"]),
-  Text: _vendor_react_native_Animated_AnimatedImplementation__WEBPACK_IMPORTED_MODULE_0__["default"].createAnimatedComponent(_Text__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-
-/* harmony default export */ __webpack_exports__["default"] = (Animated);
-
-/***/ }),
-
 /***/ "./node_modules/react-native-web/dist/exports/ColorPropType/index.js":
 /*!***************************************************************************!*\
   !*** ./node_modules/react-native-web/dist/exports/ColorPropType/index.js ***!
@@ -26837,114 +26845,6 @@ if (true) {
 } else {}
 
 /* harmony default export */ __webpack_exports__["default"] = (ColorPropType);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/exports/Dimensions/index.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/exports/Dimensions/index.js ***!
-  \************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Dimensions; });
-/* harmony import */ var fbjs_lib_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ "./node_modules/react-native-web/node_modules/fbjs/lib/ExecutionEnvironment.js");
-/* harmony import */ var fbjs_lib_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var debounce__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! debounce */ "./node_modules/debounce/index.js");
-/* harmony import */ var debounce__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(debounce__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_2__);
-/**
- * Copyright (c) Nicolas Gallagher.
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-
-
-var win = fbjs_lib_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_0__["canUseDOM"] ? window : {
-  devicePixelRatio: undefined,
-  innerHeight: undefined,
-  innerWidth: undefined,
-  screen: {
-    height: undefined,
-    width: undefined
-  }
-};
-var dimensions = {};
-var listeners = {};
-
-var Dimensions =
-/*#__PURE__*/
-function () {
-  function Dimensions() {}
-
-  Dimensions.get = function get(dimension) {
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_2___default()(dimensions[dimension], "No dimension set for key " + dimension);
-    return dimensions[dimension];
-  };
-
-  Dimensions.set = function set(initialDimensions) {
-    if (initialDimensions) {
-      if (fbjs_lib_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_0__["canUseDOM"]) {
-        fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_2___default()(false, 'Dimensions cannot be set in the browser');
-      } else {
-        dimensions.screen = initialDimensions.screen;
-        dimensions.window = initialDimensions.window;
-      }
-    }
-  };
-
-  Dimensions._update = function _update() {
-    dimensions.window = {
-      fontScale: 1,
-      height: win.innerHeight,
-      scale: win.devicePixelRatio || 1,
-      width: win.innerWidth
-    };
-    dimensions.screen = {
-      fontScale: 1,
-      height: win.screen.height,
-      scale: win.devicePixelRatio || 1,
-      width: win.screen.width
-    };
-
-    if (Array.isArray(listeners['change'])) {
-      listeners['change'].forEach(function (handler) {
-        return handler(dimensions);
-      });
-    }
-  };
-
-  Dimensions.addEventListener = function addEventListener(type, handler) {
-    listeners[type] = listeners[type] || [];
-    listeners[type].push(handler);
-  };
-
-  Dimensions.removeEventListener = function removeEventListener(type, handler) {
-    if (Array.isArray(listeners[type])) {
-      listeners[type] = listeners[type].filter(function (_handler) {
-        return _handler !== handler;
-      });
-    }
-  };
-
-  return Dimensions;
-}();
-
-
-
-Dimensions._update();
-
-if (fbjs_lib_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_0__["canUseDOM"]) {
-  window.addEventListener('resize', debounce__WEBPACK_IMPORTED_MODULE_1___default()(Dimensions._update, 16), false);
-}
 
 /***/ }),
 
@@ -27074,104 +26974,6 @@ var ImageResizeMode = {
 
 /***/ }),
 
-/***/ "./node_modules/react-native-web/dist/exports/Image/ImageSourcePropType.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/exports/Image/ImageSourcePropType.js ***!
-  \*********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_0__);
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-
-
-var ImageURISourcePropType = prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
-  /**
-   * `uri` is a string representing the resource identifier for the image, which
-   * could be an http address, a local file path, or the name of a static image
-   * resource (which should be wrapped in the `require('./path/to/image.png')`
-   * function).
-   */
-  uri: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
-
-  /**
-   * `bundle` is the iOS asset bundle which the image is included in. This
-   * will default to [NSBundle mainBundle] if not set.
-   * @platform ios
-   */
-  bundle: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
-
-  /**
-   * `method` is the HTTP Method to use. Defaults to GET if not specified.
-   */
-  method: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
-
-  /**
-   * `headers` is an object representing the HTTP headers to send along with the
-   * request for a remote image.
-   */
-  headers: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.objectOf(prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string),
-
-  /**
-   * `body` is the HTTP body to send with the request. This must be a valid
-   * UTF-8 string, and will be sent exactly as specified, with no
-   * additional encoding (e.g. URL-escaping or base64) applied.
-   */
-  body: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
-
-  /**
-   * `cache` determines how the requests handles potentially cached
-   * responses.
-   *
-   * - `default`: Use the native platforms default strategy. `useProtocolCachePolicy` on iOS.
-   *
-   * - `reload`: The data for the URL will be loaded from the originating source.
-   * No existing cache data should be used to satisfy a URL load request.
-   *
-   * - `force-cache`: The existing cached data will be used to satisfy the request,
-   * regardless of its age or expiration date. If there is no existing data in the cache
-   * corresponding the request, the data is loaded from the originating source.
-   *
-   * - `only-if-cached`: The existing cache data will be used to satisfy a request, regardless of
-   * its age or expiration date. If there is no existing data in the cache corresponding
-   * to a URL load request, no attempt is made to load the data from the originating source,
-   * and the load is considered to have failed.
-   *
-   * @platform ios
-   */
-  cache: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.oneOf(['default', 'reload', 'force-cache', 'only-if-cached']),
-
-  /**
-   * `width` and `height` can be specified if known at build time, in which case
-   * these will be used to set the default `<Image/>` component dimensions.
-   */
-  width: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number,
-  height: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number,
-
-  /**
-   * `scale` is used to indicate the scale factor of the image. Defaults to 1.0 if
-   * unspecified, meaning that one image pixel equates to one display point / DIP.
-   */
-  scale: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number
-});
-var ImageSourcePropType = prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.oneOfType([ImageURISourcePropType, // Opaque type returned by require('./image.jpg')
-prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string, // Multiple sources
-prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.arrayOf(ImageURISourcePropType)]);
-/* harmony default export */ __webpack_exports__["default"] = (ImageSourcePropType);
-
-/***/ }),
-
 /***/ "./node_modules/react-native-web/dist/exports/Image/ImageStylePropTypes.js":
 /*!*********************************************************************************!*\
   !*** ./node_modules/react-native-web/dist/exports/Image/ImageStylePropTypes.js ***!
@@ -27233,1350 +27035,6 @@ var ImageStylePropTypes = _objectSpread({}, _modules_AnimationPropTypes__WEBPACK
 });
 
 /* harmony default export */ __webpack_exports__["default"] = (ImageStylePropTypes);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/exports/Image/ImageUriCache.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/exports/Image/ImageUriCache.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ImageUriCache; });
-/**
- * Copyright (c) Nicolas Gallagher.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-var dataUriPattern = /^data:/;
-
-var ImageUriCache =
-/*#__PURE__*/
-function () {
-  function ImageUriCache() {}
-
-  ImageUriCache.has = function has(uri) {
-    var entries = ImageUriCache._entries;
-    var isDataUri = dataUriPattern.test(uri);
-    return isDataUri || Boolean(entries[uri]);
-  };
-
-  ImageUriCache.add = function add(uri) {
-    var entries = ImageUriCache._entries;
-    var lastUsedTimestamp = Date.now();
-
-    if (entries[uri]) {
-      entries[uri].lastUsedTimestamp = lastUsedTimestamp;
-      entries[uri].refCount += 1;
-    } else {
-      entries[uri] = {
-        lastUsedTimestamp: lastUsedTimestamp,
-        refCount: 1
-      };
-    }
-  };
-
-  ImageUriCache.remove = function remove(uri) {
-    var entries = ImageUriCache._entries;
-
-    if (entries[uri]) {
-      entries[uri].refCount -= 1;
-    } // Free up entries when the cache is "full"
-
-
-    ImageUriCache._cleanUpIfNeeded();
-  };
-
-  ImageUriCache._cleanUpIfNeeded = function _cleanUpIfNeeded() {
-    var entries = ImageUriCache._entries;
-    var imageUris = Object.keys(entries);
-
-    if (imageUris.length + 1 > ImageUriCache._maximumEntries) {
-      var leastRecentlyUsedKey;
-      var leastRecentlyUsedEntry;
-      imageUris.forEach(function (uri) {
-        var entry = entries[uri];
-
-        if ((!leastRecentlyUsedEntry || entry.lastUsedTimestamp < leastRecentlyUsedEntry.lastUsedTimestamp) && entry.refCount === 0) {
-          leastRecentlyUsedKey = uri;
-          leastRecentlyUsedEntry = entry;
-        }
-      });
-
-      if (leastRecentlyUsedKey) {
-        delete entries[leastRecentlyUsedKey];
-      }
-    }
-  };
-
-  return ImageUriCache;
-}();
-
-ImageUriCache._maximumEntries = 256;
-ImageUriCache._entries = {};
-
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/exports/Image/index.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/exports/Image/index.js ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _modules_applyNativeMethods__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../modules/applyNativeMethods */ "./node_modules/react-native-web/dist/modules/applyNativeMethods/index.js");
-/* harmony import */ var _createElement__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../createElement */ "./node_modules/react-native-web/dist/exports/createElement/index.js");
-/* harmony import */ var _StyleSheet_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../StyleSheet/css */ "./node_modules/react-native-web/dist/exports/StyleSheet/css.js");
-/* harmony import */ var _modules_AssetRegistry__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../modules/AssetRegistry */ "./node_modules/react-native-web/dist/modules/AssetRegistry/index.js");
-/* harmony import */ var _StyleSheet_resolveShadowValue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../StyleSheet/resolveShadowValue */ "./node_modules/react-native-web/dist/exports/StyleSheet/resolveShadowValue.js");
-/* harmony import */ var _modules_ImageLoader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../modules/ImageLoader */ "./node_modules/react-native-web/dist/modules/ImageLoader/index.js");
-/* harmony import */ var _ImageResizeMode__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ImageResizeMode */ "./node_modules/react-native-web/dist/exports/Image/ImageResizeMode.js");
-/* harmony import */ var _ImageSourcePropType__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ImageSourcePropType */ "./node_modules/react-native-web/dist/exports/Image/ImageSourcePropType.js");
-/* harmony import */ var _ImageStylePropTypes__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ImageStylePropTypes */ "./node_modules/react-native-web/dist/exports/Image/ImageStylePropTypes.js");
-/* harmony import */ var _ImageUriCache__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ImageUriCache */ "./node_modules/react-native-web/dist/exports/Image/ImageUriCache.js");
-/* harmony import */ var _StyleSheet__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../StyleSheet */ "./node_modules/react-native-web/dist/exports/StyleSheet/index.js");
-/* harmony import */ var _modules_StyleSheetPropType__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../modules/StyleSheetPropType */ "./node_modules/react-native-web/dist/modules/StyleSheetPropType/index.js");
-/* harmony import */ var _View__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../View */ "./node_modules/react-native-web/dist/exports/View/index.js");
-/* harmony import */ var _ViewPropTypes__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../ViewPropTypes */ "./node_modules/react-native-web/dist/exports/ViewPropTypes/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_15__);
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-/**
- * Copyright (c) Nicolas Gallagher.
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var emptyObject = {};
-var STATUS_ERRORED = 'ERRORED';
-var STATUS_LOADED = 'LOADED';
-var STATUS_LOADING = 'LOADING';
-var STATUS_PENDING = 'PENDING';
-var STATUS_IDLE = 'IDLE';
-
-var getImageState = function getImageState(uri, shouldDisplaySource) {
-  return shouldDisplaySource ? STATUS_LOADED : uri ? STATUS_PENDING : STATUS_IDLE;
-};
-
-var resolveAssetDimensions = function resolveAssetDimensions(source) {
-  if (typeof source === 'number') {
-    var _getAssetByID = Object(_modules_AssetRegistry__WEBPACK_IMPORTED_MODULE_3__["getAssetByID"])(source),
-        height = _getAssetByID.height,
-        width = _getAssetByID.width;
-
-    return {
-      height: height,
-      width: width
-    };
-  } else if (typeof source === 'object') {
-    var _height = source.height,
-        _width = source.width;
-    return {
-      height: _height,
-      width: _width
-    };
-  }
-};
-
-var svgDataUriPattern = /^(data:image\/svg\+xml;utf8,)(.*)/;
-
-var resolveAssetUri = function resolveAssetUri(source) {
-  var uri = '';
-
-  if (typeof source === 'number') {
-    // get the URI from the packager
-    var asset = Object(_modules_AssetRegistry__WEBPACK_IMPORTED_MODULE_3__["getAssetByID"])(source);
-    var scale = asset.scales[0];
-    var scaleSuffix = scale !== 1 ? "@" + scale + "x" : '';
-    uri = asset ? asset.httpServerLocation + "/" + asset.name + scaleSuffix + "." + asset.type : '';
-  } else if (typeof source === 'string') {
-    uri = source;
-  } else if (source && typeof source.uri === 'string') {
-    uri = source.uri;
-  }
-
-  if (uri) {
-    var match = uri.match(svgDataUriPattern); // inline SVG markup may contain characters (e.g., #, ") that need to be escaped
-
-    if (match) {
-      var prefix = match[1],
-          svg = match[2];
-      var encodedSvg = encodeURIComponent(svg);
-      return "" + prefix + encodedSvg;
-    }
-  }
-
-  return uri;
-};
-
-var filterId = 0;
-
-var createTintColorSVG = function createTintColorSVG(tintColor, id) {
-  return tintColor && id != null ? react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("svg", {
-    style: {
-      position: 'absolute',
-      height: 0,
-      visibility: 'hidden',
-      width: 0
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("defs", null, react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("filter", {
-    id: "tint-" + id
-  }, react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("feFlood", {
-    floodColor: "" + tintColor
-  }), react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("feComposite", {
-    in2: "SourceAlpha",
-    operator: "atop"
-  })))) : null;
-};
-
-var Image =
-/*#__PURE__*/
-function (_Component) {
-  _inheritsLoose(Image, _Component);
-
-  Image.getSize = function getSize(uri, success, failure) {
-    _modules_ImageLoader__WEBPACK_IMPORTED_MODULE_5__["default"].getSize(uri, success, failure);
-  };
-
-  Image.prefetch = function prefetch(uri) {
-    return _modules_ImageLoader__WEBPACK_IMPORTED_MODULE_5__["default"].prefetch(uri);
-  };
-
-  function Image(props, context) {
-    var _this;
-
-    _this = _Component.call(this, props, context) || this; // If an image has been loaded before, render it immediately
-
-    _this._filterId = 0;
-    _this._imageRef = null;
-    _this._imageRequestId = null;
-    _this._imageState = null;
-    _this._isMounted = false;
-
-    _this._createLayoutHandler = function (resizeMode) {
-      var onLayout = _this.props.onLayout;
-
-      if (resizeMode === 'center' || resizeMode === 'repeat' || onLayout) {
-        return function (e) {
-          var layout = e.nativeEvent.layout;
-          onLayout && onLayout(e);
-
-          _this.setState(function () {
-            return {
-              layout: layout
-            };
-          });
-        };
-      }
-    };
-
-    _this._getBackgroundSize = function (resizeMode) {
-      if (_this._imageRef && (resizeMode === 'center' || resizeMode === 'repeat')) {
-        var _this$_imageRef = _this._imageRef,
-            naturalHeight = _this$_imageRef.naturalHeight,
-            naturalWidth = _this$_imageRef.naturalWidth;
-        var _this$state$layout = _this.state.layout,
-            height = _this$state$layout.height,
-            width = _this$state$layout.width;
-
-        if (naturalHeight && naturalWidth && height && width) {
-          var scaleFactor = Math.min(1, width / naturalWidth, height / naturalHeight);
-          var x = Math.ceil(scaleFactor * naturalWidth);
-          var y = Math.ceil(scaleFactor * naturalHeight);
-          return {
-            backgroundSize: x + "px " + y + "px"
-          };
-        }
-      }
-    };
-
-    _this._onError = function () {
-      var _this$props = _this.props,
-          onError = _this$props.onError,
-          source = _this$props.source;
-
-      _this._updateImageState(STATUS_ERRORED);
-
-      if (onError) {
-        onError({
-          nativeEvent: {
-            error: "Failed to load resource " + resolveAssetUri(source) + " (404)"
-          }
-        });
-      }
-
-      _this._onLoadEnd();
-    };
-
-    _this._onLoad = function (e) {
-      var _this$props2 = _this.props,
-          onLoad = _this$props2.onLoad,
-          source = _this$props2.source;
-      var event = {
-        nativeEvent: e
-      };
-      _ImageUriCache__WEBPACK_IMPORTED_MODULE_9__["default"].add(resolveAssetUri(source));
-
-      _this._updateImageState(STATUS_LOADED);
-
-      if (onLoad) {
-        onLoad(event);
-      }
-
-      _this._onLoadEnd();
-    };
-
-    _this._setImageRef = function (ref) {
-      _this._imageRef = ref;
-    };
-
-    var uri = resolveAssetUri(props.source);
-    var shouldDisplaySource = _ImageUriCache__WEBPACK_IMPORTED_MODULE_9__["default"].has(uri);
-    _this.state = {
-      layout: {},
-      shouldDisplaySource: shouldDisplaySource
-    };
-    _this._imageState = getImageState(uri, shouldDisplaySource);
-    _this._filterId = filterId;
-    filterId++;
-    return _this;
-  }
-
-  var _proto = Image.prototype;
-
-  _proto.componentDidMount = function componentDidMount() {
-    this._isMounted = true;
-
-    if (this._imageState === STATUS_PENDING) {
-      this._createImageLoader();
-    } else if (this._imageState === STATUS_LOADED) {
-      this._onLoad({
-        target: this._imageRef
-      });
-    }
-  };
-
-  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
-    var prevUri = resolveAssetUri(prevProps.source);
-    var uri = resolveAssetUri(this.props.source);
-
-    if (prevUri !== uri) {
-      _ImageUriCache__WEBPACK_IMPORTED_MODULE_9__["default"].remove(prevUri);
-      var isPreviouslyLoaded = _ImageUriCache__WEBPACK_IMPORTED_MODULE_9__["default"].has(uri);
-      isPreviouslyLoaded && _ImageUriCache__WEBPACK_IMPORTED_MODULE_9__["default"].add(uri);
-
-      this._updateImageState(getImageState(uri, isPreviouslyLoaded));
-    }
-
-    if (this._imageState === STATUS_PENDING) {
-      this._createImageLoader();
-    }
-  };
-
-  _proto.componentWillUnmount = function componentWillUnmount() {
-    var uri = resolveAssetUri(this.props.source);
-    _ImageUriCache__WEBPACK_IMPORTED_MODULE_9__["default"].remove(uri);
-
-    this._destroyImageLoader();
-
-    this._isMounted = false;
-  };
-
-  _proto.render = function render() {
-    var shouldDisplaySource = this.state.shouldDisplaySource;
-
-    var _this$props3 = this.props,
-        accessibilityLabel = _this$props3.accessibilityLabel,
-        accessible = _this$props3.accessible,
-        blurRadius = _this$props3.blurRadius,
-        defaultSource = _this$props3.defaultSource,
-        draggable = _this$props3.draggable,
-        source = _this$props3.source,
-        testID = _this$props3.testID,
-        capInsets = _this$props3.capInsets,
-        onError = _this$props3.onError,
-        onLayout = _this$props3.onLayout,
-        onLoad = _this$props3.onLoad,
-        onLoadEnd = _this$props3.onLoadEnd,
-        onLoadStart = _this$props3.onLoadStart,
-        resizeMethod = _this$props3.resizeMethod,
-        resizeMode = _this$props3.resizeMode,
-        other = _objectWithoutPropertiesLoose(_this$props3, ["accessibilityLabel", "accessible", "blurRadius", "defaultSource", "draggable", "source", "testID", "capInsets", "onError", "onLayout", "onLoad", "onLoadEnd", "onLoadStart", "resizeMethod", "resizeMode"]);
-
-    if (true) {
-      if (this.props.src) {
-        console.warn('The <Image> component requires a `source` property rather than `src`.');
-      }
-
-      if (this.props.children) {
-        throw new Error('The <Image> component cannot contain children. If you want to render content on top of the image, consider using the <ImageBackground> component or absolute positioning.');
-      }
-    }
-
-    var selectedSource = shouldDisplaySource ? source : defaultSource;
-    var displayImageUri = resolveAssetUri(selectedSource);
-    var imageSizeStyle = resolveAssetDimensions(selectedSource);
-    var backgroundImage = displayImageUri ? "url(\"" + displayImageUri + "\")" : null;
-
-    var flatStyle = _objectSpread({}, _StyleSheet__WEBPACK_IMPORTED_MODULE_10__["default"].flatten(this.props.style));
-
-    var finalResizeMode = resizeMode || flatStyle.resizeMode || _ImageResizeMode__WEBPACK_IMPORTED_MODULE_6__["default"].cover; // CSS filters
-
-    var filters = [];
-    var tintColor = flatStyle.tintColor;
-
-    if (flatStyle.filter) {
-      filters.push(flatStyle.filter);
-    }
-
-    if (blurRadius) {
-      filters.push("blur(" + blurRadius + "px)");
-    }
-
-    if (flatStyle.shadowOffset) {
-      var shadowString = Object(_StyleSheet_resolveShadowValue__WEBPACK_IMPORTED_MODULE_4__["default"])(flatStyle);
-
-      if (shadowString) {
-        filters.push("drop-shadow(" + shadowString + ")");
-      }
-    }
-
-    if (flatStyle.tintColor) {
-      filters.push("url(#tint-" + this._filterId + ")");
-    } // these styles were converted to filters
-
-
-    delete flatStyle.shadowColor;
-    delete flatStyle.shadowOpacity;
-    delete flatStyle.shadowOffset;
-    delete flatStyle.shadowRadius;
-    delete flatStyle.tintColor; // these styles are not supported on View
-
-    delete flatStyle.overlayColor;
-    delete flatStyle.resizeMode; // Accessibility image allows users to trigger the browser's image context menu
-
-    var hiddenImage = displayImageUri ? Object(_createElement__WEBPACK_IMPORTED_MODULE_1__["default"])('img', {
-      alt: accessibilityLabel || '',
-      classList: [classes.accessibilityImage],
-      draggable: draggable || false,
-      ref: this._setImageRef,
-      src: displayImageUri
-    }) : null;
-    return react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement(_View__WEBPACK_IMPORTED_MODULE_12__["default"], _extends({}, other, {
-      accessibilityLabel: accessibilityLabel,
-      accessible: accessible,
-      onLayout: this._createLayoutHandler(finalResizeMode),
-      style: [styles.root, this.context.isInAParentText && styles.inline, imageSizeStyle, flatStyle],
-      testID: testID
-    }), react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement(_View__WEBPACK_IMPORTED_MODULE_12__["default"], {
-      style: [styles.image, resizeModeStyles[finalResizeMode], this._getBackgroundSize(finalResizeMode), backgroundImage && {
-        backgroundImage: backgroundImage
-      }, filters.length > 0 && {
-        filter: filters.join(' ')
-      }]
-    }), hiddenImage, createTintColorSVG(tintColor, this._filterId));
-  };
-
-  _proto._createImageLoader = function _createImageLoader() {
-    var source = this.props.source;
-
-    this._destroyImageLoader();
-
-    var uri = resolveAssetUri(source);
-    this._imageRequestId = _modules_ImageLoader__WEBPACK_IMPORTED_MODULE_5__["default"].load(uri, this._onLoad, this._onError);
-
-    this._onLoadStart();
-  };
-
-  _proto._destroyImageLoader = function _destroyImageLoader() {
-    if (this._imageRequestId) {
-      _modules_ImageLoader__WEBPACK_IMPORTED_MODULE_5__["default"].abort(this._imageRequestId);
-      this._imageRequestId = null;
-    }
-  };
-
-  _proto._onLoadEnd = function _onLoadEnd() {
-    var onLoadEnd = this.props.onLoadEnd;
-
-    if (onLoadEnd) {
-      onLoadEnd();
-    }
-  };
-
-  _proto._onLoadStart = function _onLoadStart() {
-    var onLoadStart = this.props.onLoadStart;
-
-    this._updateImageState(STATUS_LOADING);
-
-    if (onLoadStart) {
-      onLoadStart();
-    }
-  };
-
-  _proto._updateImageState = function _updateImageState(status) {
-    this._imageState = status;
-    var shouldDisplaySource = this._imageState === STATUS_LOADED || this._imageState === STATUS_LOADING; // only triggers a re-render when the image is loading (to support PJEG), loaded, or failed
-
-    if (shouldDisplaySource !== this.state.shouldDisplaySource) {
-      if (this._isMounted) {
-        this.setState(function () {
-          return {
-            shouldDisplaySource: shouldDisplaySource
-          };
-        });
-      }
-    }
-  };
-
-  return Image;
-}(react__WEBPACK_IMPORTED_MODULE_15__["Component"]);
-
-Image.displayName = 'Image';
-Image.contextTypes = {
-  isInAParentText: prop_types__WEBPACK_IMPORTED_MODULE_14__["bool"]
-};
-Image.defaultProps = {
-  style: emptyObject
-};
-Image.propTypes =  true ? _objectSpread({}, _ViewPropTypes__WEBPACK_IMPORTED_MODULE_13__["default"], {
-  blurRadius: prop_types__WEBPACK_IMPORTED_MODULE_14__["number"],
-  defaultSource: _ImageSourcePropType__WEBPACK_IMPORTED_MODULE_7__["default"],
-  draggable: prop_types__WEBPACK_IMPORTED_MODULE_14__["bool"],
-  onError: prop_types__WEBPACK_IMPORTED_MODULE_14__["func"],
-  onLayout: prop_types__WEBPACK_IMPORTED_MODULE_14__["func"],
-  onLoad: prop_types__WEBPACK_IMPORTED_MODULE_14__["func"],
-  onLoadEnd: prop_types__WEBPACK_IMPORTED_MODULE_14__["func"],
-  onLoadStart: prop_types__WEBPACK_IMPORTED_MODULE_14__["func"],
-  resizeMode: Object(prop_types__WEBPACK_IMPORTED_MODULE_14__["oneOf"])(Object.keys(_ImageResizeMode__WEBPACK_IMPORTED_MODULE_6__["default"])),
-  source: _ImageSourcePropType__WEBPACK_IMPORTED_MODULE_7__["default"],
-  style: Object(_modules_StyleSheetPropType__WEBPACK_IMPORTED_MODULE_11__["default"])(_ImageStylePropTypes__WEBPACK_IMPORTED_MODULE_8__["default"]),
-  // compatibility with React Native
-
-  /* eslint-disable react/sort-prop-types */
-  capInsets: Object(prop_types__WEBPACK_IMPORTED_MODULE_14__["shape"])({
-    top: prop_types__WEBPACK_IMPORTED_MODULE_14__["number"],
-    left: prop_types__WEBPACK_IMPORTED_MODULE_14__["number"],
-    bottom: prop_types__WEBPACK_IMPORTED_MODULE_14__["number"],
-    right: prop_types__WEBPACK_IMPORTED_MODULE_14__["number"]
-  }),
-  resizeMethod: Object(prop_types__WEBPACK_IMPORTED_MODULE_14__["oneOf"])(['auto', 'resize', 'scale'])
-  /* eslint-enable react/sort-prop-types */
-
-}) : undefined;
-var classes = _StyleSheet_css__WEBPACK_IMPORTED_MODULE_2__["default"].create({
-  accessibilityImage: _objectSpread({}, _StyleSheet__WEBPACK_IMPORTED_MODULE_10__["default"].absoluteFillObject, {
-    height: '100%',
-    opacity: 0,
-    width: '100%',
-    zIndex: -1
-  })
-});
-var styles = _StyleSheet__WEBPACK_IMPORTED_MODULE_10__["default"].create({
-  root: {
-    flexBasis: 'auto',
-    overflow: 'hidden',
-    zIndex: 0
-  },
-  inline: {
-    display: 'inline-flex'
-  },
-  image: _objectSpread({}, _StyleSheet__WEBPACK_IMPORTED_MODULE_10__["default"].absoluteFillObject, {
-    backgroundColor: 'transparent',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-    height: '100%',
-    width: '100%',
-    zIndex: -1
-  })
-});
-var resizeModeStyles = _StyleSheet__WEBPACK_IMPORTED_MODULE_10__["default"].create({
-  center: {
-    backgroundSize: 'auto'
-  },
-  contain: {
-    backgroundSize: 'contain'
-  },
-  cover: {
-    backgroundSize: 'cover'
-  },
-  none: {
-    backgroundPosition: '0 0',
-    backgroundSize: 'auto'
-  },
-  repeat: {
-    backgroundPosition: '0 0',
-    backgroundRepeat: 'repeat',
-    backgroundSize: 'auto'
-  },
-  stretch: {
-    backgroundSize: '100% 100%'
-  }
-});
-/* harmony default export */ __webpack_exports__["default"] = (Object(_modules_applyNativeMethods__WEBPACK_IMPORTED_MODULE_0__["default"])(Image));
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/exports/InteractionManager/index.js":
-/*!********************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/exports/InteractionManager/index.js ***!
-  \********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _modules_requestIdleCallback__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../modules/requestIdleCallback */ "./node_modules/react-native-web/dist/modules/requestIdleCallback/index.js");
-/**
- * Copyright (c) Nicolas Gallagher.
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-
-var InteractionManager = {
-  Events: {
-    interactionStart: 'interactionStart',
-    interactionComplete: 'interactionComplete'
-  },
-
-  /**
-   * Schedule a function to run after all interactions have completed.
-   */
-  runAfterInteractions: function runAfterInteractions(task) {
-    var handle;
-    var promise = new Promise(function (resolve) {
-      handle = Object(_modules_requestIdleCallback__WEBPACK_IMPORTED_MODULE_1__["default"])(function () {
-        if (task) {
-          resolve(task());
-        }
-      });
-    });
-    return {
-      then: promise.then.bind(promise),
-      done: promise.then.bind(promise),
-      cancel: function cancel() {
-        Object(_modules_requestIdleCallback__WEBPACK_IMPORTED_MODULE_1__["cancelIdleCallback"])(handle);
-      }
-    };
-  },
-
-  /**
-   * Notify manager that an interaction has started.
-   */
-  createInteractionHandle: function createInteractionHandle() {
-    return 1;
-  },
-
-  /**
-   * Notify manager that an interaction has completed.
-   */
-  clearInteractionHandle: function clearInteractionHandle(handle) {
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0___default()(!!handle, 'Must provide a handle to clear.');
-  },
-  addListener: function addListener() {}
-};
-/* harmony default export */ __webpack_exports__["default"] = (InteractionManager);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/exports/NativeModules/index.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/exports/NativeModules/index.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _UIManager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../UIManager */ "./node_modules/react-native-web/dist/exports/UIManager/index.js");
-/**
- * Copyright (c) Nicolas Gallagher.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
- // NativeModules shim
-
-var NativeModules = {
-  UIManager: _UIManager__WEBPACK_IMPORTED_MODULE_0__["default"]
-};
-/* harmony default export */ __webpack_exports__["default"] = (NativeModules);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/exports/PanResponder/index.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/exports/PanResponder/index.js ***!
-  \**************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vendor_react_native_PanResponder__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../vendor/react-native/PanResponder */ "./node_modules/react-native-web/dist/vendor/react-native/PanResponder/index.js");
-
-/* harmony default export */ __webpack_exports__["default"] = (_vendor_react_native_PanResponder__WEBPACK_IMPORTED_MODULE_0__["default"]);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/exports/Platform/index.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/exports/Platform/index.js ***!
-  \**********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/**
- * Copyright (c) Nicolas Gallagher.
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-var Platform = {
-  OS: 'web',
-  select: function select(obj) {
-    return 'web' in obj ? obj.web : obj.default;
-  }
-};
-/* harmony default export */ __webpack_exports__["default"] = (Platform);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/exports/ScrollView/ScrollViewBase.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/exports/ScrollView/ScrollViewBase.js ***!
-  \*********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ScrollViewBase; });
-/* harmony import */ var debounce__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! debounce */ "./node_modules/debounce/index.js");
-/* harmony import */ var debounce__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(debounce__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _StyleSheet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../StyleSheet */ "./node_modules/react-native-web/dist/exports/StyleSheet/index.js");
-/* harmony import */ var _View__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../View */ "./node_modules/react-native-web/dist/exports/View/index.js");
-/* harmony import */ var _ViewPropTypes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../ViewPropTypes */ "./node_modules/react-native-web/dist/exports/ViewPropTypes/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-/**
- * Copyright (c) Nicolas Gallagher.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-
-
-
-
-
-
-var normalizeScrollEvent = function normalizeScrollEvent(e) {
-  return {
-    nativeEvent: {
-      contentOffset: {
-        get x() {
-          return e.target.scrollLeft;
-        },
-
-        get y() {
-          return e.target.scrollTop;
-        }
-
-      },
-      contentSize: {
-        get height() {
-          return e.target.scrollHeight;
-        },
-
-        get width() {
-          return e.target.scrollWidth;
-        }
-
-      },
-      layoutMeasurement: {
-        get height() {
-          return e.target.offsetHeight;
-        },
-
-        get width() {
-          return e.target.offsetWidth;
-        }
-
-      }
-    },
-    timeStamp: Date.now()
-  };
-};
-/**
- * Encapsulates the Web-specific scroll throttling and disabling logic
- */
-
-
-var ScrollViewBase =
-/*#__PURE__*/
-function (_Component) {
-  _inheritsLoose(ScrollViewBase, _Component);
-
-  function ScrollViewBase() {
-    var _this;
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _Component.call.apply(_Component, [this].concat(args)) || this;
-    _this._debouncedOnScrollEnd = debounce__WEBPACK_IMPORTED_MODULE_0___default()(_this._handleScrollEnd, 100);
-    _this._state = {
-      isScrolling: false,
-      scrollLastTick: 0
-    };
-
-    _this._createPreventableScrollHandler = function (handler) {
-      return function (e) {
-        if (_this.props.scrollEnabled) {
-          if (handler) {
-            handler(e);
-          }
-        } else {
-          // To disable scrolling in all browsers except Chrome
-          e.preventDefault();
-        }
-      };
-    };
-
-    _this._handleScroll = function (e) {
-      e.persist();
-      e.stopPropagation();
-      var scrollEventThrottle = _this.props.scrollEventThrottle; // A scroll happened, so the scroll bumps the debounce.
-
-      _this._debouncedOnScrollEnd(e);
-
-      if (_this._state.isScrolling) {
-        // Scroll last tick may have changed, check if we need to notify
-        if (_this._shouldEmitScrollEvent(_this._state.scrollLastTick, scrollEventThrottle)) {
-          _this._handleScrollTick(e);
-        }
-      } else {
-        // Weren't scrolling, so we must have just started
-        _this._handleScrollStart(e);
-      }
-    };
-
-    _this._setViewRef = function (element) {
-      _this._viewRef = element;
-    };
-
-    return _this;
-  }
-
-  var _proto = ScrollViewBase.prototype;
-
-  _proto.setNativeProps = function setNativeProps(props) {
-    if (this._viewRef) {
-      this._viewRef.setNativeProps(props);
-    }
-  };
-
-  _proto.render = function render() {
-    var _this$props = this.props,
-        scrollEnabled = _this$props.scrollEnabled,
-        style = _this$props.style,
-        alwaysBounceHorizontal = _this$props.alwaysBounceHorizontal,
-        alwaysBounceVertical = _this$props.alwaysBounceVertical,
-        automaticallyAdjustContentInsets = _this$props.automaticallyAdjustContentInsets,
-        bounces = _this$props.bounces,
-        bouncesZoom = _this$props.bouncesZoom,
-        canCancelContentTouches = _this$props.canCancelContentTouches,
-        centerContent = _this$props.centerContent,
-        contentInset = _this$props.contentInset,
-        contentInsetAdjustmentBehavior = _this$props.contentInsetAdjustmentBehavior,
-        contentOffset = _this$props.contentOffset,
-        decelerationRate = _this$props.decelerationRate,
-        directionalLockEnabled = _this$props.directionalLockEnabled,
-        endFillColor = _this$props.endFillColor,
-        indicatorStyle = _this$props.indicatorStyle,
-        keyboardShouldPersistTaps = _this$props.keyboardShouldPersistTaps,
-        maximumZoomScale = _this$props.maximumZoomScale,
-        minimumZoomScale = _this$props.minimumZoomScale,
-        onMomentumScrollBegin = _this$props.onMomentumScrollBegin,
-        onMomentumScrollEnd = _this$props.onMomentumScrollEnd,
-        onScrollBeginDrag = _this$props.onScrollBeginDrag,
-        onScrollEndDrag = _this$props.onScrollEndDrag,
-        overScrollMode = _this$props.overScrollMode,
-        pinchGestureEnabled = _this$props.pinchGestureEnabled,
-        removeClippedSubviews = _this$props.removeClippedSubviews,
-        scrollEventThrottle = _this$props.scrollEventThrottle,
-        scrollIndicatorInsets = _this$props.scrollIndicatorInsets,
-        scrollPerfTag = _this$props.scrollPerfTag,
-        scrollsToTop = _this$props.scrollsToTop,
-        showsHorizontalScrollIndicator = _this$props.showsHorizontalScrollIndicator,
-        showsVerticalScrollIndicator = _this$props.showsVerticalScrollIndicator,
-        snapToInterval = _this$props.snapToInterval,
-        snapToAlignment = _this$props.snapToAlignment,
-        zoomScale = _this$props.zoomScale,
-        other = _objectWithoutPropertiesLoose(_this$props, ["scrollEnabled", "style", "alwaysBounceHorizontal", "alwaysBounceVertical", "automaticallyAdjustContentInsets", "bounces", "bouncesZoom", "canCancelContentTouches", "centerContent", "contentInset", "contentInsetAdjustmentBehavior", "contentOffset", "decelerationRate", "directionalLockEnabled", "endFillColor", "indicatorStyle", "keyboardShouldPersistTaps", "maximumZoomScale", "minimumZoomScale", "onMomentumScrollBegin", "onMomentumScrollEnd", "onScrollBeginDrag", "onScrollEndDrag", "overScrollMode", "pinchGestureEnabled", "removeClippedSubviews", "scrollEventThrottle", "scrollIndicatorInsets", "scrollPerfTag", "scrollsToTop", "showsHorizontalScrollIndicator", "showsVerticalScrollIndicator", "snapToInterval", "snapToAlignment", "zoomScale"]);
-
-    return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_View__WEBPACK_IMPORTED_MODULE_2__["default"], _extends({}, other, {
-      onScroll: this._handleScroll,
-      onTouchMove: this._createPreventableScrollHandler(this.props.onTouchMove),
-      onWheel: this._createPreventableScrollHandler(this.props.onWheel),
-      ref: this._setViewRef,
-      style: _StyleSheet__WEBPACK_IMPORTED_MODULE_1__["default"].compose(style, !scrollEnabled && styles.scrollDisabled)
-    }));
-  };
-
-  _proto._handleScrollStart = function _handleScrollStart(e) {
-    this._state.isScrolling = true;
-    this._state.scrollLastTick = Date.now();
-  };
-
-  _proto._handleScrollTick = function _handleScrollTick(e) {
-    var onScroll = this.props.onScroll;
-    this._state.scrollLastTick = Date.now();
-
-    if (onScroll) {
-      onScroll(normalizeScrollEvent(e));
-    }
-  };
-
-  _proto._handleScrollEnd = function _handleScrollEnd(e) {
-    var onScroll = this.props.onScroll;
-    this._state.isScrolling = false;
-
-    if (onScroll) {
-      onScroll(normalizeScrollEvent(e));
-    }
-  };
-
-  _proto._shouldEmitScrollEvent = function _shouldEmitScrollEvent(lastTick, eventThrottle) {
-    var timeSinceLastTick = Date.now() - lastTick;
-    return eventThrottle > 0 && timeSinceLastTick >= eventThrottle;
-  };
-
-  return ScrollViewBase;
-}(react__WEBPACK_IMPORTED_MODULE_4__["Component"]); // Chrome doesn't support e.preventDefault in this case; touch-action must be
-// used to disable scrolling.
-// https://developers.google.com/web/updates/2017/01/scrolling-intervention
-
-
-ScrollViewBase.defaultProps = {
-  scrollEnabled: true,
-  scrollEventThrottle: 0
-};
-
-ScrollViewBase.propTypes =  true ? _objectSpread({}, _ViewPropTypes__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  onMomentumScrollBegin: prop_types__WEBPACK_IMPORTED_MODULE_5__["func"],
-  onMomentumScrollEnd: prop_types__WEBPACK_IMPORTED_MODULE_5__["func"],
-  onScroll: prop_types__WEBPACK_IMPORTED_MODULE_5__["func"],
-  onScrollBeginDrag: prop_types__WEBPACK_IMPORTED_MODULE_5__["func"],
-  onScrollEndDrag: prop_types__WEBPACK_IMPORTED_MODULE_5__["func"],
-  onTouchMove: prop_types__WEBPACK_IMPORTED_MODULE_5__["func"],
-  onWheel: prop_types__WEBPACK_IMPORTED_MODULE_5__["func"],
-  removeClippedSubviews: prop_types__WEBPACK_IMPORTED_MODULE_5__["bool"],
-  scrollEnabled: prop_types__WEBPACK_IMPORTED_MODULE_5__["bool"],
-  scrollEventThrottle: prop_types__WEBPACK_IMPORTED_MODULE_5__["number"],
-  showsHorizontalScrollIndicator: prop_types__WEBPACK_IMPORTED_MODULE_5__["bool"],
-  showsVerticalScrollIndicator: prop_types__WEBPACK_IMPORTED_MODULE_5__["bool"]
-}) : undefined;
-var styles = _StyleSheet__WEBPACK_IMPORTED_MODULE_1__["default"].create({
-  scrollDisabled: {
-    touchAction: 'none'
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/exports/ScrollView/index.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/exports/ScrollView/index.js ***!
-  \************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var create_react_class__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! create-react-class */ "./node_modules/create-react-class/index.js");
-/* harmony import */ var create_react_class__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(create_react_class__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _modules_dismissKeyboard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../modules/dismissKeyboard */ "./node_modules/react-native-web/dist/modules/dismissKeyboard/index.js");
-/* harmony import */ var _findNodeHandle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../findNodeHandle */ "./node_modules/react-native-web/dist/exports/findNodeHandle/index.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _modules_ScrollResponder__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../modules/ScrollResponder */ "./node_modules/react-native-web/dist/modules/ScrollResponder/index.js");
-/* harmony import */ var _ScrollViewBase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ScrollViewBase */ "./node_modules/react-native-web/dist/exports/ScrollView/ScrollViewBase.js");
-/* harmony import */ var _StyleSheet__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../StyleSheet */ "./node_modules/react-native-web/dist/exports/StyleSheet/index.js");
-/* harmony import */ var _View__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../View */ "./node_modules/react-native-web/dist/exports/View/index.js");
-/* harmony import */ var _ViewPropTypes__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../ViewPropTypes */ "./node_modules/react-native-web/dist/exports/ViewPropTypes/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_10__);
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-/**
- * Copyright (c) Nicolas Gallagher.
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-
-
-
-
-
-
-
-
-
-
-var emptyObject = {};
-/* eslint-disable react/prefer-es6-class, react/prop-types */
-
-var ScrollView = create_react_class__WEBPACK_IMPORTED_MODULE_0___default()({
-  displayName: "ScrollView",
-  propTypes: _objectSpread({}, _ViewPropTypes__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    contentContainerStyle: _ViewPropTypes__WEBPACK_IMPORTED_MODULE_8__["default"].style,
-    horizontal: prop_types__WEBPACK_IMPORTED_MODULE_10__["bool"],
-    keyboardDismissMode: Object(prop_types__WEBPACK_IMPORTED_MODULE_10__["oneOf"])(['none', 'interactive', 'on-drag']),
-    onContentSizeChange: prop_types__WEBPACK_IMPORTED_MODULE_10__["func"],
-    onScroll: prop_types__WEBPACK_IMPORTED_MODULE_10__["func"],
-    pagingEnabled: prop_types__WEBPACK_IMPORTED_MODULE_10__["bool"],
-    refreshControl: prop_types__WEBPACK_IMPORTED_MODULE_10__["element"],
-    scrollEnabled: prop_types__WEBPACK_IMPORTED_MODULE_10__["bool"],
-    scrollEventThrottle: prop_types__WEBPACK_IMPORTED_MODULE_10__["number"],
-    stickyHeaderIndices: Object(prop_types__WEBPACK_IMPORTED_MODULE_10__["arrayOf"])(prop_types__WEBPACK_IMPORTED_MODULE_10__["number"]),
-    style: _ViewPropTypes__WEBPACK_IMPORTED_MODULE_8__["default"].style
-  }),
-  mixins: [_modules_ScrollResponder__WEBPACK_IMPORTED_MODULE_4__["default"].Mixin],
-  getInitialState: function getInitialState() {
-    return this.scrollResponderMixinGetInitialState();
-  },
-  flashScrollIndicators: function flashScrollIndicators() {
-    this.scrollResponderFlashScrollIndicators();
-  },
-  setNativeProps: function setNativeProps(props) {
-    if (this._scrollViewRef) {
-      this._scrollViewRef.setNativeProps(props);
-    }
-  },
-
-  /**
-   * Returns a reference to the underlying scroll responder, which supports
-   * operations like `scrollTo`. All ScrollView-like components should
-   * implement this method so that they can be composed while providing access
-   * to the underlying scroll responder's methods.
-   */
-  getScrollResponder: function getScrollResponder() {
-    return this;
-  },
-  getScrollableNode: function getScrollableNode() {
-    return Object(_findNodeHandle__WEBPACK_IMPORTED_MODULE_2__["default"])(this._scrollViewRef);
-  },
-  getInnerViewNode: function getInnerViewNode() {
-    return Object(_findNodeHandle__WEBPACK_IMPORTED_MODULE_2__["default"])(this._innerViewRef);
-  },
-
-  /**
-   * Scrolls to a given x, y offset, either immediately or with a smooth animation.
-   * Syntax:
-   *
-   * scrollTo(options: {x: number = 0; y: number = 0; animated: boolean = true})
-   *
-   * Note: The weird argument signature is due to the fact that, for historical reasons,
-   * the function also accepts separate arguments as as alternative to the options object.
-   * This is deprecated due to ambiguity (y before x), and SHOULD NOT BE USED.
-   */
-  scrollTo: function scrollTo(y, x, animated) {
-    if (typeof y === 'number') {
-      console.warn('`scrollTo(y, x, animated)` is deprecated. Use `scrollTo({x: 5, y: 5, animated: true})` instead.');
-    } else {
-      var _ref = y || emptyObject;
-
-      x = _ref.x;
-      y = _ref.y;
-      animated = _ref.animated;
-    }
-
-    this.getScrollResponder().scrollResponderScrollTo({
-      x: x || 0,
-      y: y || 0,
-      animated: animated !== false
-    });
-  },
-
-  /**
-   * If this is a vertical ScrollView scrolls to the bottom.
-   * If this is a horizontal ScrollView scrolls to the right.
-   *
-   * Use `scrollToEnd({ animated: true })` for smooth animated scrolling,
-   * `scrollToEnd({ animated: false })` for immediate scrolling.
-   * If no options are passed, `animated` defaults to true.
-   */
-  scrollToEnd: function scrollToEnd(options) {
-    // Default to true
-    var animated = (options && options.animated) !== false;
-    var horizontal = this.props.horizontal;
-    var scrollResponder = this.getScrollResponder();
-    var scrollResponderNode = scrollResponder.scrollResponderGetScrollableNode();
-    var x = horizontal ? scrollResponderNode.scrollWidth : 0;
-    var y = horizontal ? 0 : scrollResponderNode.scrollHeight;
-    scrollResponder.scrollResponderScrollTo({
-      x: x,
-      y: y,
-      animated: animated
-    });
-  },
-
-  /**
-   * Deprecated, do not use.
-   */
-  scrollWithoutAnimationTo: function scrollWithoutAnimationTo(y, x) {
-    if (y === void 0) {
-      y = 0;
-    }
-
-    if (x === void 0) {
-      x = 0;
-    }
-
-    console.warn('`scrollWithoutAnimationTo` is deprecated. Use `scrollTo` instead');
-    this.scrollTo({
-      x: x,
-      y: y,
-      animated: false
-    });
-  },
-  render: function render() {
-    var _this$props = this.props,
-        contentContainerStyle = _this$props.contentContainerStyle,
-        horizontal = _this$props.horizontal,
-        onContentSizeChange = _this$props.onContentSizeChange,
-        refreshControl = _this$props.refreshControl,
-        stickyHeaderIndices = _this$props.stickyHeaderIndices,
-        pagingEnabled = _this$props.pagingEnabled,
-        keyboardDismissMode = _this$props.keyboardDismissMode,
-        onScroll = _this$props.onScroll,
-        other = _objectWithoutPropertiesLoose(_this$props, ["contentContainerStyle", "horizontal", "onContentSizeChange", "refreshControl", "stickyHeaderIndices", "pagingEnabled", "keyboardDismissMode", "onScroll"]);
-
-    if ( true && this.props.style) {
-      var style = _StyleSheet__WEBPACK_IMPORTED_MODULE_6__["default"].flatten(this.props.style);
-      var childLayoutProps = ['alignItems', 'justifyContent'].filter(function (prop) {
-        return style && style[prop] !== undefined;
-      });
-      fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(childLayoutProps.length === 0, "ScrollView child layout (" + JSON.stringify(childLayoutProps) + ") " + 'must be applied through the contentContainerStyle prop.');
-    }
-
-    var contentSizeChangeProps = {};
-
-    if (onContentSizeChange) {
-      contentSizeChangeProps = {
-        onLayout: this._handleContentOnLayout
-      };
-    }
-
-    var hasStickyHeaderIndices = !horizontal && Array.isArray(stickyHeaderIndices);
-    var children = hasStickyHeaderIndices || pagingEnabled ? react__WEBPACK_IMPORTED_MODULE_9___default.a.Children.map(this.props.children, function (child, i) {
-      var isSticky = hasStickyHeaderIndices && stickyHeaderIndices.indexOf(i) > -1;
-
-      if (child != null && (isSticky || pagingEnabled)) {
-        return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(_View__WEBPACK_IMPORTED_MODULE_7__["default"], {
-          style: _StyleSheet__WEBPACK_IMPORTED_MODULE_6__["default"].compose(isSticky && styles.stickyHeader, pagingEnabled && styles.pagingEnabledChild)
-        }, child);
-      } else {
-        return child;
-      }
-    }) : this.props.children;
-    var contentContainer = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(_View__WEBPACK_IMPORTED_MODULE_7__["default"], _extends({}, contentSizeChangeProps, {
-      children: children,
-      collapsable: false,
-      ref: this._setInnerViewRef,
-      style: _StyleSheet__WEBPACK_IMPORTED_MODULE_6__["default"].compose(horizontal && styles.contentContainerHorizontal, contentContainerStyle)
-    }));
-    var baseStyle = horizontal ? styles.baseHorizontal : styles.baseVertical;
-    var pagingEnabledStyle = horizontal ? styles.pagingEnabledHorizontal : styles.pagingEnabledVertical;
-
-    var props = _objectSpread({}, other, {
-      style: [baseStyle, pagingEnabled && pagingEnabledStyle, this.props.style],
-      onTouchStart: this.scrollResponderHandleTouchStart,
-      onTouchMove: this.scrollResponderHandleTouchMove,
-      onTouchEnd: this.scrollResponderHandleTouchEnd,
-      onScrollBeginDrag: this.scrollResponderHandleScrollBeginDrag,
-      onScrollEndDrag: this.scrollResponderHandleScrollEndDrag,
-      onMomentumScrollBegin: this.scrollResponderHandleMomentumScrollBegin,
-      onMomentumScrollEnd: this.scrollResponderHandleMomentumScrollEnd,
-      onStartShouldSetResponder: this.scrollResponderHandleStartShouldSetResponder,
-      onStartShouldSetResponderCapture: this.scrollResponderHandleStartShouldSetResponderCapture,
-      onScrollShouldSetResponder: this.scrollResponderHandleScrollShouldSetResponder,
-      onScroll: this._handleScroll,
-      onResponderGrant: this.scrollResponderHandleResponderGrant,
-      onResponderTerminationRequest: this.scrollResponderHandleTerminationRequest,
-      onResponderTerminate: this.scrollResponderHandleTerminate,
-      onResponderRelease: this.scrollResponderHandleResponderRelease,
-      onResponderReject: this.scrollResponderHandleResponderReject
-    });
-
-    var ScrollViewClass = _ScrollViewBase__WEBPACK_IMPORTED_MODULE_5__["default"];
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(ScrollViewClass !== undefined, 'ScrollViewClass must not be undefined');
-
-    if (refreshControl) {
-      return react__WEBPACK_IMPORTED_MODULE_9___default.a.cloneElement(refreshControl, {
-        style: props.style
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(ScrollViewClass, _extends({}, props, {
-        ref: this._setScrollViewRef,
-        style: baseStyle
-      }), contentContainer));
-    }
-
-    return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(ScrollViewClass, _extends({}, props, {
-      ref: this._setScrollViewRef
-    }), contentContainer);
-  },
-  _handleContentOnLayout: function _handleContentOnLayout(e) {
-    var _e$nativeEvent$layout = e.nativeEvent.layout,
-        width = _e$nativeEvent$layout.width,
-        height = _e$nativeEvent$layout.height;
-    this.props.onContentSizeChange(width, height);
-  },
-  _handleScroll: function _handleScroll(e) {
-    if (true) {
-      if (this.props.onScroll && !this.props.scrollEventThrottle) {
-        console.log('You specified `onScroll` on a <ScrollView> but not ' + '`scrollEventThrottle`. You will only receive one event. ' + 'Using `16` you get all the events but be aware that it may ' + "cause frame drops, use a bigger number if you don't need as " + 'much precision.');
-      }
-    }
-
-    if (this.props.keyboardDismissMode === 'on-drag') {
-      Object(_modules_dismissKeyboard__WEBPACK_IMPORTED_MODULE_1__["default"])();
-    }
-
-    this.scrollResponderHandleScroll(e);
-  },
-  _setInnerViewRef: function _setInnerViewRef(component) {
-    this._innerViewRef = component;
-  },
-  _setScrollViewRef: function _setScrollViewRef(component) {
-    this._scrollViewRef = component;
-  }
-});
-var commonStyle = {
-  flexGrow: 1,
-  flexShrink: 1,
-  // Enable hardware compositing in modern browsers.
-  // Creates a new layer with its own backing surface that can significantly
-  // improve scroll performance.
-  transform: [{
-    translateZ: 0
-  }],
-  // iOS native scrolling
-  WebkitOverflowScrolling: 'touch'
-};
-var styles = _StyleSheet__WEBPACK_IMPORTED_MODULE_6__["default"].create({
-  baseVertical: _objectSpread({}, commonStyle, {
-    flexDirection: 'column',
-    overflowX: 'hidden',
-    overflowY: 'auto'
-  }),
-  baseHorizontal: _objectSpread({}, commonStyle, {
-    flexDirection: 'row',
-    overflowX: 'auto',
-    overflowY: 'hidden'
-  }),
-  contentContainerHorizontal: {
-    flexDirection: 'row'
-  },
-  stickyHeader: {
-    position: 'sticky',
-    top: 0,
-    zIndex: 10
-  },
-  pagingEnabledHorizontal: {
-    scrollSnapType: 'x mandatory'
-  },
-  pagingEnabledVertical: {
-    scrollSnapType: 'y mandatory'
-  },
-  pagingEnabledChild: {
-    scrollSnapAlign: 'start'
-  }
-});
-/* harmony default export */ __webpack_exports__["default"] = (ScrollView);
 
 /***/ }),
 
@@ -31721,21 +30179,6 @@ var styles = _StyleSheet__WEBPACK_IMPORTED_MODULE_8__["default"].create({
 
 /***/ }),
 
-/***/ "./node_modules/react-native-web/dist/exports/ViewPropTypes/index.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/exports/ViewPropTypes/index.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _View_ViewPropTypes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../View/ViewPropTypes */ "./node_modules/react-native-web/dist/exports/View/ViewPropTypes.js");
-
-/* harmony default export */ __webpack_exports__["default"] = (_View_ViewPropTypes__WEBPACK_IMPORTED_MODULE_0__["default"]);
-
-/***/ }),
-
 /***/ "./node_modules/react-native-web/dist/exports/createElement/index.js":
 /*!***************************************************************************!*\
   !*** ./node_modules/react-native-web/dist/exports/createElement/index.js ***!
@@ -32242,37 +30685,6 @@ var AnimationPropTypes = {
 
 /***/ }),
 
-/***/ "./node_modules/react-native-web/dist/modules/AssetRegistry/index.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/modules/AssetRegistry/index.js ***!
-  \***************************************************************************/
-/*! exports provided: registerAsset, getAssetByID */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "registerAsset", function() { return registerAsset; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getAssetByID", function() { return getAssetByID; });
-/**
- * Copyright (c) Nicolas Gallagher.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-var assets = [];
-function registerAsset(asset) {
-  // `push` returns new array length, so the first asset will
-  // get id 1 (not 0) to make the value truthy
-  return assets.push(asset);
-}
-function getAssetByID(assetId) {
-  return assets[assetId - 1];
-}
-
-/***/ }),
-
 /***/ "./node_modules/react-native-web/dist/modules/BorderPropTypes/index.js":
 /*!*****************************************************************************!*\
   !*** ./node_modules/react-native-web/dist/modules/BorderPropTypes/index.js ***!
@@ -32323,102 +30735,6 @@ var BorderPropTypes = {
   borderTopStyle: BorderStylePropType
 };
 /* harmony default export */ __webpack_exports__["default"] = (BorderPropTypes);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/modules/ImageLoader/index.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/modules/ImageLoader/index.js ***!
-  \*************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/**
- * Copyright (c) Nicolas Gallagher.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-var id = 0;
-var requests = {};
-var ImageLoader = {
-  abort: function abort(requestId) {
-    var image = requests["" + requestId];
-
-    if (image) {
-      image.onerror = image.onload = image = null;
-      delete requests["" + requestId];
-    }
-  },
-  getSize: function getSize(uri, success, failure) {
-    var complete = false;
-    var interval = setInterval(callback, 16);
-    var requestId = ImageLoader.load(uri, callback, errorCallback);
-
-    function callback() {
-      var image = requests["" + requestId];
-
-      if (image) {
-        var naturalHeight = image.naturalHeight,
-            naturalWidth = image.naturalWidth;
-
-        if (naturalHeight && naturalWidth) {
-          success(naturalWidth, naturalHeight);
-          complete = true;
-        }
-      }
-
-      if (complete) {
-        ImageLoader.abort(requestId);
-        clearInterval(interval);
-      }
-    }
-
-    function errorCallback() {
-      if (typeof failure === 'function') {
-        failure();
-      }
-
-      ImageLoader.abort(requestId);
-      clearInterval(interval);
-    }
-  },
-  load: function load(uri, onLoad, onError) {
-    id += 1;
-    var image = new window.Image();
-    image.onerror = onError;
-
-    image.onload = function (e) {
-      // avoid blocking the main thread
-      var onDecode = function onDecode() {
-        return onLoad(e);
-      };
-
-      if (typeof image.decode === 'function') {
-        // Safari currently throws exceptions when decoding svgs.
-        // We want to catch that error and allow the load handler
-        // to be forwarded to the onLoad handler in this case
-        image.decode().then(onDecode, onDecode);
-      } else {
-        setTimeout(onDecode, 0);
-      }
-    };
-
-    image.src = uri;
-    requests["" + id] = image;
-    return id;
-  },
-  prefetch: function prefetch(uri) {
-    return new Promise(function (resolve, reject) {
-      ImageLoader.load(uri, resolve, reject);
-    });
-  }
-};
-/* harmony default export */ __webpack_exports__["default"] = (ImageLoader);
 
 /***/ }),
 
@@ -32827,546 +31143,6 @@ ResponderEventPlugin.extractEvents = function (topLevelType, targetInst, nativeE
 
 /***/ }),
 
-/***/ "./node_modules/react-native-web/dist/modules/ScrollResponder/index.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/modules/ScrollResponder/index.js ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _exports_Dimensions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../exports/Dimensions */ "./node_modules/react-native-web/dist/exports/Dimensions/index.js");
-/* harmony import */ var _exports_findNodeHandle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../exports/findNodeHandle */ "./node_modules/react-native-web/dist/exports/findNodeHandle/index.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _exports_Platform__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../exports/Platform */ "./node_modules/react-native-web/dist/exports/Platform/index.js");
-/* harmony import */ var _TextInputState__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../TextInputState */ "./node_modules/react-native-web/dist/modules/TextInputState/index.js");
-/* harmony import */ var _exports_UIManager__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../exports/UIManager */ "./node_modules/react-native-web/dist/exports/UIManager/index.js");
-/* harmony import */ var fbjs_lib_warning__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! fbjs/lib/warning */ "./node_modules/react-native-web/node_modules/fbjs/lib/warning.js");
-/* harmony import */ var fbjs_lib_warning__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_warning__WEBPACK_IMPORTED_MODULE_6__);
-/**
- * Copyright (c) Nicolas Gallagher.
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-
-
-
-
-
-
-/**
- * Mixin that can be integrated in order to handle scrolling that plays well
- * with `ResponderEventPlugin`. Integrate with your platform specific scroll
- * views, or even your custom built (every-frame animating) scroll views so that
- * all of these systems play well with the `ResponderEventPlugin`.
- *
- * iOS scroll event timing nuances:
- * ===============================
- *
- *
- * Scrolling without bouncing, if you touch down:
- * -------------------------------
- *
- * 1. `onMomentumScrollBegin` (when animation begins after letting up)
- *    ... physical touch starts ...
- * 2. `onTouchStartCapture`   (when you press down to stop the scroll)
- * 3. `onTouchStart`          (same, but bubble phase)
- * 4. `onResponderRelease`    (when lifting up - you could pause forever before * lifting)
- * 5. `onMomentumScrollEnd`
- *
- *
- * Scrolling with bouncing, if you touch down:
- * -------------------------------
- *
- * 1. `onMomentumScrollBegin` (when animation begins after letting up)
- *    ... bounce begins ...
- *    ... some time elapses ...
- *    ... physical touch during bounce ...
- * 2. `onMomentumScrollEnd`   (Makes no sense why this occurs first during bounce)
- * 3. `onTouchStartCapture`   (immediately after `onMomentumScrollEnd`)
- * 4. `onTouchStart`          (same, but bubble phase)
- * 5. `onTouchEnd`            (You could hold the touch start for a long time)
- * 6. `onMomentumScrollBegin` (When releasing the view starts bouncing back)
- *
- * So when we receive an `onTouchStart`, how can we tell if we are touching
- * *during* an animation (which then causes the animation to stop)? The only way
- * to tell is if the `touchStart` occurred immediately after the
- * `onMomentumScrollEnd`.
- *
- * This is abstracted out for you, so you can just call this.scrollResponderIsAnimating() if
- * necessary
- *
- * `ScrollResponder` also includes logic for blurring a currently focused input
- * if one is focused while scrolling. The `ScrollResponder` is a natural place
- * to put this logic since it can support not dismissing the keyboard while
- * scrolling, unless a recognized "tap"-like gesture has occurred.
- *
- * The public lifecycle API includes events for keyboard interaction, responder
- * interaction, and scrolling (among others). The keyboard callbacks
- * `onKeyboardWill/Did/*` are *global* events, but are invoked on scroll
- * responder's props so that you can guarantee that the scroll responder's
- * internal state has been updated accordingly (and deterministically) by
- * the time the props callbacks are invoke. Otherwise, you would always wonder
- * if the scroll responder is currently in a state where it recognizes new
- * keyboard positions etc. If coordinating scrolling with keyboard movement,
- * *always* use these hooks instead of listening to your own global keyboard
- * events.
- *
- * Public keyboard lifecycle API: (props callbacks)
- *
- * Standard Keyboard Appearance Sequence:
- *
- *   this.props.onKeyboardWillShow
- *   this.props.onKeyboardDidShow
- *
- * `onScrollResponderKeyboardDismissed` will be invoked if an appropriate
- * tap inside the scroll responder's scrollable region was responsible
- * for the dismissal of the keyboard. There are other reasons why the
- * keyboard could be dismissed.
- *
- *   this.props.onScrollResponderKeyboardDismissed
- *
- * Standard Keyboard Hide Sequence:
- *
- *   this.props.onKeyboardWillHide
- *   this.props.onKeyboardDidHide
- */
-
-var emptyObject = {};
-var IS_ANIMATING_TOUCH_START_THRESHOLD_MS = 16;
-var ScrollResponderMixin = {
-  // mixins: [Subscribable.Mixin],
-  scrollResponderMixinGetInitialState: function scrollResponderMixinGetInitialState() {
-    return {
-      isTouching: false,
-      lastMomentumScrollBeginTime: 0,
-      lastMomentumScrollEndTime: 0,
-      // Reset to false every time becomes responder. This is used to:
-      // - Determine if the scroll view has been scrolled and therefore should
-      // refuse to give up its responder lock.
-      // - Determine if releasing should dismiss the keyboard when we are in
-      // tap-to-dismiss mode (!this.props.keyboardShouldPersistTaps).
-      observedScrollSinceBecomingResponder: false,
-      becameResponderWhileAnimating: false
-    };
-  },
-
-  /**
-   * Invoke this from an `onScroll` event.
-   */
-  scrollResponderHandleScrollShouldSetResponder: function scrollResponderHandleScrollShouldSetResponder() {
-    return this.state.isTouching;
-  },
-
-  /**
-   * Merely touch starting is not sufficient for a scroll view to become the
-   * responder. Being the "responder" means that the very next touch move/end
-   * event will result in an action/movement.
-   *
-   * Invoke this from an `onStartShouldSetResponder` event.
-   *
-   * `onStartShouldSetResponder` is used when the next move/end will trigger
-   * some UI movement/action, but when you want to yield priority to views
-   * nested inside of the view.
-   *
-   * There may be some cases where scroll views actually should return `true`
-   * from `onStartShouldSetResponder`: Any time we are detecting a standard tap
-   * that gives priority to nested views.
-   *
-   * - If a single tap on the scroll view triggers an action such as
-   *   recentering a map style view yet wants to give priority to interaction
-   *   views inside (such as dropped pins or labels), then we would return true
-   *   from this method when there is a single touch.
-   *
-   * - Similar to the previous case, if a two finger "tap" should trigger a
-   *   zoom, we would check the `touches` count, and if `>= 2`, we would return
-   *   true.
-   *
-   */
-  scrollResponderHandleStartShouldSetResponder: function scrollResponderHandleStartShouldSetResponder() {
-    return false;
-  },
-
-  /**
-   * There are times when the scroll view wants to become the responder
-   * (meaning respond to the next immediate `touchStart/touchEnd`), in a way
-   * that *doesn't* give priority to nested views (hence the capture phase):
-   *
-   * - Currently animating.
-   * - Tapping anywhere that is not the focused input, while the keyboard is
-   *   up (which should dismiss the keyboard).
-   *
-   * Invoke this from an `onStartShouldSetResponderCapture` event.
-   */
-  scrollResponderHandleStartShouldSetResponderCapture: function scrollResponderHandleStartShouldSetResponderCapture(e) {
-    // First see if we want to eat taps while the keyboard is up
-    // var currentlyFocusedTextInput = TextInputState.currentlyFocusedField();
-    // if (!this.props.keyboardShouldPersistTaps &&
-    //   currentlyFocusedTextInput != null &&
-    //   e.target !== currentlyFocusedTextInput) {
-    //   return true;
-    // }
-    return this.scrollResponderIsAnimating();
-  },
-
-  /**
-   * Invoke this from an `onResponderReject` event.
-   *
-   * Some other element is not yielding its role as responder. Normally, we'd
-   * just disable the `UIScrollView`, but a touch has already began on it, the
-   * `UIScrollView` will not accept being disabled after that. The easiest
-   * solution for now is to accept the limitation of disallowing this
-   * altogether. To improve this, find a way to disable the `UIScrollView` after
-   * a touch has already started.
-   */
-  scrollResponderHandleResponderReject: function scrollResponderHandleResponderReject() {
-    fbjs_lib_warning__WEBPACK_IMPORTED_MODULE_6___default()(false, "ScrollView doesn't take rejection well - scrolls anyway");
-  },
-
-  /**
-   * We will allow the scroll view to give up its lock iff it acquired the lock
-   * during an animation. This is a very useful default that happens to satisfy
-   * many common user experiences.
-   *
-   * - Stop a scroll on the left edge, then turn that into an outer view's
-   *   backswipe.
-   * - Stop a scroll mid-bounce at the top, continue pulling to have the outer
-   *   view dismiss.
-   * - However, without catching the scroll view mid-bounce (while it is
-   *   motionless), if you drag far enough for the scroll view to become
-   *   responder (and therefore drag the scroll view a bit), any backswipe
-   *   navigation of a swipe gesture higher in the view hierarchy, should be
-   *   rejected.
-   */
-  scrollResponderHandleTerminationRequest: function scrollResponderHandleTerminationRequest() {
-    return !this.state.observedScrollSinceBecomingResponder;
-  },
-
-  /**
-   * Invoke this from an `onTouchEnd` event.
-   *
-   * @param {SyntheticEvent} e Event.
-   */
-  scrollResponderHandleTouchEnd: function scrollResponderHandleTouchEnd(e) {
-    var nativeEvent = e.nativeEvent;
-    this.state.isTouching = nativeEvent.touches.length !== 0;
-    this.props.onTouchEnd && this.props.onTouchEnd(e);
-  },
-
-  /**
-   * Invoke this from an `onResponderRelease` event.
-   */
-  scrollResponderHandleResponderRelease: function scrollResponderHandleResponderRelease(e) {
-    this.props.onResponderRelease && this.props.onResponderRelease(e); // By default scroll views will unfocus a textField
-    // if another touch occurs outside of it
-
-    var currentlyFocusedTextInput = _TextInputState__WEBPACK_IMPORTED_MODULE_4__["default"].currentlyFocusedField();
-
-    if (!this.props.keyboardShouldPersistTaps && currentlyFocusedTextInput != null && e.target !== currentlyFocusedTextInput && !this.state.observedScrollSinceBecomingResponder && !this.state.becameResponderWhileAnimating) {
-      this.props.onScrollResponderKeyboardDismissed && this.props.onScrollResponderKeyboardDismissed(e);
-      _TextInputState__WEBPACK_IMPORTED_MODULE_4__["default"].blurTextInput(currentlyFocusedTextInput);
-    }
-  },
-  scrollResponderHandleScroll: function scrollResponderHandleScroll(e) {
-    this.state.observedScrollSinceBecomingResponder = true;
-    this.props.onScroll && this.props.onScroll(e);
-  },
-
-  /**
-   * Invoke this from an `onResponderGrant` event.
-   */
-  scrollResponderHandleResponderGrant: function scrollResponderHandleResponderGrant(e) {
-    this.state.observedScrollSinceBecomingResponder = false;
-    this.props.onResponderGrant && this.props.onResponderGrant(e);
-    this.state.becameResponderWhileAnimating = this.scrollResponderIsAnimating();
-  },
-
-  /**
-   * Unfortunately, `onScrollBeginDrag` also fires when *stopping* the scroll
-   * animation, and there's not an easy way to distinguish a drag vs. stopping
-   * momentum.
-   *
-   * Invoke this from an `onScrollBeginDrag` event.
-   */
-  scrollResponderHandleScrollBeginDrag: function scrollResponderHandleScrollBeginDrag(e) {
-    this.props.onScrollBeginDrag && this.props.onScrollBeginDrag(e);
-  },
-
-  /**
-   * Invoke this from an `onScrollEndDrag` event.
-   */
-  scrollResponderHandleScrollEndDrag: function scrollResponderHandleScrollEndDrag(e) {
-    this.props.onScrollEndDrag && this.props.onScrollEndDrag(e);
-  },
-
-  /**
-   * Invoke this from an `onMomentumScrollBegin` event.
-   */
-  scrollResponderHandleMomentumScrollBegin: function scrollResponderHandleMomentumScrollBegin(e) {
-    this.state.lastMomentumScrollBeginTime = Date.now();
-    this.props.onMomentumScrollBegin && this.props.onMomentumScrollBegin(e);
-  },
-
-  /**
-   * Invoke this from an `onMomentumScrollEnd` event.
-   */
-  scrollResponderHandleMomentumScrollEnd: function scrollResponderHandleMomentumScrollEnd(e) {
-    this.state.lastMomentumScrollEndTime = Date.now();
-    this.props.onMomentumScrollEnd && this.props.onMomentumScrollEnd(e);
-  },
-
-  /**
-   * Invoke this from an `onTouchStart` event.
-   *
-   * Since we know that the `SimpleEventPlugin` occurs later in the plugin
-   * order, after `ResponderEventPlugin`, we can detect that we were *not*
-   * permitted to be the responder (presumably because a contained view became
-   * responder). The `onResponderReject` won't fire in that case - it only
-   * fires when a *current* responder rejects our request.
-   *
-   * @param {SyntheticEvent} e Touch Start event.
-   */
-  scrollResponderHandleTouchStart: function scrollResponderHandleTouchStart(e) {
-    this.state.isTouching = true;
-    this.props.onTouchStart && this.props.onTouchStart(e);
-  },
-
-  /**
-   * Invoke this from an `onTouchMove` event.
-   *
-   * Since we know that the `SimpleEventPlugin` occurs later in the plugin
-   * order, after `ResponderEventPlugin`, we can detect that we were *not*
-   * permitted to be the responder (presumably because a contained view became
-   * responder). The `onResponderReject` won't fire in that case - it only
-   * fires when a *current* responder rejects our request.
-   *
-   * @param {SyntheticEvent} e Touch Start event.
-   */
-  scrollResponderHandleTouchMove: function scrollResponderHandleTouchMove(e) {
-    this.props.onTouchMove && this.props.onTouchMove(e);
-  },
-
-  /**
-   * A helper function for this class that lets us quickly determine if the
-   * view is currently animating. This is particularly useful to know when
-   * a touch has just started or ended.
-   */
-  scrollResponderIsAnimating: function scrollResponderIsAnimating() {
-    var now = Date.now();
-    var timeSinceLastMomentumScrollEnd = now - this.state.lastMomentumScrollEndTime;
-    var isAnimating = timeSinceLastMomentumScrollEnd < IS_ANIMATING_TOUCH_START_THRESHOLD_MS || this.state.lastMomentumScrollEndTime < this.state.lastMomentumScrollBeginTime;
-    return isAnimating;
-  },
-
-  /**
-   * Returns the node that represents native view that can be scrolled.
-   * Components can pass what node to use by defining a `getScrollableNode`
-   * function otherwise `this` is used.
-   */
-  scrollResponderGetScrollableNode: function scrollResponderGetScrollableNode() {
-    return this.getScrollableNode ? this.getScrollableNode() : Object(_exports_findNodeHandle__WEBPACK_IMPORTED_MODULE_1__["default"])(this);
-  },
-
-  /**
-   * A helper function to scroll to a specific point in the scrollview.
-   * This is currently used to help focus on child textviews, but can also
-   * be used to quickly scroll to any element we want to focus. Syntax:
-   *
-   * scrollResponderScrollTo(options: {x: number = 0; y: number = 0; animated: boolean = true})
-   *
-   * Note: The weird argument signature is due to the fact that, for historical reasons,
-   * the function also accepts separate arguments as as alternative to the options object.
-   * This is deprecated due to ambiguity (y before x), and SHOULD NOT BE USED.
-   */
-  scrollResponderScrollTo: function scrollResponderScrollTo(x, y, animated) {
-    if (typeof x === 'number') {
-      console.warn('`scrollResponderScrollTo(x, y, animated)` is deprecated. Use `scrollResponderScrollTo({x: 5, y: 5, animated: true})` instead.');
-    } else {
-      var _ref = x || emptyObject;
-
-      x = _ref.x;
-      y = _ref.y;
-      animated = _ref.animated;
-    }
-
-    var node = this.scrollResponderGetScrollableNode();
-    var left = x || 0;
-    var top = y || 0;
-
-    if (typeof node.scroll === 'function') {
-      node.scroll({
-        top: top,
-        left: left,
-        behavior: !animated ? 'auto' : 'smooth'
-      });
-    } else {
-      node.scrollLeft = left;
-      node.scrollTop = top;
-    }
-  },
-
-  /**
-   * Deprecated, do not use.
-   */
-  scrollResponderScrollWithoutAnimationTo: function scrollResponderScrollWithoutAnimationTo(offsetX, offsetY) {
-    console.warn('`scrollResponderScrollWithoutAnimationTo` is deprecated. Use `scrollResponderScrollTo` instead');
-    this.scrollResponderScrollTo({
-      x: offsetX,
-      y: offsetY,
-      animated: false
-    });
-  },
-
-  /**
-   * A helper function to zoom to a specific rect in the scrollview. The argument has the shape
-   * {x: number; y: number; width: number; height: number; animated: boolean = true}
-   *
-   * @platform ios
-   */
-  scrollResponderZoomTo: function scrollResponderZoomTo(rect, animated // deprecated, put this inside the rect argument instead
-  ) {
-    if (_exports_Platform__WEBPACK_IMPORTED_MODULE_3__["default"].OS !== 'ios') {
-      fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_2___default()('zoomToRect is not implemented');
-    }
-  },
-
-  /**
-   * Displays the scroll indicators momentarily.
-   */
-  scrollResponderFlashScrollIndicators: function scrollResponderFlashScrollIndicators() {},
-
-  /**
-   * This method should be used as the callback to onFocus in a TextInputs'
-   * parent view. Note that any module using this mixin needs to return
-   * the parent view's ref in getScrollViewRef() in order to use this method.
-   * @param {any} nodeHandle The TextInput node handle
-   * @param {number} additionalOffset The scroll view's top "contentInset".
-   *        Default is 0.
-   * @param {bool} preventNegativeScrolling Whether to allow pulling the content
-   *        down to make it meet the keyboard's top. Default is false.
-   */
-  scrollResponderScrollNativeHandleToKeyboard: function scrollResponderScrollNativeHandleToKeyboard(nodeHandle, additionalOffset, preventNegativeScrollOffset) {
-    this.additionalScrollOffset = additionalOffset || 0;
-    this.preventNegativeScrollOffset = !!preventNegativeScrollOffset;
-    _exports_UIManager__WEBPACK_IMPORTED_MODULE_5__["default"].measureLayout(nodeHandle, Object(_exports_findNodeHandle__WEBPACK_IMPORTED_MODULE_1__["default"])(this.getInnerViewNode()), this.scrollResponderTextInputFocusError, this.scrollResponderInputMeasureAndScrollToKeyboard);
-  },
-
-  /**
-   * The calculations performed here assume the scroll view takes up the entire
-   * screen - even if has some content inset. We then measure the offsets of the
-   * keyboard, and compensate both for the scroll view's "contentInset".
-   *
-   * @param {number} left Position of input w.r.t. table view.
-   * @param {number} top Position of input w.r.t. table view.
-   * @param {number} width Width of the text input.
-   * @param {number} height Height of the text input.
-   */
-  scrollResponderInputMeasureAndScrollToKeyboard: function scrollResponderInputMeasureAndScrollToKeyboard(left, top, width, height) {
-    var keyboardScreenY = _exports_Dimensions__WEBPACK_IMPORTED_MODULE_0__["default"].get('window').height;
-
-    if (this.keyboardWillOpenTo) {
-      keyboardScreenY = this.keyboardWillOpenTo.endCoordinates.screenY;
-    }
-
-    var scrollOffsetY = top - keyboardScreenY + height + this.additionalScrollOffset; // By default, this can scroll with negative offset, pulling the content
-    // down so that the target component's bottom meets the keyboard's top.
-    // If requested otherwise, cap the offset at 0 minimum to avoid content
-    // shifting down.
-
-    if (this.preventNegativeScrollOffset) {
-      scrollOffsetY = Math.max(0, scrollOffsetY);
-    }
-
-    this.scrollResponderScrollTo({
-      x: 0,
-      y: scrollOffsetY,
-      animated: true
-    });
-    this.additionalOffset = 0;
-    this.preventNegativeScrollOffset = false;
-  },
-  scrollResponderTextInputFocusError: function scrollResponderTextInputFocusError(e) {
-    console.error('Error measuring text field: ', e);
-  },
-
-  /**
-   * `componentWillMount` is the closest thing to a  standard "constructor" for
-   * React components.
-   *
-   * The `keyboardWillShow` is called before input focus.
-   */
-  componentWillMount: function componentWillMount() {
-    this.keyboardWillOpenTo = null;
-    this.additionalScrollOffset = 0; // this.addListenerOn(RCTDeviceEventEmitter, 'keyboardWillShow', this.scrollResponderKeyboardWillShow);
-    // this.addListenerOn(RCTDeviceEventEmitter, 'keyboardWillHide', this.scrollResponderKeyboardWillHide);
-    // this.addListenerOn(RCTDeviceEventEmitter, 'keyboardDidShow', this.scrollResponderKeyboardDidShow);
-    // this.addListenerOn(RCTDeviceEventEmitter, 'keyboardDidHide', this.scrollResponderKeyboardDidHide);
-  },
-
-  /**
-   * Warning, this may be called several times for a single keyboard opening.
-   * It's best to store the information in this method and then take any action
-   * at a later point (either in `keyboardDidShow` or other).
-   *
-   * Here's the order that events occur in:
-   * - focus
-   * - willShow {startCoordinates, endCoordinates} several times
-   * - didShow several times
-   * - blur
-   * - willHide {startCoordinates, endCoordinates} several times
-   * - didHide several times
-   *
-   * The `ScrollResponder` providesModule callbacks for each of these events.
-   * Even though any user could have easily listened to keyboard events
-   * themselves, using these `props` callbacks ensures that ordering of events
-   * is consistent - and not dependent on the order that the keyboard events are
-   * subscribed to. This matters when telling the scroll view to scroll to where
-   * the keyboard is headed - the scroll responder better have been notified of
-   * the keyboard destination before being instructed to scroll to where the
-   * keyboard will be. Stick to the `ScrollResponder` callbacks, and everything
-   * will work.
-   *
-   * WARNING: These callbacks will fire even if a keyboard is displayed in a
-   * different navigation pane. Filter out the events to determine if they are
-   * relevant to you. (For example, only if you receive these callbacks after
-   * you had explicitly focused a node etc).
-   */
-  scrollResponderKeyboardWillShow: function scrollResponderKeyboardWillShow(e) {
-    this.keyboardWillOpenTo = e;
-    this.props.onKeyboardWillShow && this.props.onKeyboardWillShow(e);
-  },
-  scrollResponderKeyboardWillHide: function scrollResponderKeyboardWillHide(e) {
-    this.keyboardWillOpenTo = null;
-    this.props.onKeyboardWillHide && this.props.onKeyboardWillHide(e);
-  },
-  scrollResponderKeyboardDidShow: function scrollResponderKeyboardDidShow(e) {
-    // TODO(7693961): The event for DidShow is not available on iOS yet.
-    // Use the one from WillShow and do not assign.
-    if (e) {
-      this.keyboardWillOpenTo = e;
-    }
-
-    this.props.onKeyboardDidShow && this.props.onKeyboardDidShow(e);
-  },
-  scrollResponderKeyboardDidHide: function scrollResponderKeyboardDidHide(e) {
-    this.keyboardWillOpenTo = null;
-    this.props.onKeyboardDidHide && this.props.onKeyboardDidHide(e);
-  }
-};
-var ScrollResponder = {
-  Mixin: ScrollResponderMixin
-};
-/* harmony default export */ __webpack_exports__["default"] = (ScrollResponder);
-
-/***/ }),
-
 /***/ "./node_modules/react-native-web/dist/modules/ShadowPropTypes/index.js":
 /*!*****************************************************************************!*\
   !*** ./node_modules/react-native-web/dist/modules/ShadowPropTypes/index.js ***!
@@ -33457,84 +31233,6 @@ function StyleSheetPropType(shape) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (StyleSheetPropType);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/modules/TextInputState/index.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/modules/TextInputState/index.js ***!
-  \****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _exports_UIManager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../exports/UIManager */ "./node_modules/react-native-web/dist/exports/UIManager/index.js");
-/**
- * Copyright (c) Nicolas Gallagher.
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-/**
- * This class is responsible for coordinating the "focused"
- * state for TextInputs. All calls relating to the keyboard
- * should be funneled through here
- */
-
-var TextInputState = {
-  /**
-   * Internal state
-   */
-  _currentlyFocusedNode: null,
-
-  /**
-   * Returns the ID of the currently focused text field, if one exists
-   * If no text field is focused it returns null
-   */
-  currentlyFocusedField: function currentlyFocusedField() {
-    if (document.activeElement !== this._currentlyFocusedNode) {
-      this._currentlyFocusedNode = null;
-    }
-
-    return this._currentlyFocusedNode;
-  },
-
-  /**
-   * @param {Object} TextInputID id of the text field to focus
-   * Focuses the specified text field
-   * noop if the text field was already focused
-   */
-  focusTextInput: function focusTextInput(textFieldNode) {
-    if (textFieldNode !== null) {
-      this._currentlyFocusedNode = textFieldNode;
-
-      if (document.activeElement !== textFieldNode) {
-        _exports_UIManager__WEBPACK_IMPORTED_MODULE_0__["default"].focus(textFieldNode);
-      }
-    }
-  },
-
-  /**
-   * @param {Object} textFieldNode id of the text field to focus
-   * Unfocuses the specified text field
-   * noop if it wasn't focused
-   */
-  blurTextInput: function blurTextInput(textFieldNode) {
-    if (textFieldNode !== null) {
-      this._currentlyFocusedNode = null;
-
-      if (document.activeElement === textFieldNode) {
-        _exports_UIManager__WEBPACK_IMPORTED_MODULE_0__["default"].blur(textFieldNode);
-      }
-    }
-  }
-};
-/* harmony default export */ __webpack_exports__["default"] = (TextInputState);
 
 /***/ }),
 
@@ -34084,34 +31782,6 @@ function createStrictShapeTypeChecker(shapeTypes) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (createStrictShapeTypeChecker);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/modules/dismissKeyboard/index.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/modules/dismissKeyboard/index.js ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _TextInputState__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TextInputState */ "./node_modules/react-native-web/dist/modules/TextInputState/index.js");
-/**
- * Copyright (c) Nicolas Gallagher.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-
-var dismissKeyboard = function dismissKeyboard() {
-  _TextInputState__WEBPACK_IMPORTED_MODULE_0__["default"].blurTextInput(_TextInputState__WEBPACK_IMPORTED_MODULE_0__["default"].currentlyFocusedField());
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (dismissKeyboard);
 
 /***/ }),
 
@@ -34721,53 +32391,6 @@ var wmms = ['Webkit', 'Moz', 'ms'];
 
 /***/ }),
 
-/***/ "./node_modules/react-native-web/dist/modules/requestIdleCallback/index.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/modules/requestIdleCallback/index.js ***!
-  \*********************************************************************************/
-/*! exports provided: default, cancelIdleCallback */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cancelIdleCallback", function() { return cancelIdleCallback; });
-/* harmony import */ var fbjs_lib_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ "./node_modules/react-native-web/node_modules/fbjs/lib/ExecutionEnvironment.js");
-/* harmony import */ var fbjs_lib_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_0__);
-/**
- * Copyright (c) Nicolas Gallagher.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-
-var _requestIdleCallback = function _requestIdleCallback(cb, options) {
-  return setTimeout(function () {
-    var start = Date.now();
-    cb({
-      didTimeout: false,
-      timeRemaining: function timeRemaining() {
-        return Math.max(0, 50 - (Date.now() - start));
-      }
-    });
-  }, 1);
-}; // $FlowFixMe (TimeoutID type is not recognized by eslint)
-
-
-var _cancelIdleCallback = function _cancelIdleCallback(id) {
-  clearTimeout(id);
-};
-
-var isSupported = fbjs_lib_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_0__["canUseDOM"] && typeof window.requestIdleCallback !== 'undefined';
-var requestIdleCallback = isSupported ? window.requestIdleCallback : _requestIdleCallback;
-var cancelIdleCallback = isSupported ? window.cancelIdleCallback : _cancelIdleCallback;
-/* harmony default export */ __webpack_exports__["default"] = (requestIdleCallback);
-
-
-/***/ }),
-
 /***/ "./node_modules/react-native-web/dist/modules/unitlessNumbers/index.js":
 /*!*****************************************************************************!*\
   !*** ./node_modules/react-native-web/dist/modules/unitlessNumbers/index.js ***!
@@ -35198,5879 +32821,6 @@ if (true) {
 
 /***/ }),
 
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/AnimatedEvent.js":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/AnimatedEvent.js ***!
-  \******************************************************************************************/
-/*! exports provided: AnimatedEvent, attachNativeEvent, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AnimatedEvent", function() { return AnimatedEvent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "attachNativeEvent", function() { return attachNativeEvent; });
-/* harmony import */ var _nodes_AnimatedValue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./nodes/AnimatedValue */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValue.js");
-/* harmony import */ var _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NativeAnimatedHelper */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js");
-/* harmony import */ var _exports_findNodeHandle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../exports/findNodeHandle */ "./node_modules/react-native-web/dist/exports/findNodeHandle/index.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3__);
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-
-
-
-
-var shouldUseNativeDriver = _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_1__["default"].shouldUseNativeDriver;
-
-function attachNativeEvent(viewRef, eventName, argMapping) {
-  // Find animated values in `argMapping` and create an array representing their
-  // key path inside the `nativeEvent` object. Ex.: ['contentOffset', 'x'].
-  var eventMappings = [];
-
-  var traverse = function traverse(value, path) {
-    if (value instanceof _nodes_AnimatedValue__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-      value.__makeNative();
-
-      eventMappings.push({
-        nativeEventPath: path,
-        animatedValueTag: value.__getNativeTag()
-      });
-    } else if (typeof value === 'object') {
-      for (var _key in value) {
-        traverse(value[_key], path.concat(_key));
-      }
-    }
-  };
-
-  fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(argMapping[0] && argMapping[0].nativeEvent, 'Native driven events only support animated values contained inside `nativeEvent`.'); // Assume that the event containing `nativeEvent` is always the first argument.
-
-  traverse(argMapping[0].nativeEvent, []);
-  var viewTag = Object(_exports_findNodeHandle__WEBPACK_IMPORTED_MODULE_2__["default"])(viewRef);
-  eventMappings.forEach(function (mapping) {
-    _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_1__["default"].API.addAnimatedEventToView(viewTag, eventName, mapping);
-  });
-  return {
-    detach: function detach() {
-      eventMappings.forEach(function (mapping) {
-        _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_1__["default"].API.removeAnimatedEventFromView(viewTag, eventName, mapping.animatedValueTag);
-      });
-    }
-  };
-}
-
-var AnimatedEvent =
-/*#__PURE__*/
-function () {
-  function AnimatedEvent(argMapping, config) {
-    if (config === void 0) {
-      config = {};
-    }
-
-    this._listeners = [];
-    this._argMapping = argMapping;
-
-    if (config.listener) {
-      this.__addListener(config.listener);
-    }
-
-    this._callListeners = this._callListeners.bind(this);
-    this._attachedEvent = null;
-    this.__isNative = shouldUseNativeDriver(config);
-
-    if (true) {
-      this._validateMapping();
-    }
-  }
-
-  var _proto = AnimatedEvent.prototype;
-
-  _proto.__addListener = function __addListener(callback) {
-    this._listeners.push(callback);
-  };
-
-  _proto.__removeListener = function __removeListener(callback) {
-    this._listeners = this._listeners.filter(function (listener) {
-      return listener !== callback;
-    });
-  };
-
-  _proto.__attach = function __attach(viewRef, eventName) {
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(this.__isNative, 'Only native driven events need to be attached.');
-    this._attachedEvent = attachNativeEvent(viewRef, eventName, this._argMapping);
-  };
-
-  _proto.__detach = function __detach(viewTag, eventName) {
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(this.__isNative, 'Only native driven events need to be detached.');
-    this._attachedEvent && this._attachedEvent.detach();
-  };
-
-  _proto.__getHandler = function __getHandler() {
-    var _this = this;
-
-    if (this.__isNative) {
-      return this._callListeners;
-    }
-
-    return function () {
-      for (var _len = arguments.length, args = new Array(_len), _key2 = 0; _key2 < _len; _key2++) {
-        args[_key2] = arguments[_key2];
-      }
-
-      var traverse = function traverse(recMapping, recEvt, key) {
-        if (typeof recEvt === 'number' && recMapping instanceof _nodes_AnimatedValue__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-          recMapping.setValue(recEvt);
-        } else if (typeof recMapping === 'object') {
-          for (var mappingKey in recMapping) {
-            /* $FlowFixMe(>=0.53.0 site=react_native_fb,react_native_oss) This
-             * comment suppresses an error when upgrading Flow's support for
-             * React. To see the error delete this comment and run Flow. */
-            traverse(recMapping[mappingKey], recEvt[mappingKey], mappingKey);
-          }
-        }
-      };
-
-      if (!_this.__isNative) {
-        _this._argMapping.forEach(function (mapping, idx) {
-          traverse(mapping, args[idx], 'arg' + idx);
-        });
-      }
-
-      _this._callListeners.apply(_this, args);
-    };
-  };
-
-  _proto._callListeners = function _callListeners() {
-    for (var _len2 = arguments.length, args = new Array(_len2), _key3 = 0; _key3 < _len2; _key3++) {
-      args[_key3] = arguments[_key3];
-    }
-
-    this._listeners.forEach(function (listener) {
-      return listener.apply(void 0, args);
-    });
-  };
-
-  _proto._validateMapping = function _validateMapping() {
-    var traverse = function traverse(recMapping, recEvt, key) {
-      if (typeof recEvt === 'number') {
-        fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(recMapping instanceof _nodes_AnimatedValue__WEBPACK_IMPORTED_MODULE_0__["default"], 'Bad mapping of type ' + typeof recMapping + ' for key ' + key + ', event value must map to AnimatedValue');
-        return;
-      }
-
-      fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(typeof recMapping === 'object', 'Bad mapping of type ' + typeof recMapping + ' for key ' + key);
-      fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(typeof recEvt === 'object', 'Bad event of type ' + typeof recEvt + ' for key ' + key);
-
-      for (var mappingKey in recMapping) {
-        traverse(recMapping[mappingKey], recEvt[mappingKey], mappingKey);
-      }
-    };
-  };
-
-  return AnimatedEvent;
-}();
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  AnimatedEvent: AnimatedEvent,
-  attachNativeEvent: attachNativeEvent
-});
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/AnimatedImplementation.js":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/AnimatedImplementation.js ***!
-  \***************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedEvent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedEvent */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/AnimatedEvent.js");
-/* harmony import */ var _nodes_AnimatedAddition__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nodes/AnimatedAddition */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedAddition.js");
-/* harmony import */ var _nodes_AnimatedDiffClamp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nodes/AnimatedDiffClamp */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedDiffClamp.js");
-/* harmony import */ var _nodes_AnimatedDivision__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./nodes/AnimatedDivision */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedDivision.js");
-/* harmony import */ var _nodes_AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./nodes/AnimatedInterpolation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedInterpolation.js");
-/* harmony import */ var _nodes_AnimatedModulo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./nodes/AnimatedModulo */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedModulo.js");
-/* harmony import */ var _nodes_AnimatedMultiplication__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./nodes/AnimatedMultiplication */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedMultiplication.js");
-/* harmony import */ var _nodes_AnimatedNode__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./nodes/AnimatedNode */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js");
-/* harmony import */ var _nodes_AnimatedProps__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./nodes/AnimatedProps */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedProps.js");
-/* harmony import */ var _nodes_AnimatedTracking__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./nodes/AnimatedTracking */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedTracking.js");
-/* harmony import */ var _nodes_AnimatedValue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./nodes/AnimatedValue */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValue.js");
-/* harmony import */ var _nodes_AnimatedValueXY__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./nodes/AnimatedValueXY */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValueXY.js");
-/* harmony import */ var _animations_DecayAnimation__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./animations/DecayAnimation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/DecayAnimation.js");
-/* harmony import */ var _animations_SpringAnimation__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./animations/SpringAnimation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/SpringAnimation.js");
-/* harmony import */ var _animations_TimingAnimation__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./animations/TimingAnimation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/TimingAnimation.js");
-/* harmony import */ var _createAnimatedComponent__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./createAnimatedComponent */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/createAnimatedComponent.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- * @preventMunge
- */
-
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var add = function add(a, b) {
-  return new _nodes_AnimatedAddition__WEBPACK_IMPORTED_MODULE_1__["default"](a, b);
-};
-
-var divide = function divide(a, b) {
-  return new _nodes_AnimatedDivision__WEBPACK_IMPORTED_MODULE_3__["default"](a, b);
-};
-
-var multiply = function multiply(a, b) {
-  return new _nodes_AnimatedMultiplication__WEBPACK_IMPORTED_MODULE_6__["default"](a, b);
-};
-
-var modulo = function modulo(a, modulus) {
-  return new _nodes_AnimatedModulo__WEBPACK_IMPORTED_MODULE_5__["default"](a, modulus);
-};
-
-var diffClamp = function diffClamp(a, min, max) {
-  return new _nodes_AnimatedDiffClamp__WEBPACK_IMPORTED_MODULE_2__["default"](a, min, max);
-};
-
-var _combineCallbacks = function _combineCallbacks(callback, config) {
-  if (callback && config.onComplete) {
-    return function () {
-      config.onComplete && config.onComplete.apply(config, arguments);
-      callback && callback.apply(void 0, arguments);
-    };
-  } else {
-    return callback || config.onComplete;
-  }
-};
-
-var maybeVectorAnim = function maybeVectorAnim(value, config, anim) {
-  if (value instanceof _nodes_AnimatedValueXY__WEBPACK_IMPORTED_MODULE_11__["default"]) {
-    var configX = _objectSpread({}, config);
-
-    var configY = _objectSpread({}, config);
-
-    for (var key in config) {
-      var _config$key = config[key],
-          x = _config$key.x,
-          y = _config$key.y;
-
-      if (x !== undefined && y !== undefined) {
-        configX[key] = x;
-        configY[key] = y;
-      }
-    }
-
-    var aX = anim(value.x, configX);
-    var aY = anim(value.y, configY); // We use `stopTogether: false` here because otherwise tracking will break
-    // because the second animation will get stopped before it can update.
-
-    return parallel([aX, aY], {
-      stopTogether: false
-    });
-  }
-
-  return null;
-};
-
-var spring = function spring(value, config) {
-  var _start = function start(animatedValue, configuration, callback) {
-    callback = _combineCallbacks(callback, configuration);
-    var singleValue = animatedValue;
-    var singleConfig = configuration;
-    singleValue.stopTracking();
-
-    if (configuration.toValue instanceof _nodes_AnimatedNode__WEBPACK_IMPORTED_MODULE_7__["default"]) {
-      singleValue.track(new _nodes_AnimatedTracking__WEBPACK_IMPORTED_MODULE_9__["default"](singleValue, configuration.toValue, _animations_SpringAnimation__WEBPACK_IMPORTED_MODULE_13__["default"], singleConfig, callback));
-    } else {
-      singleValue.animate(new _animations_SpringAnimation__WEBPACK_IMPORTED_MODULE_13__["default"](singleConfig), callback);
-    }
-  };
-
-  return maybeVectorAnim(value, config, spring) || {
-    start: function start(callback) {
-      _start(value, config, callback);
-    },
-    stop: function stop() {
-      value.stopAnimation();
-    },
-    reset: function reset() {
-      value.resetAnimation();
-    },
-    _startNativeLoop: function _startNativeLoop(iterations) {
-      var singleConfig = _objectSpread({}, config, {
-        iterations: iterations
-      });
-
-      _start(value, singleConfig);
-    },
-    _isUsingNativeDriver: function _isUsingNativeDriver() {
-      return config.useNativeDriver || false;
-    }
-  };
-};
-
-var timing = function timing(value, config) {
-  var _start2 = function start(animatedValue, configuration, callback) {
-    callback = _combineCallbacks(callback, configuration);
-    var singleValue = animatedValue;
-    var singleConfig = configuration;
-    singleValue.stopTracking();
-
-    if (configuration.toValue instanceof _nodes_AnimatedNode__WEBPACK_IMPORTED_MODULE_7__["default"]) {
-      singleValue.track(new _nodes_AnimatedTracking__WEBPACK_IMPORTED_MODULE_9__["default"](singleValue, configuration.toValue, _animations_TimingAnimation__WEBPACK_IMPORTED_MODULE_14__["default"], singleConfig, callback));
-    } else {
-      singleValue.animate(new _animations_TimingAnimation__WEBPACK_IMPORTED_MODULE_14__["default"](singleConfig), callback);
-    }
-  };
-
-  return maybeVectorAnim(value, config, timing) || {
-    start: function start(callback) {
-      _start2(value, config, callback);
-    },
-    stop: function stop() {
-      value.stopAnimation();
-    },
-    reset: function reset() {
-      value.resetAnimation();
-    },
-    _startNativeLoop: function _startNativeLoop(iterations) {
-      var singleConfig = _objectSpread({}, config, {
-        iterations: iterations
-      });
-
-      _start2(value, singleConfig);
-    },
-    _isUsingNativeDriver: function _isUsingNativeDriver() {
-      return config.useNativeDriver || false;
-    }
-  };
-};
-
-var decay = function decay(value, config) {
-  var _start3 = function start(animatedValue, configuration, callback) {
-    callback = _combineCallbacks(callback, configuration);
-    var singleValue = animatedValue;
-    var singleConfig = configuration;
-    singleValue.stopTracking();
-    singleValue.animate(new _animations_DecayAnimation__WEBPACK_IMPORTED_MODULE_12__["default"](singleConfig), callback);
-  };
-
-  return maybeVectorAnim(value, config, decay) || {
-    start: function start(callback) {
-      _start3(value, config, callback);
-    },
-    stop: function stop() {
-      value.stopAnimation();
-    },
-    reset: function reset() {
-      value.resetAnimation();
-    },
-    _startNativeLoop: function _startNativeLoop(iterations) {
-      var singleConfig = _objectSpread({}, config, {
-        iterations: iterations
-      });
-
-      _start3(value, singleConfig);
-    },
-    _isUsingNativeDriver: function _isUsingNativeDriver() {
-      return config.useNativeDriver || false;
-    }
-  };
-};
-
-var sequence = function sequence(animations) {
-  var current = 0;
-  return {
-    start: function start(callback) {
-      var onComplete = function onComplete(result) {
-        if (!result.finished) {
-          callback && callback(result);
-          return;
-        }
-
-        current++;
-
-        if (current === animations.length) {
-          callback && callback(result);
-          return;
-        }
-
-        animations[current].start(onComplete);
-      };
-
-      if (animations.length === 0) {
-        callback && callback({
-          finished: true
-        });
-      } else {
-        animations[current].start(onComplete);
-      }
-    },
-    stop: function stop() {
-      if (current < animations.length) {
-        animations[current].stop();
-      }
-    },
-    reset: function reset() {
-      animations.forEach(function (animation, idx) {
-        if (idx <= current) {
-          animation.reset();
-        }
-      });
-      current = 0;
-    },
-    _startNativeLoop: function _startNativeLoop() {
-      throw new Error('Loops run using the native driver cannot contain Animated.sequence animations');
-    },
-    _isUsingNativeDriver: function _isUsingNativeDriver() {
-      return false;
-    }
-  };
-};
-
-var parallel = function parallel(animations, config) {
-  var doneCount = 0; // Make sure we only call stop() at most once for each animation
-
-  var hasEnded = {};
-  var stopTogether = !(config && config.stopTogether === false);
-  var result = {
-    start: function start(callback) {
-      if (doneCount === animations.length) {
-        callback && callback({
-          finished: true
-        });
-        return;
-      }
-
-      animations.forEach(function (animation, idx) {
-        var cb = function cb(endResult) {
-          hasEnded[idx] = true;
-          doneCount++;
-
-          if (doneCount === animations.length) {
-            doneCount = 0;
-            callback && callback(endResult);
-            return;
-          }
-
-          if (!endResult.finished && stopTogether) {
-            result.stop();
-          }
-        };
-
-        if (!animation) {
-          cb({
-            finished: true
-          });
-        } else {
-          animation.start(cb);
-        }
-      });
-    },
-    stop: function stop() {
-      animations.forEach(function (animation, idx) {
-        !hasEnded[idx] && animation.stop();
-        hasEnded[idx] = true;
-      });
-    },
-    reset: function reset() {
-      animations.forEach(function (animation, idx) {
-        animation.reset();
-        hasEnded[idx] = false;
-        doneCount = 0;
-      });
-    },
-    _startNativeLoop: function _startNativeLoop() {
-      throw new Error('Loops run using the native driver cannot contain Animated.parallel animations');
-    },
-    _isUsingNativeDriver: function _isUsingNativeDriver() {
-      return false;
-    }
-  };
-  return result;
-};
-
-var delay = function delay(time) {
-  // Would be nice to make a specialized implementation
-  return timing(new _nodes_AnimatedValue__WEBPACK_IMPORTED_MODULE_10__["default"](0), {
-    toValue: 0,
-    delay: time,
-    duration: 0
-  });
-};
-
-var stagger = function stagger(time, animations) {
-  return parallel(animations.map(function (animation, i) {
-    return sequence([delay(time * i), animation]);
-  }));
-};
-
-var loop = function loop(animation, _temp) {
-  var _ref = _temp === void 0 ? {} : _temp,
-      _ref$iterations = _ref.iterations,
-      iterations = _ref$iterations === void 0 ? -1 : _ref$iterations;
-
-  var isFinished = false;
-  var iterationsSoFar = 0;
-  return {
-    start: function start(callback) {
-      var restart = function restart(result) {
-        if (result === void 0) {
-          result = {
-            finished: true
-          };
-        }
-
-        if (isFinished || iterationsSoFar === iterations || result.finished === false) {
-          callback && callback(result);
-        } else {
-          iterationsSoFar++;
-          animation.reset();
-          animation.start(restart);
-        }
-      };
-
-      if (!animation || iterations === 0) {
-        callback && callback({
-          finished: true
-        });
-      } else {
-        if (animation._isUsingNativeDriver()) {
-          animation._startNativeLoop(iterations);
-        } else {
-          restart(); // Start looping recursively on the js thread
-        }
-      }
-    },
-    stop: function stop() {
-      isFinished = true;
-      animation.stop();
-    },
-    reset: function reset() {
-      iterationsSoFar = 0;
-      isFinished = false;
-      animation.reset();
-    },
-    _startNativeLoop: function _startNativeLoop() {
-      throw new Error('Loops run using the native driver cannot contain Animated.loop animations');
-    },
-    _isUsingNativeDriver: function _isUsingNativeDriver() {
-      return animation._isUsingNativeDriver();
-    }
-  };
-};
-
-function forkEvent(event, listener) {
-  if (!event) {
-    return listener;
-  } else if (event instanceof _AnimatedEvent__WEBPACK_IMPORTED_MODULE_0__["AnimatedEvent"]) {
-    event.__addListener(listener);
-
-    return event;
-  } else {
-    return function () {
-      typeof event === 'function' && event.apply(void 0, arguments);
-      listener.apply(void 0, arguments);
-    };
-  }
-}
-
-function unforkEvent(event, listener) {
-  if (event && event instanceof _AnimatedEvent__WEBPACK_IMPORTED_MODULE_0__["AnimatedEvent"]) {
-    event.__removeListener(listener);
-  }
-}
-
-var event = function event(argMapping, config) {
-  var animatedEvent = new _AnimatedEvent__WEBPACK_IMPORTED_MODULE_0__["AnimatedEvent"](argMapping, config);
-
-  if (animatedEvent.__isNative) {
-    return animatedEvent;
-  } else {
-    return animatedEvent.__getHandler();
-  }
-};
-/**
- * The `Animated` library is designed to make animations fluid, powerful, and
- * easy to build and maintain. `Animated` focuses on declarative relationships
- * between inputs and outputs, with configurable transforms in between, and
- * simple `start`/`stop` methods to control time-based animation execution.
- *
- * See http://facebook.github.io/react-native/docs/animated.html
- */
-
-
-var AnimatedImplementation = {
-  /**
-   * Standard value class for driving animations.  Typically initialized with
-   * `new Animated.Value(0);`
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#value
-   */
-  Value: _nodes_AnimatedValue__WEBPACK_IMPORTED_MODULE_10__["default"],
-
-  /**
-   * 2D value class for driving 2D animations, such as pan gestures.
-   *
-   * See https://facebook.github.io/react-native/releases/next/docs/animatedvaluexy.html
-   */
-  ValueXY: _nodes_AnimatedValueXY__WEBPACK_IMPORTED_MODULE_11__["default"],
-
-  /**
-   * Exported to use the Interpolation type in flow.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#interpolation
-   */
-  Interpolation: _nodes_AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_4__["default"],
-
-  /**
-   * Exported for ease of type checking. All animated values derive from this
-   * class.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#node
-   */
-  Node: _nodes_AnimatedNode__WEBPACK_IMPORTED_MODULE_7__["default"],
-
-  /**
-   * Animates a value from an initial velocity to zero based on a decay
-   * coefficient.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#decay
-   */
-  decay: decay,
-
-  /**
-   * Animates a value along a timed easing curve. The Easing module has tons of
-   * predefined curves, or you can use your own function.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#timing
-   */
-  timing: timing,
-
-  /**
-   * Animates a value according to an analytical spring model based on
-   * damped harmonic oscillation.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#spring
-   */
-  spring: spring,
-
-  /**
-   * Creates a new Animated value composed from two Animated values added
-   * together.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#add
-   */
-  add: add,
-
-  /**
-   * Creates a new Animated value composed by dividing the first Animated value
-   * by the second Animated value.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#divide
-   */
-  divide: divide,
-
-  /**
-   * Creates a new Animated value composed from two Animated values multiplied
-   * together.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#multiply
-   */
-  multiply: multiply,
-
-  /**
-   * Creates a new Animated value that is the (non-negative) modulo of the
-   * provided Animated value.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#modulo
-   */
-  modulo: modulo,
-
-  /**
-   * Create a new Animated value that is limited between 2 values. It uses the
-   * difference between the last value so even if the value is far from the
-   * bounds it will start changing when the value starts getting closer again.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#diffclamp
-   */
-  diffClamp: diffClamp,
-
-  /**
-   * Starts an animation after the given delay.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#delay
-   */
-  delay: delay,
-
-  /**
-   * Starts an array of animations in order, waiting for each to complete
-   * before starting the next. If the current running animation is stopped, no
-   * following animations will be started.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#sequence
-   */
-  sequence: sequence,
-
-  /**
-   * Starts an array of animations all at the same time. By default, if one
-   * of the animations is stopped, they will all be stopped. You can override
-   * this with the `stopTogether` flag.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#parallel
-   */
-  parallel: parallel,
-
-  /**
-   * Array of animations may run in parallel (overlap), but are started in
-   * sequence with successive delays.  Nice for doing trailing effects.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#stagger
-   */
-  stagger: stagger,
-
-  /**
-   * Loops a given animation continuously, so that each time it reaches the
-   * end, it resets and begins again from the start.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#loop
-   */
-  loop: loop,
-
-  /**
-   * Takes an array of mappings and extracts values from each arg accordingly,
-   * then calls `setValue` on the mapped outputs.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#event
-   */
-  event: event,
-
-  /**
-   * Make any React component Animatable.  Used to create `Animated.View`, etc.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#createanimatedcomponent
-   */
-  createAnimatedComponent: _createAnimatedComponent__WEBPACK_IMPORTED_MODULE_15__["default"],
-
-  /**
-   * Imperative API to attach an animated value to an event on a view. Prefer
-   * using `Animated.event` with `useNativeDrive: true` if possible.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#attachnativeevent
-   */
-  attachNativeEvent: _AnimatedEvent__WEBPACK_IMPORTED_MODULE_0__["attachNativeEvent"],
-
-  /**
-   * Advanced imperative API for snooping on animated events that are passed in
-   * through props. Use values directly where possible.
-   *
-   * See http://facebook.github.io/react-native/docs/animated.html#forkevent
-   */
-  forkEvent: forkEvent,
-  unforkEvent: unforkEvent,
-  __PropsOnlyForTests: _nodes_AnimatedProps__WEBPACK_IMPORTED_MODULE_8__["default"]
-};
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedImplementation);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/Easing.js":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/Easing.js ***!
-  \***********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _bezier__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bezier */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/bezier.js");
-/* harmony import */ var _bezier__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_bezier__WEBPACK_IMPORTED_MODULE_0__);
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-
-
-
-var _ease;
-/**
- * The `Easing` module implements common easing functions. This module is used
- * by [Animate.timing()](docs/animate.html#timing) to convey physically
- * believable motion in animations.
- *
- * You can find a visualization of some common easing functions at
- * http://easings.net/
- *
- * ### Predefined animations
- *
- * The `Easing` module provides several predefined animations through the
- * following methods:
- *
- * - [`back`](docs/easing.html#back) provides a simple animation where the
- *   object goes slightly back before moving forward
- * - [`bounce`](docs/easing.html#bounce) provides a bouncing animation
- * - [`ease`](docs/easing.html#ease) provides a simple inertial animation
- * - [`elastic`](docs/easing.html#elastic) provides a simple spring interaction
- *
- * ### Standard functions
- *
- * Three standard easing functions are provided:
- *
- * - [`linear`](docs/easing.html#linear)
- * - [`quad`](docs/easing.html#quad)
- * - [`cubic`](docs/easing.html#cubic)
- *
- * The [`poly`](docs/easing.html#poly) function can be used to implement
- * quartic, quintic, and other higher power functions.
- *
- * ### Additional functions
- *
- * Additional mathematical functions are provided by the following methods:
- *
- * - [`bezier`](docs/easing.html#bezier) provides a cubic bezier curve
- * - [`circle`](docs/easing.html#circle) provides a circular function
- * - [`sin`](docs/easing.html#sin) provides a sinusoidal function
- * - [`exp`](docs/easing.html#exp) provides an exponential function
- *
- * The following helpers are used to modify other easing functions.
- *
- * - [`in`](docs/easing.html#in) runs an easing function forwards
- * - [`inOut`](docs/easing.html#inout) makes any easing function symmetrical
- * - [`out`](docs/easing.html#out) runs an easing function backwards
- */
-
-
-var Easing =
-/*#__PURE__*/
-function () {
-  function Easing() {}
-
-  /**
-   * A stepping function, returns 1 for any positive value of `n`.
-   */
-  Easing.step0 = function step0(n) {
-    return n > 0 ? 1 : 0;
-  }
-  /**
-   * A stepping function, returns 1 if `n` is greater than or equal to 1.
-   */
-  ;
-
-  Easing.step1 = function step1(n) {
-    return n >= 1 ? 1 : 0;
-  }
-  /**
-   * A linear function, `f(t) = t`. Position correlates to elapsed time one to
-   * one.
-   *
-   * http://cubic-bezier.com/#0,0,1,1
-   */
-  ;
-
-  Easing.linear = function linear(t) {
-    return t;
-  }
-  /**
-   * A simple inertial interaction, similar to an object slowly accelerating to
-   * speed.
-   *
-   * http://cubic-bezier.com/#.42,0,1,1
-   */
-  ;
-
-  Easing.ease = function ease(t) {
-    if (!_ease) {
-      _ease = Easing.bezier(0.42, 0, 1, 1);
-    }
-
-    return _ease(t);
-  }
-  /**
-   * A quadratic function, `f(t) = t * t`. Position equals the square of elapsed
-   * time.
-   *
-   * http://easings.net/#easeInQuad
-   */
-  ;
-
-  Easing.quad = function quad(t) {
-    return t * t;
-  }
-  /**
-   * A cubic function, `f(t) = t * t * t`. Position equals the cube of elapsed
-   * time.
-   *
-   * http://easings.net/#easeInCubic
-   */
-  ;
-
-  Easing.cubic = function cubic(t) {
-    return t * t * t;
-  }
-  /**
-   * A power function. Position is equal to the Nth power of elapsed time.
-   *
-   * n = 4: http://easings.net/#easeInQuart
-   * n = 5: http://easings.net/#easeInQuint
-   */
-  ;
-
-  Easing.poly = function poly(n) {
-    return function (t) {
-      return Math.pow(t, n);
-    };
-  }
-  /**
-   * A sinusoidal function.
-   *
-   * http://easings.net/#easeInSine
-   */
-  ;
-
-  Easing.sin = function sin(t) {
-    return 1 - Math.cos(t * Math.PI / 2);
-  }
-  /**
-   * A circular function.
-   *
-   * http://easings.net/#easeInCirc
-   */
-  ;
-
-  Easing.circle = function circle(t) {
-    return 1 - Math.sqrt(1 - t * t);
-  }
-  /**
-   * An exponential function.
-   *
-   * http://easings.net/#easeInExpo
-   */
-  ;
-
-  Easing.exp = function exp(t) {
-    return Math.pow(2, 10 * (t - 1));
-  }
-  /**
-   * A simple elastic interaction, similar to a spring oscillating back and
-   * forth.
-   *
-   * Default bounciness is 1, which overshoots a little bit once. 0 bounciness
-   * doesn't overshoot at all, and bounciness of N > 1 will overshoot about N
-   * times.
-   *
-   * http://easings.net/#easeInElastic
-   */
-  ;
-
-  Easing.elastic = function elastic(bounciness) {
-    if (bounciness === void 0) {
-      bounciness = 1;
-    }
-
-    var p = bounciness * Math.PI;
-    return function (t) {
-      return 1 - Math.pow(Math.cos(t * Math.PI / 2), 3) * Math.cos(t * p);
-    };
-  }
-  /**
-   * Use with `Animated.parallel()` to create a simple effect where the object
-   * animates back slightly as the animation starts.
-   *
-   * Wolfram Plot:
-   *
-   * - http://tiny.cc/back_default (s = 1.70158, default)
-   */
-  ;
-
-  Easing.back = function back(s) {
-    if (s === undefined) {
-      s = 1.70158;
-    }
-
-    return function (t) {
-      return t * t * ((s + 1) * t - s);
-    };
-  }
-  /**
-   * Provides a simple bouncing effect.
-   *
-   * http://easings.net/#easeInBounce
-   */
-  ;
-
-  Easing.bounce = function bounce(t) {
-    if (t < 1 / 2.75) {
-      return 7.5625 * t * t;
-    }
-
-    if (t < 2 / 2.75) {
-      t -= 1.5 / 2.75;
-      return 7.5625 * t * t + 0.75;
-    }
-
-    if (t < 2.5 / 2.75) {
-      t -= 2.25 / 2.75;
-      return 7.5625 * t * t + 0.9375;
-    }
-
-    t -= 2.625 / 2.75;
-    return 7.5625 * t * t + 0.984375;
-  }
-  /**
-   * Provides a cubic bezier curve, equivalent to CSS Transitions'
-   * `transition-timing-function`.
-   *
-   * A useful tool to visualize cubic bezier curves can be found at
-   * http://cubic-bezier.com/
-   */
-  ;
-
-  Easing.bezier = function bezier(x1, y1, x2, y2) {
-    return _bezier__WEBPACK_IMPORTED_MODULE_0___default()(x1, y1, x2, y2);
-  }
-  /**
-   * Runs an easing function forwards.
-   */
-  ;
-
-  Easing.in = function _in(easing) {
-    return easing;
-  }
-  /**
-   * Runs an easing function backwards.
-   */
-  ;
-
-  Easing.out = function out(easing) {
-    return function (t) {
-      return 1 - easing(1 - t);
-    };
-  }
-  /**
-   * Makes any easing function symmetrical. The easing function will run
-   * forwards for half of the duration, then backwards for the rest of the
-   * duration.
-   */
-  ;
-
-  Easing.inOut = function inOut(easing) {
-    return function (t) {
-      if (t < 0.5) {
-        return easing(t * 2) / 2;
-      }
-
-      return 1 - easing((1 - t) * 2) / 2;
-    };
-  };
-
-  return Easing;
-}();
-
-/* harmony default export */ __webpack_exports__["default"] = (Easing);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js ***!
-  \*************************************************************************************************/
-/*! exports provided: API, addWhitelistedStyleProp, addWhitelistedTransformProp, addWhitelistedInterpolationParam, validateStyles, validateTransform, validateInterpolation, generateNewNodeTag, generateNewAnimationId, assertNativeAnimatedModule, shouldUseNativeDriver, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "API", function() { return API; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addWhitelistedStyleProp", function() { return addWhitelistedStyleProp; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addWhitelistedTransformProp", function() { return addWhitelistedTransformProp; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addWhitelistedInterpolationParam", function() { return addWhitelistedInterpolationParam; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "validateStyles", function() { return validateStyles; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "validateTransform", function() { return validateTransform; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "validateInterpolation", function() { return validateInterpolation; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "generateNewNodeTag", function() { return generateNewNodeTag; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "generateNewAnimationId", function() { return generateNewAnimationId; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "assertNativeAnimatedModule", function() { return assertNativeAnimatedModule; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "shouldUseNativeDriver", function() { return shouldUseNativeDriver; });
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _exports_NativeModules__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../exports/NativeModules */ "./node_modules/react-native-web/dist/exports/NativeModules/index.js");
-/* harmony import */ var _NativeEventEmitter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../NativeEventEmitter */ "./node_modules/react-native-web/dist/vendor/react-native/NativeEventEmitter/index.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-
-
-
-var NativeAnimatedModule = _exports_NativeModules__WEBPACK_IMPORTED_MODULE_1__["default"].NativeAnimatedModule;
-var __nativeAnimatedNodeTagCount = 1;
-/* used for animated nodes */
-
-var __nativeAnimationIdCount = 1;
-/* used for started animations */
-
-var nativeEventEmitter;
-/**
- * Simple wrappers around NativeAnimatedModule to provide flow and autocmplete support for
- * the native module methods
- */
-
-var API = {
-  createAnimatedNode: function createAnimatedNode(tag, config) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.createAnimatedNode(tag, config);
-  },
-  startListeningToAnimatedNodeValue: function startListeningToAnimatedNodeValue(tag) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.startListeningToAnimatedNodeValue(tag);
-  },
-  stopListeningToAnimatedNodeValue: function stopListeningToAnimatedNodeValue(tag) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.stopListeningToAnimatedNodeValue(tag);
-  },
-  connectAnimatedNodes: function connectAnimatedNodes(parentTag, childTag) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.connectAnimatedNodes(parentTag, childTag);
-  },
-  disconnectAnimatedNodes: function disconnectAnimatedNodes(parentTag, childTag) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.disconnectAnimatedNodes(parentTag, childTag);
-  },
-  startAnimatingNode: function startAnimatingNode(animationId, nodeTag, config, endCallback) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.startAnimatingNode(animationId, nodeTag, config, endCallback);
-  },
-  stopAnimation: function stopAnimation(animationId) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.stopAnimation(animationId);
-  },
-  setAnimatedNodeValue: function setAnimatedNodeValue(nodeTag, value) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.setAnimatedNodeValue(nodeTag, value);
-  },
-  setAnimatedNodeOffset: function setAnimatedNodeOffset(nodeTag, offset) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.setAnimatedNodeOffset(nodeTag, offset);
-  },
-  flattenAnimatedNodeOffset: function flattenAnimatedNodeOffset(nodeTag) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.flattenAnimatedNodeOffset(nodeTag);
-  },
-  extractAnimatedNodeOffset: function extractAnimatedNodeOffset(nodeTag) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.extractAnimatedNodeOffset(nodeTag);
-  },
-  connectAnimatedNodeToView: function connectAnimatedNodeToView(nodeTag, viewTag) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.connectAnimatedNodeToView(nodeTag, viewTag);
-  },
-  disconnectAnimatedNodeFromView: function disconnectAnimatedNodeFromView(nodeTag, viewTag) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.disconnectAnimatedNodeFromView(nodeTag, viewTag);
-  },
-  dropAnimatedNode: function dropAnimatedNode(tag) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.dropAnimatedNode(tag);
-  },
-  addAnimatedEventToView: function addAnimatedEventToView(viewTag, eventName, eventMapping) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.addAnimatedEventToView(viewTag, eventName, eventMapping);
-  },
-  removeAnimatedEventFromView: function removeAnimatedEventFromView(viewTag, eventName, animatedNodeTag) {
-    assertNativeAnimatedModule();
-    NativeAnimatedModule.removeAnimatedEventFromView(viewTag, eventName, animatedNodeTag);
-  }
-};
-/**
- * Styles allowed by the native animated implementation.
- *
- * In general native animated implementation should support any numeric property that doesn't need
- * to be updated through the shadow view hierarchy (all non-layout properties).
- */
-
-var STYLES_WHITELIST = {
-  opacity: true,
-  transform: true,
-
-  /* ios styles */
-  shadowOpacity: true,
-  shadowRadius: true,
-
-  /* legacy android transform properties */
-  scaleX: true,
-  scaleY: true,
-  translateX: true,
-  translateY: true
-};
-var TRANSFORM_WHITELIST = {
-  translateX: true,
-  translateY: true,
-  scale: true,
-  scaleX: true,
-  scaleY: true,
-  rotate: true,
-  rotateX: true,
-  rotateY: true,
-  perspective: true
-};
-var SUPPORTED_INTERPOLATION_PARAMS = {
-  inputRange: true,
-  outputRange: true,
-  extrapolate: true,
-  extrapolateRight: true,
-  extrapolateLeft: true
-};
-
-function addWhitelistedStyleProp(prop) {
-  STYLES_WHITELIST[prop] = true;
-}
-
-function addWhitelistedTransformProp(prop) {
-  TRANSFORM_WHITELIST[prop] = true;
-}
-
-function addWhitelistedInterpolationParam(param) {
-  SUPPORTED_INTERPOLATION_PARAMS[param] = true;
-}
-
-function validateTransform(configs) {
-  configs.forEach(function (config) {
-    if (!TRANSFORM_WHITELIST.hasOwnProperty(config.property)) {
-      throw new Error("Property '" + config.property + "' is not supported by native animated module");
-    }
-  });
-}
-
-function validateStyles(styles) {
-  for (var key in styles) {
-    if (!STYLES_WHITELIST.hasOwnProperty(key)) {
-      throw new Error("Style property '" + key + "' is not supported by native animated module");
-    }
-  }
-}
-
-function validateInterpolation(config) {
-  for (var key in config) {
-    if (!SUPPORTED_INTERPOLATION_PARAMS.hasOwnProperty(key)) {
-      throw new Error("Interpolation property '" + key + "' is not supported by native animated module");
-    }
-  }
-}
-
-function generateNewNodeTag() {
-  return __nativeAnimatedNodeTagCount++;
-}
-
-function generateNewAnimationId() {
-  return __nativeAnimationIdCount++;
-}
-
-function assertNativeAnimatedModule() {
-  fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0___default()(NativeAnimatedModule, 'Native animated module is not available');
-}
-
-var _warnedMissingNativeAnimated = false;
-
-function shouldUseNativeDriver(config) {
-  if (config.useNativeDriver && !NativeAnimatedModule) {
-    if (!_warnedMissingNativeAnimated) {
-      console.warn('Animated: `useNativeDriver` is not supported because the native ' + 'animated module is missing. Falling back to JS-based animation. To ' + 'resolve this, add `RCTAnimation` module to this app, or remove ' + '`useNativeDriver`. ' + 'More info: https://github.com/facebook/react-native/issues/11094#issuecomment-263240420');
-      _warnedMissingNativeAnimated = true;
-    }
-
-    return false;
-  }
-
-  return config.useNativeDriver || false;
-}
-
-var NativeAnimatedHelper = {
-  API: API,
-  addWhitelistedStyleProp: addWhitelistedStyleProp,
-  addWhitelistedTransformProp: addWhitelistedTransformProp,
-  addWhitelistedInterpolationParam: addWhitelistedInterpolationParam,
-  validateStyles: validateStyles,
-  validateTransform: validateTransform,
-  validateInterpolation: validateInterpolation,
-  generateNewNodeTag: generateNewNodeTag,
-  generateNewAnimationId: generateNewAnimationId,
-  assertNativeAnimatedModule: assertNativeAnimatedModule,
-  shouldUseNativeDriver: shouldUseNativeDriver,
-
-  get nativeEventEmitter() {
-    if (!nativeEventEmitter) {
-      nativeEventEmitter = new _NativeEventEmitter__WEBPACK_IMPORTED_MODULE_2__["default"](NativeAnimatedModule);
-    }
-
-    return nativeEventEmitter;
-  }
-
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (NativeAnimatedHelper);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/SpringConfig.js":
-/*!*****************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/SpringConfig.js ***!
-  \*****************************************************************************************/
-/*! exports provided: fromOrigamiTensionAndFriction, fromBouncinessAndSpeed, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fromOrigamiTensionAndFriction", function() { return fromOrigamiTensionAndFriction; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fromBouncinessAndSpeed", function() { return fromBouncinessAndSpeed; });
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-
-function stiffnessFromOrigamiValue(oValue) {
-  return (oValue - 30) * 3.62 + 194;
-}
-
-function dampingFromOrigamiValue(oValue) {
-  return (oValue - 8) * 3 + 25;
-}
-
-function fromOrigamiTensionAndFriction(tension, friction) {
-  return {
-    stiffness: stiffnessFromOrigamiValue(tension),
-    damping: dampingFromOrigamiValue(friction)
-  };
-}
-
-function fromBouncinessAndSpeed(bounciness, speed) {
-  function normalize(value, startValue, endValue) {
-    return (value - startValue) / (endValue - startValue);
-  }
-
-  function projectNormal(n, start, end) {
-    return start + n * (end - start);
-  }
-
-  function linearInterpolation(t, start, end) {
-    return t * end + (1 - t) * start;
-  }
-
-  function quadraticOutInterpolation(t, start, end) {
-    return linearInterpolation(2 * t - t * t, start, end);
-  }
-
-  function b3Friction1(x) {
-    return 0.0007 * Math.pow(x, 3) - 0.031 * Math.pow(x, 2) + 0.64 * x + 1.28;
-  }
-
-  function b3Friction2(x) {
-    return 0.000044 * Math.pow(x, 3) - 0.006 * Math.pow(x, 2) + 0.36 * x + 2;
-  }
-
-  function b3Friction3(x) {
-    return 0.00000045 * Math.pow(x, 3) - 0.000332 * Math.pow(x, 2) + 0.1078 * x + 5.84;
-  }
-
-  function b3Nobounce(tension) {
-    if (tension <= 18) {
-      return b3Friction1(tension);
-    } else if (tension > 18 && tension <= 44) {
-      return b3Friction2(tension);
-    } else {
-      return b3Friction3(tension);
-    }
-  }
-
-  var b = normalize(bounciness / 1.7, 0, 20);
-  b = projectNormal(b, 0, 0.8);
-  var s = normalize(speed / 1.7, 0, 20);
-  var bouncyTension = projectNormal(s, 0.5, 200);
-  var bouncyFriction = quadraticOutInterpolation(b, b3Nobounce(bouncyTension), 0.01);
-  return {
-    stiffness: stiffnessFromOrigamiValue(bouncyTension),
-    damping: dampingFromOrigamiValue(bouncyFriction)
-  };
-}
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  fromOrigamiTensionAndFriction: fromOrigamiTensionAndFriction,
-  fromBouncinessAndSpeed: fromBouncinessAndSpeed
-});
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/Animation.js":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/Animation.js ***!
-  \*************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../NativeAnimatedHelper */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-
-
-// Important note: start() and stop() will only be called at most once.
-// Once an animation has been stopped or finished its course, it will
-// not be reused.
-var Animation =
-/*#__PURE__*/
-function () {
-  function Animation() {}
-
-  var _proto = Animation.prototype;
-
-  _proto.start = function start(fromValue, onUpdate, onEnd, previousAnimation, animatedValue) {};
-
-  _proto.stop = function stop() {
-    if (this.__nativeId) {
-      _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_0__["default"].API.stopAnimation(this.__nativeId);
-    }
-  };
-
-  _proto.__getNativeAnimationConfig = function __getNativeAnimationConfig() {
-    // Subclasses that have corresponding animation implementation done in native
-    // should override this method
-    throw new Error('This animation type cannot be offloaded to native');
-  } // Helper function for subclasses to make sure onEnd is only called once.
-  ;
-
-  _proto.__debouncedOnEnd = function __debouncedOnEnd(result) {
-    var onEnd = this.__onEnd;
-    this.__onEnd = null;
-    onEnd && onEnd(result);
-  };
-
-  _proto.__startNativeAnimation = function __startNativeAnimation(animatedValue) {
-    animatedValue.__makeNative();
-
-    this.__nativeId = _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_0__["default"].generateNewAnimationId();
-    _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_0__["default"].API.startAnimatingNode(this.__nativeId, animatedValue.__getNativeTag(), this.__getNativeAnimationConfig(), this.__debouncedOnEnd.bind(this));
-  };
-
-  return Animation;
-}();
-
-/* harmony default export */ __webpack_exports__["default"] = (Animation);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/DecayAnimation.js":
-/*!******************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/DecayAnimation.js ***!
-  \******************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var _Animation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Animation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/Animation.js");
-/* harmony import */ var _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../NativeAnimatedHelper */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-var DecayAnimation =
-/*#__PURE__*/
-function (_Animation) {
-  _inheritsLoose(DecayAnimation, _Animation);
-
-  function DecayAnimation(config) {
-    var _this;
-
-    _this = _Animation.call(this) || this;
-    _this._deceleration = config.deceleration !== undefined ? config.deceleration : 0.998;
-    _this._velocity = config.velocity;
-    _this._useNativeDriver = Object(_NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_1__["shouldUseNativeDriver"])(config);
-    _this.__isInteraction = config.isInteraction !== undefined ? config.isInteraction : true;
-    _this.__iterations = config.iterations !== undefined ? config.iterations : 1;
-    return _this;
-  }
-
-  var _proto = DecayAnimation.prototype;
-
-  _proto.__getNativeAnimationConfig = function __getNativeAnimationConfig() {
-    return {
-      type: 'decay',
-      deceleration: this._deceleration,
-      velocity: this._velocity,
-      iterations: this.__iterations
-    };
-  };
-
-  _proto.start = function start(fromValue, onUpdate, onEnd, previousAnimation, animatedValue) {
-    this.__active = true;
-    this._lastValue = fromValue;
-    this._fromValue = fromValue;
-    this._onUpdate = onUpdate;
-    this.__onEnd = onEnd;
-    this._startTime = Date.now();
-
-    if (this._useNativeDriver) {
-      this.__startNativeAnimation(animatedValue);
-    } else {
-      this._animationFrame = requestAnimationFrame(this.onUpdate.bind(this));
-    }
-  };
-
-  _proto.onUpdate = function onUpdate() {
-    var now = Date.now();
-    var value = this._fromValue + this._velocity / (1 - this._deceleration) * (1 - Math.exp(-(1 - this._deceleration) * (now - this._startTime)));
-
-    this._onUpdate(value);
-
-    if (Math.abs(this._lastValue - value) < 0.1) {
-      this.__debouncedOnEnd({
-        finished: true
-      });
-
-      return;
-    }
-
-    this._lastValue = value;
-
-    if (this.__active) {
-      this._animationFrame = requestAnimationFrame(this.onUpdate.bind(this));
-    }
-  };
-
-  _proto.stop = function stop() {
-    _Animation.prototype.stop.call(this);
-
-    this.__active = false;
-    global.cancelAnimationFrame(this._animationFrame);
-
-    this.__debouncedOnEnd({
-      finished: false
-    });
-  };
-
-  return DecayAnimation;
-}(_Animation__WEBPACK_IMPORTED_MODULE_0__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (DecayAnimation);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/SpringAnimation.js":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/SpringAnimation.js ***!
-  \*******************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var _nodes_AnimatedValue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../nodes/AnimatedValue */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValue.js");
-/* harmony import */ var _nodes_AnimatedValueXY__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../nodes/AnimatedValueXY */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValueXY.js");
-/* harmony import */ var _Animation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Animation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/Animation.js");
-/* harmony import */ var _SpringConfig__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SpringConfig */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/SpringConfig.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../NativeAnimatedHelper */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-
-
-
-
-function withDefault(value, defaultValue) {
-  if (value === undefined || value === null) {
-    return defaultValue;
-  }
-
-  return value;
-}
-
-var SpringAnimation =
-/*#__PURE__*/
-function (_Animation) {
-  _inheritsLoose(SpringAnimation, _Animation);
-
-  function SpringAnimation(config) {
-    var _this;
-
-    _this = _Animation.call(this) || this;
-    _this._overshootClamping = withDefault(config.overshootClamping, false);
-    _this._restDisplacementThreshold = withDefault(config.restDisplacementThreshold, 0.001);
-    _this._restSpeedThreshold = withDefault(config.restSpeedThreshold, 0.001);
-    _this._initialVelocity = withDefault(config.velocity, 0);
-    _this._lastVelocity = withDefault(config.velocity, 0);
-    _this._toValue = config.toValue;
-    _this._delay = withDefault(config.delay, 0);
-    _this._useNativeDriver = Object(_NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_5__["shouldUseNativeDriver"])(config);
-    _this.__isInteraction = config.isInteraction !== undefined ? config.isInteraction : true;
-    _this.__iterations = config.iterations !== undefined ? config.iterations : 1;
-
-    if (config.stiffness !== undefined || config.damping !== undefined || config.mass !== undefined) {
-      fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_4___default()(config.bounciness === undefined && config.speed === undefined && config.tension === undefined && config.friction === undefined, 'You can define one of bounciness/speed, tension/friction, or stiffness/damping/mass, but not more than one');
-      _this._stiffness = withDefault(config.stiffness, 100);
-      _this._damping = withDefault(config.damping, 10);
-      _this._mass = withDefault(config.mass, 1);
-    } else if (config.bounciness !== undefined || config.speed !== undefined) {
-      // Convert the origami bounciness/speed values to stiffness/damping
-      // We assume mass is 1.
-      fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_4___default()(config.tension === undefined && config.friction === undefined && config.stiffness === undefined && config.damping === undefined && config.mass === undefined, 'You can define one of bounciness/speed, tension/friction, or stiffness/damping/mass, but not more than one');
-      var springConfig = _SpringConfig__WEBPACK_IMPORTED_MODULE_3__["default"].fromBouncinessAndSpeed(withDefault(config.bounciness, 8), withDefault(config.speed, 12));
-      _this._stiffness = springConfig.stiffness;
-      _this._damping = springConfig.damping;
-      _this._mass = 1;
-    } else {
-      // Convert the origami tension/friction values to stiffness/damping
-      // We assume mass is 1.
-      var _springConfig = _SpringConfig__WEBPACK_IMPORTED_MODULE_3__["default"].fromOrigamiTensionAndFriction(withDefault(config.tension, 40), withDefault(config.friction, 7));
-
-      _this._stiffness = _springConfig.stiffness;
-      _this._damping = _springConfig.damping;
-      _this._mass = 1;
-    }
-
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_4___default()(_this._stiffness > 0, 'Stiffness value must be greater than 0');
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_4___default()(_this._damping > 0, 'Damping value must be greater than 0');
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_4___default()(_this._mass > 0, 'Mass value must be greater than 0');
-    return _this;
-  }
-
-  var _proto = SpringAnimation.prototype;
-
-  _proto.__getNativeAnimationConfig = function __getNativeAnimationConfig() {
-    return {
-      type: 'spring',
-      overshootClamping: this._overshootClamping,
-      restDisplacementThreshold: this._restDisplacementThreshold,
-      restSpeedThreshold: this._restSpeedThreshold,
-      stiffness: this._stiffness,
-      damping: this._damping,
-      mass: this._mass,
-      initialVelocity: withDefault(this._initialVelocity, this._lastVelocity),
-      toValue: this._toValue,
-      iterations: this.__iterations
-    };
-  };
-
-  _proto.start = function start(fromValue, onUpdate, onEnd, previousAnimation, animatedValue) {
-    var _this2 = this;
-
-    this.__active = true;
-    this._startPosition = fromValue;
-    this._lastPosition = this._startPosition;
-    this._onUpdate = onUpdate;
-    this.__onEnd = onEnd;
-    this._lastTime = Date.now();
-    this._frameTime = 0.0;
-
-    if (previousAnimation instanceof SpringAnimation) {
-      var internalState = previousAnimation.getInternalState();
-      this._lastPosition = internalState.lastPosition;
-      this._lastVelocity = internalState.lastVelocity; // Set the initial velocity to the last velocity
-
-      this._initialVelocity = this._lastVelocity;
-      this._lastTime = internalState.lastTime;
-    }
-
-    var start = function start() {
-      if (_this2._useNativeDriver) {
-        _this2.__startNativeAnimation(animatedValue);
-      } else {
-        _this2.onUpdate();
-      }
-    }; //  If this._delay is more than 0, we start after the timeout.
-
-
-    if (this._delay) {
-      this._timeout = setTimeout(start, this._delay);
-    } else {
-      start();
-    }
-  };
-
-  _proto.getInternalState = function getInternalState() {
-    return {
-      lastPosition: this._lastPosition,
-      lastVelocity: this._lastVelocity,
-      lastTime: this._lastTime
-    };
-  }
-  /**
-   * This spring model is based off of a damped harmonic oscillator
-   * (https://en.wikipedia.org/wiki/Harmonic_oscillator#Damped_harmonic_oscillator).
-   *
-   * We use the closed form of the second order differential equation:
-   *
-   * x'' + (2ζ⍵_0)x' + ⍵^2x = 0
-   *
-   * where
-   *    ⍵_0 = √(k / m) (undamped angular frequency of the oscillator),
-   *    ζ = c / 2√mk (damping ratio),
-   *    c = damping constant
-   *    k = stiffness
-   *    m = mass
-   *
-   * The derivation of the closed form is described in detail here:
-   * http://planetmath.org/sites/default/files/texpdf/39745.pdf
-   *
-   * This algorithm happens to match the algorithm used by CASpringAnimation,
-   * a QuartzCore (iOS) API that creates spring animations.
-   */
-  ;
-
-  _proto.onUpdate = function onUpdate() {
-    // If for some reason we lost a lot of frames (e.g. process large payload or
-    // stopped in the debugger), we only advance by 4 frames worth of
-    // computation and will continue on the next frame. It's better to have it
-    // running at faster speed than jumping to the end.
-    var MAX_STEPS = 64;
-    var now = Date.now();
-
-    if (now > this._lastTime + MAX_STEPS) {
-      now = this._lastTime + MAX_STEPS;
-    }
-
-    var deltaTime = (now - this._lastTime) / 1000;
-    this._frameTime += deltaTime;
-    var c = this._damping;
-    var m = this._mass;
-    var k = this._stiffness;
-    var v0 = -this._initialVelocity;
-    var zeta = c / (2 * Math.sqrt(k * m)); // damping ratio
-
-    var omega0 = Math.sqrt(k / m); // undamped angular frequency of the oscillator (rad/ms)
-
-    var omega1 = omega0 * Math.sqrt(1.0 - zeta * zeta); // exponential decay
-
-    var x0 = this._toValue - this._startPosition; // calculate the oscillation from x0 = 1 to x = 0
-
-    var position = 0.0;
-    var velocity = 0.0;
-    var t = this._frameTime;
-
-    if (zeta < 1) {
-      // Under damped
-      var envelope = Math.exp(-zeta * omega0 * t);
-      position = this._toValue - envelope * ((v0 + zeta * omega0 * x0) / omega1 * Math.sin(omega1 * t) + x0 * Math.cos(omega1 * t)); // This looks crazy -- it's actually just the derivative of the
-      // oscillation function
-
-      velocity = zeta * omega0 * envelope * (Math.sin(omega1 * t) * (v0 + zeta * omega0 * x0) / omega1 + x0 * Math.cos(omega1 * t)) - envelope * (Math.cos(omega1 * t) * (v0 + zeta * omega0 * x0) - omega1 * x0 * Math.sin(omega1 * t));
-    } else {
-      // Critically damped
-      var _envelope = Math.exp(-omega0 * t);
-
-      position = this._toValue - _envelope * (x0 + (v0 + omega0 * x0) * t);
-      velocity = _envelope * (v0 * (t * omega0 - 1) + t * x0 * (omega0 * omega0));
-    }
-
-    this._lastTime = now;
-    this._lastPosition = position;
-    this._lastVelocity = velocity;
-
-    this._onUpdate(position);
-
-    if (!this.__active) {
-      // a listener might have stopped us in _onUpdate
-      return;
-    } // Conditions for stopping the spring animation
-
-
-    var isOvershooting = false;
-
-    if (this._overshootClamping && this._stiffness !== 0) {
-      if (this._startPosition < this._toValue) {
-        isOvershooting = position > this._toValue;
-      } else {
-        isOvershooting = position < this._toValue;
-      }
-    }
-
-    var isVelocity = Math.abs(velocity) <= this._restSpeedThreshold;
-
-    var isDisplacement = true;
-
-    if (this._stiffness !== 0) {
-      isDisplacement = Math.abs(this._toValue - position) <= this._restDisplacementThreshold;
-    }
-
-    if (isOvershooting || isVelocity && isDisplacement) {
-      if (this._stiffness !== 0) {
-        // Ensure that we end up with a round value
-        this._lastPosition = this._toValue;
-        this._lastVelocity = 0;
-
-        this._onUpdate(this._toValue);
-      }
-
-      this.__debouncedOnEnd({
-        finished: true
-      });
-
-      return;
-    }
-
-    this._animationFrame = requestAnimationFrame(this.onUpdate.bind(this));
-  };
-
-  _proto.stop = function stop() {
-    _Animation.prototype.stop.call(this);
-
-    this.__active = false;
-    clearTimeout(this._timeout);
-    global.cancelAnimationFrame(this._animationFrame);
-
-    this.__debouncedOnEnd({
-      finished: false
-    });
-  };
-
-  return SpringAnimation;
-}(_Animation__WEBPACK_IMPORTED_MODULE_2__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (SpringAnimation);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/TimingAnimation.js":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/TimingAnimation.js ***!
-  \*******************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var _nodes_AnimatedValue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../nodes/AnimatedValue */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValue.js");
-/* harmony import */ var _nodes_AnimatedValueXY__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../nodes/AnimatedValueXY */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValueXY.js");
-/* harmony import */ var _Animation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Animation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/animations/Animation.js");
-/* harmony import */ var _Easing__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Easing */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/Easing.js");
-/* harmony import */ var _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../NativeAnimatedHelper */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-
-
-
-var _easeInOut;
-
-function easeInOut() {
-  if (!_easeInOut) {
-    _easeInOut = _Easing__WEBPACK_IMPORTED_MODULE_3__["default"].inOut(_Easing__WEBPACK_IMPORTED_MODULE_3__["default"].ease);
-  }
-
-  return _easeInOut;
-}
-
-var TimingAnimation =
-/*#__PURE__*/
-function (_Animation) {
-  _inheritsLoose(TimingAnimation, _Animation);
-
-  function TimingAnimation(config) {
-    var _this;
-
-    _this = _Animation.call(this) || this;
-    _this._toValue = config.toValue;
-    _this._easing = config.easing !== undefined ? config.easing : easeInOut();
-    _this._duration = config.duration !== undefined ? config.duration : 500;
-    _this._delay = config.delay !== undefined ? config.delay : 0;
-    _this.__iterations = config.iterations !== undefined ? config.iterations : 1;
-    _this.__isInteraction = config.isInteraction !== undefined ? config.isInteraction : true;
-    _this._useNativeDriver = Object(_NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_4__["shouldUseNativeDriver"])(config);
-    return _this;
-  }
-
-  var _proto = TimingAnimation.prototype;
-
-  _proto.__getNativeAnimationConfig = function __getNativeAnimationConfig() {
-    var frameDuration = 1000.0 / 60.0;
-    var frames = [];
-
-    for (var dt = 0.0; dt < this._duration; dt += frameDuration) {
-      frames.push(this._easing(dt / this._duration));
-    }
-
-    frames.push(this._easing(1));
-    return {
-      type: 'frames',
-      frames: frames,
-      toValue: this._toValue,
-      iterations: this.__iterations
-    };
-  };
-
-  _proto.start = function start(fromValue, onUpdate, onEnd, previousAnimation, animatedValue) {
-    var _this2 = this;
-
-    this.__active = true;
-    this._fromValue = fromValue;
-    this._onUpdate = onUpdate;
-    this.__onEnd = onEnd;
-
-    var start = function start() {
-      // Animations that sometimes have 0 duration and sometimes do not
-      // still need to use the native driver when duration is 0 so as to
-      // not cause intermixed JS and native animations.
-      if (_this2._duration === 0 && !_this2._useNativeDriver) {
-        _this2._onUpdate(_this2._toValue);
-
-        _this2.__debouncedOnEnd({
-          finished: true
-        });
-      } else {
-        _this2._startTime = Date.now();
-
-        if (_this2._useNativeDriver) {
-          _this2.__startNativeAnimation(animatedValue);
-        } else {
-          _this2._animationFrame = requestAnimationFrame(_this2.onUpdate.bind(_this2));
-        }
-      }
-    };
-
-    if (this._delay) {
-      this._timeout = setTimeout(start, this._delay);
-    } else {
-      start();
-    }
-  };
-
-  _proto.onUpdate = function onUpdate() {
-    var now = Date.now();
-
-    if (now >= this._startTime + this._duration) {
-      if (this._duration === 0) {
-        this._onUpdate(this._toValue);
-      } else {
-        this._onUpdate(this._fromValue + this._easing(1) * (this._toValue - this._fromValue));
-      }
-
-      this.__debouncedOnEnd({
-        finished: true
-      });
-
-      return;
-    }
-
-    this._onUpdate(this._fromValue + this._easing((now - this._startTime) / this._duration) * (this._toValue - this._fromValue));
-
-    if (this.__active) {
-      this._animationFrame = requestAnimationFrame(this.onUpdate.bind(this));
-    }
-  };
-
-  _proto.stop = function stop() {
-    _Animation.prototype.stop.call(this);
-
-    this.__active = false;
-    clearTimeout(this._timeout);
-    global.cancelAnimationFrame(this._animationFrame);
-
-    this.__debouncedOnEnd({
-      finished: false
-    });
-  };
-
-  return TimingAnimation;
-}(_Animation__WEBPACK_IMPORTED_MODULE_2__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (TimingAnimation);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/bezier.js":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/bezier.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/**
- * BezierEasing - use bezier curve for transition easing function
- * https://github.com/gre/bezier-easing
- *
- * @copyright 2014-2015 Gaëtan Renaudeau. MIT License.
- * 
- */
- // These values are established by empiricism with tests (tradeoff: performance VS precision)
-
-var NEWTON_ITERATIONS = 4;
-var NEWTON_MIN_SLOPE = 0.001;
-var SUBDIVISION_PRECISION = 0.0000001;
-var SUBDIVISION_MAX_ITERATIONS = 10;
-var kSplineTableSize = 11;
-var kSampleStepSize = 1.0 / (kSplineTableSize - 1.0);
-var float32ArraySupported = typeof Float32Array === 'function';
-
-function A(aA1, aA2) {
-  return 1.0 - 3.0 * aA2 + 3.0 * aA1;
-}
-
-function B(aA1, aA2) {
-  return 3.0 * aA2 - 6.0 * aA1;
-}
-
-function C(aA1) {
-  return 3.0 * aA1;
-} // Returns x(t) given t, x1, and x2, or y(t) given t, y1, and y2.
-
-
-function calcBezier(aT, aA1, aA2) {
-  return ((A(aA1, aA2) * aT + B(aA1, aA2)) * aT + C(aA1)) * aT;
-} // Returns dx/dt given t, x1, and x2, or dy/dt given t, y1, and y2.
-
-
-function getSlope(aT, aA1, aA2) {
-  return 3.0 * A(aA1, aA2) * aT * aT + 2.0 * B(aA1, aA2) * aT + C(aA1);
-}
-
-function binarySubdivide(aX, aA, aB, mX1, mX2) {
-  var currentX,
-      currentT,
-      i = 0;
-
-  do {
-    currentT = aA + (aB - aA) / 2.0;
-    currentX = calcBezier(currentT, mX1, mX2) - aX;
-
-    if (currentX > 0.0) {
-      aB = currentT;
-    } else {
-      aA = currentT;
-    }
-  } while (Math.abs(currentX) > SUBDIVISION_PRECISION && ++i < SUBDIVISION_MAX_ITERATIONS);
-
-  return currentT;
-}
-
-function newtonRaphsonIterate(aX, aGuessT, mX1, mX2) {
-  for (var i = 0; i < NEWTON_ITERATIONS; ++i) {
-    var currentSlope = getSlope(aGuessT, mX1, mX2);
-
-    if (currentSlope === 0.0) {
-      return aGuessT;
-    }
-
-    var currentX = calcBezier(aGuessT, mX1, mX2) - aX;
-    aGuessT -= currentX / currentSlope;
-  }
-
-  return aGuessT;
-}
-
-module.exports = function bezier(mX1, mY1, mX2, mY2) {
-  if (!(0 <= mX1 && mX1 <= 1 && 0 <= mX2 && mX2 <= 1)) {
-    // eslint-disable-line yoda
-    throw new Error('bezier x values must be in [0, 1] range');
-  } // Precompute samples table
-
-
-  var sampleValues = float32ArraySupported ? new Float32Array(kSplineTableSize) : new Array(kSplineTableSize);
-
-  if (mX1 !== mY1 || mX2 !== mY2) {
-    for (var i = 0; i < kSplineTableSize; ++i) {
-      sampleValues[i] = calcBezier(i * kSampleStepSize, mX1, mX2);
-    }
-  }
-
-  function getTForX(aX) {
-    var intervalStart = 0.0;
-    var currentSample = 1;
-    var lastSample = kSplineTableSize - 1;
-
-    for (; currentSample !== lastSample && sampleValues[currentSample] <= aX; ++currentSample) {
-      intervalStart += kSampleStepSize;
-    }
-
-    --currentSample; // Interpolate to provide an initial guess for t
-
-    var dist = (aX - sampleValues[currentSample]) / (sampleValues[currentSample + 1] - sampleValues[currentSample]);
-    var guessForT = intervalStart + dist * kSampleStepSize;
-    var initialSlope = getSlope(guessForT, mX1, mX2);
-
-    if (initialSlope >= NEWTON_MIN_SLOPE) {
-      return newtonRaphsonIterate(aX, guessForT, mX1, mX2);
-    } else if (initialSlope === 0.0) {
-      return guessForT;
-    } else {
-      return binarySubdivide(aX, intervalStart, intervalStart + kSampleStepSize, mX1, mX2);
-    }
-  }
-
-  return function BezierEasing(x) {
-    if (mX1 === mY1 && mX2 === mY2) {
-      return x; // linear
-    } // Because JavaScript number are imprecise, we should guarantee the extremes are right.
-
-
-    if (x === 0) {
-      return 0;
-    }
-
-    if (x === 1) {
-      return 1;
-    }
-
-    return calcBezier(getTForX(x), mY1, mY2);
-  };
-};
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/createAnimatedComponent.js":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/createAnimatedComponent.js ***!
-  \****************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedEvent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedEvent */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/AnimatedEvent.js");
-/* harmony import */ var _nodes_AnimatedProps__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nodes/AnimatedProps */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedProps.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _exports_View_ViewStylePropTypes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../exports/View/ViewStylePropTypes */ "./node_modules/react-native-web/dist/exports/View/ViewStylePropTypes.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_4__);
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-
-
-
-
-
-
-function createAnimatedComponent(Component) {
-  fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_4___default()(typeof Component === 'string' || Component.prototype && Component.prototype.isReactComponent, '`createAnimatedComponent` does not support stateless functional components; ' + 'use a class component instead.');
-
-  var AnimatedComponent =
-  /*#__PURE__*/
-  function (_React$Component) {
-    _inheritsLoose(AnimatedComponent, _React$Component);
-
-    function AnimatedComponent(props) {
-      var _this;
-
-      _this = _React$Component.call(this, props) || this;
-      _this._invokeAnimatedPropsCallbackOnMount = false;
-      _this._eventDetachers = [];
-
-      _this._animatedPropsCallback = function () {
-        if (_this._component == null) {
-          // AnimatedProps is created in will-mount because it's used in render.
-          // But this callback may be invoked before mount in async mode,
-          // In which case we should defer the setNativeProps() call.
-          // React may throw away uncommitted work in async mode,
-          // So a deferred call won't always be invoked.
-          _this._invokeAnimatedPropsCallbackOnMount = true;
-        } else if (AnimatedComponent.__skipSetNativeProps_FOR_TESTS_ONLY || typeof _this._component.setNativeProps !== 'function') {
-          _this.forceUpdate();
-        } else if (!_this._propsAnimated.__isNative) {
-          _this._component.setNativeProps(_this._propsAnimated.__getAnimatedValue());
-        } else {
-          throw new Error('Attempting to run JS driven animation on animated ' + 'node that has been moved to "native" earlier by starting an ' + 'animation with `useNativeDriver: true`');
-        }
-      };
-
-      _this._setComponentRef = _this._setComponentRef.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-      return _this;
-    }
-
-    var _proto = AnimatedComponent.prototype;
-
-    _proto.componentWillUnmount = function componentWillUnmount() {
-      this._propsAnimated && this._propsAnimated.__detach();
-
-      this._detachNativeEvents();
-    };
-
-    _proto.setNativeProps = function setNativeProps(props) {
-      this._component.setNativeProps(props);
-    };
-
-    _proto.UNSAFE_componentWillMount = function UNSAFE_componentWillMount() {
-      this._attachProps(this.props);
-    };
-
-    _proto.componentDidMount = function componentDidMount() {
-      if (this._invokeAnimatedPropsCallbackOnMount) {
-        this._invokeAnimatedPropsCallbackOnMount = false;
-
-        this._animatedPropsCallback();
-      }
-
-      this._propsAnimated.setNativeView(this._component);
-
-      this._attachNativeEvents();
-    };
-
-    _proto._attachNativeEvents = function _attachNativeEvents() {
-      var _this2 = this;
-
-      // Make sure to get the scrollable node for components that implement
-      // `ScrollResponder.Mixin`.
-      var scrollableNode = this._component.getScrollableNode ? this._component.getScrollableNode() : this._component;
-
-      var _loop = function _loop(key) {
-        var prop = _this2.props[key];
-
-        if (prop instanceof _AnimatedEvent__WEBPACK_IMPORTED_MODULE_0__["AnimatedEvent"] && prop.__isNative) {
-          prop.__attach(scrollableNode, key);
-
-          _this2._eventDetachers.push(function () {
-            return prop.__detach(scrollableNode, key);
-          });
-        }
-      };
-
-      for (var key in this.props) {
-        _loop(key);
-      }
-    };
-
-    _proto._detachNativeEvents = function _detachNativeEvents() {
-      this._eventDetachers.forEach(function (remove) {
-        return remove();
-      });
-
-      this._eventDetachers = [];
-    } // The system is best designed when setNativeProps is implemented. It is
-    // able to avoid re-rendering and directly set the attributes that changed.
-    // However, setNativeProps can only be implemented on leaf native
-    // components. If you want to animate a composite component, you need to
-    // re-render it. In this case, we have a fallback that uses forceUpdate.
-    ;
-
-    _proto._attachProps = function _attachProps(nextProps) {
-      var oldPropsAnimated = this._propsAnimated;
-      this._propsAnimated = new _nodes_AnimatedProps__WEBPACK_IMPORTED_MODULE_1__["default"](nextProps, this._animatedPropsCallback); // When you call detach, it removes the element from the parent list
-      // of children. If it goes to 0, then the parent also detaches itself
-      // and so on.
-      // An optimization is to attach the new elements and THEN detach the old
-      // ones instead of detaching and THEN attaching.
-      // This way the intermediate state isn't to go to 0 and trigger
-      // this expensive recursive detaching to then re-attach everything on
-      // the very next operation.
-
-      oldPropsAnimated && oldPropsAnimated.__detach();
-    };
-
-    _proto.UNSAFE_componentWillReceiveProps = function UNSAFE_componentWillReceiveProps(newProps) {
-      this._attachProps(newProps);
-    };
-
-    _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
-      if (this._component !== this._prevComponent) {
-        this._propsAnimated.setNativeView(this._component);
-      }
-
-      if (this._component !== this._prevComponent || prevProps !== this.props) {
-        this._detachNativeEvents();
-
-        this._attachNativeEvents();
-      }
-    };
-
-    _proto.render = function render() {
-      var props = this._propsAnimated.__getValue();
-
-      return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Component, _extends({}, props, {
-        ref: this._setComponentRef // The native driver updates views directly through the UI thread so we
-        // have to make sure the view doesn't get optimized away because it cannot
-        // go through the NativeViewHierarchyManager since it operates on the shadow
-        // thread.
-        ,
-        collapsable: this._propsAnimated.__isNative ? false : props.collapsable
-      }));
-    };
-
-    _proto._setComponentRef = function _setComponentRef(c) {
-      this._prevComponent = this._component;
-      this._component = c;
-    } // A third party library can use getNode()
-    // to get the node reference of the decorated component
-    ;
-
-    _proto.getNode = function getNode() {
-      return this._component;
-    };
-
-    return AnimatedComponent;
-  }(react__WEBPACK_IMPORTED_MODULE_2___default.a.Component);
-
-  AnimatedComponent.__skipSetNativeProps_FOR_TESTS_ONLY = false;
-  var propTypes = Component.propTypes;
-  AnimatedComponent.propTypes =  true ? {
-    style: function style(props, propName, componentName) {
-      if (!propTypes) {
-        return;
-      }
-
-      for (var key in _exports_View_ViewStylePropTypes__WEBPACK_IMPORTED_MODULE_3__["default"]) {
-        if (!propTypes[key] && props[key] !== undefined) {
-          console.warn('You are setting the style `{ ' + key + ': ... }` as a prop. You ' + 'should nest it in a style object. ' + 'E.g. `{ style: { ' + key + ': ... } }`');
-        }
-      }
-    }
-  } : undefined;
-  return AnimatedComponent;
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (createAnimatedComponent);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedAddition.js":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedAddition.js ***!
-  \***************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedInterpolation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedInterpolation.js");
-/* harmony import */ var _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AnimatedNode */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js");
-/* harmony import */ var _AnimatedValue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AnimatedValue */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValue.js");
-/* harmony import */ var _AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AnimatedWithChildren */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedWithChildren.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-
-
-var AnimatedAddition =
-/*#__PURE__*/
-function (_AnimatedWithChildren) {
-  _inheritsLoose(AnimatedAddition, _AnimatedWithChildren);
-
-  function AnimatedAddition(a, b) {
-    var _this;
-
-    _this = _AnimatedWithChildren.call(this) || this;
-    _this._a = typeof a === 'number' ? new _AnimatedValue__WEBPACK_IMPORTED_MODULE_2__["default"](a) : a;
-    _this._b = typeof b === 'number' ? new _AnimatedValue__WEBPACK_IMPORTED_MODULE_2__["default"](b) : b;
-    return _this;
-  }
-
-  var _proto = AnimatedAddition.prototype;
-
-  _proto.__makeNative = function __makeNative() {
-    this._a.__makeNative();
-
-    this._b.__makeNative();
-
-    _AnimatedWithChildren.prototype.__makeNative.call(this);
-  };
-
-  _proto.__getValue = function __getValue() {
-    return this._a.__getValue() + this._b.__getValue();
-  };
-
-  _proto.interpolate = function interpolate(config) {
-    return new _AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_0__["default"](this, config);
-  };
-
-  _proto.__attach = function __attach() {
-    this._a.__addChild(this);
-
-    this._b.__addChild(this);
-  };
-
-  _proto.__detach = function __detach() {
-    this._a.__removeChild(this);
-
-    this._b.__removeChild(this);
-
-    _AnimatedWithChildren.prototype.__detach.call(this);
-  };
-
-  _proto.__getNativeConfig = function __getNativeConfig() {
-    return {
-      type: 'addition',
-      input: [this._a.__getNativeTag(), this._b.__getNativeTag()]
-    };
-  };
-
-  return AnimatedAddition;
-}(_AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_3__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedAddition);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedDiffClamp.js":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedDiffClamp.js ***!
-  \****************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedInterpolation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedInterpolation.js");
-/* harmony import */ var _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AnimatedNode */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js");
-/* harmony import */ var _AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AnimatedWithChildren */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedWithChildren.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-
-var AnimatedDiffClamp =
-/*#__PURE__*/
-function (_AnimatedWithChildren) {
-  _inheritsLoose(AnimatedDiffClamp, _AnimatedWithChildren);
-
-  function AnimatedDiffClamp(a, min, max) {
-    var _this;
-
-    _this = _AnimatedWithChildren.call(this) || this;
-    _this._a = a;
-    _this._min = min;
-    _this._max = max;
-    _this._value = _this._lastValue = _this._a.__getValue();
-    return _this;
-  }
-
-  var _proto = AnimatedDiffClamp.prototype;
-
-  _proto.__makeNative = function __makeNative() {
-    this._a.__makeNative();
-
-    _AnimatedWithChildren.prototype.__makeNative.call(this);
-  };
-
-  _proto.interpolate = function interpolate(config) {
-    return new _AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_0__["default"](this, config);
-  };
-
-  _proto.__getValue = function __getValue() {
-    var value = this._a.__getValue();
-
-    var diff = value - this._lastValue;
-    this._lastValue = value;
-    this._value = Math.min(Math.max(this._value + diff, this._min), this._max);
-    return this._value;
-  };
-
-  _proto.__attach = function __attach() {
-    this._a.__addChild(this);
-  };
-
-  _proto.__detach = function __detach() {
-    this._a.__removeChild(this);
-
-    _AnimatedWithChildren.prototype.__detach.call(this);
-  };
-
-  _proto.__getNativeConfig = function __getNativeConfig() {
-    return {
-      type: 'diffclamp',
-      input: this._a.__getNativeTag(),
-      min: this._min,
-      max: this._max
-    };
-  };
-
-  return AnimatedDiffClamp;
-}(_AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_2__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedDiffClamp);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedDivision.js":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedDivision.js ***!
-  \***************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedInterpolation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedInterpolation.js");
-/* harmony import */ var _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AnimatedNode */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js");
-/* harmony import */ var _AnimatedValue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AnimatedValue */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValue.js");
-/* harmony import */ var _AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AnimatedWithChildren */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedWithChildren.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-
-
-var AnimatedDivision =
-/*#__PURE__*/
-function (_AnimatedWithChildren) {
-  _inheritsLoose(AnimatedDivision, _AnimatedWithChildren);
-
-  function AnimatedDivision(a, b) {
-    var _this;
-
-    _this = _AnimatedWithChildren.call(this) || this;
-    _this._a = typeof a === 'number' ? new _AnimatedValue__WEBPACK_IMPORTED_MODULE_2__["default"](a) : a;
-    _this._b = typeof b === 'number' ? new _AnimatedValue__WEBPACK_IMPORTED_MODULE_2__["default"](b) : b;
-    return _this;
-  }
-
-  var _proto = AnimatedDivision.prototype;
-
-  _proto.__makeNative = function __makeNative() {
-    this._a.__makeNative();
-
-    this._b.__makeNative();
-
-    _AnimatedWithChildren.prototype.__makeNative.call(this);
-  };
-
-  _proto.__getValue = function __getValue() {
-    var a = this._a.__getValue();
-
-    var b = this._b.__getValue();
-
-    if (b === 0) {
-      console.error('Detected division by zero in AnimatedDivision');
-    }
-
-    return a / b;
-  };
-
-  _proto.interpolate = function interpolate(config) {
-    return new _AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_0__["default"](this, config);
-  };
-
-  _proto.__attach = function __attach() {
-    this._a.__addChild(this);
-
-    this._b.__addChild(this);
-  };
-
-  _proto.__detach = function __detach() {
-    this._a.__removeChild(this);
-
-    this._b.__removeChild(this);
-
-    _AnimatedWithChildren.prototype.__detach.call(this);
-  };
-
-  _proto.__getNativeConfig = function __getNativeConfig() {
-    return {
-      type: 'division',
-      input: [this._a.__getNativeTag(), this._b.__getNativeTag()]
-    };
-  };
-
-  return AnimatedDivision;
-}(_AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_3__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedDivision);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedInterpolation.js":
-/*!********************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedInterpolation.js ***!
-  \********************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedNode */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js");
-/* harmony import */ var _AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AnimatedWithChildren */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedWithChildren.js");
-/* harmony import */ var _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../NativeAnimatedHelper */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var normalize_css_color__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! normalize-css-color */ "./node_modules/normalize-css-color/index.js");
-/* harmony import */ var normalize_css_color__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(normalize_css_color__WEBPACK_IMPORTED_MODULE_4__);
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-/* eslint no-bitwise: 0 */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-
-
-
-var linear = function linear(t) {
-  return t;
-};
-/**
- * Very handy helper to map input ranges to output ranges with an easing
- * function and custom behavior outside of the ranges.
- */
-
-
-function createInterpolation(config) {
-  if (config.outputRange && typeof config.outputRange[0] === 'string') {
-    return createInterpolationFromStringOutputRange(config);
-  }
-
-  var outputRange = config.outputRange;
-  checkInfiniteRange('outputRange', outputRange);
-  var inputRange = config.inputRange;
-  checkInfiniteRange('inputRange', inputRange);
-  checkValidInputRange(inputRange);
-  fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(inputRange.length === outputRange.length, 'inputRange (' + inputRange.length + ') and outputRange (' + outputRange.length + ') must have the same length');
-  var easing = config.easing || linear;
-  var extrapolateLeft = 'extend';
-
-  if (config.extrapolateLeft !== undefined) {
-    extrapolateLeft = config.extrapolateLeft;
-  } else if (config.extrapolate !== undefined) {
-    extrapolateLeft = config.extrapolate;
-  }
-
-  var extrapolateRight = 'extend';
-
-  if (config.extrapolateRight !== undefined) {
-    extrapolateRight = config.extrapolateRight;
-  } else if (config.extrapolate !== undefined) {
-    extrapolateRight = config.extrapolate;
-  }
-
-  return function (input) {
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(typeof input === 'number', 'Cannot interpolation an input which is not a number');
-    var range = findRange(input, inputRange);
-    return interpolate(input, inputRange[range], inputRange[range + 1], outputRange[range], outputRange[range + 1], easing, extrapolateLeft, extrapolateRight);
-  };
-}
-
-function interpolate(input, inputMin, inputMax, outputMin, outputMax, easing, extrapolateLeft, extrapolateRight) {
-  var result = input; // Extrapolate
-
-  if (result < inputMin) {
-    if (extrapolateLeft === 'identity') {
-      return result;
-    } else if (extrapolateLeft === 'clamp') {
-      result = inputMin;
-    } else if (extrapolateLeft === 'extend') {// noop
-    }
-  }
-
-  if (result > inputMax) {
-    if (extrapolateRight === 'identity') {
-      return result;
-    } else if (extrapolateRight === 'clamp') {
-      result = inputMax;
-    } else if (extrapolateRight === 'extend') {// noop
-    }
-  }
-
-  if (outputMin === outputMax) {
-    return outputMin;
-  }
-
-  if (inputMin === inputMax) {
-    if (input <= inputMin) {
-      return outputMin;
-    }
-
-    return outputMax;
-  } // Input Range
-
-
-  if (inputMin === -Infinity) {
-    result = -result;
-  } else if (inputMax === Infinity) {
-    result = result - inputMin;
-  } else {
-    result = (result - inputMin) / (inputMax - inputMin);
-  } // Easing
-
-
-  result = easing(result); // Output Range
-
-  if (outputMin === -Infinity) {
-    result = -result;
-  } else if (outputMax === Infinity) {
-    result = result + outputMin;
-  } else {
-    result = result * (outputMax - outputMin) + outputMin;
-  }
-
-  return result;
-}
-
-function colorToRgba(input) {
-  var int32Color = normalize_css_color__WEBPACK_IMPORTED_MODULE_4___default()(input);
-
-  if (int32Color === null) {
-    return input;
-  }
-
-  int32Color = int32Color || 0;
-  var r = (int32Color & 0xff000000) >>> 24;
-  var g = (int32Color & 0x00ff0000) >>> 16;
-  var b = (int32Color & 0x0000ff00) >>> 8;
-  var a = (int32Color & 0x000000ff) / 255;
-  return "rgba(" + r + ", " + g + ", " + b + ", " + a + ")";
-}
-
-var stringShapeRegex = /[0-9\.-]+/g;
-/**
- * Supports string shapes by extracting numbers so new values can be computed,
- * and recombines those values into new strings of the same shape.  Supports
- * things like:
- *
- *   rgba(123, 42, 99, 0.36) // colors
- *   -45deg                  // values with units
- */
-
-function createInterpolationFromStringOutputRange(config) {
-  var outputRange = config.outputRange;
-  fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(outputRange.length >= 2, 'Bad output range');
-  outputRange = outputRange.map(colorToRgba);
-  checkPattern(outputRange); // ['rgba(0, 100, 200, 0)', 'rgba(50, 150, 250, 0.5)']
-  // ->
-  // [
-  //   [0, 50],
-  //   [100, 150],
-  //   [200, 250],
-  //   [0, 0.5],
-  // ]
-
-  /* $FlowFixMe(>=0.18.0): `outputRange[0].match()` can return `null`. Need to
-   * guard against this possibility.
-   */
-
-  var outputRanges = outputRange[0].match(stringShapeRegex).map(function () {
-    return [];
-  });
-  outputRange.forEach(function (value) {
-    /* $FlowFixMe(>=0.18.0): `value.match()` can return `null`. Need to guard
-     * against this possibility.
-     */
-    value.match(stringShapeRegex).forEach(function (number, i) {
-      outputRanges[i].push(+number);
-    });
-  });
-  /* $FlowFixMe(>=0.18.0): `outputRange[0].match()` can return `null`. Need to
-   * guard against this possibility.
-   */
-
-  var interpolations = outputRange[0].match(stringShapeRegex).map(function (value, i) {
-    return createInterpolation(_objectSpread({}, config, {
-      outputRange: outputRanges[i]
-    }));
-  }); // rgba requires that the r,g,b are integers.... so we want to round them, but we *dont* want to
-  // round the opacity (4th column).
-
-  var shouldRound = isRgbOrRgba(outputRange[0]);
-  return function (input) {
-    var i = 0; // 'rgba(0, 100, 200, 0)'
-    // ->
-    // 'rgba(${interpolations[0](input)}, ${interpolations[1](input)}, ...'
-
-    return outputRange[0].replace(stringShapeRegex, function () {
-      var val = +interpolations[i++](input);
-      var rounded = shouldRound && i < 4 ? Math.round(val) : Math.round(val * 1000) / 1000;
-      return String(rounded);
-    });
-  };
-}
-
-function isRgbOrRgba(range) {
-  return typeof range === 'string' && range.startsWith('rgb');
-}
-
-function checkPattern(arr) {
-  var pattern = arr[0].replace(stringShapeRegex, '');
-
-  for (var i = 1; i < arr.length; ++i) {
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(pattern === arr[i].replace(stringShapeRegex, ''), 'invalid pattern ' + arr[0] + ' and ' + arr[i]);
-  }
-}
-
-function findRange(input, inputRange) {
-  var i;
-
-  for (i = 1; i < inputRange.length - 1; ++i) {
-    if (inputRange[i] >= input) {
-      break;
-    }
-  }
-
-  return i - 1;
-}
-
-function checkValidInputRange(arr) {
-  fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(arr.length >= 2, 'inputRange must have at least 2 elements');
-
-  for (var i = 1; i < arr.length; ++i) {
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(arr[i] >= arr[i - 1],
-    /* $FlowFixMe(>=0.13.0) - In the addition expression below this comment,
-     * one or both of the operands may be something that doesn't cleanly
-     * convert to a string, like undefined, null, and object, etc. If you really
-     * mean this implicit string conversion, you can do something like
-     * String(myThing)
-     */
-    'inputRange must be monotonically increasing ' + arr);
-  }
-}
-
-function checkInfiniteRange(name, arr) {
-  fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(arr.length >= 2, name + ' must have at least 2 elements');
-  fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(arr.length !== 2 || arr[0] !== -Infinity || arr[1] !== Infinity,
-  /* $FlowFixMe(>=0.13.0) - In the addition expression below this comment,
-   * one or both of the operands may be something that doesn't cleanly convert
-   * to a string, like undefined, null, and object, etc. If you really mean
-   * this implicit string conversion, you can do something like
-   * String(myThing)
-   */
-  name + 'cannot be ]-infinity;+infinity[ ' + arr);
-}
-
-var AnimatedInterpolation =
-/*#__PURE__*/
-function (_AnimatedWithChildren) {
-  _inheritsLoose(AnimatedInterpolation, _AnimatedWithChildren);
-
-  // Export for testing.
-  function AnimatedInterpolation(parent, config) {
-    var _this;
-
-    _this = _AnimatedWithChildren.call(this) || this;
-    _this._parent = parent;
-    _this._config = config;
-    _this._interpolation = createInterpolation(config);
-    return _this;
-  }
-
-  var _proto = AnimatedInterpolation.prototype;
-
-  _proto.__makeNative = function __makeNative() {
-    this._parent.__makeNative();
-
-    _AnimatedWithChildren.prototype.__makeNative.call(this);
-  };
-
-  _proto.__getValue = function __getValue() {
-    var parentValue = this._parent.__getValue();
-
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(typeof parentValue === 'number', 'Cannot interpolate an input which is not a number.');
-    return this._interpolation(parentValue);
-  };
-
-  _proto.interpolate = function interpolate(config) {
-    return new AnimatedInterpolation(this, config);
-  };
-
-  _proto.__attach = function __attach() {
-    this._parent.__addChild(this);
-  };
-
-  _proto.__detach = function __detach() {
-    this._parent.__removeChild(this);
-
-    _AnimatedWithChildren.prototype.__detach.call(this);
-  };
-
-  _proto.__transformDataType = function __transformDataType(range) {
-    // Change the string array type to number array
-    // So we can reuse the same logic in iOS and Android platform
-    return range.map(function (value) {
-      if (typeof value !== 'string') {
-        return value;
-      }
-
-      if (/deg$/.test(value)) {
-        var degrees = parseFloat(value) || 0;
-        var radians = degrees * Math.PI / 180.0;
-        return radians;
-      } else {
-        // Assume radians
-        return parseFloat(value) || 0;
-      }
-    });
-  };
-
-  _proto.__getNativeConfig = function __getNativeConfig() {
-    if (true) {
-      _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_2__["default"].validateInterpolation(this._config);
-    }
-
-    return {
-      inputRange: this._config.inputRange,
-      // Only the `outputRange` can contain strings so we don't need to transform `inputRange` here
-      outputRange: this.__transformDataType(this._config.outputRange),
-      extrapolateLeft: this._config.extrapolateLeft || this._config.extrapolate || 'extend',
-      extrapolateRight: this._config.extrapolateRight || this._config.extrapolate || 'extend',
-      type: 'interpolation'
-    };
-  };
-
-  return AnimatedInterpolation;
-}(_AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_1__["default"]);
-
-AnimatedInterpolation.__createInterpolation = createInterpolation;
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedInterpolation);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedModulo.js":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedModulo.js ***!
-  \*************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedInterpolation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedInterpolation.js");
-/* harmony import */ var _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AnimatedNode */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js");
-/* harmony import */ var _AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AnimatedWithChildren */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedWithChildren.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-
-var AnimatedModulo =
-/*#__PURE__*/
-function (_AnimatedWithChildren) {
-  _inheritsLoose(AnimatedModulo, _AnimatedWithChildren);
-
-  function AnimatedModulo(a, modulus) {
-    var _this;
-
-    _this = _AnimatedWithChildren.call(this) || this;
-    _this._a = a;
-    _this._modulus = modulus;
-    return _this;
-  }
-
-  var _proto = AnimatedModulo.prototype;
-
-  _proto.__makeNative = function __makeNative() {
-    this._a.__makeNative();
-
-    _AnimatedWithChildren.prototype.__makeNative.call(this);
-  };
-
-  _proto.__getValue = function __getValue() {
-    return (this._a.__getValue() % this._modulus + this._modulus) % this._modulus;
-  };
-
-  _proto.interpolate = function interpolate(config) {
-    return new _AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_0__["default"](this, config);
-  };
-
-  _proto.__attach = function __attach() {
-    this._a.__addChild(this);
-  };
-
-  _proto.__detach = function __detach() {
-    this._a.__removeChild(this);
-
-    _AnimatedWithChildren.prototype.__detach.call(this);
-  };
-
-  _proto.__getNativeConfig = function __getNativeConfig() {
-    return {
-      type: 'modulus',
-      input: this._a.__getNativeTag(),
-      modulus: this._modulus
-    };
-  };
-
-  return AnimatedModulo;
-}(_AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_2__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedModulo);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedMultiplication.js":
-/*!*********************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedMultiplication.js ***!
-  \*********************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedInterpolation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedInterpolation.js");
-/* harmony import */ var _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AnimatedNode */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js");
-/* harmony import */ var _AnimatedValue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AnimatedValue */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValue.js");
-/* harmony import */ var _AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AnimatedWithChildren */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedWithChildren.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-
-
-var AnimatedMultiplication =
-/*#__PURE__*/
-function (_AnimatedWithChildren) {
-  _inheritsLoose(AnimatedMultiplication, _AnimatedWithChildren);
-
-  function AnimatedMultiplication(a, b) {
-    var _this;
-
-    _this = _AnimatedWithChildren.call(this) || this;
-    _this._a = typeof a === 'number' ? new _AnimatedValue__WEBPACK_IMPORTED_MODULE_2__["default"](a) : a;
-    _this._b = typeof b === 'number' ? new _AnimatedValue__WEBPACK_IMPORTED_MODULE_2__["default"](b) : b;
-    return _this;
-  }
-
-  var _proto = AnimatedMultiplication.prototype;
-
-  _proto.__makeNative = function __makeNative() {
-    this._a.__makeNative();
-
-    this._b.__makeNative();
-
-    _AnimatedWithChildren.prototype.__makeNative.call(this);
-  };
-
-  _proto.__getValue = function __getValue() {
-    return this._a.__getValue() * this._b.__getValue();
-  };
-
-  _proto.interpolate = function interpolate(config) {
-    return new _AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_0__["default"](this, config);
-  };
-
-  _proto.__attach = function __attach() {
-    this._a.__addChild(this);
-
-    this._b.__addChild(this);
-  };
-
-  _proto.__detach = function __detach() {
-    this._a.__removeChild(this);
-
-    this._b.__removeChild(this);
-
-    _AnimatedWithChildren.prototype.__detach.call(this);
-  };
-
-  _proto.__getNativeConfig = function __getNativeConfig() {
-    return {
-      type: 'multiplication',
-      input: [this._a.__getNativeTag(), this._b.__getNativeTag()]
-    };
-  };
-
-  return AnimatedMultiplication;
-}(_AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_3__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedMultiplication);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js ***!
-  \***********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../NativeAnimatedHelper */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_1__);
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-
- // Note(vjeux): this would be better as an interface but flow doesn't
-// support them yet
-
-var AnimatedNode =
-/*#__PURE__*/
-function () {
-  function AnimatedNode() {}
-
-  var _proto = AnimatedNode.prototype;
-
-  _proto.__attach = function __attach() {};
-
-  _proto.__detach = function __detach() {
-    if (this.__isNative && this.__nativeTag != null) {
-      _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_0__["default"].API.dropAnimatedNode(this.__nativeTag);
-      this.__nativeTag = undefined;
-    }
-  };
-
-  _proto.__getValue = function __getValue() {};
-
-  _proto.__getAnimatedValue = function __getAnimatedValue() {
-    return this.__getValue();
-  };
-
-  _proto.__addChild = function __addChild(child) {};
-
-  _proto.__removeChild = function __removeChild(child) {};
-
-  _proto.__getChildren = function __getChildren() {
-    return [];
-  }
-  /* Methods and props used by native Animated impl */
-  ;
-
-  _proto.__makeNative = function __makeNative() {
-    if (!this.__isNative) {
-      throw new Error('This node cannot be made a "native" animated node');
-    }
-  };
-
-  _proto.__getNativeTag = function __getNativeTag() {
-    _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_0__["default"].assertNativeAnimatedModule();
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_1___default()(this.__isNative, 'Attempt to get native tag from node not marked as "native"');
-
-    if (this.__nativeTag == null) {
-      var nativeTag = _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_0__["default"].generateNewNodeTag();
-      _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_0__["default"].API.createAnimatedNode(nativeTag, this.__getNativeConfig());
-      this.__nativeTag = nativeTag;
-    }
-
-    return this.__nativeTag;
-  };
-
-  _proto.__getNativeConfig = function __getNativeConfig() {
-    throw new Error('This JS animated node type cannot be used as native animated node');
-  };
-
-  _proto.toJSON = function toJSON() {
-    return this.__getValue();
-  };
-
-  return AnimatedNode;
-}();
-
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedNode);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedProps.js":
-/*!************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedProps.js ***!
-  \************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedEvent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../AnimatedEvent */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/AnimatedEvent.js");
-/* harmony import */ var _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AnimatedNode */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js");
-/* harmony import */ var _AnimatedStyle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AnimatedStyle */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedStyle.js");
-/* harmony import */ var _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../NativeAnimatedHelper */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js");
-/* harmony import */ var _exports_findNodeHandle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../exports/findNodeHandle */ "./node_modules/react-native-web/dist/exports/findNodeHandle/index.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_5__);
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-
-
-
-
-var AnimatedProps =
-/*#__PURE__*/
-function (_AnimatedNode) {
-  _inheritsLoose(AnimatedProps, _AnimatedNode);
-
-  function AnimatedProps(props, callback) {
-    var _this;
-
-    _this = _AnimatedNode.call(this) || this;
-
-    if (props.style) {
-      props = _objectSpread({}, props, {
-        style: new _AnimatedStyle__WEBPACK_IMPORTED_MODULE_2__["default"](props.style)
-      });
-    }
-
-    _this._props = props;
-    _this._callback = callback;
-
-    _this.__attach();
-
-    return _this;
-  }
-
-  var _proto = AnimatedProps.prototype;
-
-  _proto.__getValue = function __getValue() {
-    var props = {};
-
-    for (var key in this._props) {
-      var value = this._props[key];
-
-      if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__["default"]) {
-        if (!value.__isNative || value instanceof _AnimatedStyle__WEBPACK_IMPORTED_MODULE_2__["default"]) {
-          // We cannot use value of natively driven nodes this way as the value we have access from
-          // JS may not be up to date.
-          props[key] = value.__getValue();
-        }
-      } else if (value instanceof _AnimatedEvent__WEBPACK_IMPORTED_MODULE_0__["AnimatedEvent"]) {
-        props[key] = value.__getHandler();
-      } else {
-        props[key] = value;
-      }
-    }
-
-    return props;
-  };
-
-  _proto.__getAnimatedValue = function __getAnimatedValue() {
-    var props = {};
-
-    for (var key in this._props) {
-      var value = this._props[key];
-
-      if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__["default"]) {
-        props[key] = value.__getAnimatedValue();
-      }
-    }
-
-    return props;
-  };
-
-  _proto.__attach = function __attach() {
-    for (var key in this._props) {
-      var value = this._props[key];
-
-      if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__["default"]) {
-        value.__addChild(this);
-      }
-    }
-  };
-
-  _proto.__detach = function __detach() {
-    if (this.__isNative && this._animatedView) {
-      this.__disconnectAnimatedView();
-    }
-
-    for (var key in this._props) {
-      var value = this._props[key];
-
-      if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__["default"]) {
-        value.__removeChild(this);
-      }
-    }
-
-    _AnimatedNode.prototype.__detach.call(this);
-  };
-
-  _proto.update = function update() {
-    this._callback();
-  };
-
-  _proto.__makeNative = function __makeNative() {
-    if (!this.__isNative) {
-      this.__isNative = true;
-
-      for (var key in this._props) {
-        var value = this._props[key];
-
-        if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__["default"]) {
-          value.__makeNative();
-        }
-      }
-
-      if (this._animatedView) {
-        this.__connectAnimatedView();
-      }
-    }
-  };
-
-  _proto.setNativeView = function setNativeView(animatedView) {
-    if (this._animatedView === animatedView) {
-      return;
-    }
-
-    this._animatedView = animatedView;
-
-    if (this.__isNative) {
-      this.__connectAnimatedView();
-    }
-  };
-
-  _proto.__connectAnimatedView = function __connectAnimatedView() {
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_5___default()(this.__isNative, 'Expected node to be marked as "native"');
-    var nativeViewTag = Object(_exports_findNodeHandle__WEBPACK_IMPORTED_MODULE_4__["default"])(this._animatedView);
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_5___default()(nativeViewTag != null, 'Unable to locate attached view in the native tree');
-    _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_3__["default"].API.connectAnimatedNodeToView(this.__getNativeTag(), nativeViewTag);
-  };
-
-  _proto.__disconnectAnimatedView = function __disconnectAnimatedView() {
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_5___default()(this.__isNative, 'Expected node to be marked as "native"');
-    var nativeViewTag = Object(_exports_findNodeHandle__WEBPACK_IMPORTED_MODULE_4__["default"])(this._animatedView);
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_5___default()(nativeViewTag != null, 'Unable to locate attached view in the native tree');
-    _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_3__["default"].API.disconnectAnimatedNodeFromView(this.__getNativeTag(), nativeViewTag);
-  };
-
-  _proto.__getNativeConfig = function __getNativeConfig() {
-    var propsConfig = {};
-
-    for (var propKey in this._props) {
-      var value = this._props[propKey];
-
-      if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__["default"]) {
-        propsConfig[propKey] = value.__getNativeTag();
-      }
-    }
-
-    return {
-      type: 'props',
-      props: propsConfig
-    };
-  };
-
-  return AnimatedProps;
-}(_AnimatedNode__WEBPACK_IMPORTED_MODULE_1__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedProps);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedStyle.js":
-/*!************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedStyle.js ***!
-  \************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedNode */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js");
-/* harmony import */ var _AnimatedTransform__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AnimatedTransform */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedTransform.js");
-/* harmony import */ var _AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AnimatedWithChildren */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedWithChildren.js");
-/* harmony import */ var _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../NativeAnimatedHelper */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js");
-/* harmony import */ var _exports_StyleSheet__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../exports/StyleSheet */ "./node_modules/react-native-web/dist/exports/StyleSheet/index.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-
-
-var flattenStyle = _exports_StyleSheet__WEBPACK_IMPORTED_MODULE_4__["default"].flatten;
-
-var AnimatedStyle =
-/*#__PURE__*/
-function (_AnimatedWithChildren) {
-  _inheritsLoose(AnimatedStyle, _AnimatedWithChildren);
-
-  function AnimatedStyle(style) {
-    var _this;
-
-    _this = _AnimatedWithChildren.call(this) || this;
-    style = flattenStyle(style) || {};
-
-    if (style.transform) {
-      style = _objectSpread({}, style, {
-        transform: new _AnimatedTransform__WEBPACK_IMPORTED_MODULE_1__["default"](style.transform)
-      });
-    }
-
-    _this._style = style;
-    return _this;
-  } // Recursively get values for nested styles (like iOS's shadowOffset)
-
-
-  var _proto = AnimatedStyle.prototype;
-
-  _proto._walkStyleAndGetValues = function _walkStyleAndGetValues(style) {
-    var updatedStyle = {};
-
-    for (var key in style) {
-      var value = style[key];
-
-      if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-        if (!value.__isNative) {
-          // We cannot use value of natively driven nodes this way as the value we have access from
-          // JS may not be up to date.
-          updatedStyle[key] = value.__getValue();
-        }
-      } else if (value && !Array.isArray(value) && typeof value === 'object') {
-        // Support animating nested values (for example: shadowOffset.height)
-        updatedStyle[key] = this._walkStyleAndGetValues(value);
-      } else {
-        updatedStyle[key] = value;
-      }
-    }
-
-    return updatedStyle;
-  };
-
-  _proto.__getValue = function __getValue() {
-    return this._walkStyleAndGetValues(this._style);
-  } // Recursively get animated values for nested styles (like iOS's shadowOffset)
-  ;
-
-  _proto._walkStyleAndGetAnimatedValues = function _walkStyleAndGetAnimatedValues(style) {
-    var updatedStyle = {};
-
-    for (var key in style) {
-      var value = style[key];
-
-      if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-        updatedStyle[key] = value.__getAnimatedValue();
-      } else if (value && !Array.isArray(value) && typeof value === 'object') {
-        // Support animating nested values (for example: shadowOffset.height)
-        updatedStyle[key] = this._walkStyleAndGetAnimatedValues(value);
-      }
-    }
-
-    return updatedStyle;
-  };
-
-  _proto.__getAnimatedValue = function __getAnimatedValue() {
-    return this._walkStyleAndGetAnimatedValues(this._style);
-  };
-
-  _proto.__attach = function __attach() {
-    for (var key in this._style) {
-      var value = this._style[key];
-
-      if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-        value.__addChild(this);
-      }
-    }
-  };
-
-  _proto.__detach = function __detach() {
-    for (var key in this._style) {
-      var value = this._style[key];
-
-      if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-        value.__removeChild(this);
-      }
-    }
-
-    _AnimatedWithChildren.prototype.__detach.call(this);
-  };
-
-  _proto.__makeNative = function __makeNative() {
-    _AnimatedWithChildren.prototype.__makeNative.call(this);
-
-    for (var key in this._style) {
-      var value = this._style[key];
-
-      if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-        value.__makeNative();
-      }
-    }
-  };
-
-  _proto.__getNativeConfig = function __getNativeConfig() {
-    var styleConfig = {};
-
-    for (var styleKey in this._style) {
-      if (this._style[styleKey] instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-        styleConfig[styleKey] = this._style[styleKey].__getNativeTag();
-      } // Non-animated styles are set using `setNativeProps`, no need
-      // to pass those as a part of the node config
-
-    }
-
-    _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_3__["default"].validateStyles(styleConfig);
-    return {
-      type: 'style',
-      style: styleConfig
-    };
-  };
-
-  return AnimatedStyle;
-}(_AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_2__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedStyle);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedTracking.js":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedTracking.js ***!
-  \***************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedValue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedValue */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValue.js");
-/* harmony import */ var _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AnimatedNode */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js");
-/* harmony import */ var _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../NativeAnimatedHelper */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-
-var AnimatedTracking =
-/*#__PURE__*/
-function (_AnimatedNode) {
-  _inheritsLoose(AnimatedTracking, _AnimatedNode);
-
-  function AnimatedTracking(value, parent, animationClass, animationConfig, callback) {
-    var _this;
-
-    _this = _AnimatedNode.call(this) || this;
-    _this._value = value;
-    _this._parent = parent;
-    _this._animationClass = animationClass;
-    _this._animationConfig = animationConfig;
-    _this._useNativeDriver = Object(_NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_2__["shouldUseNativeDriver"])(animationConfig);
-    _this._callback = callback;
-
-    _this.__attach();
-
-    return _this;
-  }
-
-  var _proto = AnimatedTracking.prototype;
-
-  _proto.__makeNative = function __makeNative() {
-    this.__isNative = true;
-
-    this._parent.__makeNative();
-
-    _AnimatedNode.prototype.__makeNative.call(this);
-
-    this._value.__makeNative();
-  };
-
-  _proto.__getValue = function __getValue() {
-    return this._parent.__getValue();
-  };
-
-  _proto.__attach = function __attach() {
-    this._parent.__addChild(this);
-
-    if (this._useNativeDriver) {
-      // when the tracking starts we need to convert this node to a "native node"
-      // so that the parent node will be made "native" too. This is necessary as
-      // if we don't do this `update` method will get called. At that point it
-      // may be too late as it would mean the JS driver has already started
-      // updating node values
-      this.__makeNative();
-    }
-  };
-
-  _proto.__detach = function __detach() {
-    this._parent.__removeChild(this);
-
-    _AnimatedNode.prototype.__detach.call(this);
-  };
-
-  _proto.update = function update() {
-    this._value.animate(new this._animationClass(_objectSpread({}, this._animationConfig, {
-      toValue: this._animationConfig.toValue.__getValue()
-    })), this._callback);
-  };
-
-  _proto.__getNativeConfig = function __getNativeConfig() {
-    var animation = new this._animationClass(_objectSpread({}, this._animationConfig, {
-      // remove toValue from the config as it's a ref to Animated.Value
-      toValue: undefined
-    }));
-
-    var animationConfig = animation.__getNativeAnimationConfig();
-
-    return {
-      type: 'tracking',
-      animationId: Object(_NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_2__["generateNewAnimationId"])(),
-      animationConfig: animationConfig,
-      toValue: this._parent.__getNativeTag(),
-      value: this._value.__getNativeTag()
-    };
-  };
-
-  return AnimatedTracking;
-}(_AnimatedNode__WEBPACK_IMPORTED_MODULE_1__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedTracking);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedTransform.js":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedTransform.js ***!
-  \****************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedNode */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js");
-/* harmony import */ var _AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AnimatedWithChildren */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedWithChildren.js");
-/* harmony import */ var _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../NativeAnimatedHelper */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-
-var AnimatedTransform =
-/*#__PURE__*/
-function (_AnimatedWithChildren) {
-  _inheritsLoose(AnimatedTransform, _AnimatedWithChildren);
-
-  function AnimatedTransform(transforms) {
-    var _this;
-
-    _this = _AnimatedWithChildren.call(this) || this;
-    _this._transforms = transforms;
-    return _this;
-  }
-
-  var _proto = AnimatedTransform.prototype;
-
-  _proto.__makeNative = function __makeNative() {
-    _AnimatedWithChildren.prototype.__makeNative.call(this);
-
-    this._transforms.forEach(function (transform) {
-      for (var key in transform) {
-        var value = transform[key];
-
-        if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-          value.__makeNative();
-        }
-      }
-    });
-  };
-
-  _proto.__getValue = function __getValue() {
-    return this._transforms.map(function (transform) {
-      var result = {};
-
-      for (var key in transform) {
-        var value = transform[key];
-
-        if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-          result[key] = value.__getValue();
-        } else {
-          result[key] = value;
-        }
-      }
-
-      return result;
-    });
-  };
-
-  _proto.__getAnimatedValue = function __getAnimatedValue() {
-    return this._transforms.map(function (transform) {
-      var result = {};
-
-      for (var key in transform) {
-        var value = transform[key];
-
-        if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-          result[key] = value.__getAnimatedValue();
-        } else {
-          // All transform components needed to recompose matrix
-          result[key] = value;
-        }
-      }
-
-      return result;
-    });
-  };
-
-  _proto.__attach = function __attach() {
-    var _this2 = this;
-
-    this._transforms.forEach(function (transform) {
-      for (var key in transform) {
-        var value = transform[key];
-
-        if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-          value.__addChild(_this2);
-        }
-      }
-    });
-  };
-
-  _proto.__detach = function __detach() {
-    var _this3 = this;
-
-    this._transforms.forEach(function (transform) {
-      for (var key in transform) {
-        var value = transform[key];
-
-        if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-          value.__removeChild(_this3);
-        }
-      }
-    });
-
-    _AnimatedWithChildren.prototype.__detach.call(this);
-  };
-
-  _proto.__getNativeConfig = function __getNativeConfig() {
-    var transConfigs = [];
-
-    this._transforms.forEach(function (transform) {
-      for (var key in transform) {
-        var value = transform[key];
-
-        if (value instanceof _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-          transConfigs.push({
-            type: 'animated',
-            property: key,
-            nodeTag: value.__getNativeTag()
-          });
-        } else {
-          transConfigs.push({
-            type: 'static',
-            property: key,
-            value: value
-          });
-        }
-      }
-    });
-
-    _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_2__["default"].validateTransform(transConfigs);
-    return {
-      type: 'transform',
-      transforms: transConfigs
-    };
-  };
-
-  return AnimatedTransform;
-}(_AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_1__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedTransform);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValue.js":
-/*!************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValue.js ***!
-  \************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedInterpolation */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedInterpolation.js");
-/* harmony import */ var _AnimatedNode__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AnimatedNode */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js");
-/* harmony import */ var _AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AnimatedWithChildren */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedWithChildren.js");
-/* harmony import */ var _exports_InteractionManager__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../exports/InteractionManager */ "./node_modules/react-native-web/dist/exports/InteractionManager/index.js");
-/* harmony import */ var _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../NativeAnimatedHelper */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-
-
-var NativeAnimatedAPI = _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_4__["default"].API;
-var _uniqueId = 1;
-/**
- * Animated works by building a directed acyclic graph of dependencies
- * transparently when you render your Animated components.
- *
- *               new Animated.Value(0)
- *     .interpolate()        .interpolate()    new Animated.Value(1)
- *         opacity               translateY      scale
- *          style                         transform
- *         View#234                         style
- *                                         View#123
- *
- * A) Top Down phase
- * When an Animated.Value is updated, we recursively go down through this
- * graph in order to find leaf nodes: the views that we flag as needing
- * an update.
- *
- * B) Bottom Up phase
- * When a view is flagged as needing an update, we recursively go back up
- * in order to build the new value that it needs. The reason why we need
- * this two-phases process is to deal with composite props such as
- * transform which can receive values from multiple parents.
- */
-
-function _flush(rootNode) {
-  var animatedStyles = new Set();
-
-  function findAnimatedStyles(node) {
-    if (typeof node.update === 'function') {
-      animatedStyles.add(node);
-    } else {
-      node.__getChildren().forEach(findAnimatedStyles);
-    }
-  }
-
-  findAnimatedStyles(rootNode);
-  animatedStyles.forEach(function (animatedStyle) {
-    return animatedStyle.update();
-  });
-}
-/**
- * Standard value for driving animations.  One `Animated.Value` can drive
- * multiple properties in a synchronized fashion, but can only be driven by one
- * mechanism at a time.  Using a new mechanism (e.g. starting a new animation,
- * or calling `setValue`) will stop any previous ones.
- *
- * See http://facebook.github.io/react-native/docs/animatedvalue.html
- */
-
-
-var AnimatedValue =
-/*#__PURE__*/
-function (_AnimatedWithChildren) {
-  _inheritsLoose(AnimatedValue, _AnimatedWithChildren);
-
-  function AnimatedValue(value) {
-    var _this;
-
-    _this = _AnimatedWithChildren.call(this) || this;
-    _this._startingValue = _this._value = value;
-    _this._offset = 0;
-    _this._animation = null;
-    _this._listeners = {};
-    return _this;
-  }
-
-  var _proto = AnimatedValue.prototype;
-
-  _proto.__detach = function __detach() {
-    this.stopAnimation();
-
-    _AnimatedWithChildren.prototype.__detach.call(this);
-  };
-
-  _proto.__getValue = function __getValue() {
-    return this._value + this._offset;
-  };
-
-  _proto.__makeNative = function __makeNative() {
-    _AnimatedWithChildren.prototype.__makeNative.call(this);
-
-    if (Object.keys(this._listeners).length) {
-      this._startListeningToNativeValueUpdates();
-    }
-  }
-  /**
-   * Directly set the value.  This will stop any animations running on the value
-   * and update all the bound properties.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvalue.html#setvalue
-   */
-  ;
-
-  _proto.setValue = function setValue(value) {
-    if (this._animation) {
-      this._animation.stop();
-
-      this._animation = null;
-    }
-
-    this._updateValue(value, !this.__isNative
-    /* don't perform a flush for natively driven values */
-    );
-
-    if (this.__isNative) {
-      NativeAnimatedAPI.setAnimatedNodeValue(this.__getNativeTag(), value);
-    }
-  }
-  /**
-   * Sets an offset that is applied on top of whatever value is set, whether via
-   * `setValue`, an animation, or `Animated.event`.  Useful for compensating
-   * things like the start of a pan gesture.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvalue.html#setoffset
-   */
-  ;
-
-  _proto.setOffset = function setOffset(offset) {
-    this._offset = offset;
-
-    if (this.__isNative) {
-      NativeAnimatedAPI.setAnimatedNodeOffset(this.__getNativeTag(), offset);
-    }
-  }
-  /**
-   * Merges the offset value into the base value and resets the offset to zero.
-   * The final output of the value is unchanged.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvalue.html#flattenoffset
-   */
-  ;
-
-  _proto.flattenOffset = function flattenOffset() {
-    this._value += this._offset;
-    this._offset = 0;
-
-    if (this.__isNative) {
-      NativeAnimatedAPI.flattenAnimatedNodeOffset(this.__getNativeTag());
-    }
-  }
-  /**
-   * Sets the offset value to the base value, and resets the base value to zero.
-   * The final output of the value is unchanged.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvalue.html#extractoffset
-   */
-  ;
-
-  _proto.extractOffset = function extractOffset() {
-    this._offset += this._value;
-    this._value = 0;
-
-    if (this.__isNative) {
-      NativeAnimatedAPI.extractAnimatedNodeOffset(this.__getNativeTag());
-    }
-  }
-  /**
-   * Adds an asynchronous listener to the value so you can observe updates from
-   * animations.  This is useful because there is no way to
-   * synchronously read the value because it might be driven natively.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvalue.html#addlistener
-   */
-  ;
-
-  _proto.addListener = function addListener(callback) {
-    var id = String(_uniqueId++);
-    this._listeners[id] = callback;
-
-    if (this.__isNative) {
-      this._startListeningToNativeValueUpdates();
-    }
-
-    return id;
-  }
-  /**
-   * Unregister a listener. The `id` param shall match the identifier
-   * previously returned by `addListener()`.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvalue.html#removelistener
-   */
-  ;
-
-  _proto.removeListener = function removeListener(id) {
-    delete this._listeners[id];
-
-    if (this.__isNative && Object.keys(this._listeners).length === 0) {
-      this._stopListeningForNativeValueUpdates();
-    }
-  }
-  /**
-   * Remove all registered listeners.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvalue.html#removealllisteners
-   */
-  ;
-
-  _proto.removeAllListeners = function removeAllListeners() {
-    this._listeners = {};
-
-    if (this.__isNative) {
-      this._stopListeningForNativeValueUpdates();
-    }
-  };
-
-  _proto._startListeningToNativeValueUpdates = function _startListeningToNativeValueUpdates() {
-    var _this2 = this;
-
-    if (this.__nativeAnimatedValueListener) {
-      return;
-    }
-
-    NativeAnimatedAPI.startListeningToAnimatedNodeValue(this.__getNativeTag());
-    this.__nativeAnimatedValueListener = _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_4__["default"].nativeEventEmitter.addListener('onAnimatedValueUpdate', function (data) {
-      if (data.tag !== _this2.__getNativeTag()) {
-        return;
-      }
-
-      _this2._updateValue(data.value, false
-      /* flush */
-      );
-    });
-  };
-
-  _proto._stopListeningForNativeValueUpdates = function _stopListeningForNativeValueUpdates() {
-    if (!this.__nativeAnimatedValueListener) {
-      return;
-    }
-
-    this.__nativeAnimatedValueListener.remove();
-
-    this.__nativeAnimatedValueListener = null;
-    NativeAnimatedAPI.stopListeningToAnimatedNodeValue(this.__getNativeTag());
-  }
-  /**
-   * Stops any running animation or tracking. `callback` is invoked with the
-   * final value after stopping the animation, which is useful for updating
-   * state to match the animation position with layout.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvalue.html#stopanimation
-   */
-  ;
-
-  _proto.stopAnimation = function stopAnimation(callback) {
-    this.stopTracking();
-    this._animation && this._animation.stop();
-    this._animation = null;
-    callback && callback(this.__getValue());
-  }
-  /**
-   * Stops any animation and resets the value to its original.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvalue.html#resetanimation
-   */
-  ;
-
-  _proto.resetAnimation = function resetAnimation(callback) {
-    this.stopAnimation(callback);
-    this._value = this._startingValue;
-  }
-  /**
-   * Interpolates the value before updating the property, e.g. mapping 0-1 to
-   * 0-10.
-   */
-  ;
-
-  _proto.interpolate = function interpolate(config) {
-    return new _AnimatedInterpolation__WEBPACK_IMPORTED_MODULE_0__["default"](this, config);
-  }
-  /**
-   * Typically only used internally, but could be used by a custom Animation
-   * class.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvalue.html#animate
-   */
-  ;
-
-  _proto.animate = function animate(animation, callback) {
-    var _this3 = this;
-
-    var handle = null;
-
-    if (animation.__isInteraction) {
-      handle = _exports_InteractionManager__WEBPACK_IMPORTED_MODULE_3__["default"].createInteractionHandle();
-    }
-
-    var previousAnimation = this._animation;
-    this._animation && this._animation.stop();
-    this._animation = animation;
-    animation.start(this._value, function (value) {
-      // Natively driven animations will never call into that callback, therefore we can always
-      // pass flush = true to allow the updated value to propagate to native with setNativeProps
-      _this3._updateValue(value, true
-      /* flush */
-      );
-    }, function (result) {
-      _this3._animation = null;
-
-      if (handle !== null) {
-        _exports_InteractionManager__WEBPACK_IMPORTED_MODULE_3__["default"].clearInteractionHandle(handle);
-      }
-
-      callback && callback(result);
-    }, previousAnimation, this);
-  }
-  /**
-   * Typically only used internally.
-   */
-  ;
-
-  _proto.stopTracking = function stopTracking() {
-    this._tracking && this._tracking.__detach();
-    this._tracking = null;
-  }
-  /**
-   * Typically only used internally.
-   */
-  ;
-
-  _proto.track = function track(tracking) {
-    this.stopTracking();
-    this._tracking = tracking;
-  };
-
-  _proto._updateValue = function _updateValue(value, flush) {
-    this._value = value;
-
-    if (flush) {
-      _flush(this);
-    }
-
-    for (var _key in this._listeners) {
-      this._listeners[_key]({
-        value: this.__getValue()
-      });
-    }
-  };
-
-  _proto.__getNativeConfig = function __getNativeConfig() {
-    return {
-      type: 'value',
-      value: this._value,
-      offset: this._offset
-    };
-  };
-
-  return AnimatedValue;
-}(_AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_2__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedValue);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValueXY.js":
-/*!**************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValueXY.js ***!
-  \**************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedValue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedValue */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedValue.js");
-/* harmony import */ var _AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AnimatedWithChildren */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedWithChildren.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_2__);
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-var _uniqueId = 1;
-/**
- * 2D Value for driving 2D animations, such as pan gestures. Almost identical
- * API to normal `Animated.Value`, but multiplexed.
- *
- * See http://facebook.github.io/react-native/docs/animatedvaluexy.html
- */
-
-var AnimatedValueXY =
-/*#__PURE__*/
-function (_AnimatedWithChildren) {
-  _inheritsLoose(AnimatedValueXY, _AnimatedWithChildren);
-
-  function AnimatedValueXY(valueIn) {
-    var _this;
-
-    _this = _AnimatedWithChildren.call(this) || this;
-    var value = valueIn || {
-      x: 0,
-      y: 0
-    }; // fixme: shouldn't need `: any`
-
-    if (typeof value.x === 'number' && typeof value.y === 'number') {
-      _this.x = new _AnimatedValue__WEBPACK_IMPORTED_MODULE_0__["default"](value.x);
-      _this.y = new _AnimatedValue__WEBPACK_IMPORTED_MODULE_0__["default"](value.y);
-    } else {
-      fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_2___default()(value.x instanceof _AnimatedValue__WEBPACK_IMPORTED_MODULE_0__["default"] && value.y instanceof _AnimatedValue__WEBPACK_IMPORTED_MODULE_0__["default"], 'AnimatedValueXY must be initialized with an object of numbers or ' + 'AnimatedValues.');
-      _this.x = value.x;
-      _this.y = value.y;
-    }
-
-    _this._listeners = {};
-    return _this;
-  }
-  /**
-   * Directly set the value. This will stop any animations running on the value
-   * and update all the bound properties.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvaluexy.html#setvalue
-   */
-
-
-  var _proto = AnimatedValueXY.prototype;
-
-  _proto.setValue = function setValue(value) {
-    this.x.setValue(value.x);
-    this.y.setValue(value.y);
-  }
-  /**
-   * Sets an offset that is applied on top of whatever value is set, whether
-   * via `setValue`, an animation, or `Animated.event`. Useful for compensating
-   * things like the start of a pan gesture.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvaluexy.html#setoffset
-   */
-  ;
-
-  _proto.setOffset = function setOffset(offset) {
-    this.x.setOffset(offset.x);
-    this.y.setOffset(offset.y);
-  }
-  /**
-   * Merges the offset value into the base value and resets the offset to zero.
-   * The final output of the value is unchanged.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvaluexy.html#flattenoffset
-   */
-  ;
-
-  _proto.flattenOffset = function flattenOffset() {
-    this.x.flattenOffset();
-    this.y.flattenOffset();
-  }
-  /**
-   * Sets the offset value to the base value, and resets the base value to
-   * zero. The final output of the value is unchanged.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvaluexy.html#extractoffset
-   */
-  ;
-
-  _proto.extractOffset = function extractOffset() {
-    this.x.extractOffset();
-    this.y.extractOffset();
-  };
-
-  _proto.__getValue = function __getValue() {
-    return {
-      x: this.x.__getValue(),
-      y: this.y.__getValue()
-    };
-  }
-  /**
-   * Stops any animation and resets the value to its original.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvaluexy.html#resetanimation
-   */
-  ;
-
-  _proto.resetAnimation = function resetAnimation(callback) {
-    this.x.resetAnimation();
-    this.y.resetAnimation();
-    callback && callback(this.__getValue());
-  }
-  /**
-   * Stops any running animation or tracking. `callback` is invoked with the
-   * final value after stopping the animation, which is useful for updating
-   * state to match the animation position with layout.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvaluexy.html#stopanimation
-   */
-  ;
-
-  _proto.stopAnimation = function stopAnimation(callback) {
-    this.x.stopAnimation();
-    this.y.stopAnimation();
-    callback && callback(this.__getValue());
-  }
-  /**
-   * Adds an asynchronous listener to the value so you can observe updates from
-   * animations.  This is useful because there is no way to synchronously read
-   * the value because it might be driven natively.
-   *
-   * Returns a string that serves as an identifier for the listener.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvaluexy.html#addlistener
-   */
-  ;
-
-  _proto.addListener = function addListener(callback) {
-    var _this2 = this;
-
-    var id = String(_uniqueId++);
-
-    var jointCallback = function jointCallback(_ref) {
-      var number = _ref.value;
-      callback(_this2.__getValue());
-    };
-
-    this._listeners[id] = {
-      x: this.x.addListener(jointCallback),
-      y: this.y.addListener(jointCallback)
-    };
-    return id;
-  }
-  /**
-   * Unregister a listener. The `id` param shall match the identifier
-   * previously returned by `addListener()`.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvaluexy.html#removelistener
-   */
-  ;
-
-  _proto.removeListener = function removeListener(id) {
-    this.x.removeListener(this._listeners[id].x);
-    this.y.removeListener(this._listeners[id].y);
-    delete this._listeners[id];
-  }
-  /**
-   * Remove all registered listeners.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvaluexy.html#removealllisteners
-   */
-  ;
-
-  _proto.removeAllListeners = function removeAllListeners() {
-    this.x.removeAllListeners();
-    this.y.removeAllListeners();
-    this._listeners = {};
-  }
-  /**
-   * Converts `{x, y}` into `{left, top}` for use in style.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvaluexy.html#getlayout
-   */
-  ;
-
-  _proto.getLayout = function getLayout() {
-    return {
-      left: this.x,
-      top: this.y
-    };
-  }
-  /**
-   * Converts `{x, y}` into a useable translation transform.
-   *
-   * See http://facebook.github.io/react-native/docs/animatedvaluexy.html#gettranslatetransform
-   */
-  ;
-
-  _proto.getTranslateTransform = function getTranslateTransform() {
-    return [{
-      translateX: this.x
-    }, {
-      translateY: this.y
-    }];
-  };
-
-  return AnimatedValueXY;
-}(_AnimatedWithChildren__WEBPACK_IMPORTED_MODULE_1__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedValueXY);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedWithChildren.js":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedWithChildren.js ***!
-  \*******************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AnimatedNode__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnimatedNode */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/nodes/AnimatedNode.js");
-/* harmony import */ var _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../NativeAnimatedHelper */ "./node_modules/react-native-web/dist/vendor/react-native/Animated/NativeAnimatedHelper.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- * @format
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-var AnimatedWithChildren =
-/*#__PURE__*/
-function (_AnimatedNode) {
-  _inheritsLoose(AnimatedWithChildren, _AnimatedNode);
-
-  function AnimatedWithChildren() {
-    var _this;
-
-    _this = _AnimatedNode.call(this) || this;
-    _this._children = [];
-    return _this;
-  }
-
-  var _proto = AnimatedWithChildren.prototype;
-
-  _proto.__makeNative = function __makeNative() {
-    if (!this.__isNative) {
-      this.__isNative = true;
-
-      for (var _iterator = this._children, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : _iterator[Symbol.iterator]();;) {
-        var _ref;
-
-        if (_isArray) {
-          if (_i >= _iterator.length) break;
-          _ref = _iterator[_i++];
-        } else {
-          _i = _iterator.next();
-          if (_i.done) break;
-          _ref = _i.value;
-        }
-
-        var child = _ref;
-
-        child.__makeNative();
-
-        _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_1__["default"].API.connectAnimatedNodes(this.__getNativeTag(), child.__getNativeTag());
-      }
-    }
-  };
-
-  _proto.__addChild = function __addChild(child) {
-    if (this._children.length === 0) {
-      this.__attach();
-    }
-
-    this._children.push(child);
-
-    if (this.__isNative) {
-      // Only accept "native" animated nodes as children
-      child.__makeNative();
-
-      _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_1__["default"].API.connectAnimatedNodes(this.__getNativeTag(), child.__getNativeTag());
-    }
-  };
-
-  _proto.__removeChild = function __removeChild(child) {
-    var index = this._children.indexOf(child);
-
-    if (index === -1) {
-      console.warn("Trying to remove a child that doesn't exist");
-      return;
-    }
-
-    if (this.__isNative && child.__isNative) {
-      _NativeAnimatedHelper__WEBPACK_IMPORTED_MODULE_1__["default"].API.disconnectAnimatedNodes(this.__getNativeTag(), child.__getNativeTag());
-    }
-
-    this._children.splice(index, 1);
-
-    if (this._children.length === 0) {
-      this.__detach();
-    }
-  };
-
-  _proto.__getChildren = function __getChildren() {
-    return this._children;
-  };
-
-  return AnimatedWithChildren;
-}(_AnimatedNode__WEBPACK_IMPORTED_MODULE_0__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (AnimatedWithChildren);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/NativeEventEmitter/RCTDeviceEventEmitter.js":
-/*!************************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/NativeEventEmitter/RCTDeviceEventEmitter.js ***!
-  \************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _emitter_EventEmitter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../emitter/EventEmitter */ "./node_modules/react-native-web/dist/vendor/react-native/emitter/EventEmitter.js");
-/* harmony import */ var _emitter_EventSubscriptionVendor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../emitter/EventSubscriptionVendor */ "./node_modules/react-native-web/dist/vendor/react-native/emitter/EventSubscriptionVendor.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @format
- * 
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-var __DEV__ = "development" !== 'production';
-
-function checkNativeEventModule(eventType) {
-  if (eventType) {
-    if (eventType === 'appStateDidChange' || eventType === 'memoryWarning') {
-      throw new Error('`' + eventType + '` event should be registered via the AppState module');
-    }
-  }
-}
-/**
- * Deprecated - subclass NativeEventEmitter to create granular event modules instead of
- * adding all event listeners directly to RCTDeviceEventEmitter.
- */
-
-
-var RCTDeviceEventEmitter =
-/*#__PURE__*/
-function (_EventEmitter) {
-  _inheritsLoose(RCTDeviceEventEmitter, _EventEmitter);
-
-  function RCTDeviceEventEmitter() {
-    var _this;
-
-    var sharedSubscriber = new _emitter_EventSubscriptionVendor__WEBPACK_IMPORTED_MODULE_1__["default"]();
-    _this = _EventEmitter.call(this, sharedSubscriber) || this;
-    _this.sharedSubscriber = sharedSubscriber;
-    return _this;
-  }
-
-  var _proto = RCTDeviceEventEmitter.prototype;
-
-  _proto.addListener = function addListener(eventType, listener, context) {
-    if (__DEV__) {
-      checkNativeEventModule(eventType);
-    }
-
-    return _EventEmitter.prototype.addListener.call(this, eventType, listener, context);
-  };
-
-  _proto.removeAllListeners = function removeAllListeners(eventType) {
-    if (__DEV__) {
-      checkNativeEventModule(eventType);
-    }
-
-    _EventEmitter.prototype.removeAllListeners.call(this, eventType);
-  };
-
-  _proto.removeSubscription = function removeSubscription(subscription) {
-    if (subscription.emitter !== this) {
-      subscription.emitter.removeSubscription(subscription);
-    } else {
-      _EventEmitter.prototype.removeSubscription.call(this, subscription);
-    }
-  };
-
-  return RCTDeviceEventEmitter;
-}(_emitter_EventEmitter__WEBPACK_IMPORTED_MODULE_0__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (new RCTDeviceEventEmitter());
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/NativeEventEmitter/index.js":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/NativeEventEmitter/index.js ***!
-  \********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _emitter_EventEmitter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../emitter/EventEmitter */ "./node_modules/react-native-web/dist/vendor/react-native/emitter/EventEmitter.js");
-/* harmony import */ var _RCTDeviceEventEmitter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./RCTDeviceEventEmitter */ "./node_modules/react-native-web/dist/vendor/react-native/NativeEventEmitter/RCTDeviceEventEmitter.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @providesModule NativeEventEmitter
- * 
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-
-
-/**
- * Abstract base class for implementing event-emitting modules. This implements
- * a subset of the standard EventEmitter node module API.
- */
-var NativeEventEmitter =
-/*#__PURE__*/
-function (_EventEmitter) {
-  _inheritsLoose(NativeEventEmitter, _EventEmitter);
-
-  function NativeEventEmitter(nativeModule) {
-    return _EventEmitter.call(this, _RCTDeviceEventEmitter__WEBPACK_IMPORTED_MODULE_2__["default"].sharedSubscriber) || this;
-  }
-
-  var _proto = NativeEventEmitter.prototype;
-
-  _proto.addListener = function addListener(eventType, listener, context) {
-    if (this._nativeModule != null) {
-      this._nativeModule.addListener(eventType);
-    }
-
-    return _EventEmitter.prototype.addListener.call(this, eventType, listener, context);
-  };
-
-  _proto.removeAllListeners = function removeAllListeners(eventType) {
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0___default()(eventType, 'eventType argument is required.');
-    var count = this.listeners(eventType).length;
-
-    if (this._nativeModule != null) {
-      this._nativeModule.removeListeners(count);
-    }
-
-    _EventEmitter.prototype.removeAllListeners.call(this, eventType);
-  };
-
-  _proto.removeSubscription = function removeSubscription(subscription) {
-    if (this._nativeModule != null) {
-      this._nativeModule.removeListeners(1);
-    }
-
-    _EventEmitter.prototype.removeSubscription.call(this, subscription);
-  };
-
-  return NativeEventEmitter;
-}(_emitter_EventEmitter__WEBPACK_IMPORTED_MODULE_1__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (NativeEventEmitter);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/PanResponder/index.js":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/PanResponder/index.js ***!
-  \**************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _exports_InteractionManager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../exports/InteractionManager */ "./node_modules/react-native-web/dist/exports/InteractionManager/index.js");
-/* harmony import */ var _TouchHistoryMath__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../TouchHistoryMath */ "./node_modules/react-native-web/dist/vendor/react-native/TouchHistoryMath/index.js");
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-
-var currentCentroidXOfTouchesChangedAfter = _TouchHistoryMath__WEBPACK_IMPORTED_MODULE_1__["default"].currentCentroidXOfTouchesChangedAfter;
-var currentCentroidYOfTouchesChangedAfter = _TouchHistoryMath__WEBPACK_IMPORTED_MODULE_1__["default"].currentCentroidYOfTouchesChangedAfter;
-var previousCentroidXOfTouchesChangedAfter = _TouchHistoryMath__WEBPACK_IMPORTED_MODULE_1__["default"].previousCentroidXOfTouchesChangedAfter;
-var previousCentroidYOfTouchesChangedAfter = _TouchHistoryMath__WEBPACK_IMPORTED_MODULE_1__["default"].previousCentroidYOfTouchesChangedAfter;
-var currentCentroidX = _TouchHistoryMath__WEBPACK_IMPORTED_MODULE_1__["default"].currentCentroidX;
-var currentCentroidY = _TouchHistoryMath__WEBPACK_IMPORTED_MODULE_1__["default"].currentCentroidY;
-/**
- * `PanResponder` reconciles several touches into a single gesture. It makes
- * single-touch gestures resilient to extra touches, and can be used to
- * recognize simple multi-touch gestures.
- *
- * By default, `PanResponder` holds an `InteractionManager` handle to block
- * long-running JS events from interrupting active gestures.
- *
- * It provides a predictable wrapper of the responder handlers provided by the
- * [gesture responder system](docs/gesture-responder-system.html).
- * For each handler, it provides a new `gestureState` object alongside the
- * native event object:
- *
- * ```
- * onPanResponderMove: (event, gestureState) => {}
- * ```
- *
- * A native event is a synthetic touch event with the following form:
- *
- *  - `nativeEvent`
- *      + `changedTouches` - Array of all touch events that have changed since the last event
- *      + `identifier` - The ID of the touch
- *      + `locationX` - The X position of the touch, relative to the element
- *      + `locationY` - The Y position of the touch, relative to the element
- *      + `pageX` - The X position of the touch, relative to the root element
- *      + `pageY` - The Y position of the touch, relative to the root element
- *      + `target` - The node id of the element receiving the touch event
- *      + `timestamp` - A time identifier for the touch, useful for velocity calculation
- *      + `touches` - Array of all current touches on the screen
- *
- * A `gestureState` object has the following:
- *
- *  - `stateID` - ID of the gestureState- persisted as long as there at least
- *     one touch on screen
- *  - `moveX` - the latest screen coordinates of the recently-moved touch
- *  - `moveY` - the latest screen coordinates of the recently-moved touch
- *  - `x0` - the screen coordinates of the responder grant
- *  - `y0` - the screen coordinates of the responder grant
- *  - `dx` - accumulated distance of the gesture since the touch started
- *  - `dy` - accumulated distance of the gesture since the touch started
- *  - `vx` - current velocity of the gesture
- *  - `vy` - current velocity of the gesture
- *  - `numberActiveTouches` - Number of touches currently on screen
- *
- * ### Basic Usage
- *
- * ```
- *   componentWillMount: function() {
- *     this._panResponder = PanResponder.create({
- *       // Ask to be the responder:
- *       onStartShouldSetPanResponder: (evt, gestureState) => true,
- *       onStartShouldSetPanResponderCapture: (evt, gestureState) => true,
- *       onMoveShouldSetPanResponder: (evt, gestureState) => true,
- *       onMoveShouldSetPanResponderCapture: (evt, gestureState) => true,
- *
- *       onPanResponderGrant: (evt, gestureState) => {
- *         // The gesture has started. Show visual feedback so the user knows
- *         // what is happening!
- *
- *         // gestureState.d{x,y} will be set to zero now
- *       },
- *       onPanResponderMove: (evt, gestureState) => {
- *         // The most recent move distance is gestureState.move{X,Y}
- *
- *         // The accumulated gesture distance since becoming responder is
- *         // gestureState.d{x,y}
- *       },
- *       onPanResponderTerminationRequest: (evt, gestureState) => true,
- *       onPanResponderRelease: (evt, gestureState) => {
- *         // The user has released all touches while this view is the
- *         // responder. This typically means a gesture has succeeded
- *       },
- *       onPanResponderTerminate: (evt, gestureState) => {
- *         // Another component has become the responder, so this gesture
- *         // should be cancelled
- *       },
- *       onShouldBlockNativeResponder: (evt, gestureState) => {
- *         // Returns whether this component should block native components from becoming the JS
- *         // responder. Returns true by default. Is currently only supported on android.
- *         return true;
- *       },
- *     });
- *   },
- *
- *   render: function() {
- *     return (
- *       <View {...this._panResponder.panHandlers} />
- *     );
- *   },
- *
- * ```
- *
- * ### Working Example
- *
- * To see it in action, try the
- * [PanResponder example in RNTester](https://github.com/facebook/react-native/blob/master/RNTester/js/PanResponderExample.js)
- */
-
-var PanResponder = {
-  /**
-   *
-   * A graphical explanation of the touch data flow:
-   *
-   * +----------------------------+             +--------------------------------+
-   * | ResponderTouchHistoryStore |             |TouchHistoryMath                |
-   * +----------------------------+             +----------+---------------------+
-   * |Global store of touchHistory|             |Allocation-less math util       |
-   * |including activeness, start |             |on touch history (centroids     |
-   * |position, prev/cur position.|             |and multitouch movement etc)    |
-   * |                            |             |                                |
-   * +----^-----------------------+             +----^---------------------------+
-   *      |                                          |
-   *      | (records relevant history                |
-   *      |  of touches relevant for                 |
-   *      |  implementing higher level               |
-   *      |  gestures)                               |
-   *      |                                          |
-   * +----+-----------------------+             +----|---------------------------+
-   * | ResponderEventPlugin       |             |    |   Your App/Component      |
-   * +----------------------------+             +----|---------------------------+
-   * |Negotiates which view gets  | Low level   |    |             High level    |
-   * |onResponderMove events.     | events w/   |  +-+-------+     events w/     |
-   * |Also records history into   | touchHistory|  |   Pan   |     multitouch +  |
-   * |ResponderTouchHistoryStore. +---------------->Responder+-----> accumulative|
-   * +----------------------------+ attached to |  |         |     distance and  |
-   *                                 each event |  +---------+     velocity.     |
-   *                                            |                                |
-   *                                            |                                |
-   *                                            +--------------------------------+
-   *
-   *
-   *
-   * Gesture that calculates cumulative movement over time in a way that just
-   * "does the right thing" for multiple touches. The "right thing" is very
-   * nuanced. When moving two touches in opposite directions, the cumulative
-   * distance is zero in each dimension. When two touches move in parallel five
-   * pixels in the same direction, the cumulative distance is five, not ten. If
-   * two touches start, one moves five in a direction, then stops and the other
-   * touch moves fives in the same direction, the cumulative distance is ten.
-   *
-   * This logic requires a kind of processing of time "clusters" of touch events
-   * so that two touch moves that essentially occur in parallel but move every
-   * other frame respectively, are considered part of the same movement.
-   *
-   * Explanation of some of the non-obvious fields:
-   *
-   * - moveX/moveY: If no move event has been observed, then `(moveX, moveY)` is
-   *   invalid. If a move event has been observed, `(moveX, moveY)` is the
-   *   centroid of the most recently moved "cluster" of active touches.
-   *   (Currently all move have the same timeStamp, but later we should add some
-   *   threshold for what is considered to be "moving"). If a palm is
-   *   accidentally counted as a touch, but a finger is moving greatly, the palm
-   *   will move slightly, but we only want to count the single moving touch.
-   * - x0/y0: Centroid location (non-cumulative) at the time of becoming
-   *   responder.
-   * - dx/dy: Cumulative touch distance - not the same thing as sum of each touch
-   *   distance. Accounts for touch moves that are clustered together in time,
-   *   moving the same direction. Only valid when currently responder (otherwise,
-   *   it only represents the drag distance below the threshold).
-   * - vx/vy: Velocity.
-   */
-  _initializeGestureState: function _initializeGestureState(gestureState) {
-    gestureState.moveX = 0;
-    gestureState.moveY = 0;
-    gestureState.x0 = 0;
-    gestureState.y0 = 0;
-    gestureState.dx = 0;
-    gestureState.dy = 0;
-    gestureState.vx = 0;
-    gestureState.vy = 0;
-    gestureState.numberActiveTouches = 0; // All `gestureState` accounts for timeStamps up until:
-
-    gestureState._accountsForMovesUpTo = 0;
-  },
-
-  /**
-   * This is nuanced and is necessary. It is incorrect to continuously take all
-   * active *and* recently moved touches, find the centroid, and track how that
-   * result changes over time. Instead, we must take all recently moved
-   * touches, and calculate how the centroid has changed just for those
-   * recently moved touches, and append that change to an accumulator. This is
-   * to (at least) handle the case where the user is moving three fingers, and
-   * then one of the fingers stops but the other two continue.
-   *
-   * This is very different than taking all of the recently moved touches and
-   * storing their centroid as `dx/dy`. For correctness, we must *accumulate
-   * changes* in the centroid of recently moved touches.
-   *
-   * There is also some nuance with how we handle multiple moved touches in a
-   * single event. With the way `ReactNativeEventEmitter` dispatches touches as
-   * individual events, multiple touches generate two 'move' events, each of
-   * them triggering `onResponderMove`. But with the way `PanResponder` works,
-   * all of the gesture inference is performed on the first dispatch, since it
-   * looks at all of the touches (even the ones for which there hasn't been a
-   * native dispatch yet). Therefore, `PanResponder` does not call
-   * `onResponderMove` passed the first dispatch. This diverges from the
-   * typical responder callback pattern (without using `PanResponder`), but
-   * avoids more dispatches than necessary.
-   */
-  _updateGestureStateOnMove: function _updateGestureStateOnMove(gestureState, touchHistory) {
-    gestureState.numberActiveTouches = touchHistory.numberActiveTouches;
-    gestureState.moveX = currentCentroidXOfTouchesChangedAfter(touchHistory, gestureState._accountsForMovesUpTo);
-    gestureState.moveY = currentCentroidYOfTouchesChangedAfter(touchHistory, gestureState._accountsForMovesUpTo);
-    var movedAfter = gestureState._accountsForMovesUpTo;
-    var prevX = previousCentroidXOfTouchesChangedAfter(touchHistory, movedAfter);
-    var x = currentCentroidXOfTouchesChangedAfter(touchHistory, movedAfter);
-    var prevY = previousCentroidYOfTouchesChangedAfter(touchHistory, movedAfter);
-    var y = currentCentroidYOfTouchesChangedAfter(touchHistory, movedAfter);
-    var nextDX = gestureState.dx + (x - prevX);
-    var nextDY = gestureState.dy + (y - prevY); // TODO: This must be filtered intelligently.
-
-    var dt = touchHistory.mostRecentTimeStamp - gestureState._accountsForMovesUpTo;
-    gestureState.vx = (nextDX - gestureState.dx) / dt;
-    gestureState.vy = (nextDY - gestureState.dy) / dt;
-    gestureState.dx = nextDX;
-    gestureState.dy = nextDY;
-    gestureState._accountsForMovesUpTo = touchHistory.mostRecentTimeStamp;
-  },
-
-  /**
-   * @param {object} config Enhanced versions of all of the responder callbacks
-   * that provide not only the typical `ResponderSyntheticEvent`, but also the
-   * `PanResponder` gesture state.  Simply replace the word `Responder` with
-   * `PanResponder` in each of the typical `onResponder*` callbacks. For
-   * example, the `config` object would look like:
-   *
-   *  - `onMoveShouldSetPanResponder: (e, gestureState) => {...}`
-   *  - `onMoveShouldSetPanResponderCapture: (e, gestureState) => {...}`
-   *  - `onStartShouldSetPanResponder: (e, gestureState) => {...}`
-   *  - `onStartShouldSetPanResponderCapture: (e, gestureState) => {...}`
-   *  - `onPanResponderReject: (e, gestureState) => {...}`
-   *  - `onPanResponderGrant: (e, gestureState) => {...}`
-   *  - `onPanResponderStart: (e, gestureState) => {...}`
-   *  - `onPanResponderEnd: (e, gestureState) => {...}`
-   *  - `onPanResponderRelease: (e, gestureState) => {...}`
-   *  - `onPanResponderMove: (e, gestureState) => {...}`
-   *  - `onPanResponderTerminate: (e, gestureState) => {...}`
-   *  - `onPanResponderTerminationRequest: (e, gestureState) => {...}`
-   *  - `onShouldBlockNativeResponder: (e, gestureState) => {...}`
-   *
-   *  In general, for events that have capture equivalents, we update the
-   *  gestureState once in the capture phase and can use it in the bubble phase
-   *  as well.
-   *
-   *  Be careful with onStartShould* callbacks. They only reflect updated
-   *  `gestureState` for start/end events that bubble/capture to the Node.
-   *  Once the node is the responder, you can rely on every start/end event
-   *  being processed by the gesture and `gestureState` being updated
-   *  accordingly. (numberActiveTouches) may not be totally accurate unless you
-   *  are the responder.
-   */
-  create: function create(config) {
-    var interactionState = {
-      handle: null
-    };
-    var gestureState = {
-      // Useful for debugging
-      stateID: Math.random()
-    };
-
-    PanResponder._initializeGestureState(gestureState);
-
-    var panHandlers = {
-      onStartShouldSetResponder: function onStartShouldSetResponder(e) {
-        return config.onStartShouldSetPanResponder === undefined ? false : config.onStartShouldSetPanResponder(e, gestureState);
-      },
-      onMoveShouldSetResponder: function onMoveShouldSetResponder(e) {
-        return config.onMoveShouldSetPanResponder === undefined ? false : config.onMoveShouldSetPanResponder(e, gestureState);
-      },
-      onStartShouldSetResponderCapture: function onStartShouldSetResponderCapture(e) {
-        // TODO: Actually, we should reinitialize the state any time
-        // touches.length increases from 0 active to > 0 active.
-        if (e.nativeEvent.touches.length === 1) {
-          PanResponder._initializeGestureState(gestureState);
-        }
-
-        gestureState.numberActiveTouches = e.touchHistory.numberActiveTouches;
-        return config.onStartShouldSetPanResponderCapture !== undefined ? config.onStartShouldSetPanResponderCapture(e, gestureState) : false;
-      },
-      onMoveShouldSetResponderCapture: function onMoveShouldSetResponderCapture(e) {
-        var touchHistory = e.touchHistory; // Responder system incorrectly dispatches should* to current responder
-        // Filter out any touch moves past the first one - we would have
-        // already processed multi-touch geometry during the first event.
-
-        if (gestureState._accountsForMovesUpTo === touchHistory.mostRecentTimeStamp) {
-          return false;
-        }
-
-        PanResponder._updateGestureStateOnMove(gestureState, touchHistory);
-
-        return config.onMoveShouldSetPanResponderCapture ? config.onMoveShouldSetPanResponderCapture(e, gestureState) : false;
-      },
-      onResponderGrant: function onResponderGrant(e) {
-        if (!interactionState.handle) {
-          interactionState.handle = _exports_InteractionManager__WEBPACK_IMPORTED_MODULE_0__["default"].createInteractionHandle();
-        }
-
-        gestureState.x0 = currentCentroidX(e.touchHistory);
-        gestureState.y0 = currentCentroidY(e.touchHistory);
-        gestureState.dx = 0;
-        gestureState.dy = 0;
-
-        if (config.onPanResponderGrant) {
-          config.onPanResponderGrant(e, gestureState);
-        } // TODO: t7467124 investigate if this can be removed
-
-
-        return config.onShouldBlockNativeResponder === undefined ? true : config.onShouldBlockNativeResponder();
-      },
-      onResponderReject: function onResponderReject(e) {
-        clearInteractionHandle(interactionState, config.onPanResponderReject, e, gestureState);
-      },
-      onResponderRelease: function onResponderRelease(e) {
-        clearInteractionHandle(interactionState, config.onPanResponderRelease, e, gestureState);
-
-        PanResponder._initializeGestureState(gestureState);
-      },
-      onResponderStart: function onResponderStart(e) {
-        var touchHistory = e.touchHistory;
-        gestureState.numberActiveTouches = touchHistory.numberActiveTouches;
-
-        if (config.onPanResponderStart) {
-          config.onPanResponderStart(e, gestureState);
-        }
-      },
-      onResponderMove: function onResponderMove(e) {
-        var touchHistory = e.touchHistory; // Guard against the dispatch of two touch moves when there are two
-        // simultaneously changed touches.
-
-        if (gestureState._accountsForMovesUpTo === touchHistory.mostRecentTimeStamp) {
-          return;
-        } // Filter out any touch moves past the first one - we would have
-        // already processed multi-touch geometry during the first event.
-
-
-        PanResponder._updateGestureStateOnMove(gestureState, touchHistory);
-
-        if (config.onPanResponderMove) {
-          config.onPanResponderMove(e, gestureState);
-        }
-      },
-      onResponderEnd: function onResponderEnd(e) {
-        var touchHistory = e.touchHistory;
-        gestureState.numberActiveTouches = touchHistory.numberActiveTouches;
-        clearInteractionHandle(interactionState, config.onPanResponderEnd, e, gestureState);
-      },
-      onResponderTerminate: function onResponderTerminate(e) {
-        clearInteractionHandle(interactionState, config.onPanResponderTerminate, e, gestureState);
-
-        PanResponder._initializeGestureState(gestureState);
-      },
-      onResponderTerminationRequest: function onResponderTerminationRequest(e) {
-        return config.onPanResponderTerminationRequest === undefined ? true : config.onPanResponderTerminationRequest(e, gestureState);
-      }
-    };
-    return {
-      panHandlers: panHandlers,
-      getInteractionHandle: function getInteractionHandle() {
-        return interactionState.handle;
-      }
-    };
-  }
-};
-
-function clearInteractionHandle(interactionState, callback, event, gestureState) {
-  if (interactionState.handle) {
-    _exports_InteractionManager__WEBPACK_IMPORTED_MODULE_0__["default"].clearInteractionHandle(interactionState.handle);
-    interactionState.handle = null;
-  }
-
-  if (callback) {
-    callback(event, gestureState);
-  }
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (PanResponder);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/TouchHistoryMath/index.js":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/TouchHistoryMath/index.js ***!
-  \******************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var TouchHistoryMath = {
-  /**
-   * This code is optimized and not intended to look beautiful. This allows
-   * computing of touch centroids that have moved after `touchesChangedAfter`
-   * timeStamp. You can compute the current centroid involving all touches
-   * moves after `touchesChangedAfter`, or you can compute the previous
-   * centroid of all touches that were moved after `touchesChangedAfter`.
-   *
-   * @param {TouchHistoryMath} touchHistory Standard Responder touch track
-   * data.
-   * @param {number} touchesChangedAfter timeStamp after which moved touches
-   * are considered "actively moving" - not just "active".
-   * @param {boolean} isXAxis Consider `x` dimension vs. `y` dimension.
-   * @param {boolean} ofCurrent Compute current centroid for actively moving
-   * touches vs. previous centroid of now actively moving touches.
-   * @return {number} value of centroid in specified dimension.
-   */
-  centroidDimension: function centroidDimension(touchHistory, touchesChangedAfter, isXAxis, ofCurrent) {
-    var touchBank = touchHistory.touchBank;
-    var total = 0;
-    var count = 0;
-    var oneTouchData = touchHistory.numberActiveTouches === 1 ? touchHistory.touchBank[touchHistory.indexOfSingleActiveTouch] : null;
-
-    if (oneTouchData !== null) {
-      if (oneTouchData.touchActive && oneTouchData.currentTimeStamp > touchesChangedAfter) {
-        total += ofCurrent && isXAxis ? oneTouchData.currentPageX : ofCurrent && !isXAxis ? oneTouchData.currentPageY : !ofCurrent && isXAxis ? oneTouchData.previousPageX : oneTouchData.previousPageY;
-        count = 1;
-      }
-    } else {
-      for (var i = 0; i < touchBank.length; i++) {
-        var touchTrack = touchBank[i];
-
-        if (touchTrack !== null && touchTrack !== undefined && touchTrack.touchActive && touchTrack.currentTimeStamp >= touchesChangedAfter) {
-          var toAdd = void 0; // Yuck, program temporarily in invalid state.
-
-          if (ofCurrent && isXAxis) {
-            toAdd = touchTrack.currentPageX;
-          } else if (ofCurrent && !isXAxis) {
-            toAdd = touchTrack.currentPageY;
-          } else if (!ofCurrent && isXAxis) {
-            toAdd = touchTrack.previousPageX;
-          } else {
-            toAdd = touchTrack.previousPageY;
-          }
-
-          total += toAdd;
-          count++;
-        }
-      }
-    }
-
-    return count > 0 ? total / count : TouchHistoryMath.noCentroid;
-  },
-  currentCentroidXOfTouchesChangedAfter: function currentCentroidXOfTouchesChangedAfter(touchHistory, touchesChangedAfter) {
-    return TouchHistoryMath.centroidDimension(touchHistory, touchesChangedAfter, true, // isXAxis
-    true);
-  },
-  currentCentroidYOfTouchesChangedAfter: function currentCentroidYOfTouchesChangedAfter(touchHistory, touchesChangedAfter) {
-    return TouchHistoryMath.centroidDimension(touchHistory, touchesChangedAfter, false, // isXAxis
-    true);
-  },
-  previousCentroidXOfTouchesChangedAfter: function previousCentroidXOfTouchesChangedAfter(touchHistory, touchesChangedAfter) {
-    return TouchHistoryMath.centroidDimension(touchHistory, touchesChangedAfter, true, // isXAxis
-    false);
-  },
-  previousCentroidYOfTouchesChangedAfter: function previousCentroidYOfTouchesChangedAfter(touchHistory, touchesChangedAfter) {
-    return TouchHistoryMath.centroidDimension(touchHistory, touchesChangedAfter, false, // isXAxis
-    false);
-  },
-  currentCentroidX: function currentCentroidX(touchHistory) {
-    return TouchHistoryMath.centroidDimension(touchHistory, 0, // touchesChangedAfter
-    true, // isXAxis
-    true);
-  },
-  currentCentroidY: function currentCentroidY(touchHistory) {
-    return TouchHistoryMath.centroidDimension(touchHistory, 0, // touchesChangedAfter
-    false, // isXAxis
-    true);
-  },
-  noCentroid: -1
-};
-/* harmony default export */ __webpack_exports__["default"] = (TouchHistoryMath);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/emitter/EmitterSubscription.js":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/emitter/EmitterSubscription.js ***!
-  \***********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _EventSubscription__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EventSubscription */ "./node_modules/react-native-web/dist/vendor/react-native/emitter/EventSubscription.js");
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @providesModule EmitterSubscription
- * 
- */
-
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-
-
-/**
- * EmitterSubscription represents a subscription with listener and context data.
- */
-var EmitterSubscription =
-/*#__PURE__*/
-function (_EventSubscription) {
-  _inheritsLoose(EmitterSubscription, _EventSubscription);
-
-  /**
-   * @param {EventEmitter} emitter - The event emitter that registered this
-   *   subscription
-   * @param {EventSubscriptionVendor} subscriber - The subscriber that controls
-   *   this subscription
-   * @param {function} listener - Function to invoke when the specified event is
-   *   emitted
-   * @param {*} context - Optional context object to use when invoking the
-   *   listener
-   */
-  function EmitterSubscription(emitter, subscriber, listener, context) {
-    var _this;
-
-    _this = _EventSubscription.call(this, subscriber) || this;
-    _this.emitter = emitter;
-    _this.listener = listener;
-    _this.context = context;
-    return _this;
-  }
-  /**
-   * Removes this subscription from the emitter that registered it.
-   * Note: we're overriding the `remove()` method of EventSubscription here
-   * but deliberately not calling `super.remove()` as the responsibility
-   * for removing the subscription lies with the EventEmitter.
-   */
-
-
-  var _proto = EmitterSubscription.prototype;
-
-  _proto.remove = function remove() {
-    this.emitter.removeSubscription(this);
-  };
-
-  return EmitterSubscription;
-}(_EventSubscription__WEBPACK_IMPORTED_MODULE_0__["default"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (EmitterSubscription);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/emitter/EventEmitter.js":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/emitter/EventEmitter.js ***!
-  \****************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _EmitterSubscription__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EmitterSubscription */ "./node_modules/react-native-web/dist/vendor/react-native/emitter/EmitterSubscription.js");
-/* harmony import */ var _EventSubscriptionVendor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EventSubscriptionVendor */ "./node_modules/react-native-web/dist/vendor/react-native/emitter/EventSubscriptionVendor.js");
-/* harmony import */ var fbjs_lib_emptyFunction__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! fbjs/lib/emptyFunction */ "./node_modules/react-native-web/node_modules/fbjs/lib/emptyFunction.js");
-/* harmony import */ var fbjs_lib_emptyFunction__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_emptyFunction__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3__);
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @providesModule EventEmitter
- * 
- * @typecheck
- */
-
-
-
-
-
-
-/**
- * @class EventEmitter
- * @description
- * An EventEmitter is responsible for managing a set of listeners and publishing
- * events to them when it is told that such events happened. In addition to the
- * data for the given event it also sends a event control object which allows
- * the listeners/handlers to prevent the default behavior of the given event.
- *
- * The emitter is designed to be generic enough to support all the different
- * contexts in which one might want to emit events. It is a simple multicast
- * mechanism on top of which extra functionality can be composed. For example, a
- * more advanced emitter may use an EventHolder and EventFactory.
- */
-
-var EventEmitter =
-/*#__PURE__*/
-function () {
-  /**
-   * @constructor
-   *
-   * @param {EventSubscriptionVendor} subscriber - Optional subscriber instance
-   *   to use. If omitted, a new subscriber will be created for the emitter.
-   */
-  function EventEmitter(subscriber) {
-    this._subscriber = subscriber || new _EventSubscriptionVendor__WEBPACK_IMPORTED_MODULE_1__["default"]();
-  }
-  /**
-   * Adds a listener to be invoked when events of the specified type are
-   * emitted. An optional calling context may be provided. The data arguments
-   * emitted will be passed to the listener function.
-   *
-   * TODO: Annotate the listener arg's type. This is tricky because listeners
-   *       can be invoked with varargs.
-   *
-   * @param {string} eventType - Name of the event to listen to
-   * @param {function} listener - Function to invoke when the specified event is
-   *   emitted
-   * @param {*} context - Optional context object to use when invoking the
-   *   listener
-   */
-
-
-  var _proto = EventEmitter.prototype;
-
-  _proto.addListener = function addListener(eventType, listener, context) {
-    return this._subscriber.addSubscription(eventType, new _EmitterSubscription__WEBPACK_IMPORTED_MODULE_0__["default"](this, this._subscriber, listener, context));
-  }
-  /**
-   * Similar to addListener, except that the listener is removed after it is
-   * invoked once.
-   *
-   * @param {string} eventType - Name of the event to listen to
-   * @param {function} listener - Function to invoke only once when the
-   *   specified event is emitted
-   * @param {*} context - Optional context object to use when invoking the
-   *   listener
-   */
-  ;
-
-  _proto.once = function once(eventType, listener, context) {
-    var _this = this;
-
-    return this.addListener(eventType, function () {
-      _this.removeCurrentListener();
-
-      for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-        args[_key] = arguments[_key];
-      }
-
-      listener.apply(context, args);
-    });
-  }
-  /**
-   * Removes all of the registered listeners, including those registered as
-   * listener maps.
-   *
-   * @param {?string} eventType - Optional name of the event whose registered
-   *   listeners to remove
-   */
-  ;
-
-  _proto.removeAllListeners = function removeAllListeners(eventType) {
-    this._subscriber.removeAllSubscriptions(eventType);
-  }
-  /**
-   * Provides an API that can be called during an eventing cycle to remove the
-   * last listener that was invoked. This allows a developer to provide an event
-   * object that can remove the listener (or listener map) during the
-   * invocation.
-   *
-   * If it is called when not inside of an emitting cycle it will throw.
-   *
-   * @throws {Error} When called not during an eventing cycle
-   *
-   * @example
-   *   var subscription = emitter.addListenerMap({
-   *     someEvent: function(data, event) {
-   *       console.log(data);
-   *       emitter.removeCurrentListener();
-   *     }
-   *   });
-   *
-   *   emitter.emit('someEvent', 'abc'); // logs 'abc'
-   *   emitter.emit('someEvent', 'def'); // does not log anything
-   */
-  ;
-
-  _proto.removeCurrentListener = function removeCurrentListener() {
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(!!this._currentSubscription, 'Not in an emitting cycle; there is no current subscription');
-    this.removeSubscription(this._currentSubscription);
-  }
-  /**
-   * Removes a specific subscription. Called by the `remove()` method of the
-   * subscription itself to ensure any necessary cleanup is performed.
-   */
-  ;
-
-  _proto.removeSubscription = function removeSubscription(subscription) {
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_3___default()(subscription.emitter === this, 'Subscription does not belong to this emitter.');
-
-    this._subscriber.removeSubscription(subscription);
-  }
-  /**
-   * Returns an array of listeners that are currently registered for the given
-   * event.
-   *
-   * @param {string} eventType - Name of the event to query
-   * @returns {array}
-   */
-  ;
-
-  _proto.listeners = function listeners(eventType) {
-    var subscriptions = this._subscriber.getSubscriptionsForType(eventType);
-
-    return subscriptions ? subscriptions.filter(fbjs_lib_emptyFunction__WEBPACK_IMPORTED_MODULE_2___default.a.thatReturnsTrue).map(function (subscription) {
-      return subscription.listener;
-    }) : [];
-  }
-  /**
-   * Emits an event of the given type with the given data. All handlers of that
-   * particular type will be notified.
-   *
-   * @param {string} eventType - Name of the event to emit
-   * @param {...*} Arbitrary arguments to be passed to each registered listener
-   *
-   * @example
-   *   emitter.addListener('someEvent', function(message) {
-   *     console.log(message);
-   *   });
-   *
-   *   emitter.emit('someEvent', 'abc'); // logs 'abc'
-   */
-  ;
-
-  _proto.emit = function emit(eventType) {
-    var subscriptions = this._subscriber.getSubscriptionsForType(eventType);
-
-    if (subscriptions) {
-      for (var i = 0, l = subscriptions.length; i < l; i++) {
-        var subscription = subscriptions[i]; // The subscription may have been removed during this event loop.
-
-        if (subscription) {
-          this._currentSubscription = subscription;
-          subscription.listener.apply(subscription.context, Array.prototype.slice.call(arguments, 1));
-        }
-      }
-
-      this._currentSubscription = null;
-    }
-  }
-  /**
-   * Removes the given listener for event of specific type.
-   *
-   * @param {string} eventType - Name of the event to emit
-   * @param {function} listener - Function to invoke when the specified event is
-   *   emitted
-   *
-   * @example
-   *   emitter.removeListener('someEvent', function(message) {
-   *     console.log(message);
-   *   }); // removes the listener if already registered
-   *
-   */
-  ;
-
-  _proto.removeListener = function removeListener(eventType, listener) {
-    var subscriptions = this._subscriber.getSubscriptionsForType(eventType);
-
-    if (subscriptions) {
-      for (var i = 0, l = subscriptions.length; i < l; i++) {
-        var subscription = subscriptions[i]; // The subscription may have been removed during this event loop.
-        // its listener matches the listener in method parameters
-
-        if (subscription && subscription.listener === listener) {
-          subscription.remove();
-        }
-      }
-    }
-  };
-
-  return EventEmitter;
-}();
-
-/* harmony default export */ __webpack_exports__["default"] = (EventEmitter);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/emitter/EventSubscription.js":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/emitter/EventSubscription.js ***!
-  \*********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @providesModule EventSubscription
- * 
- */
-
-
-/**
- * EventSubscription represents a subscription to a particular event. It can
- * remove its own subscription.
- */
-var EventSubscription =
-/*#__PURE__*/
-function () {
-  /**
-   * @param {EventSubscriptionVendor} subscriber the subscriber that controls
-   *   this subscription.
-   */
-  function EventSubscription(subscriber) {
-    this.subscriber = subscriber;
-  }
-  /**
-   * Removes this subscription from the subscriber that controls it.
-   */
-
-
-  var _proto = EventSubscription.prototype;
-
-  _proto.remove = function remove() {
-    this.subscriber.removeSubscription(this);
-  };
-
-  return EventSubscription;
-}();
-
-/* harmony default export */ __webpack_exports__["default"] = (EventSubscription);
-
-/***/ }),
-
-/***/ "./node_modules/react-native-web/dist/vendor/react-native/emitter/EventSubscriptionVendor.js":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/react-native-web/dist/vendor/react-native/emitter/EventSubscriptionVendor.js ***!
-  \***************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/react-native-web/node_modules/fbjs/lib/invariant.js");
-/* harmony import */ var fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0__);
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @providesModule EventSubscriptionVendor
- * 
- */
-
-
-
-
-/**
- * EventSubscriptionVendor stores a set of EventSubscriptions that are
- * subscribed to a particular event type.
- */
-var EventSubscriptionVendor =
-/*#__PURE__*/
-function () {
-  function EventSubscriptionVendor() {
-    this._subscriptionsForType = {};
-    this._currentSubscription = null;
-  }
-  /**
-   * Adds a subscription keyed by an event type.
-   *
-   * @param {string} eventType
-   * @param {EventSubscription} subscription
-   */
-
-
-  var _proto = EventSubscriptionVendor.prototype;
-
-  _proto.addSubscription = function addSubscription(eventType, subscription) {
-    fbjs_lib_invariant__WEBPACK_IMPORTED_MODULE_0___default()(subscription.subscriber === this, 'The subscriber of the subscription is incorrectly set.');
-
-    if (!this._subscriptionsForType[eventType]) {
-      this._subscriptionsForType[eventType] = [];
-    }
-
-    var key = this._subscriptionsForType[eventType].length;
-
-    this._subscriptionsForType[eventType].push(subscription);
-
-    subscription.eventType = eventType;
-    subscription.key = key;
-    return subscription;
-  }
-  /**
-   * Removes a bulk set of the subscriptions.
-   *
-   * @param {?string} eventType - Optional name of the event type whose
-   *   registered supscriptions to remove, if null remove all subscriptions.
-   */
-  ;
-
-  _proto.removeAllSubscriptions = function removeAllSubscriptions(eventType) {
-    if (eventType === undefined) {
-      this._subscriptionsForType = {};
-    } else {
-      delete this._subscriptionsForType[eventType];
-    }
-  }
-  /**
-   * Removes a specific subscription. Instead of calling this function, call
-   * `subscription.remove()` directly.
-   *
-   * @param {object} subscription
-   */
-  ;
-
-  _proto.removeSubscription = function removeSubscription(subscription) {
-    var eventType = subscription.eventType;
-    var key = subscription.key;
-    var subscriptionsForType = this._subscriptionsForType[eventType];
-
-    if (subscriptionsForType) {
-      delete subscriptionsForType[key];
-    }
-  }
-  /**
-   * Returns the array of subscriptions that are currently registered for the
-   * given event type.
-   *
-   * Note: This array can be potentially sparse as subscriptions are deleted
-   * from it when they are removed.
-   *
-   * TODO: This returns a nullable array. wat?
-   *
-   * @param {string} eventType
-   * @returns {?array}
-   */
-  ;
-
-  _proto.getSubscriptionsForType = function getSubscriptionsForType(eventType) {
-    return this._subscriptionsForType[eventType];
-  };
-
-  return EventSubscriptionVendor;
-}();
-
-/* harmony default export */ __webpack_exports__["default"] = (EventSubscriptionVendor);
-
-/***/ }),
-
 /***/ "./node_modules/react-native-web/node_modules/fbjs/lib/ExecutionEnvironment.js":
 /*!*************************************************************************************!*\
   !*** ./node_modules/react-native-web/node_modules/fbjs/lib/ExecutionEnvironment.js ***!
@@ -41364,6 +33114,1640 @@ var warning =  true ? function (condition, format) {
   }
 } : undefined;
 module.exports = warning;
+
+/***/ }),
+
+/***/ "./node_modules/react-router-dom/esm/react-router-dom.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
+  \***************************************************************/
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return BrowserRouter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return HashRouter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return Link; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return NavLink; });
+/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return react_router__WEBPACK_IMPORTED_MODULE_2__["MemoryRouter"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return react_router__WEBPACK_IMPORTED_MODULE_2__["Prompt"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return react_router__WEBPACK_IMPORTED_MODULE_2__["Redirect"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return react_router__WEBPACK_IMPORTED_MODULE_2__["Route"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return react_router__WEBPACK_IMPORTED_MODULE_2__["Router"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return react_router__WEBPACK_IMPORTED_MODULE_2__["StaticRouter"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return react_router__WEBPACK_IMPORTED_MODULE_2__["Switch"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "generatePath", function() { return react_router__WEBPACK_IMPORTED_MODULE_2__["generatePath"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return react_router__WEBPACK_IMPORTED_MODULE_2__["matchPath"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return react_router__WEBPACK_IMPORTED_MODULE_2__["withRouter"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "__RouterContext", function() { return react_router__WEBPACK_IMPORTED_MODULE_2__["__RouterContext"]; });
+
+/* harmony import */ var history__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! history */ "./node_modules/history/esm/history.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var tiny_warning__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! tiny-warning */ "./node_modules/tiny-warning/dist/tiny-warning.esm.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var tiny_invariant__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! tiny-invariant */ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js");
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * The public API for a <Router> that uses HTML5 history.
+ */
+
+var BrowserRouter =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(BrowserRouter, _React$Component);
+
+  function BrowserRouter() {
+    var _this;
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
+    _this.history = Object(history__WEBPACK_IMPORTED_MODULE_3__["createBrowserHistory"])(_this.props);
+    return _this;
+  }
+
+  var _proto = BrowserRouter.prototype;
+
+  _proto.render = function render() {
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_2__["Router"], {
+      history: this.history,
+      children: this.props.children
+    });
+  };
+
+  return BrowserRouter;
+}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
+
+if (true) {
+  BrowserRouter.propTypes = {
+    basename: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
+    children: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.node,
+    forceRefresh: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
+    getUserConfirmation: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
+    keyLength: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.number
+  };
+
+  BrowserRouter.prototype.componentDidMount = function () {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_5__["default"])(!this.props.history, "<BrowserRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { BrowserRouter as Router }`.") : undefined;
+  };
+}
+
+/**
+ * The public API for a <Router> that uses window.location.hash.
+ */
+
+var HashRouter =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(HashRouter, _React$Component);
+
+  function HashRouter() {
+    var _this;
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
+    _this.history = Object(history__WEBPACK_IMPORTED_MODULE_3__["createHashHistory"])(_this.props);
+    return _this;
+  }
+
+  var _proto = HashRouter.prototype;
+
+  _proto.render = function render() {
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_2__["Router"], {
+      history: this.history,
+      children: this.props.children
+    });
+  };
+
+  return HashRouter;
+}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
+
+if (true) {
+  HashRouter.propTypes = {
+    basename: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
+    children: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.node,
+    getUserConfirmation: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
+    hashType: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOf(["hashbang", "noslash", "slash"])
+  };
+
+  HashRouter.prototype.componentDidMount = function () {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_5__["default"])(!this.props.history, "<HashRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { HashRouter as Router }`.") : undefined;
+  };
+}
+
+function isModifiedEvent(event) {
+  return !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);
+}
+/**
+ * The public API for rendering a history-aware <a>.
+ */
+
+
+var Link =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(Link, _React$Component);
+
+  function Link() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+
+  var _proto = Link.prototype;
+
+  _proto.handleClick = function handleClick(event, history) {
+    try {
+      if (this.props.onClick) this.props.onClick(event);
+    } catch (ex) {
+      event.preventDefault();
+      throw ex;
+    }
+
+    if (!event.defaultPrevented && // onClick prevented default
+    event.button === 0 && ( // ignore everything but left clicks
+    !this.props.target || this.props.target === "_self") && // let browser handle "target=_blank" etc.
+    !isModifiedEvent(event) // ignore clicks with modifier keys
+    ) {
+        event.preventDefault();
+        var method = this.props.replace ? history.replace : history.push;
+        method(this.props.to);
+      }
+  };
+
+  _proto.render = function render() {
+    var _this = this;
+
+    var _this$props = this.props,
+        innerRef = _this$props.innerRef,
+        replace = _this$props.replace,
+        to = _this$props.to,
+        rest = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__["default"])(_this$props, ["innerRef", "replace", "to"]); // eslint-disable-line no-unused-vars
+
+
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_2__["__RouterContext"].Consumer, null, function (context) {
+      !context ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_8__["default"])(false, "You should not use <Link> outside a <Router>") : undefined : void 0;
+      var location = typeof to === "string" ? Object(history__WEBPACK_IMPORTED_MODULE_3__["createLocation"])(to, null, null, context.location) : to;
+      var href = location ? context.history.createHref(location) : "";
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__["default"])({}, rest, {
+        onClick: function onClick(event) {
+          return _this.handleClick(event, context.history);
+        },
+        href: href,
+        ref: innerRef
+      }));
+    });
+  };
+
+  return Link;
+}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
+
+if (true) {
+  var toType = prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object]);
+  var innerRefType = prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func, prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.shape({
+    current: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.any
+  })]);
+  Link.propTypes = {
+    innerRef: innerRefType,
+    onClick: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
+    replace: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
+    target: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
+    to: toType.isRequired
+  };
+}
+
+function joinClassnames() {
+  for (var _len = arguments.length, classnames = new Array(_len), _key = 0; _key < _len; _key++) {
+    classnames[_key] = arguments[_key];
+  }
+
+  return classnames.filter(function (i) {
+    return i;
+  }).join(" ");
+}
+/**
+ * A <Link> wrapper that knows if it's "active" or not.
+ */
+
+
+function NavLink(_ref) {
+  var _ref$ariaCurrent = _ref["aria-current"],
+      ariaCurrent = _ref$ariaCurrent === void 0 ? "page" : _ref$ariaCurrent,
+      _ref$activeClassName = _ref.activeClassName,
+      activeClassName = _ref$activeClassName === void 0 ? "active" : _ref$activeClassName,
+      activeStyle = _ref.activeStyle,
+      classNameProp = _ref.className,
+      exact = _ref.exact,
+      isActiveProp = _ref.isActive,
+      locationProp = _ref.location,
+      strict = _ref.strict,
+      styleProp = _ref.style,
+      to = _ref.to,
+      rest = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, ["aria-current", "activeClassName", "activeStyle", "className", "exact", "isActive", "location", "strict", "style", "to"]);
+
+  var path = typeof to === "object" ? to.pathname : to; // Regex taken from: https://github.com/pillarjs/path-to-regexp/blob/master/index.js#L202
+
+  var escapedPath = path && path.replace(/([.+*?=^!:${}()[\]|/\\])/g, "\\$1");
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_2__["__RouterContext"].Consumer, null, function (context) {
+    !context ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_8__["default"])(false, "You should not use <NavLink> outside a <Router>") : undefined : void 0;
+    var pathToMatch = locationProp ? locationProp.pathname : context.location.pathname;
+    var match = escapedPath ? Object(react_router__WEBPACK_IMPORTED_MODULE_2__["matchPath"])(pathToMatch, {
+      path: escapedPath,
+      exact: exact,
+      strict: strict
+    }) : null;
+    var isActive = !!(isActiveProp ? isActiveProp(match, context.location) : match);
+    var className = isActive ? joinClassnames(classNameProp, activeClassName) : classNameProp;
+    var style = isActive ? Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__["default"])({}, styleProp, activeStyle) : styleProp;
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Link, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__["default"])({
+      "aria-current": isActive && ariaCurrent || null,
+      className: className,
+      style: style,
+      to: to
+    }, rest));
+  });
+}
+
+if (true) {
+  var ariaCurrentType = prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOf(["page", "step", "location", "date", "time", "true"]);
+  NavLink.propTypes = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__["default"])({}, Link.propTypes, {
+    "aria-current": ariaCurrentType,
+    activeClassName: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
+    activeStyle: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object,
+    className: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
+    exact: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
+    isActive: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
+    location: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object,
+    strict: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
+    style: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object
+  });
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/react-router/esm/react-router.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/react-router/esm/react-router.js ***!
+  \*******************************************************/
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return MemoryRouter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return Prompt; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return Redirect; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return Route; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return Router; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return StaticRouter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return Switch; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "generatePath", function() { return generatePath; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return matchPath; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return withRouter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__RouterContext", function() { return context; });
+/* harmony import */ var mini_create_react_context__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mini-create-react-context */ "./node_modules/mini-create-react-context/dist/esm/index.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var tiny_warning__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tiny-warning */ "./node_modules/tiny-warning/dist/tiny-warning.esm.js");
+/* harmony import */ var history__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! history */ "./node_modules/history/esm/history.js");
+/* harmony import */ var tiny_invariant__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! tiny-invariant */ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js");
+/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! path-to-regexp */ "./node_modules/react-router/node_modules/path-to-regexp/index.js");
+/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(path_to_regexp__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_is__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! hoist-non-react-statics */ "./node_modules/react-router/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js");
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_11__);
+
+
+
+
+
+
+
+
+
+
+
+
+
+// TODO: Replace with React.createContext once we can assume React 16+
+
+var createNamedContext = function createNamedContext(name) {
+  var context = Object(mini_create_react_context__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  context.displayName = name;
+  return context;
+};
+
+var context =
+/*#__PURE__*/
+createNamedContext("Router");
+
+/**
+ * The public API for putting history on context.
+ */
+
+var Router =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Router, _React$Component);
+
+  Router.computeRootMatch = function computeRootMatch(pathname) {
+    return {
+      path: "/",
+      url: "/",
+      params: {},
+      isExact: pathname === "/"
+    };
+  };
+
+  function Router(props) {
+    var _this;
+
+    _this = _React$Component.call(this, props) || this;
+    _this.state = {
+      location: props.history.location
+    }; // This is a bit of a hack. We have to start listening for location
+    // changes here in the constructor in case there are any <Redirect>s
+    // on the initial render. If there are, they will replace/push when
+    // they mount and since cDM fires in children before parents, we may
+    // get a new location before the <Router> is mounted.
+
+    _this._isMounted = false;
+    _this._pendingLocation = null;
+
+    if (!props.staticContext) {
+      _this.unlisten = props.history.listen(function (location) {
+        if (_this._isMounted) {
+          _this.setState({
+            location: location
+          });
+        } else {
+          _this._pendingLocation = location;
+        }
+      });
+    }
+
+    return _this;
+  }
+
+  var _proto = Router.prototype;
+
+  _proto.componentDidMount = function componentDidMount() {
+    this._isMounted = true;
+
+    if (this._pendingLocation) {
+      this.setState({
+        location: this._pendingLocation
+      });
+    }
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    if (this.unlisten) this.unlisten();
+  };
+
+  _proto.render = function render() {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(context.Provider, {
+      children: this.props.children || null,
+      value: {
+        history: this.props.history,
+        location: this.state.location,
+        match: Router.computeRootMatch(this.state.location.pathname),
+        staticContext: this.props.staticContext
+      }
+    });
+  };
+
+  return Router;
+}(react__WEBPACK_IMPORTED_MODULE_2___default.a.Component);
+
+if (true) {
+  Router.propTypes = {
+    children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
+    history: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object.isRequired,
+    staticContext: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object
+  };
+
+  Router.prototype.componentDidUpdate = function (prevProps) {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(prevProps.history === this.props.history, "You cannot change <Router history>") : undefined;
+  };
+}
+
+/**
+ * The public API for a <Router> that stores location in memory.
+ */
+
+var MemoryRouter =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(MemoryRouter, _React$Component);
+
+  function MemoryRouter() {
+    var _this;
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
+    _this.history = Object(history__WEBPACK_IMPORTED_MODULE_5__["createMemoryHistory"])(_this.props);
+    return _this;
+  }
+
+  var _proto = MemoryRouter.prototype;
+
+  _proto.render = function render() {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Router, {
+      history: this.history,
+      children: this.props.children
+    });
+  };
+
+  return MemoryRouter;
+}(react__WEBPACK_IMPORTED_MODULE_2___default.a.Component);
+
+if (true) {
+  MemoryRouter.propTypes = {
+    initialEntries: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.array,
+    initialIndex: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.number,
+    getUserConfirmation: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func,
+    keyLength: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.number,
+    children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node
+  };
+
+  MemoryRouter.prototype.componentDidMount = function () {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!this.props.history, "<MemoryRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { MemoryRouter as Router }`.") : undefined;
+  };
+}
+
+var Lifecycle =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Lifecycle, _React$Component);
+
+  function Lifecycle() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+
+  var _proto = Lifecycle.prototype;
+
+  _proto.componentDidMount = function componentDidMount() {
+    if (this.props.onMount) this.props.onMount.call(this, this);
+  };
+
+  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
+    if (this.props.onUpdate) this.props.onUpdate.call(this, this, prevProps);
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    if (this.props.onUnmount) this.props.onUnmount.call(this, this);
+  };
+
+  _proto.render = function render() {
+    return null;
+  };
+
+  return Lifecycle;
+}(react__WEBPACK_IMPORTED_MODULE_2___default.a.Component);
+
+/**
+ * The public API for prompting the user before navigating away from a screen.
+ */
+
+function Prompt(_ref) {
+  var message = _ref.message,
+      _ref$when = _ref.when,
+      when = _ref$when === void 0 ? true : _ref$when;
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(context.Consumer, null, function (context$$1) {
+    !context$$1 ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You should not use <Prompt> outside a <Router>") : undefined : void 0;
+    if (!when || context$$1.staticContext) return null;
+    var method = context$$1.history.block;
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Lifecycle, {
+      onMount: function onMount(self) {
+        self.release = method(message);
+      },
+      onUpdate: function onUpdate(self, prevProps) {
+        if (prevProps.message !== message) {
+          self.release();
+          self.release = method(message);
+        }
+      },
+      onUnmount: function onUnmount(self) {
+        self.release();
+      },
+      message: message
+    });
+  });
+}
+
+if (true) {
+  var messageType = prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func, prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string]);
+  Prompt.propTypes = {
+    when: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+    message: messageType.isRequired
+  };
+}
+
+var cache = {};
+var cacheLimit = 10000;
+var cacheCount = 0;
+
+function compilePath(path) {
+  if (cache[path]) return cache[path];
+  var generator = path_to_regexp__WEBPACK_IMPORTED_MODULE_7___default.a.compile(path);
+
+  if (cacheCount < cacheLimit) {
+    cache[path] = generator;
+    cacheCount++;
+  }
+
+  return generator;
+}
+/**
+ * Public API for generating a URL pathname from a path and parameters.
+ */
+
+
+function generatePath(path, params) {
+  if (path === void 0) {
+    path = "/";
+  }
+
+  if (params === void 0) {
+    params = {};
+  }
+
+  return path === "/" ? path : compilePath(path)(params, {
+    pretty: true
+  });
+}
+
+/**
+ * The public API for navigating programmatically with a component.
+ */
+
+function Redirect(_ref) {
+  var computedMatch = _ref.computedMatch,
+      to = _ref.to,
+      _ref$push = _ref.push,
+      push = _ref$push === void 0 ? false : _ref$push;
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(context.Consumer, null, function (context$$1) {
+    !context$$1 ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You should not use <Redirect> outside a <Router>") : undefined : void 0;
+    var history = context$$1.history,
+        staticContext = context$$1.staticContext;
+    var method = push ? history.push : history.replace;
+    var location = Object(history__WEBPACK_IMPORTED_MODULE_5__["createLocation"])(computedMatch ? typeof to === "string" ? generatePath(to, computedMatch.params) : Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__["default"])({}, to, {
+      pathname: generatePath(to.pathname, computedMatch.params)
+    }) : to); // When rendering in a static context,
+    // set the new location immediately.
+
+    if (staticContext) {
+      method(location);
+      return null;
+    }
+
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Lifecycle, {
+      onMount: function onMount() {
+        method(location);
+      },
+      onUpdate: function onUpdate(self, prevProps) {
+        var prevLocation = Object(history__WEBPACK_IMPORTED_MODULE_5__["createLocation"])(prevProps.to);
+
+        if (!Object(history__WEBPACK_IMPORTED_MODULE_5__["locationsAreEqual"])(prevLocation, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__["default"])({}, location, {
+          key: prevLocation.key
+        }))) {
+          method(location);
+        }
+      },
+      to: to
+    });
+  });
+}
+
+if (true) {
+  Redirect.propTypes = {
+    push: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+    from: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+    to: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object]).isRequired
+  };
+}
+
+var cache$1 = {};
+var cacheLimit$1 = 10000;
+var cacheCount$1 = 0;
+
+function compilePath$1(path, options) {
+  var cacheKey = "" + options.end + options.strict + options.sensitive;
+  var pathCache = cache$1[cacheKey] || (cache$1[cacheKey] = {});
+  if (pathCache[path]) return pathCache[path];
+  var keys = [];
+  var regexp = path_to_regexp__WEBPACK_IMPORTED_MODULE_7___default()(path, keys, options);
+  var result = {
+    regexp: regexp,
+    keys: keys
+  };
+
+  if (cacheCount$1 < cacheLimit$1) {
+    pathCache[path] = result;
+    cacheCount$1++;
+  }
+
+  return result;
+}
+/**
+ * Public API for matching a URL pathname to a path.
+ */
+
+
+function matchPath(pathname, options) {
+  if (options === void 0) {
+    options = {};
+  }
+
+  if (typeof options === "string") options = {
+    path: options
+  };
+  var _options = options,
+      path = _options.path,
+      _options$exact = _options.exact,
+      exact = _options$exact === void 0 ? false : _options$exact,
+      _options$strict = _options.strict,
+      strict = _options$strict === void 0 ? false : _options$strict,
+      _options$sensitive = _options.sensitive,
+      sensitive = _options$sensitive === void 0 ? false : _options$sensitive;
+  var paths = [].concat(path);
+  return paths.reduce(function (matched, path) {
+    if (!path) return null;
+    if (matched) return matched;
+
+    var _compilePath = compilePath$1(path, {
+      end: exact,
+      strict: strict,
+      sensitive: sensitive
+    }),
+        regexp = _compilePath.regexp,
+        keys = _compilePath.keys;
+
+    var match = regexp.exec(pathname);
+    if (!match) return null;
+    var url = match[0],
+        values = match.slice(1);
+    var isExact = pathname === url;
+    if (exact && !isExact) return null;
+    return {
+      path: path,
+      // the path used to match
+      url: path === "/" && url === "" ? "/" : url,
+      // the matched portion of the URL
+      isExact: isExact,
+      // whether or not we matched exactly
+      params: keys.reduce(function (memo, key, index) {
+        memo[key.name] = values[index];
+        return memo;
+      }, {})
+    };
+  }, null);
+}
+
+function isEmptyChildren(children) {
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.Children.count(children) === 0;
+}
+/**
+ * The public API for matching a single path and rendering.
+ */
+
+
+var Route =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Route, _React$Component);
+
+  function Route() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+
+  var _proto = Route.prototype;
+
+  _proto.render = function render() {
+    var _this = this;
+
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(context.Consumer, null, function (context$$1) {
+      !context$$1 ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You should not use <Route> outside a <Router>") : undefined : void 0;
+      var location = _this.props.location || context$$1.location;
+      var match = _this.props.computedMatch ? _this.props.computedMatch // <Switch> already computed the match for us
+      : _this.props.path ? matchPath(location.pathname, _this.props) : context$$1.match;
+
+      var props = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__["default"])({}, context$$1, {
+        location: location,
+        match: match
+      });
+
+      var _this$props = _this.props,
+          children = _this$props.children,
+          component = _this$props.component,
+          render = _this$props.render; // Preact uses an empty array as children by
+      // default, so use null if that's the case.
+
+      if (Array.isArray(children) && children.length === 0) {
+        children = null;
+      }
+
+      if (typeof children === "function") {
+        children = children(props);
+
+        if (children === undefined) {
+          if (true) {
+            var path = _this.props.path;
+             true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(false, "You returned `undefined` from the `children` function of " + ("<Route" + (path ? " path=\"" + path + "\"" : "") + ">, but you ") + "should have returned a React element or `null`") : undefined;
+          }
+
+          children = null;
+        }
+      }
+
+      return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(context.Provider, {
+        value: props
+      }, children && !isEmptyChildren(children) ? children : props.match ? component ? react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(component, props) : render ? render(props) : null : null);
+    });
+  };
+
+  return Route;
+}(react__WEBPACK_IMPORTED_MODULE_2___default.a.Component);
+
+if (true) {
+  Route.propTypes = {
+    children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func, prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node]),
+    component: function component(props, propName) {
+      if (props[propName] && !Object(react_is__WEBPACK_IMPORTED_MODULE_9__["isValidElementType"])(props[propName])) {
+        return new Error("Invalid prop 'component' supplied to 'Route': the prop is not a valid React component");
+      }
+    },
+    exact: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+    location: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object,
+    path: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string)]),
+    render: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func,
+    sensitive: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+    strict: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool
+  };
+
+  Route.prototype.componentDidMount = function () {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(this.props.children && !isEmptyChildren(this.props.children) && this.props.component), "You should not use <Route component> and <Route children> in the same route; <Route component> will be ignored") : undefined;
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(this.props.children && !isEmptyChildren(this.props.children) && this.props.render), "You should not use <Route render> and <Route children> in the same route; <Route render> will be ignored") : undefined;
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(this.props.component && this.props.render), "You should not use <Route component> and <Route render> in the same route; <Route render> will be ignored") : undefined;
+  };
+
+  Route.prototype.componentDidUpdate = function (prevProps) {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(this.props.location && !prevProps.location), '<Route> elements should not change from uncontrolled to controlled (or vice versa). You initially used no "location" prop and then provided one on a subsequent render.') : undefined;
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(!this.props.location && prevProps.location), '<Route> elements should not change from controlled to uncontrolled (or vice versa). You provided a "location" prop initially but omitted it on a subsequent render.') : undefined;
+  };
+}
+
+function addLeadingSlash(path) {
+  return path.charAt(0) === "/" ? path : "/" + path;
+}
+
+function addBasename(basename, location) {
+  if (!basename) return location;
+  return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__["default"])({}, location, {
+    pathname: addLeadingSlash(basename) + location.pathname
+  });
+}
+
+function stripBasename(basename, location) {
+  if (!basename) return location;
+  var base = addLeadingSlash(basename);
+  if (location.pathname.indexOf(base) !== 0) return location;
+  return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__["default"])({}, location, {
+    pathname: location.pathname.substr(base.length)
+  });
+}
+
+function createURL(location) {
+  return typeof location === "string" ? location : Object(history__WEBPACK_IMPORTED_MODULE_5__["createPath"])(location);
+}
+
+function staticHandler(methodName) {
+  return function () {
+     true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You cannot %s with <StaticRouter>", methodName) : undefined;
+  };
+}
+
+function noop() {}
+/**
+ * The public top-level API for a "static" <Router>, so-called because it
+ * can't actually change the current location. Instead, it just records
+ * location changes in a context object. Useful mainly in testing and
+ * server-rendering scenarios.
+ */
+
+
+var StaticRouter =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(StaticRouter, _React$Component);
+
+  function StaticRouter() {
+    var _this;
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
+
+    _this.handlePush = function (location) {
+      return _this.navigateTo(location, "PUSH");
+    };
+
+    _this.handleReplace = function (location) {
+      return _this.navigateTo(location, "REPLACE");
+    };
+
+    _this.handleListen = function () {
+      return noop;
+    };
+
+    _this.handleBlock = function () {
+      return noop;
+    };
+
+    return _this;
+  }
+
+  var _proto = StaticRouter.prototype;
+
+  _proto.navigateTo = function navigateTo(location, action) {
+    var _this$props = this.props,
+        _this$props$basename = _this$props.basename,
+        basename = _this$props$basename === void 0 ? "" : _this$props$basename,
+        _this$props$context = _this$props.context,
+        context = _this$props$context === void 0 ? {} : _this$props$context;
+    context.action = action;
+    context.location = addBasename(basename, Object(history__WEBPACK_IMPORTED_MODULE_5__["createLocation"])(location));
+    context.url = createURL(context.location);
+  };
+
+  _proto.render = function render() {
+    var _this$props2 = this.props,
+        _this$props2$basename = _this$props2.basename,
+        basename = _this$props2$basename === void 0 ? "" : _this$props2$basename,
+        _this$props2$context = _this$props2.context,
+        context = _this$props2$context === void 0 ? {} : _this$props2$context,
+        _this$props2$location = _this$props2.location,
+        location = _this$props2$location === void 0 ? "/" : _this$props2$location,
+        rest = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_10__["default"])(_this$props2, ["basename", "context", "location"]);
+
+    var history = {
+      createHref: function createHref(path) {
+        return addLeadingSlash(basename + createURL(path));
+      },
+      action: "POP",
+      location: stripBasename(basename, Object(history__WEBPACK_IMPORTED_MODULE_5__["createLocation"])(location)),
+      push: this.handlePush,
+      replace: this.handleReplace,
+      go: staticHandler("go"),
+      goBack: staticHandler("goBack"),
+      goForward: staticHandler("goForward"),
+      listen: this.handleListen,
+      block: this.handleBlock
+    };
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Router, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__["default"])({}, rest, {
+      history: history,
+      staticContext: context
+    }));
+  };
+
+  return StaticRouter;
+}(react__WEBPACK_IMPORTED_MODULE_2___default.a.Component);
+
+if (true) {
+  StaticRouter.propTypes = {
+    basename: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+    context: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object,
+    location: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object])
+  };
+
+  StaticRouter.prototype.componentDidMount = function () {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!this.props.history, "<StaticRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { StaticRouter as Router }`.") : undefined;
+  };
+}
+
+/**
+ * The public API for rendering the first <Route> that matches.
+ */
+
+var Switch =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Switch, _React$Component);
+
+  function Switch() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+
+  var _proto = Switch.prototype;
+
+  _proto.render = function render() {
+    var _this = this;
+
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(context.Consumer, null, function (context$$1) {
+      !context$$1 ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You should not use <Switch> outside a <Router>") : undefined : void 0;
+      var location = _this.props.location || context$$1.location;
+      var element, match; // We use React.Children.forEach instead of React.Children.toArray().find()
+      // here because toArray adds keys to all child elements and we do not want
+      // to trigger an unmount/remount for two <Route>s that render the same
+      // component at different URLs.
+
+      react__WEBPACK_IMPORTED_MODULE_2___default.a.Children.forEach(_this.props.children, function (child) {
+        if (match == null && react__WEBPACK_IMPORTED_MODULE_2___default.a.isValidElement(child)) {
+          element = child;
+          var path = child.props.path || child.props.from;
+          match = path ? matchPath(location.pathname, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__["default"])({}, child.props, {
+            path: path
+          })) : context$$1.match;
+        }
+      });
+      return match ? react__WEBPACK_IMPORTED_MODULE_2___default.a.cloneElement(element, {
+        location: location,
+        computedMatch: match
+      }) : null;
+    });
+  };
+
+  return Switch;
+}(react__WEBPACK_IMPORTED_MODULE_2___default.a.Component);
+
+if (true) {
+  Switch.propTypes = {
+    children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
+    location: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object
+  };
+
+  Switch.prototype.componentDidUpdate = function (prevProps) {
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(this.props.location && !prevProps.location), '<Switch> elements should not change from uncontrolled to controlled (or vice versa). You initially used no "location" prop and then provided one on a subsequent render.') : undefined;
+     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(!this.props.location && prevProps.location), '<Switch> elements should not change from controlled to uncontrolled (or vice versa). You provided a "location" prop initially but omitted it on a subsequent render.') : undefined;
+  };
+}
+
+/**
+ * A public higher-order component to access the imperative API
+ */
+
+function withRouter(Component) {
+  var displayName = "withRouter(" + (Component.displayName || Component.name) + ")";
+
+  var C = function C(props) {
+    var wrappedComponentRef = props.wrappedComponentRef,
+        remainingProps = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_10__["default"])(props, ["wrappedComponentRef"]);
+
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(context.Consumer, null, function (context$$1) {
+      !context$$1 ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You should not use <" + displayName + " /> outside a <Router>") : undefined : void 0;
+      return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__["default"])({}, remainingProps, context$$1, {
+        ref: wrappedComponentRef
+      }));
+    });
+  };
+
+  C.displayName = displayName;
+  C.WrappedComponent = Component;
+
+  if (true) {
+    C.propTypes = {
+      wrappedComponentRef: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func, prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object])
+    };
+  }
+
+  return hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_11___default()(C, Component);
+}
+
+if (true) {
+  if (typeof window !== "undefined") {
+    var global = window;
+    var key = "__react_router_build__";
+    var buildNames = {
+      cjs: "CommonJS",
+      esm: "ES modules",
+      umd: "UMD"
+    };
+
+    if (global[key] && global[key] !== "esm") {
+      var initialBuildName = buildNames[global[key]];
+      var secondaryBuildName = buildNames["esm"]; // TODO: Add link to article that explains in detail how to avoid
+      // loading 2 different builds.
+
+      throw new Error("You are loading the " + secondaryBuildName + " build of React Router " + ("on a page that is already running the " + initialBuildName + " ") + "build, so things won't work right.");
+    }
+
+    global[key] = "esm";
+  }
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/react-router/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/react-router/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Copyright 2015, Yahoo! Inc.
+ * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
+ */
+var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+var REACT_STATICS = {
+    childContextTypes: true,
+    contextType: true,
+    contextTypes: true,
+    defaultProps: true,
+    displayName: true,
+    getDefaultProps: true,
+    getDerivedStateFromError: true,
+    getDerivedStateFromProps: true,
+    mixins: true,
+    propTypes: true,
+    type: true
+};
+
+var KNOWN_STATICS = {
+    name: true,
+    length: true,
+    prototype: true,
+    caller: true,
+    callee: true,
+    arguments: true,
+    arity: true
+};
+
+var FORWARD_REF_STATICS = {
+    '$$typeof': true,
+    render: true,
+    defaultProps: true,
+    displayName: true,
+    propTypes: true
+};
+
+var MEMO_STATICS = {
+    '$$typeof': true,
+    compare: true,
+    defaultProps: true,
+    displayName: true,
+    propTypes: true,
+    type: true
+};
+
+var TYPE_STATICS = {};
+TYPE_STATICS[ReactIs.ForwardRef] = FORWARD_REF_STATICS;
+
+function getStatics(component) {
+    if (ReactIs.isMemo(component)) {
+        return MEMO_STATICS;
+    }
+    return TYPE_STATICS[component['$$typeof']] || REACT_STATICS;
+}
+
+var defineProperty = Object.defineProperty;
+var getOwnPropertyNames = Object.getOwnPropertyNames;
+var getOwnPropertySymbols = Object.getOwnPropertySymbols;
+var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+var getPrototypeOf = Object.getPrototypeOf;
+var objectPrototype = Object.prototype;
+
+function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
+    if (typeof sourceComponent !== 'string') {
+        // don't hoist over string (html) components
+
+        if (objectPrototype) {
+            var inheritedComponent = getPrototypeOf(sourceComponent);
+            if (inheritedComponent && inheritedComponent !== objectPrototype) {
+                hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
+            }
+        }
+
+        var keys = getOwnPropertyNames(sourceComponent);
+
+        if (getOwnPropertySymbols) {
+            keys = keys.concat(getOwnPropertySymbols(sourceComponent));
+        }
+
+        var targetStatics = getStatics(targetComponent);
+        var sourceStatics = getStatics(sourceComponent);
+
+        for (var i = 0; i < keys.length; ++i) {
+            var key = keys[i];
+            if (!KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {
+                var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
+                try {
+                    // Avoid failures from read-only properties
+                    defineProperty(targetComponent, key, descriptor);
+                } catch (e) {}
+            }
+        }
+
+        return targetComponent;
+    }
+
+    return targetComponent;
+}
+
+module.exports = hoistNonReactStatics;
+
+
+/***/ }),
+
+/***/ "./node_modules/react-router/node_modules/isarray/index.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/react-router/node_modules/isarray/index.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = Array.isArray || function (arr) {
+  return Object.prototype.toString.call(arr) == '[object Array]';
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/react-router/node_modules/path-to-regexp/index.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/react-router/node_modules/path-to-regexp/index.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isarray = __webpack_require__(/*! isarray */ "./node_modules/react-router/node_modules/isarray/index.js")
+
+/**
+ * Expose `pathToRegexp`.
+ */
+module.exports = pathToRegexp
+module.exports.parse = parse
+module.exports.compile = compile
+module.exports.tokensToFunction = tokensToFunction
+module.exports.tokensToRegExp = tokensToRegExp
+
+/**
+ * The main path matching regexp utility.
+ *
+ * @type {RegExp}
+ */
+var PATH_REGEXP = new RegExp([
+  // Match escaped characters that would otherwise appear in future matches.
+  // This allows the user to escape special characters that won't transform.
+  '(\\\\.)',
+  // Match Express-style parameters and un-named parameters with a prefix
+  // and optional suffixes. Matches appear as:
+  //
+  // "/:test(\\d+)?" => ["/", "test", "\d+", undefined, "?", undefined]
+  // "/route(\\d+)"  => [undefined, undefined, undefined, "\d+", undefined, undefined]
+  // "/*"            => ["/", undefined, undefined, undefined, undefined, "*"]
+  '([\\/.])?(?:(?:\\:(\\w+)(?:\\(((?:\\\\.|[^\\\\()])+)\\))?|\\(((?:\\\\.|[^\\\\()])+)\\))([+*?])?|(\\*))'
+].join('|'), 'g')
+
+/**
+ * Parse a string for the raw tokens.
+ *
+ * @param  {string}  str
+ * @param  {Object=} options
+ * @return {!Array}
+ */
+function parse (str, options) {
+  var tokens = []
+  var key = 0
+  var index = 0
+  var path = ''
+  var defaultDelimiter = options && options.delimiter || '/'
+  var res
+
+  while ((res = PATH_REGEXP.exec(str)) != null) {
+    var m = res[0]
+    var escaped = res[1]
+    var offset = res.index
+    path += str.slice(index, offset)
+    index = offset + m.length
+
+    // Ignore already escaped sequences.
+    if (escaped) {
+      path += escaped[1]
+      continue
+    }
+
+    var next = str[index]
+    var prefix = res[2]
+    var name = res[3]
+    var capture = res[4]
+    var group = res[5]
+    var modifier = res[6]
+    var asterisk = res[7]
+
+    // Push the current path onto the tokens.
+    if (path) {
+      tokens.push(path)
+      path = ''
+    }
+
+    var partial = prefix != null && next != null && next !== prefix
+    var repeat = modifier === '+' || modifier === '*'
+    var optional = modifier === '?' || modifier === '*'
+    var delimiter = res[2] || defaultDelimiter
+    var pattern = capture || group
+
+    tokens.push({
+      name: name || key++,
+      prefix: prefix || '',
+      delimiter: delimiter,
+      optional: optional,
+      repeat: repeat,
+      partial: partial,
+      asterisk: !!asterisk,
+      pattern: pattern ? escapeGroup(pattern) : (asterisk ? '.*' : '[^' + escapeString(delimiter) + ']+?')
+    })
+  }
+
+  // Match any characters still remaining.
+  if (index < str.length) {
+    path += str.substr(index)
+  }
+
+  // If the path exists, push it onto the end.
+  if (path) {
+    tokens.push(path)
+  }
+
+  return tokens
+}
+
+/**
+ * Compile a string to a template function for the path.
+ *
+ * @param  {string}             str
+ * @param  {Object=}            options
+ * @return {!function(Object=, Object=)}
+ */
+function compile (str, options) {
+  return tokensToFunction(parse(str, options))
+}
+
+/**
+ * Prettier encoding of URI path segments.
+ *
+ * @param  {string}
+ * @return {string}
+ */
+function encodeURIComponentPretty (str) {
+  return encodeURI(str).replace(/[\/?#]/g, function (c) {
+    return '%' + c.charCodeAt(0).toString(16).toUpperCase()
+  })
+}
+
+/**
+ * Encode the asterisk parameter. Similar to `pretty`, but allows slashes.
+ *
+ * @param  {string}
+ * @return {string}
+ */
+function encodeAsterisk (str) {
+  return encodeURI(str).replace(/[?#]/g, function (c) {
+    return '%' + c.charCodeAt(0).toString(16).toUpperCase()
+  })
+}
+
+/**
+ * Expose a method for transforming tokens into the path function.
+ */
+function tokensToFunction (tokens) {
+  // Compile all the tokens into regexps.
+  var matches = new Array(tokens.length)
+
+  // Compile all the patterns before compilation.
+  for (var i = 0; i < tokens.length; i++) {
+    if (typeof tokens[i] === 'object') {
+      matches[i] = new RegExp('^(?:' + tokens[i].pattern + ')$')
+    }
+  }
+
+  return function (obj, opts) {
+    var path = ''
+    var data = obj || {}
+    var options = opts || {}
+    var encode = options.pretty ? encodeURIComponentPretty : encodeURIComponent
+
+    for (var i = 0; i < tokens.length; i++) {
+      var token = tokens[i]
+
+      if (typeof token === 'string') {
+        path += token
+
+        continue
+      }
+
+      var value = data[token.name]
+      var segment
+
+      if (value == null) {
+        if (token.optional) {
+          // Prepend partial segment prefixes.
+          if (token.partial) {
+            path += token.prefix
+          }
+
+          continue
+        } else {
+          throw new TypeError('Expected "' + token.name + '" to be defined')
+        }
+      }
+
+      if (isarray(value)) {
+        if (!token.repeat) {
+          throw new TypeError('Expected "' + token.name + '" to not repeat, but received `' + JSON.stringify(value) + '`')
+        }
+
+        if (value.length === 0) {
+          if (token.optional) {
+            continue
+          } else {
+            throw new TypeError('Expected "' + token.name + '" to not be empty')
+          }
+        }
+
+        for (var j = 0; j < value.length; j++) {
+          segment = encode(value[j])
+
+          if (!matches[i].test(segment)) {
+            throw new TypeError('Expected all "' + token.name + '" to match "' + token.pattern + '", but received `' + JSON.stringify(segment) + '`')
+          }
+
+          path += (j === 0 ? token.prefix : token.delimiter) + segment
+        }
+
+        continue
+      }
+
+      segment = token.asterisk ? encodeAsterisk(value) : encode(value)
+
+      if (!matches[i].test(segment)) {
+        throw new TypeError('Expected "' + token.name + '" to match "' + token.pattern + '", but received "' + segment + '"')
+      }
+
+      path += token.prefix + segment
+    }
+
+    return path
+  }
+}
+
+/**
+ * Escape a regular expression string.
+ *
+ * @param  {string} str
+ * @return {string}
+ */
+function escapeString (str) {
+  return str.replace(/([.+*?=^!:${}()[\]|\/\\])/g, '\\$1')
+}
+
+/**
+ * Escape the capturing group by escaping special characters and meaning.
+ *
+ * @param  {string} group
+ * @return {string}
+ */
+function escapeGroup (group) {
+  return group.replace(/([=!:$\/()])/g, '\\$1')
+}
+
+/**
+ * Attach the keys as a property of the regexp.
+ *
+ * @param  {!RegExp} re
+ * @param  {Array}   keys
+ * @return {!RegExp}
+ */
+function attachKeys (re, keys) {
+  re.keys = keys
+  return re
+}
+
+/**
+ * Get the flags for a regexp from the options.
+ *
+ * @param  {Object} options
+ * @return {string}
+ */
+function flags (options) {
+  return options.sensitive ? '' : 'i'
+}
+
+/**
+ * Pull out keys from a regexp.
+ *
+ * @param  {!RegExp} path
+ * @param  {!Array}  keys
+ * @return {!RegExp}
+ */
+function regexpToRegexp (path, keys) {
+  // Use a negative lookahead to match only capturing groups.
+  var groups = path.source.match(/\((?!\?)/g)
+
+  if (groups) {
+    for (var i = 0; i < groups.length; i++) {
+      keys.push({
+        name: i,
+        prefix: null,
+        delimiter: null,
+        optional: false,
+        repeat: false,
+        partial: false,
+        asterisk: false,
+        pattern: null
+      })
+    }
+  }
+
+  return attachKeys(path, keys)
+}
+
+/**
+ * Transform an array into a regexp.
+ *
+ * @param  {!Array}  path
+ * @param  {Array}   keys
+ * @param  {!Object} options
+ * @return {!RegExp}
+ */
+function arrayToRegexp (path, keys, options) {
+  var parts = []
+
+  for (var i = 0; i < path.length; i++) {
+    parts.push(pathToRegexp(path[i], keys, options).source)
+  }
+
+  var regexp = new RegExp('(?:' + parts.join('|') + ')', flags(options))
+
+  return attachKeys(regexp, keys)
+}
+
+/**
+ * Create a path regexp from string input.
+ *
+ * @param  {string}  path
+ * @param  {!Array}  keys
+ * @param  {!Object} options
+ * @return {!RegExp}
+ */
+function stringToRegexp (path, keys, options) {
+  return tokensToRegExp(parse(path, options), keys, options)
+}
+
+/**
+ * Expose a function for taking tokens and returning a RegExp.
+ *
+ * @param  {!Array}          tokens
+ * @param  {(Array|Object)=} keys
+ * @param  {Object=}         options
+ * @return {!RegExp}
+ */
+function tokensToRegExp (tokens, keys, options) {
+  if (!isarray(keys)) {
+    options = /** @type {!Object} */ (keys || options)
+    keys = []
+  }
+
+  options = options || {}
+
+  var strict = options.strict
+  var end = options.end !== false
+  var route = ''
+
+  // Iterate over the tokens and create our regexp string.
+  for (var i = 0; i < tokens.length; i++) {
+    var token = tokens[i]
+
+    if (typeof token === 'string') {
+      route += escapeString(token)
+    } else {
+      var prefix = escapeString(token.prefix)
+      var capture = '(?:' + token.pattern + ')'
+
+      keys.push(token)
+
+      if (token.repeat) {
+        capture += '(?:' + prefix + capture + ')*'
+      }
+
+      if (token.optional) {
+        if (!token.partial) {
+          capture = '(?:' + prefix + '(' + capture + '))?'
+        } else {
+          capture = prefix + '(' + capture + ')?'
+        }
+      } else {
+        capture = prefix + '(' + capture + ')'
+      }
+
+      route += capture
+    }
+  }
+
+  var delimiter = escapeString(options.delimiter || '/')
+  var endsWithDelimiter = route.slice(-delimiter.length) === delimiter
+
+  // In non-strict mode we allow a slash at the end of match. If the path to
+  // match already ends with a slash, we remove it for consistency. The slash
+  // is valid at the end of a path match, not in the middle. This is important
+  // in non-ending mode, where "/test/" shouldn't match "/test//route".
+  if (!strict) {
+    route = (endsWithDelimiter ? route.slice(0, -delimiter.length) : route) + '(?:' + delimiter + '(?=$))?'
+  }
+
+  if (end) {
+    route += '$'
+  } else {
+    // In non-ending mode, we need the capturing groups to match as much as
+    // possible by using a positive lookahead to the end or next path segment.
+    route += strict && endsWithDelimiter ? '' : '(?=' + delimiter + '|$)'
+  }
+
+  return attachKeys(new RegExp('^' + route, flags(options)), keys)
+}
+
+/**
+ * Normalize the given path string, returning a regular expression.
+ *
+ * An empty array can be passed in for the keys, which will hold the
+ * placeholder key descriptions. For example, using `/user/:id`, `keys` will
+ * contain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.
+ *
+ * @param  {(string|RegExp|Array)} path
+ * @param  {(Array|Object)=}       keys
+ * @param  {Object=}               options
+ * @return {!RegExp}
+ */
+function pathToRegexp (path, keys, options) {
+  if (!isarray(keys)) {
+    options = /** @type {!Object} */ (keys || options)
+    keys = []
+  }
+
+  options = options || {}
+
+  if (path instanceof RegExp) {
+    return regexpToRegexp(path, /** @type {!Array} */ (keys))
+  }
+
+  if (isarray(path)) {
+    return arrayToRegexp(/** @type {!Array} */ (path), /** @type {!Array} */ (keys), options)
+  }
+
+  return stringToRegexp(/** @type {string} */ (path), /** @type {!Array} */ (keys), options)
+}
+
 
 /***/ }),
 
@@ -43071,6 +36455,88 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/resolve-pathname/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/resolve-pathname/index.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function isAbsolute(pathname) {
+  return pathname.charAt(0) === '/';
+}
+
+// About 1.5x faster than the two-arg version of Array#splice()
+function spliceOne(list, index) {
+  for (var i = index, k = i + 1, n = list.length; k < n; i += 1, k += 1) {
+    list[i] = list[k];
+  }
+
+  list.pop();
+}
+
+// This implementation is based heavily on node's url.parse
+function resolvePathname(to) {
+  var from = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
+
+  var toParts = to && to.split('/') || [];
+  var fromParts = from && from.split('/') || [];
+
+  var isToAbs = to && isAbsolute(to);
+  var isFromAbs = from && isAbsolute(from);
+  var mustEndAbs = isToAbs || isFromAbs;
+
+  if (to && isAbsolute(to)) {
+    // to is absolute
+    fromParts = toParts;
+  } else if (toParts.length) {
+    // to is relative, drop the filename
+    fromParts.pop();
+    fromParts = fromParts.concat(toParts);
+  }
+
+  if (!fromParts.length) return '/';
+
+  var hasTrailingSlash = void 0;
+  if (fromParts.length) {
+    var last = fromParts[fromParts.length - 1];
+    hasTrailingSlash = last === '.' || last === '..' || last === '';
+  } else {
+    hasTrailingSlash = false;
+  }
+
+  var up = 0;
+  for (var i = fromParts.length; i >= 0; i--) {
+    var part = fromParts[i];
+
+    if (part === '.') {
+      spliceOne(fromParts, i);
+    } else if (part === '..') {
+      spliceOne(fromParts, i);
+      up++;
+    } else if (up) {
+      spliceOne(fromParts, i);
+      up--;
+    }
+  }
+
+  if (!mustEndAbs) for (; up--; up) {
+    fromParts.unshift('..');
+  }if (mustEndAbs && fromParts[0] !== '' && (!fromParts[0] || !isAbsolute(fromParts[0]))) fromParts.unshift('');
+
+  var result = fromParts.join('/');
+
+  if (hasTrailingSlash && result.substr(-1) !== '/') result += '/';
+
+  return result;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (resolvePathname);
+
+/***/ }),
+
 /***/ "./node_modules/scheduler/cjs/scheduler-tracing.development.js":
 /*!*********************************************************************!*\
   !*** ./node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
@@ -44252,6 +37718,117 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/tiny-invariant/dist/tiny-invariant.esm.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var isProduction = "development" === 'production';
+var prefix = 'Invariant failed';
+function invariant(condition, message) {
+  if (condition) {
+    return;
+  }
+
+  if (isProduction) {
+    throw new Error(prefix);
+  } else {
+    throw new Error(prefix + ": " + (message || ''));
+  }
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (invariant);
+
+
+/***/ }),
+
+/***/ "./node_modules/tiny-warning/dist/tiny-warning.esm.js":
+/*!************************************************************!*\
+  !*** ./node_modules/tiny-warning/dist/tiny-warning.esm.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var isProduction = "development" === 'production';
+function warning(condition, message) {
+  if (!isProduction) {
+    if (condition) {
+      return;
+    }
+
+    var text = "Warning: " + message;
+
+    if (typeof console !== 'undefined') {
+      console.warn(text);
+    }
+
+    try {
+      throw Error(text);
+    } catch (x) {}
+  }
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (warning);
+
+
+/***/ }),
+
+/***/ "./node_modules/value-equal/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/value-equal/index.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+function valueEqual(a, b) {
+  if (a === b) return true;
+
+  if (a == null || b == null) return false;
+
+  if (Array.isArray(a)) {
+    return Array.isArray(b) && a.length === b.length && a.every(function (item, index) {
+      return valueEqual(item, b[index]);
+    });
+  }
+
+  var aType = typeof a === 'undefined' ? 'undefined' : _typeof(a);
+  var bType = typeof b === 'undefined' ? 'undefined' : _typeof(b);
+
+  if (aType !== bType) return false;
+
+  if (aType === 'object') {
+    var aValue = a.valueOf();
+    var bValue = b.valueOf();
+
+    if (aValue !== a || bValue !== b) return valueEqual(aValue, bValue);
+
+    var aKeys = Object.keys(a);
+    var bKeys = Object.keys(b);
+
+    if (aKeys.length !== bKeys.length) return false;
+
+    return aKeys.every(function (key) {
+      return valueEqual(a[key], b[key]);
+    });
+  }
+
+  return false;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (valueEqual);
+
+/***/ }),
+
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
@@ -44283,28 +37860,6 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./src/Selector.js":
-/*!*************************!*\
-  !*** ./src/Selector.js ***!
-  \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Selector; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_native_web_dist_exports_Animated__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-native-web/dist/exports/Animated */ "./node_modules/react-native-web/dist/exports/Animated/index.js");
-/* harmony import */ var react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-native-web/dist/exports/View */ "./node_modules/react-native-web/dist/exports/View/index.js");
-/* harmony import */ var react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-native-web/dist/exports/Image */ "./node_modules/react-native-web/dist/exports/Image/index.js");
-/* harmony import */ var react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-native-web/dist/exports/StyleSheet */ "./node_modules/react-native-web/dist/exports/StyleSheet/index.js");
-/* harmony import */ var react_native_web_dist_exports_PanResponder__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-native-web/dist/exports/PanResponder */ "./node_modules/react-native-web/dist/exports/PanResponder/index.js");
-/* harmony import */ var react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-native-web/dist/exports/Text */ "./node_modules/react-native-web/dist/exports/Text/index.js");
-var _jsxFileName="/home/simeon/TempWorkpace/js-fmi/stay-tuna/src/Selector.js";function _typeof(obj){if(typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};}return _typeof(obj);}function _extends(){_extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};return _extends.apply(this,arguments);}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)==="object"||typeof call==="function")){return call;}return _assertThisInitialized(self);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return self;}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}var supportedLanguages=[{key:'ar',uri:'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/2000px-Flag_of_Argentina.svg.png'},{key:'ru',uri:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/200px-Flag_of_Russia.svg.png'}];var Selector=function(_Component){_inherits(Selector,_Component);function Selector(props){var _this;_classCallCheck(this,Selector);_this=_possibleConstructorReturn(this,_getPrototypeOf(Selector).call(this,props));_this.state={pan:new react_native_web_dist_exports_Animated__WEBPACK_IMPORTED_MODULE_1__["default"].ValueXY(),activeIndex:0};_this.panResponder=react_native_web_dist_exports_PanResponder__WEBPACK_IMPORTED_MODULE_5__["default"].create({onStartShouldSetPanResponder:function onStartShouldSetPanResponder(){return true;},onPanResponderMove:react_native_web_dist_exports_Animated__WEBPACK_IMPORTED_MODULE_1__["default"].event([null,{dx:_this.state.pan.x}]),onPanResponderRelease:function onPanResponderRelease(e,gesture){var dx=gesture.dx;react_native_web_dist_exports_Animated__WEBPACK_IMPORTED_MODULE_1__["default"].spring(_this.state.pan,{toValue:0}).start();if(dx>0){if(supportedLanguages.length===_this.state.activeIndex+1){_this.setState({activeIndex:0});}else{_this.setState({activeIndex:_this.state.activeIndex+1});}}else{if(_this.state.activeIndex===0){_this.setState({activeIndex:supportedLanguages.length-1});}else{_this.setState({activeIndex:_this.state.activeIndex-1});}}}});return _this;}_createClass(Selector,[{key:"renderImage",value:function renderImage(language,i){if(i===this.state.activeIndex){return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_3__["default"],{key:this.state.activeIndex,style:styles.image,source:{uri:language.uri},__source:{fileName:_jsxFileName,lineNumber:68}});}else{return null;}}},{key:"render",value:function render(){var _this2=this;return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_2__["default"],{style:styles.container,__source:{fileName:_jsxFileName,lineNumber:80}},react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6__["default"],{__source:{fileName:_jsxFileName,lineNumber:81}}," Yo Yo "),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Animated__WEBPACK_IMPORTED_MODULE_1__["default"].View,_extends({},this.panResponder.panHandlers,{style:[this.state.pan.getLayout()],__source:{fileName:_jsxFileName,lineNumber:82}}),supportedLanguages.map(function(des,i){return _this2.renderImage(des,i);})));}}]);return Selector;}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);var styles=react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_4__["default"].create({container:{flex:1,alignItems:'center',justifyContent:'center',paddingTop:20},image:{borderRadius:50,borderWidth:1,borderColor:'#ccc',width:100,height:100}});
-
-/***/ }),
-
 /***/ "./src/Web.js":
 /*!********************!*\
   !*** ./src/Web.js ***!
@@ -44319,6 +37874,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_native_web_dist_exports_render__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-native-web/dist/exports/render */ "./node_modules/react-native-web/dist/exports/render/index.js");
 var _jsxFileName="/home/simeon/TempWorkpace/js-fmi/stay-tuna/src/Web.js";Object(react_native_web_dist_exports_render__WEBPACK_IMPORTED_MODULE_2__["default"])(react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_App_js__WEBPACK_IMPORTED_MODULE_0__["default"],{__source:{fileName:_jsxFileName,lineNumber:7}}),document.getElementById('root'));
+
+/***/ }),
+
+/***/ "./src/routing/routing.web.js":
+/*!************************************!*\
+  !*** ./src/routing/routing.web.js ***!
+  \************************************/
+/*! exports provided: Router, Route, Link */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return react_router_dom__WEBPACK_IMPORTED_MODULE_0__["BrowserRouter"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Link"]; });
+
+
 
 /***/ })
 

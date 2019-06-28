@@ -1,4 +1,2 @@
 node_modules
-.expo/
-public/
-web/dist/
+web/dist/bundle*

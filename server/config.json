@@ -1,0 +1,6 @@
+{
+    "NODE_ENV": "development",
+    "PORT": "8080",
+    "JWT_KEY": "JWTKEY",
+    "MONGODB_URL": "mongodb://staytuna:staytuna@localhost:27017/tuna"
+}

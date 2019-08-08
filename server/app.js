@@ -2,6 +2,7 @@ const nconf = require("nconf")
 nconf.env().file({ file: __dirname + '/config.json' })
 const express = require("express")
 const morgan = require("morgan")
+const cors = require("cors")
 
 const logger = require('./util/logger')
 require('./db/db')
@@ -19,6 +20,7 @@ app.use(morgan(':status :method :url ":user-agent" Referer: :referrer', {
 }))
 
 app.use(express.json())
+app.use(cors())
 app.use("/api", userRouter)
 app.listen(port, () => {
     logger.info(`Server listening on port: ${port}`)

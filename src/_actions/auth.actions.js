@@ -4,7 +4,8 @@ import { AsyncStorage } from "react-native"
 export const authActions = {
     login,
     logout,
-    register
+    register,
+    checkTokenInStorage
 }
 
 function login(username, password, history) {
@@ -58,4 +59,17 @@ async function storageTest() {
     } catch(err) { 
         console.error("Error while using AsyncStorage", err)
     }
+}
+
+async function checkTokenInStorage() {
+    return dispatch => {
+        dispatch(request())
+
+        // async
+        // TODO Implement async call to authentication endpoint
+    }
+
+    function request() { return { type: authConstants.CHECK_TOKEN_REQUEST } }
+    function success(user) { return { type: authConstants.CHECK_TOKEN_SUCCESS, user } }
+    function failure(err) { return { type: authConstants.CHECK_TOKEN_FAILURE, err } }
 }

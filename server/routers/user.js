@@ -44,7 +44,7 @@ router.post("/users/login", async (req, res) => {
 })
 
 router.get("/users/me", auth, async (req, res) => {
-    res.json({status: "ok", data: { user: req.user}})
+    res.status(200).json({status: "ok", data: { user: req.user}})
 })
 
 router.post("/users/me/logout", auth, async (req, res) => {
@@ -53,7 +53,7 @@ router.post("/users/me/logout", auth, async (req, res) => {
             return token.token != req.token
         })
         await req.user.save()
-        res.json({ status: "ok", data: {}})
+        res.status(200).json({ status: "ok", data: {}})
     } catch (error) {
         res.status(500).json({ status: "error", errorMessage: ""})
     }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from "react-redux"
 import { View, ScrollView, StyleSheet, Dimensions } from 'react-native';
 import {
   Input,
@@ -7,6 +8,9 @@ import {
   Overlay,
   Text
 } from 'react-native-elements'
+
+import { authActions } from "../../_actions/"
+import { auth } from '../../_reducers/auth.reducer';
 
 const SCREEN_WIDTH = Dimensions.get('window').width
 
@@ -32,9 +36,11 @@ class Login extends Component {
       const { username, password } = this.state
 
       if (username && password) {
-        console.log("Dispatching login action...")
-        console.log(username, password)
-        this.props.navigation.navigate("App")
+        this.props.dispatch(authActions.login({ 
+          username, 
+          password
+          }, this.props.navigation
+        ))
       } else {
         this.setState({
           ...this.state,
@@ -109,6 +115,16 @@ class Login extends Component {
       alignItems: 'center',
     },
   });
+
+  function mapStateToProps(state) {
+    const { loading, err} = state.auth
+    return {
+      loading,
+      err
+    }
+  }
+
+  const connectedLogin = connect(mapStateToProps)(Login)
   
-  export default Login;
+  export { connectedLogin as Login }
   

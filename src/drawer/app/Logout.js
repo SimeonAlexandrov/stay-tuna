@@ -2,7 +2,7 @@ import React from 'react';
 import { createStackNavigator } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 
-import Logout from '../../views/app/Logout'
+import { Logout } from '../../views/app/Logout'
 
 const LogoutDrawerItem = createStackNavigator({
   Logout: {

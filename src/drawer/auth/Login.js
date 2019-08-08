@@ -2,7 +2,7 @@ import React from 'react';
 import { createStackNavigator } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 
-import Login from '../../views/auth/Login';
+import { Login } from '../../views/auth/Login';
 
 const LoginDrawerItem = createStackNavigator({
   Login: {

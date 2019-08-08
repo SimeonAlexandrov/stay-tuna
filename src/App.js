@@ -11,7 +11,7 @@ import { Provider } from 'react-redux'
 
 import { store } from './_helpers/store'
 
-import AuthLoadingScreen from './views/AuthLoadingScreen'
+import { AuthLoadingScreen } from './views/AuthLoadingScreen'
 
 // Auth
 import Landing from './drawer/auth/Landing'

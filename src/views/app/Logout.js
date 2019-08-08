@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { connect } from "react-redux"
 import PropTypes from "prop-types"
 import { 
   View, 
@@ -6,6 +7,8 @@ import {
   StyleSheet, 
   Dimensions,
 } from 'react-native'
+
+import { authActions } from "../../_actions"
 
 const SCREEN_WIDTH = Dimensions.get('window').width
 
@@ -17,14 +20,13 @@ class Logout extends Component {
   }
 
   componentWillMount() {
-    setTimeout(() => this.props.navigation.navigate("Auth"), 0)
+    this.props.dispatch(authActions.logout(this.props.navigation))
   }
 
   render() {
     return (
       <ScrollView style={styles.container} keyboardShouldPersistTaps="handled">
         <View style={styles.contentView}>
-          <h1>Bye</h1>
         </View>
       </ScrollView>
     )
@@ -50,6 +52,13 @@ Logout.propTypes = {
   err: PropTypes.object,
 }
 
+function mapStateToProps(state) {
+  const { loading, err } = state.auth
+  return {
+    loading, 
+    err
+  }
+}
 
-export default Logout
-  
+const connectedLogout = connect(mapStateToProps)(Logout)
+export { connectedLogout as Logout }

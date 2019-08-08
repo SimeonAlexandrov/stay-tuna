@@ -56,13 +56,47 @@ export function auth(state = { loading: false, user: null }, action) {
                 err: action.err,
             }
 
-        case authConstants.LOGOUT:
+        case authConstants.LOGOUT_REQUEST:
+            return {
+                ...state,
+                user: null,
+                loading: true,
+            }
+        
+        case authConstants.LOGOUT_SUCCESS:
             return {
                 ...state,
                 user: null,
                 loading: false,
             }
-
+        
+        case authConstants.LOGOUT_FAILURE:
+            return {
+                ...state,
+                user: null,
+                loading: false,
+            }
+        
+        case authConstants.CHECK_TOKEN_REQUEST:
+            return {
+                ...state,
+                user: null,
+                loading: true,
+            }
+        
+        case authConstants.CHECK_TOKEN_SUCCESS:
+            return {
+                ...state,
+                user: null,
+                loading: false,
+            }
+        
+        case authConstants.CHECK_TOKEN_FAILURE:
+            return {
+                ...state,
+                user: null,
+                loading: false,
+            }
         default:
             return state
     }

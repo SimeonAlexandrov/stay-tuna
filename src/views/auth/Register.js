@@ -46,8 +46,12 @@ class Register extends Component {
     //TODO Add more validation to form
     const { username, email, password, confirmPassword } = this.state
     if (username && email && password && confirmPassword ) {
-      this.props.dispatch(authActions.register({}, {}))
-      this.props.navigation.navigate("Login")
+      this.props.dispatch(authActions.register({
+          username,
+          email,
+          password
+        }, this.props.navigation)
+      )
     } else {
       // TODO externalize alert for web ant native environments
       Alert.alert(

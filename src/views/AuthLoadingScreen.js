@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import { connect } from "react-redux"
 import {
   ActivityIndicator,
   AsyncStorage,
@@ -7,16 +8,15 @@ import {
   StyleSheet
 } from 'react-native';
 
+import { authActions } from "../_actions"
 class AuthLoadingScreen extends React.Component {
   constructor(props) {
     super(props);
-    this.checkToken();
   }
-  checkToken = async () => {
-    //TODO dispatch checkToken action
-    const userToken = await AsyncStorage.getItem('userToken');
-    this.props.navigation.navigate(userToken ? 'App' : 'Auth');
-  };
+
+  componentDidMount() {
+    this.props.dispatch(authActions.checkTokenInStorage(this.props.navigation))
+  }
 
   render() {
     return (
@@ -40,4 +40,14 @@ const styles = StyleSheet.create({
     }
 });
 
-export default AuthLoadingScreen
+function mapStateToProps(state) {
+  const { loading, err } = state
+  return {
+    loading,
+    err
+  }
+}
+
+const connectedAuthLoadingScreen = connect(mapStateToProps)(AuthLoadingScreen)
+
+export { connectedAuthLoadingScreen as AuthLoadingScreen }

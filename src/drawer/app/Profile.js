@@ -2,14 +2,14 @@ import React from 'react';
 import { createStackNavigator } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 
-import Login from '../views/Login';
+import Profile from '../../views/app/Profile';
 
-const LoginDrawerItem = createStackNavigator({
-  Login: {
-    screen: Login,
+const ProfileDrawerItem = createStackNavigator({
+  Profile: {
+    screen: Profile,
 
     navigationOptions: ({ navigation }) => ({
-      title: 'Login',
+      title: 'Profile',
       headerLeft: (
         <Icon
           name="menu"
@@ -23,20 +23,20 @@ const LoginDrawerItem = createStackNavigator({
   },
 });
 
-LoginDrawerItem.navigationOptions = {
-  drawerLabel: 'Login',
+ProfileDrawerItem.navigationOptions = {
+  drawerLabel: 'Profile',
   drawerIcon: ({ tintColor }) => (
     <Icon
-      name="check"
+      name="user"
       size={30}
       iconStyle={{
         width: 30,
         height: 30,
       }}
-      type="material"
+      type="font-awesome"
       color={tintColor}
     />
   ),
 };
 
-export default LoginDrawerItem;
+export default ProfileDrawerItem;

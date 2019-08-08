@@ -2,14 +2,14 @@ import React from 'react';
 import { createStackNavigator } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 
-import Home from '../views/Home';
+import Login from '../../views/auth/Login';
 
-const HomeDrawerItem = createStackNavigator({
-  Home: {
-    screen: Home,
+const LoginDrawerItem = createStackNavigator({
+  Login: {
+    screen: Login,
 
     navigationOptions: ({ navigation }) => ({
-      title: 'Home',
+      title: 'Login',
       headerLeft: (
         <Icon
           name="menu"
@@ -23,20 +23,20 @@ const HomeDrawerItem = createStackNavigator({
   },
 });
 
-HomeDrawerItem.navigationOptions = {
-  drawerLabel: 'Home',
+LoginDrawerItem.navigationOptions = {
+  drawerLabel: 'Login',
   drawerIcon: ({ tintColor }) => (
     <Icon
-      name="star"
+      name="login-variant"
       size={30}
       iconStyle={{
         width: 30,
         height: 30,
       }}
-      type="material"
+      type="material-community"
       color={tintColor}
     />
   ),
 };
 
-export default HomeDrawerItem;
+export default LoginDrawerItem;

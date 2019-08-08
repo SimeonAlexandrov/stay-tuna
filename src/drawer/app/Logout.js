@@ -2,14 +2,14 @@ import React from 'react';
 import { createStackNavigator } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 
-import { Register } from '../views/Register';
+import Logout from '../../views/app/Logout'
 
-const RegisterDrawerItem = createStackNavigator({
-  Register: {
-    screen: Register,
+const LogoutDrawerItem = createStackNavigator({
+  Logout: {
+    screen: Logout,
 
     navigationOptions: ({ navigation }) => ({
-      title: 'Register',
+      title: 'Logout',
       headerLeft: (
         <Icon
           name="menu"
@@ -23,20 +23,20 @@ const RegisterDrawerItem = createStackNavigator({
   },
 });
 
-RegisterDrawerItem.navigationOptions = {
-  drawerLabel: 'Register',
+LogoutDrawerItem.navigationOptions = {
+  drawerLabel: 'Logout',
   drawerIcon: ({ tintColor }) => (
     <Icon
-      name="add"
+      name="logout-variant"
       size={30}
       iconStyle={{
         width: 30,
         height: 30,
       }}
-      type="material"
+      type="material-community"
       color={tintColor}
     />
   ),
 };
 
-export default RegisterDrawerItem;
+export default LogoutDrawerItem;

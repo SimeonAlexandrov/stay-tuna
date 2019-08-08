@@ -18,7 +18,7 @@ import {
   Button,
 } from 'react-native-elements'
 
-import { authActions } from "../_actions"
+import { authActions } from "../../_actions"
 
 const SCREEN_WIDTH = Dimensions.get('window').width
 
@@ -47,6 +47,7 @@ class Register extends Component {
     const { username, email, password, confirmPassword } = this.state
     if (username && email && password && confirmPassword ) {
       this.props.dispatch(authActions.register({}, {}))
+      this.props.navigation.navigate("Login")
     } else {
       // TODO externalize alert for web ant native environments
       Alert.alert(
@@ -67,13 +68,6 @@ class Register extends Component {
   }
 
   render() {
-    if (this.props.loading) {
-      return (
-        <View style={[styles.container, styles.contentView]}>
-          <ActivityIndicator size="large" />
-        </View>
-      )
-    }
     return (
       <ScrollView style={styles.container} keyboardShouldPersistTaps="handled">
         <View style={styles.contentView}>

@@ -1,14 +1,27 @@
 import React from 'react';
-import AppLoading from "./components/AppLoading";
+import AppLoading from "./_components/AppLoading/AppLoading";
 import { View, Dimensions } from 'react-native';
-import { createAppContainer, createDrawerNavigator, DrawerItems } from 'react-navigation';
+import { 
+  createAppContainer, 
+  createDrawerNavigator,
+  createSwitchNavigator, 
+  DrawerItems } from 'react-navigation';
 import {cacheFonts} from "./caching/AssetsCaching";
 import { Provider } from 'react-redux'
 
 import { store } from './_helpers/store'
-import Home from './drawer/Home'
-import Login from './drawer/Login'
-import Register from './drawer/Register'
+
+import AuthLoadingScreen from './views/AuthLoadingScreen'
+
+// Auth
+import Landing from './drawer/auth/Landing'
+import Login from './drawer/auth/Login'
+import Register from './drawer/auth/Register'
+
+// App
+import Home from './drawer/app/Home'
+import Profile from './drawer/app/Profile'
+import Logout from './drawer/app/Logout'
 
 const WINDOW_WIDTH = Dimensions.get('window').width;
 
@@ -24,11 +37,11 @@ const CustomDrawerContentComponent = props => (
   </View>
 );
 
-const MainRoot = createAppContainer(createDrawerNavigator(
+const AuthStack = createDrawerNavigator(
   {
-    Home: {
+    Landing: {
       path: '/',
-      screen: Home,
+      screen: Landing,
     }, 
     Login: {
       path: '/login',
@@ -37,6 +50,39 @@ const MainRoot = createAppContainer(createDrawerNavigator(
     Register: {
       path: '/register',
       screen: Register
+    }
+  },
+  {
+    initialRouteName: 'Landing',
+    contentOptions: {
+      activeTintColor: '#548ff7',
+      activeBackgroundColor: 'transparent',
+      inactiveTintColor: '#ffffff',
+      inactiveBackgroundColor: 'transparent',
+      labelStyle: {
+        fontSize: 15,
+        marginLeft: 0,
+      },
+    },
+    drawerWidth: Math.min(WINDOW_WIDTH * 0.8, 300),
+    drawerBackgroundColor: '#43484d',
+    contentComponent: CustomDrawerContentComponent,
+  }
+)
+
+const AppStack = createDrawerNavigator(
+  {
+    Home: {
+      path: '/',
+      screen: Home,
+    }, 
+    Profile: {
+      path: '/profile',
+      screen: Profile
+    }, 
+    Logout: {
+      path: '/logout',
+      screen: Logout
     }
   },
   {
@@ -55,7 +101,18 @@ const MainRoot = createAppContainer(createDrawerNavigator(
     drawerBackgroundColor: '#43484d',
     contentComponent: CustomDrawerContentComponent,
   }
-));
+)
+
+const MainRoot = createAppContainer(createSwitchNavigator(
+  {
+    AuthLoading: AuthLoadingScreen,
+    Auth: AuthStack,
+    App: AppStack
+  },
+  {
+    initialRouteName: "AuthLoading"
+  }
+))
 
 export default class AppContainer extends React.Component {
   state = {

@@ -34,6 +34,7 @@ class Login extends Component {
       if (username && password) {
         console.log("Dispatching login action...")
         console.log(username, password)
+        this.props.navigation.navigate("App")
       } else {
         this.setState({
           ...this.state,

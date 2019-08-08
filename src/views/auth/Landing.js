@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View, Platform, ScrollView } from 'react-native';
 
-class Home extends React.Component {
+class Landing extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <View style={styles.headingContainer}>
-          <Text style={styles.titleText}>Home</Text>
+          <Text style={styles.titleText}>Landing</Text>
           <Text style={styles.subtitleText}>Welcome</Text>
         </View>
         <ScrollView style={styles.viewContainer}>
@@ -52,4 +52,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default Landing;

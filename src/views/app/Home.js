@@ -5,6 +5,7 @@ import {
   ScrollView, 
   StyleSheet, 
   Dimensions,
+  Text
 } from 'react-native'
 
 
@@ -21,7 +22,7 @@ class Home extends Component {
     return (
       <ScrollView style={styles.container} keyboardShouldPersistTaps="handled">
         <View style={styles.contentView}>
-          <h1>Impressive, you remember your credentials</h1>
+          <Text>Impressive, you remember your credentials</Text>
         </View>
       </ScrollView>
     )

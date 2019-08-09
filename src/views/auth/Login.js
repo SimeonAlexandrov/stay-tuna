@@ -10,7 +10,7 @@ import {
 } from 'react-native-elements'
 
 import { authActions } from "../../_actions/"
-import { auth } from '../../_reducers/auth.reducer';
+
 
 const SCREEN_WIDTH = Dimensions.get('window').width
 
@@ -25,11 +25,13 @@ class Login extends Component {
       }
     }
 
-    onInputChange({ target }) {
+    onInputChange(event) {
+      const { target, text, name } = event.nativeEvent
+      console.log(event.nativeEvent)
       this.setState({
         ...this.state,
-        [target.id]: target.value
-      })
+        [name]: text
+      }, () => console.log(this.state))
     }
 
     onSubmit() {
@@ -72,9 +74,10 @@ class Login extends Component {
                   />
                 }
                 id="username"
+                name="username"
                 value={this.state.username}
                 placeholder="Username"
-                onChange={this.onInputChange.bind(this)}
+                onChangeText={username => this.setState({username})}
             />
 
             <Input
@@ -86,11 +89,12 @@ class Login extends Component {
                 />
               }
               id="password"
+              name="password"
               type="password"
               secureTextEntry
               value={this.state.password}
               placeholder="Password"
-              onChange={this.onInputChange.bind(this)}
+              onChangeText={password => this.setState({password})}
             />
             <View>
               <Button 

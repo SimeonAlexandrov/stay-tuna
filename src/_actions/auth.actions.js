@@ -1,8 +1,8 @@
 import { AsyncStorage } from "react-native"
 import axios from "axios"
 
-import { authConstants, API_BASE } from '../_constants'
-
+import { authConstants } from '../_constants'
+import { API_BASE } from "../index"
 
 
 export const authActions = {

@@ -8,6 +8,7 @@ const logger = require('./util/logger')
 require('./db/db')
 
 const userRouter = require("./routers/user")
+const mainRouter = require("./routers/main")
 
 const port = nconf.get("PORT") || 8080
 const app = express()
@@ -21,7 +22,13 @@ app.use(morgan(':status :method :url ":user-agent" Referer: :referrer', {
 
 app.use(express.json())
 app.use(cors())
+
+app.get("/", async (req, res) => {
+    res.json({status: "ok"})
+})
+
 app.use("/api", userRouter)
+app.use("/api", mainRouter)
 app.listen(port, () => {
     logger.info(`Server listening on port: ${port}`)
 })

@@ -10,8 +10,14 @@ router.get("/scraper", async (req, res) => {
 
 router.post("/scraper", async (req, res) => {
     const scraper = new ScraperService()
-    await scraper.scrape()
-    res.json({status: "Starting scraper"})
+    const titles = await scraper.scrape()
+    res.json({
+        status: "ok",
+        data: {
+            titles,
+            count: titles.length
+        }
+    })
 })
 
 module.exports = router

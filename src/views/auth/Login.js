@@ -101,6 +101,7 @@ class Login extends Component {
                 type="outline" 
                 title="Log in"
                 onPress={this.onSubmit.bind(this)}
+                style={styles.loginButton}
               />
             </View>
           </View>
@@ -118,6 +119,9 @@ class Login extends Component {
       justifyContent: 'center',
       alignItems: 'center',
     },
+    loginButton: {
+      marginTop: "10%",
+    }
   });
 
   function mapStateToProps(state) {

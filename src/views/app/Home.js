@@ -88,7 +88,12 @@ class Home extends Component {
 
   renderRecommendations() {
     let recommendations = this.props.recommendations
-    recommendations = orderBy(recommendations, Date.parse(['date-added']), ['asc'])
+
+    const unratedRecs = recommendations.filter(r => !r.rating).reverse()
+    const ratedRecs = recommendations.filter(r => r.rating) .reverse()
+
+    recommendations = unratedRecs.concat(ratedRecs)
+
     return recommendations.map( (rec, index) => (
       <TouchableOpacity onPress={() => this.onListItemPress(rec.title)}>
         <View>  

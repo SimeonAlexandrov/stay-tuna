@@ -13,7 +13,7 @@ const SCRAPER_TARGETS = [
     // "https://medium.com/topic/blockchain"
 ]
 
-const NUMBER_OF_SCROLLS = 1
+const NUMBER_OF_SCROLLS = 5
 
 class ScraperService {
     async scrape() {

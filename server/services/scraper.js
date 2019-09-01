@@ -23,7 +23,6 @@ class ScraperService {
         // Initialize puppeteer scraper
         const browser = await puppeteer.launch({headless: true})
         const page = await browser.newPage()
-        
         for (const target of SCRAPER_TARGETS) {
             const titles = await this.scrapeTopic(page, target)
             result = result.concat(titles)
@@ -31,13 +30,16 @@ class ScraperService {
 
         browser.close()
         logger.info("Scraping is done")
-        return result
+
+        // Currently returning random recommendation
+        return result[Math.floor(Math.random()*result.length)]
     }
 
     async scrapeTopic(page, target) {
         await page.goto(target, {
             timeout: 0
         })
+
         try {
             for (let j = 0; j < NUMBER_OF_SCROLLS; j++) {
                 logger.info(`Scroll down ${target}`)
@@ -45,7 +47,7 @@ class ScraperService {
                 await page.waitFor(1000);
             }
             const titles = await page.evaluate(
-                () => Array.from( document.querySelectorAll( 'h3' ), 
+                () => Array.from( document.querySelectorAll('h3'), 
                     element => { 
                         return { 
                             textContent: element.textContent, 

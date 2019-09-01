@@ -8,7 +8,7 @@ const logger = require('./util/logger')
 require('./db/db')
 
 const userRouter = require("./routers/user")
-const mainRouter = require("./routers/main")
+const recommendationRouter = require("./routers/recommendation")
 
 const port = nconf.get("PORT") || 8080
 const app = express()
@@ -28,7 +28,7 @@ app.get("/", async (req, res) => {
 })
 
 app.use("/api", userRouter)
-app.use("/api", mainRouter)
+app.use("/api", recommendationRouter)
 app.listen(port, () => {
     logger.info(`Server listening on port: ${port}`)
 })

@@ -9,6 +9,7 @@ require('./db/db')
 
 const userRouter = require("./routers/user")
 const recommendationRouter = require("./routers/recommendation")
+const topicRouter = require("./routers/topic")
 
 const port = nconf.get("PORT") || 8080
 const app = express()
@@ -29,6 +30,8 @@ app.get("/", async (req, res) => {
 
 app.use("/api", userRouter)
 app.use("/api", recommendationRouter)
+app.use("/api", topicRouter)
+
 app.listen(port, () => {
     logger.info(`Server listening on port: ${port}`)
 })

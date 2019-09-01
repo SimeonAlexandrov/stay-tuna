@@ -6,7 +6,8 @@ import { API_BASE } from "../index"
 
 export const recommendationActions = {
     getRecommendations,
-    postRecommendation
+    postRecommendation,
+    putRecommendation
 }
 
 function getRecommendations() {
@@ -62,4 +63,35 @@ function postRecommendation () {
     function request() { return { type: recommendationConstants.POST_RECOMMENDATIONS_REQUEST } }
     function success() { return { type: recommendationConstants.POST_RECOMMENDATIONS_SUCCESS } }
     function failure(err) { return { type: recommendationConstants.POST_RECOMMENDATIONS_FAILURE, err } }
+}
+
+function putRecommendation (id, property, value) {
+    return async dispatch => {
+        dispatch(request())
+        try {
+            const token = JSON.parse(await AsyncStorage.getItem("user")).token
+            const response = await axios.put(`${API_BASE}/api/recommendations/${id}/${property}`, {
+                [property]: value
+            }, {
+                headers: {
+                    Authorization: `Bearer ${token}`,
+                    ContentType: "application/json"
+                }
+            })
+
+            if (response.status !== 200) {
+                throw new Error("Putting rating rec failed")
+            }
+            dispatch(success())
+            dispatch(getRecommendations())
+
+        } catch(err) {
+            console.warn(err)
+            dispatch(failure)
+        }
+    }
+
+    function request() { return { type: recommendationConstants.PUT_RECOMMENDATIONS_REQUEST } }
+    function success() { return { type: recommendationConstants.PUT_RECOMMENDATIONS_SUCCESS } }
+    function failure(err) { return { type: recommendationConstants.PUT_RECOMMENDATIONS_FAILURE, err } }
 }

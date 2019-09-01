@@ -39,6 +39,19 @@ export function recommendations(state = { loading: false, recommendations: [] },
             return {
                 ...state,
             }
+
+        case recommendationConstants.PUT_RECOMMENDATIONS_REQUEST:
+            return {
+                ...state,
+            }
+        case recommendationConstants.PUT_RECOMMENDATIONS_SUCCESS:
+            return {
+                ...state,
+            }
+        case recommendationConstants.PUT_RECOMMENDATIONS_FAILURE: 
+            return {
+                ...state,
+            }
         default:
             return state
     }

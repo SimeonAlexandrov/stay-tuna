@@ -22,6 +22,7 @@ import Register from './drawer/auth/Register'
 import Home from './drawer/app/Home'
 import Profile from './drawer/app/Profile'
 import Logout from './drawer/app/Logout'
+import Feedback from './drawer/app/Feedback'
 
 const WINDOW_WIDTH = Dimensions.get('window').width;
 
@@ -79,6 +80,10 @@ const AppStack = createDrawerNavigator(
     Profile: {
       path: '/profile',
       screen: Profile
+    },
+    Feedback: {
+      path: '/feedback',
+      screen: Feedback
     }, 
     Logout: {
       path: '/logout',

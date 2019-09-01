@@ -6,7 +6,6 @@ const recommendationSchema = mongoose.Schema({
         type: String,
         required: true,
         trim: true,
-        unique: true
     },
     url: {
         type: String,
@@ -15,6 +14,13 @@ const recommendationSchema = mongoose.Schema({
     user: {
         type: String,
         required: true,
+    },
+    date_added: {
+        type: Date, 
+        default: Date.now
+    },
+    rating: {
+        type: Number,
     }
 })
 

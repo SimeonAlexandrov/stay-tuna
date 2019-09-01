@@ -39,4 +39,16 @@ router.post("/recommendations", auth,  async (req, res) => {
     })
 })
 
+router.put("/recommendations/:id/:property", auth, async (req, res) => {
+    const { id, property } = req.params
+
+    const recommendation = await Recommendation.findByIdAndUpdate(id, {
+        [property]: req.body[property]
+    })
+    res.json({
+        status: "ok",
+        data: {}
+    })
+})
+
 module.exports = router

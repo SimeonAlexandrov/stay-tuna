@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux"
+import { orderBy } from "lodash"
+import moment from "moment"
 import PropTypes from "prop-types"
 import { 
   View, 
@@ -13,16 +15,19 @@ import {
   WebView
 } from 'react-native'
 import TouchableScale from 'react-native-touchable-scale'
-import { Button, ListItem, Divider } from "react-native-elements"
+import { Button, ListItem, Divider, Rating } from "react-native-elements"
 
 import { recommendationActions } from "../../_actions"
+
+
 class Home extends Component {
   constructor(props) {
     super(props)
 
     this.state = {
       shouldRenderWebView: false,
-      sourceUri: ""
+      sourceUri: "",
+      selectedRecommendation: null
     }
   }
 
@@ -35,36 +40,58 @@ class Home extends Component {
   }
 
   onListItemPress(title) {
-    const url = this.props.recommendations
+    const rec = this.props.recommendations
       .filter(r => r.title === title)[0]
-      .url
     // Linking.openURL(url)
 
     this.setState({
       ...this.state,
       shouldRenderWebView: true,
-      sourceUri: url
+      sourceUri: rec.url,
+      selectedRecommendation: rec
     }, () => {
       if (Platform.OS === "web") {
-        window.open(url, "_blank")
+        window.open(rec.url, "_blank")
       }
     })
   }
 
   onRateButtonPress() {
+    const selectedRecommendation = this.state.selectedRecommendation
     this.setState({
       ...this.state,
       shouldRenderWebView: false,
-      sourceUri: ""
+      sourceUri: "",
+      selectedRecommendation: null
     })
-
     // TODO change this to Feedback page
-    this.props.navigation.navigate("Profile")
+    this.props.navigation.push("Feedback", {
+      recommendationId: selectedRecommendation._id
+    })
+  }
+
+  renderSubtitle(rec) {
+    return (
+      <View>
+        <Text>{moment(rec.date_added).calendar()}</Text>
+        {
+          rec.rating ? (
+            <Rating
+              readonly
+              style={{height: 10}}
+              startingValue={rec.rating}
+            />
+          ) : null
+        }
+        
+      </View>
+    )
   }
 
   renderRecommendations() {
-    console.log("Home", this.props.recommendations)
-    return this.props.recommendations.map( (rec, index) => (
+    let recommendations = this.props.recommendations
+    recommendations = orderBy(recommendations, Date.parse(['date-added']), ['asc'])
+    return recommendations.map( (rec, index) => (
       <TouchableOpacity onPress={() => this.onListItemPress(rec.title)}>
         <View>  
           <ListItem
@@ -75,6 +102,7 @@ class Home extends Component {
             key={index}
             title={rec.title}
             titleStyle={{ color: 'rgb(32, 137, 220)', fontWeight: 'bold' }}
+            subtitle={this.renderSubtitle(rec)}
             containerStyle={{
               marginHorizontal: 16,
               marginVertical: 8,

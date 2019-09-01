@@ -2,7 +2,7 @@ import React from 'react';
 import { createStackNavigator } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 
-import Topics from '../../views/app/Topics';
+import { Topics } from '../../views/app/Topics';
 
 const TopicsDrawerItem = createStackNavigator({
   Topics: {

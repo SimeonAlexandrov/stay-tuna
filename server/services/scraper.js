@@ -32,6 +32,7 @@ class ScraperService {
         logger.info("Scraping is done")
 
         // Currently returning random recommendation
+        // should do this only when users's topics are empty
         return result[Math.floor(Math.random()*result.length)]
     }
 

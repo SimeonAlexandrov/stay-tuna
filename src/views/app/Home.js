@@ -18,8 +18,6 @@ import TouchableScale from 'react-native-touchable-scale'
 import { Button, ListItem, Divider, Rating } from "react-native-elements"
 
 import { recommendationActions } from "../../_actions"
-
-
 class Home extends Component {
   constructor(props) {
     super(props)

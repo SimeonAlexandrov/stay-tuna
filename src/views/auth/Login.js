@@ -24,16 +24,7 @@ class Login extends Component {
         isOverlayVisible: false
       }
     }
-
-    onInputChange(event) {
-      const { target, text, name } = event.nativeEvent
-      console.log(event.nativeEvent)
-      this.setState({
-        ...this.state,
-        [name]: text
-      }, () => console.log(this.state))
-    }
-
+    
     onSubmit() {
       const { username, password } = this.state
 

@@ -35,13 +35,6 @@ class Register extends Component {
     }
   }
 
-  onInputChange({ target }) {
-    this.setState({
-      ...this.state,
-      [target.id]: target.value
-    })
-  }
-
   onSubmit() {
     //TODO Add more validation to form
     const { username, email, password, confirmPassword } = this.state
@@ -83,10 +76,10 @@ class Register extends Component {
                   size={25}
                 />
               }
-              id="username"
+              name="username"
               value={this.state.username}
               placeholder="Username"
-              onChange={this.onInputChange.bind(this)}
+              onChangeText={username => this.setState({username})}
           />
           <Input
             leftIcon={
@@ -96,10 +89,10 @@ class Register extends Component {
                   size={25}
                 />
               }
-              id="email"
+              name="email"
               value={this.state.email}
               placeholder="Email"
-              onChange={this.onInputChange.bind(this)}
+              onChangeText={email => this.setState({email})}
           />
 
           <Input
@@ -110,12 +103,12 @@ class Register extends Component {
                 size={25}
               />
             }
-            id="password"
+            name="password"
             type="password"
             secureTextEntry
             value={this.state.password}
             placeholder="Password"
-            onChange={this.onInputChange.bind(this)}
+            onChangeText={password => this.setState({password})}
           />
           <Input
             leftIcon={
@@ -125,12 +118,12 @@ class Register extends Component {
                 size={25}
               />
             }
-            id="confirmPassword"
+            name="confirmPassword"
             secureTextEntry
             type="password"
             value={this.state.confirmPassword}
             placeholder="Confirm password"
-            onChange={this.onInputChange.bind(this)}
+            onChangeText={confirmPassword => this.setState({confirmPassword})}
           />
           <View>
             <Button

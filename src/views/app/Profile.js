@@ -5,6 +5,7 @@ import {
   ScrollView, 
   StyleSheet, 
   Dimensions,
+  Text
 } from 'react-native'
 
 
@@ -21,7 +22,7 @@ class Profile extends Component {
     return (
       <ScrollView style={styles.container} keyboardShouldPersistTaps="handled">
         <View style={styles.contentView}>
-          <h1>This is where your information will be showed</h1>
+          <Text>This is where your information will be showed</Text>
         </View>
       </ScrollView>
     )

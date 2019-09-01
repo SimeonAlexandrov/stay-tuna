@@ -2,7 +2,7 @@ import React from 'react';
 import { createStackNavigator } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 
-import Home from '../../views/app/Home';
+import { Home } from '../../views/app/Home';
 
 const HomeDrawerItem = createStackNavigator({
   Home: {

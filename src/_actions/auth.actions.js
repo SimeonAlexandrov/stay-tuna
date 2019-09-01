@@ -123,7 +123,7 @@ function checkTokenInStorage(navigation) {
             navigation.navigate("App")
             dispatch(success())
         } catch (err) {
-            console.error(err)
+            console.warn(err)
             navigation.navigate("Auth")
             dispatch(failure(err))
         }

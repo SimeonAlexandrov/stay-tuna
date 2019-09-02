@@ -12,12 +12,16 @@ import { Button, ListItem, Input, Icon, ButtonGroup } from "react-native-element
 import TouchableScale from 'react-native-touchable-scale'
 
 import { topicActions } from "../../_actions"
+import { TouchableOpacity } from 'react-native-gesture-handler';
+
+const POPULAR_TOPICS = ["Angular", "React", "ML"]
 
 class Topics extends Component {
   constructor(props) {
     super(props)
 
     this.state = {
+        newTopic: "",
         topics: []
     }
   }
@@ -27,7 +31,6 @@ class Topics extends Component {
   }
 
   componentWillReceiveProps(props) {
-    console.log(props)
     if (props.topics.length > 0) {
       this.setState({
         ...this.state,
@@ -36,31 +39,53 @@ class Topics extends Component {
     }
   }
 
+  onTopicAdd() {
+    this.props.dispatch(topicActions.postTopic(this.state.newTopic))
+    this.setState({newTopic: ""})
+  }
+
+  onPopularTopicPress(id) {
+    this.setState({
+      newTopic: POPULAR_TOPICS[id]
+    })
+  }
+
   render() {
     return (
       <ScrollView style={styles.container} keyboardShouldPersistTaps="handled">
         <View style={styles.contentView}>
           <Text>Add topics of interest</Text>
           <View style={{margin: 10}}>
-              <Input/>
+              <Input
+                name="newTopic"
+                value={this.state.newTopic}
+                placeholder="New topic"
+                onChangeText={newTopic => this.setState({newTopic})}
+              />
           </View>
           <View>
-              <Button title="New" icon={
-                  <Icon
-                  name="plus"
-                  size={20}
-                  iconStyle={{
-                    color: "white"
-                  }}
-                  type="font-awesome"
-                />
-              }/>
+              <TouchableOpacity>
+                <Button 
+                  title="Add" 
+                  onPress={this.onTopicAdd.bind(this)}
+                  icon={
+                    <Icon
+                    name="plus"
+                    size={20}
+                    iconStyle={{
+                      color: "white"
+                    }}
+                    type="font-awesome"
+                  />
+                }/>
+              </TouchableOpacity>
           </View>
           <View style={{marginTop: 10, width: 200}}>
               <Text>Popular topics:</Text>
               <ButtonGroup
                 style={{minWidth: 200}}
-                buttons={["Angular", "React", "ML"]}
+                buttons={POPULAR_TOPICS}
+                onPress={this.onPopularTopicPress.bind(this)}
               />
           </View>
           <View style={{margin: 10}}>

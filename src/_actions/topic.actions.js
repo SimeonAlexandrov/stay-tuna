@@ -36,4 +36,32 @@ function getTopics() {
     function failure(err) { return { type: topicConstants.GET_TOPICS_FAILURE, err } }
 }
 
-function postTopic() {}
+function postTopic (topic) {
+    return async dispatch => {
+        dispatch(request())
+        try {
+            const token = JSON.parse(await AsyncStorage.getItem("user")).token
+            const response = await axios.post(`${API_BASE}/api/topics`, {
+                topic
+            }, {
+                headers: {
+                    Authorization: `Bearer ${token}`
+                }
+            })
+
+            if (response.status !== 200) {
+                throw new Error("Posting topic failed")
+            }
+            dispatch(success())
+            dispatch(getTopics())
+
+        } catch(err) {
+            console.warn(err)
+            dispatch(failure)
+        }
+    }
+
+    function request() { return { type: topicConstants.POST_TOPICS_REQUEST } }
+    function success() { return { type: topicConstants.POST_TOPICS_SUCCESS } }
+    function failure(err) { return { type: topicConstants.POST_TOPICS_FAILURE, err } }
+}

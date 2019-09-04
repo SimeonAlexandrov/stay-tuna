@@ -6,17 +6,15 @@ class Landing extends React.Component {
     return (
       <View style={styles.container}>
         <View style={styles.headingContainer}>
-          <Text style={styles.titleText}>Landing</Text>
-          <Text style={styles.subtitleText}>Welcome</Text>
+          <Text style={styles.titleText}>Welcome to Stay Tuna</Text>
         </View>
         <ScrollView style={styles.viewContainer}>
           <Text
             style={[
-              styles.titleText,
-              { marginTop: 30, color: '#e74c3c', fontSize: 22 },
+              styles.subtitleText,
             ]}
           >
-            Descriptive description
+            The project's purpose is to develop a full stack application with React-Native-Web.
           </Text>
         </ScrollView>
       </View>
@@ -38,7 +36,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     paddingVertical: 5,
     fontFamily: Platform.OS === 'ios' ? 'Menlo-Bold' : null,
-    color: '#27ae60',
   },
   subtitleText: {
     fontSize: 18,

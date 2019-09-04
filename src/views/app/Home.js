@@ -138,6 +138,8 @@ class Home extends Component {
         <View style={styles.contentView}>
           <TouchableOpacity>
             <Button
+             loading={this.props.buttonLoading}
+             style={{width: 250}}
              onPress={this.onRequestButtonPress.bind(this)}
              title="Request a recommendation"
              />
@@ -170,6 +172,7 @@ const styles = StyleSheet.create({
 
 Home.propTypes = {
   loading: PropTypes.bool.isRequired,
+  buttonLoading: PropTypes.bool.isRequired,
   recommendations: PropTypes.array.isRequired,
   dispatch: PropTypes.func.isRequired,
   history: PropTypes.object.isRequired,
@@ -178,10 +181,11 @@ Home.propTypes = {
 
 
 function mapStateToProps(state) {
-  const { recommendations, loading } = state.recommendations
+  const { recommendations, loading, buttonLoading } = state.recommendations
     return {
       loading,
-      recommendations
+      recommendations,
+      buttonLoading
   }
 }
 

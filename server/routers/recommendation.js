@@ -4,6 +4,7 @@ const router = express.Router()
 const auth = require("../middleware/auth")
 const ScraperService = require("../services/scraper")
 const Recommendation = require("../models/Recommendation")
+const Topic = require("../models/Topic")
 
 router.get("/recommendations", auth, async (req, res) => {
     const recommendations = await Recommendation.find({
@@ -21,7 +22,10 @@ router.get("/recommendations", auth, async (req, res) => {
 router.post("/recommendations", auth,  async (req, res) => {
     const scraper = new ScraperService()
     // TODO Get user topics an pass them to scraper service
-    const { textContent, href } = await scraper.scrape()
+    const topics = await Topic.find({
+        user: req.user.username
+    })
+    const { textContent, href } = await scraper.scrape(topics)
 
     const recommendation = new Recommendation({ 
         title: textContent, 

@@ -16,7 +16,7 @@ const SCRAPER_TARGETS = [
 const NUMBER_OF_SCROLLS = 5
 
 class ScraperService {
-    async scrape() {
+    async scrape(topics) {
         logger.info("Scraping")
         let result = []
 
@@ -30,7 +30,7 @@ class ScraperService {
 
         browser.close()
         logger.info("Scraping is done")
-
+        console.log("Will determine the best rec based on ", topics)
         // Currently returning random recommendation
         // should do this only when users's topics are empty
         return result[Math.floor(Math.random()*result.length)]
